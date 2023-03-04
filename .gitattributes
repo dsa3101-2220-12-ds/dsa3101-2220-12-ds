@@ -1,2 +1,4 @@
 vectors filter=lfs diff=lfs merge=lfs -text
+model-best/** filter=lfs diff=lfs merge=lfs -text
+model-last/** filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
