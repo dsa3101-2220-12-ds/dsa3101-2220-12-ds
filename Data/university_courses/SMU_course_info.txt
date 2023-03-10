@@ -1,0 +1,238 @@
+Module Code: COR1305
+Module Name: Spreadsheet Modeling and Analytics
+Department: School of Information Systems
+Description:
+	
+In this course, students acquire practical skills (bridging technology and real-world situations) in modeling and resolving business problems using personal computers. With computers becoming essential tools for executives in most organisations, knowing how to effectively use them to solve problems will be very helpful in other business courses and the student's future professional career.
+
+Objectives
+Upon completing the course, students will
+• Know how to frame problems, and integrate various analytical skills (e.g. statistics and mathematics) to model and address management concerns.
+• Be comfortable with the personal computer, motivated to self-learn problem analysis computer tools and know where to get relevant information and system resources.
+• Be familiar with a variety of software solutions (e.g. add-ins) and gain competency in using a spreadsheet application as an analysis, model verification, simulation and management reporting tool.
+
+Module Code: IS112
+Module Name: Data Management
+Department: Sch of Computing & Info Sys
+Description:
+	
+This course will cover fundamentals of relational database theory, important data management concepts such as data modelling, database design, database implementation in current business information systems, and some basic concepts related to unstructured data.
+
+A series of in-class exercises, tests, pop quizzes and a course project will help students understand the covered topics. Students are expected to apply knowledge learned in the classroom to solve many problems based on real-life business scenarios, while gaining hands-on experience in designing, implementing, and managing database systems. Students are also expected to understand the differences between structured data and unstructured data.
+
+This course is applicable to students declaring a major from SIS.
+
+Module Code: IS105
+Module Name: Business Data Management
+Department: Sch of Computing & Info Sys
+Description:
+
+This course will cover the fundamentals of relational database theory, important data management concepts such as data modelling, database design, database implementation and searches in unstructured data (i.e., text) in current business information systems for non-SCIS students.
+
+Students are expected to apply knowledge learned in the classroom to solve many problems based upon real-life business scenarios, while gaining hands-on experiences in designing, implementing, and managing database systems.
+
+Module Code: CS420
+Module Name: Introduction to Artificial Intelligence
+Department: School of Information Systems
+Description:
+
+Artificial Intelligence (Artificial Intelligence) aims to augment or substitute human intelligence in solving complex real world decision making problems. This is a breadth course that will equip students with core concepts and practical know-how to build basic AI applications that impact business and society. Specifically, we will cover search (e.g., to schedule meetings between different people with different preferences), probabilistic graphical models (e.g. to build an AI bot that evaluates whether credit card fraud has happened based on transactions), planning and learning under uncertainty (e.g., to build AI systems that guide doctors in recommending medicines for patients or taxi drivers to “right" places at the “right" times to earn more revenue), multi-agent systems (e.g., to build next generation patrolling systems for critical infrastructure security), image processing (e.g. to build systems that track and/or recognize suspicious people) and natural language processing (e.g., to build chat bots that can automatically and intelligently interact with customers in different service industries).
+
+Module Code: CS421
+Module Name: Principles of Machine Learning
+Department: Sch of Computing & Info Sys
+Description:
+
+Machine Learning is one of the fundamental subjects in the field of Artificial Intelligence. Machine Learning is concerned with computer programs that automatically improve their performance through experience (e.g., learning to recognize image or speech, classify text documents, detect credit card frauds, or drive autonomous vehicles).  This course covers both fundamental theory and practical algorithms for machine learning from a variety of perspectives. It includes a range of topics, from supervised learning (such as classification and regression) to unsupervised learning (such as clustering), and from traditional (shallow) learning (such as support vector machine) to recent state-of-the-art deep learning methods. The course is intended to prepare students for basic understanding of machine learning fundamentals and equip students with capability of applied machine learning techniques for real applications.
+
+Students are strongly encouraged to have proficiency in IS103 Computational Thinking prior to reading this course.
+
+NOTE: While this is an introduction course, it is a technical course and it is highly recommended that students are proficient in programming, probabilities, statistics and linear algebra (e.g., CS103 Linear Algebra for Computing Applications, CS105 Statistical Thinking for Data Science, CS201 Data Structures and Algorithms and CS202 Design and Analysis of Algorithms).
+
+
+Module Code: IS460
+Module Name: Machine Learning & Applications
+Department: Sch of Computing & Info Sys
+Description:
+	
+Machine Learning is one of the fundamental subjects in the field of Artificial Intelligence. Machine Learning is concerned with computer programs that automatically improve their performance through experience (e.g., learning to recognize images or speech, classifying text documents, detecting credit card frauds, or driving autonomous vehicles).  This course covers both fundamental theory, practical algorithms and the applications for machine learning from a variety of perspectives. It includes a range of topics, from supervised learning (such as Naïve Bayes Classifier, Linear Regression, Logistic Regression, and Neural Networks) and their applications, to unsupervised learning (such as Principal Component Analysis (PCA) and Singular Value Decomposition (SVD)) and their applications, and from traditional (shallow) learning (such as Support Vector Machine (SVM)) to recent state-of-the-art deep learning methods (such as Recurrent Neural Networks (RNN) and Convolutional Neural Network (CNN)). The course is intended to prepare students for basic understanding of machine learning fundamentals and equip students with the capability to apply machine learning techniques through real world business applications (to solve real world problems).
+NOTE: This is an algorithm and technical course, and it is highly recommended that students are proficient in programming, probabilities, statistics, linear algebra and calculus. Solid math background will be very useful and helpful for your learning journey. It is highly recommended that students have taken IS424 Data Mining and Business Analytics first if you do not have such math background knowledge. Having taken IS424 first will make this difficult course, Machine Learning & Applications, easier.
+
+Module Code: DSA201
+Module Name: Statistical Inference for Data Science
+Department: School of Economics
+Description:
+
+This course introduces the concepts of random sampling, statistical inference and sampling distribution.  Several computer intensive methods and nonparametric approach are also discussed. Topics include statistical inferences, maximum likelihood methods, consistency and efficiency, UMVUE, confidence intervals estimation, Neyman-Pearson lemma, likelihood ratio test, information criteria, goodness-of-fit, contingency tables, EM algorithm, bootstrap and Markov Chain Monte Carlo, etc.
+
+Module Code: DSA211
+Module Name: Statistical Learning with R
+Department: School of Economics
+Description:
+
+This course will guide the students through the application of cutting-edge statistical methods to big data analysis by implementing R-programming.  The use of programming R is integrated into most topics of the course.  Topics include R-programming, Statistical Inference, Statistical Modelling, Linear Regression, Resampling Methods, Linear Model Selection and Regularization, Tree-based methods, Cluster Analysis etc.
+
+Module Code: DSA212
+Module Name: Data Analytics with R
+Department: School of Economics
+Description:
+
+This course will guide students to retrieve and prepare data for visualisation. The course also introduces several state of the art data analysis approaches to handle various types of data by implementing R-programming. The use of programming R is integrated into most topics of the course. Topics include Data visualization, data wrangling, interactive data graphics, database querying using SQL, database administration, spatial data, network science, etc.
+
+Module Code: DSA301
+Module Name: Time Series Data Analysis
+Department: School of Economics
+Description:
+	
+This course covers predictive models, including stationary and non-stationary autoregressive moving average models, vector autoregressions, and vector error correction models with applications to Singapore data.  It also covers important ideas in forecasting, such as loss functions, forecast uncertainty, and forecast evaluation.
+
+Module Code: ECON233
+Module Name: Economic Forecasting
+Department: School of Economics
+Description:
+This course covers elementary econometric forecasting methods: stationary and non-stationary autoregressive moving average models, vector autoregressions, and vector error correction models, for macroeconomic forecasting, and autoregressive conditional heteroskedasticity models, for volatility forecasting in macroeconomics and finance. These models are applied primarily to Singapore data, culminating in an example of vector error correction models for forecasting Singapore GDP and inflation, and an autoregressive conditional heteroskedasticity model for a Singapore stock market index. This course will also cover forecast uncertainty, and forecast evaluation. If time permits we may cover additional topics such as model stability, structural change, and Kalman filtering.
+
+Module Code: DSA303
+Module Name: Spatial Data Analysis
+Department: School of Economics
+Description:
+	
+This course introduces statistical concepts and basic tools involved in modelling and analyzing spatial data: Data that are correlated in ‘space’, arising in regional and urban economics, epidemiology and public health, environmental science, ecology, biology, geology and other disciplines.  An outline is given to the three types of spatial data: geostatistical data, lattice data and point patterns.  Emphasis is on the analysis of lattice data due to its close ties with regional science and economics.  Exploratory spatial data analysis methods, including various plots and tests for spatial autocorrelation, are introduced. Some standard spatial linear regression models and spatial panel data models are also discussed. Quasi-maximum likelihood and GMM methods are used for model estimation and inferences.  Real data analyses using R are presented throughout the course.
+
+Module Code: DSA305
+Module Name: Panel and Longitudinal Data Analysis
+Department: School of Economics
+Description:
+
+
+Module Code: DSA306
+Module Name: Big Data Analytics
+Department: School of Economics
+Description:
+	
+The rapid computerization of every aspect of life resulted in big data possessing the following features: volume, variety, velocity, and veracity (the 4Vs). Big data can be structured, unstructured or semi-structured, and the sources of big data are typically through social networks, media, and data warehouses. This course begins with a brief introduction to the Big Data world. It then introduces the current state of Big Data processing using the R programming language and its powerful statistical capabilities. It introduces the core methods for big data analysis including data mining and machine learning.
+
+Module Code: ECON245
+Module Name: Applied Healthcare Analytics
+Department: School of Economics
+Description:
+	
+This module is designed to equip students with quantitative skills needed for health care research. Students will be inculcated with the knowledge and nurtured in thinking that yields the ability to undertake robust scientific enquiry using health data. A feature of this course is the weekly workshops that give students hands-on experience in solving a wide variety of problems using health data of various kinds. Workshop examples will be demonstrated using the statistical package R (freely available on https://cran.r-project.org/). A background in R is welcomed but not a necessary prerequisite.
+
+Module Code: IS1702
+Module Name: Computational Thinking
+Department: School of Information Systems
+Description:
+
+Computational Thinking equips students to tackle complex computational problems; it trains students to design solutions to solve those problems using a computer program.  It draws upon concepts from mathematics and computer science – more precisely, discrete mathematics, data structures and algorithm design.
+
+This course will hone students’ analytical skills as they are challenged to think abstractly and computationally. Their minds will be open to the wonders of computing, as they go behind the scene to unravel the fundamental analytics that empower Google, consulting agencies and service companies.
+
+NOTE: To facilitate learning in this course, you are required to know and use programming.  You are advised to pick up the Python programming language before the course, for instance by practising with online tutorials such as http://learnpython.org.
+
+By taking this course, students will:
+• discover the science of computing
+• model problems and learn practical problem-solving techniques to tackle complex computational problems (beyond what a spreadsheet is capable of solving)
+• apply problem-solving techniques to develop more elegant and efficient programs
+• learn to write programs to represent and manipulate with complex data objects
+• understand the challenge of scale, not only in dealing with large data sets, but also in appreciating the nature of computing and computability
+
+Module Code: IS424
+Module Name: Data Mining and Business Analytics
+Department: School of Information Systems
+Description:
+	
+Data mining consists of a wide range of data analysis techniques that can be applied to large datasets to discover patterns, trends and other forms of knowledge embedded in the data.  In the commercial world, data mining is often conducted on enterprise data stored in relational databases to help managers make informed decisions so as to keep businesses competitive and attuned to changing market conditions. With the recent advances in data generation and collection, new data types such as text, web, spatial, and temporal data have emerged creating new opportunities for mining knowledge from data for business intelligence.
+
+This course provides an introduction to the fundamental issues and basic techniques of data mining.  The topics covered include data mining process, data preprocessing, data mining techniques and data mining evaluation.  In particular, the use of data mining in support to business intelligence and decision making will be covered through labs, projects and case studies.
+
+Students are expected to learn data mining and its use in business intelligence through acquiring the basic data mining concepts and techniques, using them to explore data, and deriving useful knowledge patterns from the data through hands-on programming and experimentation that involve some industry strength data mining software packages.
+
+Module Code: IS417
+Module Name: Data Warehousing and Business Analytics
+Department: Sch of Computing & Info Sys
+Description:
+
+*Our objectives are to provide you with broad coverage and examples about data warehouse techniques, trends underlying current and future development, and basic strategies for the use of DW/BI systems. Specifically, through this course, you will:
+
+Gain an understanding of basic data warehousing applications and techniques, how data warehousing enables business intelligence capabilities that are used across different industries
+Learn how to combine and consolidate data from the various databases scattered throughout a company into a data warehouse
+Learn how data inside a data warehouse is organised into a “data cube”, which is extensively used in large scale business information analysis and mining
+Explore how to use the “data cube” to do business analytics and reporting. This includes how to “slice and dice” the data to get different views of the information; how to aggregate and disaggregate the data to see the information with varying degrees of resolution; and how to do important types of business analytics and related reports
+Acquire hands-on experience with key components of an integrated data warehousing and business intelligence system using a leading industry commercial application package
+Use DW/BI applications to create enterprise business intelligence and analytics applications for solving real world problems
+Study best practices and case studies for using data warehousing applications, data warehousing enterprise platforms, and integrated DW/BI applications
+Gain highly desired IT and business analytic skills for using data warehousing to create business intelligence solutions to meet real world needs
+
+Module Code: IS428
+Module Name: Visual Analytics for Business Intelligence
+Department: Sch of Computing & Info Sys
+Description:
+
+*Upon successful completion of the course, students will be able to:
+
+Understand the basic concepts, theories and methodologies of Visual Analytics.
+Analyse data using appropriate visual thinking and visual analytics techniques
+Present data using appropriate visual communication and graphical methods.
+Design and implement cutting-edge Visual Analytics system for supporting decision making
+
+Module Code: IS415
+Module Name: Geospatial Analytics and Applications
+Department: Sch of Computing & Info Sys
+Description:
+
+In this globalising and competitive business environment, the value of location as a business measure is fast becoming an important consideration for organisation.  GIS with its capability to capture, manage, display, and analyse business information spatially is emerging as a location intelligence tool.
+
+Today, many kinds of industries are employing GIS as an integral part of their business processes.  Examples of the use of GIS in business are:
+• Market Analysis
+Which is the company’s market share in different geographical areas?  Where are the customers located?  What are the characteristics of customers in different geographical locations?  Are there potential customers and where do they live? 
+• Site Selection
+Where are the shops or branches of the company located today?  Where are the competitors located?  What would be the surrounding market area for a new location?  What are the socio-economic characteristics of the people living in this market area?  Will the establishment of a new shop interfere with the existing shop owned by the company?  Are the land prices in different areas suitable for building a new shop?
+• Sales territories
+Which the company’s present division into sales territories?  What kind of customers live in these districts and how much is sold?  Is there a need for more salesmen in any district?  Could redistricting lead to more efficient sales organisation and less travelling time for the salesmen?
+• Distribution and travel costs
+How can the distribution system be made more efficient?  In what way does the transport system influence the distribution and how does it restrict or facilitate expansion in the region?  Can the number of journeys made by company staff be reduced by applying route planning software?  Are there any alternatives to our present distribution system?
+• Analysis of the global environment and new export markets
+What is the general economic and spatial pattern in the region?  How good is the infrastructure?  How is the population distributed geographically?  Which other companies are present in the region and where are they located?  Is this region a potential export market for the company’s products?
+
+This course provides students with an introduction to practical applications of GIS in business operations. Emphasis will be placed on (i) locating, acquiring and integrating business data into GIS, (ii) understand the principles and methodologies of the geocoding process, (iii) become familiar with geovisualisation, spatial analysis and location modelling techniques, and (iv) explore the technologies and possibilities of server-based and/or web-based GIS analysis for Business Intelligence.
+
+Module Code: IS450
+Module Name: Text Mining and Language Processing
+Department: Sch of Computing & Info Sys
+Description:
+
+Given the dominance of text information over the Internet, mining high-quality information from text becomes increasingly critical. The actionable knowledge extracted from text data facilitates our life in a broad spectrum of areas, including business intelligence, information acquisition, behavior analysis and decision making process. In this course, we will cover important topics in ext mining including: document representation, text categorization and clustering, sentiment analysis, probabilistic topic models and text visualization. Text mining techniques adopt the models from research areas such as Statistics, NLP and Linguistics. We will also focus on basic natural language processing techniques, language parsing and analysis and evaluation techniques.
+
+Module Code: MKTG228
+Module Name: Marketing Analytics
+Department: Lee Kong Chian Sch of Business
+Description:
+
+The field of marketing is becoming increasingly data-oriented with firms building and growing their marketing analytics capabilities. This course provides you with the fundamental skills and tools to understand, process, analyze, and report marketing data and insights, all with the aim to improve marketing decision making. You will learn how to code in a programming language and how to use data visualization software. This is a hands-on course that will prepare you for jobs in marketing analytics, marketing technology, marketing intelligence, and data science.
+
+Module Code: OPIM326
+Module Name: Service and Operations Analytics
+Department: Lee Kong Chian Sch of Business
+Description:
+	
+The increasing availability of data is changing the way organizations are thinking about themselves and the way they interact with the world. Data is helping improve the profits of businesses, the quality of life of individuals, the performance of sports teams, and social interactions. In this course you will learn how to use data and analytics to improve the service and operations of the organisations. The course will expose students to real world examples of how analytics is being used from various domains in managing operations and service delivery, e.g., product quality control, revenue management. Through these examples you will learn how to use tools of analytics such as linear regression, logistic regression, classification and regression trees, random forests, clustering, optimization, and visualization techniques in practice. The statistical software R will be used in the course, and class demo will be presented in R Notebooks. Students are encouraged to create their assignment and project reports using R Notebooks.
+
+Module Code: ACCT420
+Module Name: Forecasting and Forensic Analytics
+Department: School of Accountancy
+Description:
+	
+This course explores how data can be used to solve problems across financial accounting, managerial accounting, and audit contexts. Students will gain exposure to techniques to explore how financial and non-financial data is used to forecast events, detect financial discrepancies and frauds, predict corporate default, optimize operations, and determine business strategy. Some programming and data visualisation skills will be required to draw insights from large volumes of data. Advanced analytics methods such as text analytics, neural networks and deep learning will also be introduced. This course has been designed to equip students with an analytics mind-set to develop analytics strategies and make better business decisions.
+
+
+Module Code: STAT201
+Module Name: Probability Theory and Applications
+Department: School of Economics
+Description:
+	
+This course is to develop knowledge of the fundamental probability theory for quantitatively assessing the uncertain events.  The focus in each teaching topic is on the applications of the probability concepts in everyday life.  But practical problems encountered in actuarial science and finance are particularly emphasized.  Topics include overview of probability, probability distributions, mathematical expectation, some special discrete distributions, some continuous distributions, functions of random variables, sampling distributions, jointly distributed random variables, Limit theorems and stochastic process.
+
+
+
+
