@@ -1,0 +1,457 @@
+﻿Information System Technology and Design (ISTD) ,,,,,,,,,,,,,,,,,
+Bachelor of Engineering (Computer Science and Design),,,,,,,,,,,,,,,,,
+Track in Data Analytics,,,,,,,,,,,,,,,,,
+https://istd.sutd.edu.sg/education/undergraduate/curriculum-overview/,,,,,,,,,,,,,,,,,
+,https://istd.sutd.edu.sg/education/undergraduate/course-catalogue/,,,,,,,,,,,,,,,,
+Module code,Module Title,Module level,Department,Workload,Preclusion,Prerequisites,Semester offered,Module description,Final,Project,URL Link,Topic covered,Module feedback,Learning Objective,Measurable Outcomes,Project,Final
+10.014,Computational Thinking for Design,,Faculty of Architecture and Sustainable Design [ASD] & Faculty of Information Systems Technology and Design [ISTD],12,,,,"An introductory programming course that combines programming both in the architectural design and computing contexts targeted at novice programmers. It will introduce students to programming and design computing skills that are essential for their studies in SUTD, regardless of their choice of major. Students will learn visual programming and python programming together with design concepts, and will apply these skills in related projects.",,,,,,Acquire conceptual knowledge and skills for visual and python programming,"Implement a working visual/textual program to generate variations of a 3‐dimensional model in accordance to a given geometric problem
+Develop python programs that meet a set of specifications to solve computational problems.
+Produce a physical artefact as the final outcome of a computational process for a design project.
+Develop and deliver a written report on time that describes the results of the design project.",1,0
+50.001,Information Systems & Programming,,Faculty of Information Systems Technology and Design [ISTD],12,,10.014 Computational Thinking for Design (For AY2020 and subsequent batches),,"This course is an introduction to the design and programming of information systems. Topics include object oriented programming, data structures, mobile system and programming, design pattern and use of software libraries. Sample applications include Internet of Things, Android app and data analytics.",,,,"Java Introduction, Android Studio, Array, String, Static Checking, Class, OOP, Inheritance, Abstract class, Interface, Exception, Test-first Programming, Recursion, Specifications, Regular expressions and grammers, IoT introduction, applications, Mobile programming with Android, IoT software framework, programming, IoT data analytics and programming, OO Design pattern, GUI.",,"Identify and describe the requirements for an information system.
+Use object-oriented methodology to produce a modular and testable design.
+Work as part of a team to produce a working system on time.","Apply the key concepts of Object Oriented Programming [exams].
+Use inheritance, polymorphism, encapsulation and method overloading in designing software systems. [projects, homework, exams].
+Identify classes, members of a class and the relationships among them needed for a specific problem [projects, homework, exams].
+Implement and test basic algorithms and data structures [projects, homework, exams).
+Apply basic principles of user-interface design [projects, homework].
+Develop skills in systematic testing and debugging [projects].
+Work together in a team [projects].",1,1
+50.002,Computation Structures,,Faculty of Information Systems Technology and Design [ISTD],12,,10.014 Computational Thinking for Design (For AY2020 and subsequent batches),,"This course introduces architecture of digital systems, emphasising structural principles common to a wide range of technologies. Topics include Multilevel implementation strategies; definition of new primitives (e.g., gates, instructions, procedures, and processes) and their mechanisation using lower-level elements. Analysis of potential concurrency; precedence constraints and performance measures; pipelined and multidimensional systems; instruction set design issues; architectural support for contemporary software structures.",,,,"Course overview and mechanics, Basics of Information, The Digital Abstraction, CMOS Technology, Basic Hardware Lab (Combine with EPD), Logic Synthesis, Logic Simplification, Multiplexer, ROM, SW Lab1 (CMOS), Sequential Logic, Finite State Machines and Synchronization, SW Lab 2 (Adder), Computers and Programs, The Assembly Language, SW Lab 3 (ALU), The C language, Stacks and Procedures, Stacks and Procedures (II), Building the Beta, Building the Beta (II), SW Lab 5 (Assembly Language), Memory Hierarchy, Cache Issues, SW Lab 6 (Beta), Virtual Memory, Virtual Machines, SW Lab 6 (Beta), Device Handlers and Bus, Processes, Synchronization, and Deadlock, OS summary, SW Lab 8 (Tiny OS).",,"State the role of abstraction in the design of large digital systems, and explain the major software and hardware abstractions in contemporary computer systems.
+Design simple hardware systems based on a variety of digital abstractions such as ROMs, logic arrays and state machines.
+Synthesize digital systems from a library of representative components and test the designs under simulation.
+Describe the operation of a moderately complex digital system — a simple RISC-based computer — down to the gate level, and be able to specify, implement and debug its components.
+Appreciate the technical skills necessary to be a capable digital systems engineer.
+Explain the fundamentals of modern operating systems.","Identify flaws and limitations in simple systems implemented using the static discipline.
+Identify flaws and limitations in simple systems implemented using clocked registers with asynchronous inputs.
+Identify flaws and limitations in simple systems implemented using semaphores for process synchronization.
+Characterize the logic function of combinational devices using CMOS, ROM or PLA technologies.
+Explain synthesis issues for combinational devices using CMOS, ROM or PLA technologies from their functional specification.
+Explain synthsis of acyclic circuits from combinational components.
+Calculate performance characteristics of acyclic circuits with combinational components.
+Explain and calculate performance characteristics of single-clock sequential circuits.
+Implement a simple RISC-based CPU architecture.
+Explain the underlaying theory of memory hierarchy.
+Implement a device handler using interrupt and SVC.
+Implement a synchronization system for processes using semaphore.",1,1
+50.003,Elements of Software Construction,,Faculty of Information Systems Technology and Design [ISTD],12,,50.001 Information Systems & Programming,,"This course is an introduction to the fundamental principles and techniques of software construction that have greatest impact on practice. Topics include capturing the essence of a problem by recognizing and inventing suitable abstractions; key paradigms, including basic concepts of software design and their expression using notations from Unified Modeling Language (UML); software testing, automated software test generation, automated software security testing via blackbox, greybox and whitebox fuzzing approaches, detection and removal of software code smells, software coding standards to avoid security loopholes, concurrent programming, including programming with threads and processes, understanding concurrency problems like deadlock and data race. This course includes exercises in software design, implementation, testing and reasoning.",,,,"Software Development Process, Software Design and UML, Automated Software Testing: Test Execution and Test Oracle, Software Test Design: Blackbox, Whitebox and Fault-based, Web App Testing, Software Test Generation and Fuzzing: Blackbox, Greybox and Whitebox, Software Secure Coding Patterns for Java, Software Code Smells and Refactoring, Introduction to Concurrency and Sockets, Basics of Threads, Thread Safety and Synchronization, Composing Thread-safe Objects, Building Blocks, Tasks and Thread Pools, Concurrency Pitfalls and Testing, Performance and Patterns, Non-blocking Algorithms.",,"Design medium-scale software system from scratch: formulating and analyzing the problem to be solved; writing formal software requirements, exploring and formulating system designs; and using extensive and systematic testing and reasoning to ensure quality.
+Apply key software engineering ideas, including invariants, decoupling, and data abstraction.
+Apply key software engineering ideas, including software design, specification, abstraction, verification and correctness.
+Apply widely used design concepts and notations (UML diagrams) and patterns in exploring and articulating problems and designs.
+Learning effective techniques on ensuring quality of large-scale software systems.
+Apply concepts of systematic software testing to discover bugs (including security vulnerabilities) in large-scale software systems.
+Apply concepts to reason about the security loopholes in software systems.
+Learning secure software coding standards.
+Learning key concepts in developing concurrent programs.
+Learning key concepts in reasoning and testing concurrent programs.","Build medium-scale software prototype (LO 1-5).
+Design solution to questions related to the requirement prior to software development. (LO1, LO2 and LO4).
+Design blackbox, whitebox and diabolic software tests for validating software prototype. (LO6).
+Design critical part of the software by reasoning about its security. (LO8).
+Design small/medium-scale concurrent programs. (LO9).
+Design techniques to reason about the correctness of the concurrent programs (LO10).
+Design software prototype with the objective of its maintainability and security. (LO5, LO7).
+Design sofware testing methodologies to automatically discover potential security vulnerabilities, such as program crashes (LO6).",1,1
+50.004,Algorithms,,Faculty of Information Systems Technology and Design [ISTD],12,,10.014 Computational Thinking for Design (For AY2020 and subsequent batches),,"This course is an introduction to algorithms and algorithmic thinking. The course covers common algorithms, algorithmic paradigms, and data structures that can be used to solve computational problems. Emphasis is placed on understanding why algorithms work, and how to analyze the complexity of algorithms. Students will learn the underlying thought process on how to design their own algorithms, including how to use suitable data structures and techniques such as dynamic programming to design algorithms that are efficient.",,,,"Complexity, Asymptotic notation, Document distance, Peak finding, divide-and-conquer, Sorting algorithms, master theorem, Heaps, priority queues, analysis of heap algorithms, Binary search trees (BSTs), BST operations, AVL trees, Arrays vs linked lists, hashing, designing good hash functions, re-hashing, Graphs as data structures, breadth-first search, depth-first search, topological sort, Single source shortest path problem, Bellman-Ford algorithm, Dijkstra’s algorithm, Dynamic Programming (DP), designing DP algorithms, DP problems: rod-cutting problem, knapsack problem, text justification problem, matrix chain parenthesization, P vs NP, decision problems, polynomial-time reduction, NP-hardness, Examples of NP-complete problems (inc. multiple graph-related NP-complete problems), More graph-theoretic terminology, 3-SAT problem.",,"At the end of the term, students will be able to:
+
+Analyze the running times of algorithms.
+Demonstrate familiarity with major algorithms and data structures.
+Use suitable data structures in algorithms to solve computational problems.
+Identify major issues in the implementation of algorithms.
+Solve algorithmic issues in the design of information systems.
+Understand graphs as data structures, and implement graph traversals.
+Apply Bellman-Ford algorithm and Dijkstra’s algorithm to compute shortest paths in graphs.
+Design efficient algorithms using dynamic programming to solve computational problems.
+Analyze NP-complete problems and apply polynomial-time reductions to problems.","Compute the asymptotic complexity of algorithms.
+Analyze and apply properties of data structures.
+Design algorithms that build upon basic operations on data structures.
+Apply and/or modify existing algorithms to solve computational problems.
+Compute hash tables and perform re-hashing.
+Implement graph-based algorithms on provided graphs.
+Design efficient algorithms using dynamic programming.
+Analyze NP-complete problems and apply polynomial-time reductions to problems.",1,1
+50.005,Computer System Engineering,,Faculty of Information Systems Technology and Design [ISTD],12,,50.002 Computation Structures,,"Topics on the engineering of computing and networking systems: design challenges; techniques for controlling complexity; operating systems and networking systems: performance; strong modularity; client-server; naming; security and privacy, atomicity and coordination of concurrent activities; user and end-to-end applications. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Students will complete two design/implementation projects.",,,,"Key challenges and basic principles in the design of large-scale computing systems, Process management and multithreaded programming, Process scheduling, synchronization, deadlock, Memory management, file system, and I/O system, End-to-end network performance (e.g., loss, throughput, and delay) and impact on network applications, Network security: applied cryptography; key certification; confidentiality, integrity, authentication, and availability; types of network attacks; design of secure network protocols, Network naming and addressing; DNS as a scalable and distributed infrastructure for name resolution in the Internet, Client-server network programming; HTTP and the World Wide Web.",,"At the end of the term, students will be able to:
+
+Explain sources of complexity in computer system design, e.g. incommensurate scaling and emergent properties.
+Exploit systems design principles to cope with the complexity, e.g., modularity, hierarchy, layering, indirection.
+Command software tools to measure performance and understand how actual computing and network systems work.
+Explain the design and implementation of real-world computing and networking (i.e., Internet) systems, e.g., DNS, HTTP, OpenSSL.
+Develop programming skills to develop OS and networking tools and software.","Use software tools to understand, measure, and design modern computing systems.
+Implement concurrent and network programs in Java.
+Explain the conceptual underpinnings of modern computing system design; apply relevant principles and techniques in conceptual problem solving.",1,1
+50.007,Machine Learning,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.001 Information Systems & Programming and 50.004 Algorithms; or
+A working knowledge of programming in Python or Java and a strong foundation in probability and statistics, and optimization (topics such as dynamic programming)",,"Machine learning is the study of algorithms that improve their performance at some task with experience. In this course, students will learn how machine learning has led to many innovative real-world applications. The students will also gain an in-depth understanding of a broad range of machine learning algorithms from basic to state-of-the-art, such as: naïve Bayes, logistic regression, neural networks, clustering, probabilistic graphical models, reinforcement learning and SVMs.",,,,"Introduction
+Perceptron
+Linear Regression
+Logistic Regression
+Support Vector Machines
+Kernel Methods
+Neural Networks and Deep Learning
+Clustering
+Generative Models
+Mixture Models and Expectation Maximization
+Hidden Markov Model
+Bayesian networks
+Reinforcement Learning",,"At the end of the term, students will be able to:
+
+Recognize the characteristics of machine learning that make it useful to real-world problems.
+Explain the basic underlying concepts for supervised discriminative and generative learning.
+Explain the concepts of cross-validation and regularization, be able to use them for estimation of algorithm parameters.
+Characterize machine learning algorithms as supervised, semi-supervised, and unsupervised.
+Have heard of a few machine learning toolboxes.
+Use support vector machines.
+Use regularized regression algorithms.
+Explain the concept behind neural networks for learning non-linear functions.
+Apply unsupervised algorithms for clustering.
+Explain the foundation of generative models.
+Implement the inference and learning algorithms for the hidden Markov model.
+Explain the learning algorithm for hidden Markov model with latent variables.
+Explain algorithms for learning Bayesian networks.
+Explain reinforcement learning algorithms.","List useful real-world applications of machine learning.
+Implement and apply machine learning algorithms.
+Choose appropriate algorithms for a variety of problems.",1,1
+40.319,Statistical and Machine Learning,,Faculty of Engineering Systems and Design,12,,40.017 Probability and Statistics,,"An agent is intelligent if it perceives its environment and takes actions that maximize its chances of successfully achieving its goals. In this course, we will study how to imbue machines with intelligence, focusing on foundational principles and mathematical theories of real-world modeling, problem solving and statistical learning. We will borrow strategies from biological intelligence such as neural networks and reinforcement learning. Students will learn powerful concepts from decision theory, information theory, generative models, deep learning, dimensionality reduction, expectation-maximization, time-series prediction, control theory and machine reasoning, and will exploit software tools for building intelligent systems.",,,,,,"Acquire a basic understanding in the fundamental concepts and principles of machine learning; decision theory, information theory, model selection, time series prediction, machine reasoning
+Understand and apply methods in supervised learning and generative models;
+generalized linear models, kernel methods, graphical models
+Understand and apply concepts in unsupervised learning and dimensionality reduction; autoencoders, matrix factorization, expectation-maximization, latent variables, mixture models
+Understand and apply techniques in reinforcement learning; Kalman filters, Q-learning
+Acquire a working knowledge of neural networks and backpropagation, and extend the techniques learnt to analyze standard deep learning models such as convolutional neural networks and recurrent neural networks","Design suitable mathematical models for real-world problems.
+Build intelligent systems by composing appropriate algorithms.
+Critique the strengths and weaknesses of different solutions.",1,1
+50.038,Computational Data Science,,Faculty of Information Systems Technology and Design [ISTD],12,,10.014 Computational Thinking for Design (For AY2020 and subsequent batches),,"This course provides students the necessary background and experience in data science technology and concepts. Students will gain experience with tackling a complete data science project, from data gathering and preprocessing to data analysis through machine learning tools. Students will learn to apply fundamental concepts in machine learning to data storage and distributed processing as a foundation for their project.",,,,"Intro DS and Hadoop, Features + Text, Visualisation, Regression and Time Series, Classification, Into to Deep Learning, Word2vec, Digital Media (CNN), RNN, Negative Sampling, Attention Mechanism, 1D Convolution and Pre-trained Feature Extraction.",,"Be aware of the main goals of data science, its main application domains and current challenges.
+Apply tools to build basic models for solving typical data analytics problems.
+Visualise the structure of big data in order to uncover hidden patterns.
+Design and implement distributed database systems for managing heterogeneous data.
+Perform basic operations on a moderately complex distributed computation system, such as Spark.
+Explain the fundamentals of statistical machine learning and deep learning.
+Appreciate the technical skills necessary to be a capable data scientist.","Identify important concepts and current challenges in data science.
+Design feature representations for image, text and time series data.
+Analyse data and build simple models in tools such as Weka, Python and Tableau.
+Implement distributed computation model using Spark.
+Evaluate the performance of different models using empirical benchmarks.
+Mathematically explain common machine learning models such as SVMs, logistic regression systems and neutral networks.
+Implement machine learning algorithms using software such as R, C++ and PyTorch.
+Manage big data using Hadoop and MapReduce.",1,1
+50.043,Database Systems,,Faculty of Information Systems Technology and Design [ISTD],12,,"10.014 Computational Thinking for Design (For AY2020 and subsequent batches)
+50.004 Algorithms
+50.005 Computer System Engineering",,"Database systems manage data which is at the heart of modern computing applications. We are in the era of big data, in which data is generated from many sources, in high velocity and with great variety. This poses numerous challenges in using and improving database technologies. Big data systems designed to support analytics are maturing and are becoming increasingly important to many applications.
+
+This course covers the fundamentals of traditional databases, such as Oracle and MySQL, and core ideas of recent big data systems. Students will learn important problems in data management that these systems are designed to solve. They will experience with building applications on top of traditional databases, namely SQLite, and state‐of‐the‐art big data platforms, namely MongoDB and Apache Spark. These systems will be running both locally and on the Amazon cloud (Amazon Web Service). The students will be able to determine for themselves the advantages and disadvantages of different systems.",,,,"Database systems internal, Relational model, ER to Relational Model, Relational Algebra, SQL, Functional Dependency, DB normalization, Data Storage, Indexing, Query evaluation, Query optimization, Transaction Management, Big data systems architecture, AWS, HDFS, Spark.",,"Design and implement a database application on top of a relational database management systems (RDBMS).
+Identify major components of database and big data systems.
+Estimate the costs of different database operations.
+Explain how state‐of‐the‐art big data systems differ to one another.
+Implement a cloud‐based big data application.
+Explain how database and big data systems fit together in real‐world applications.
+Use cloud‐based systems.","Develop a database design for an application.
+List and explain major components of database and big data systems.
+Write complex SQL queries.
+Estimate cost of different database operations.
+Compare different classes of big data systems.
+Write MapReduce and Spark jobs.
+Explain how a database differs to a big data system.
+Design, implement, and deploy database and big data systems on AWS.",1,1
+,,,,,,,,,,,,,,,,1,1
+50.035,Computer Vision,,Faculty of Information Systems Technology and Design [ISTD],12,,50.007 Machine Learning/ 40.319 Statistical & Machine Learning (ESD),,"This is an advanced undergraduate level course on the concepts, algorithms and system design in computer vision. The particular focus in this course is on the underlying computational/mathematical principles, and data-driven and neural networks (aka “deep learning”) approaches. The course introduces different computer vision tasks such as image/video classification, localization, detection, among others, and discusses different computational algorithms for these tasks, including recently proposed deep learning methods: convolutional neural networks (CNN), recurrent neural networks (RNN), long short-term memory (LSTM), Generative Adversarial Networks (GAN), etc. Students will learn to design, implement, train and debug their own systems and neural networks, and gain understanding of, and the skills to use, cutting-edge technologies in computer vision. A semester-long, 1-D design project requires students to design, implement, and train multi-million parameter neural networks to address real-world computer vision problems.",,,,"Image, Filtering, Convolution, Image Histogram, Image classification, data-driven approach, knn, Linear Classifier, Gradient Descent, Deep Learning, Convolutional Neural Network, CNN Architectures, Back Propagation, Regularization, Object detection and segmentation, Advanced gradient descent, Generative Adversarial Networks (GAN), Improved GAN and Applications.",,"List useful real-world applications of computer vision
+Apply and design computer vision systems and algorithms
+Evaluate appropriate computer vision algorithms for a variety of problems","Design image convolution and filtering using OpenCV [LO 1,2]
+Design image recognition system using data driven approach and linear classification [LO 2]
+Design convolutional neural networks using TensorFlow [LO 2]
+Develop the training of convolutional neural networks using back-propagation and stochastic gradient descent [LO 2]
+Design image recognition system using convolutional neural networks [LO 1,2,3]
+Develop the training of convolutional neural networks using GPU programming [LO 2]
+Design convolutional neural networks using dropout and batch normalization [LO 2]
+Design image segmentation systems using convolutional neural networks [LO 1,2,3]
+Design object detection and localization systems using convolutional neural networks [LO 1,2,3]
+Design video activity recognition systems using recurrent neural networks [LO 1,2,3]
+Develop the training of LSTM using TensorFlow [LO 2]",1,1
+50.039,Theory and Practice of Deep Learning,,Faculty of Information Systems Technology and Design [ISTD],12,,50.007 Machine Learning and ability to to code and debug in Python 3 or 40.319 Statistical & Machine Learning (ESD),,"The course goal is to familiarize students with deep learning for vision, text, reinforcement learning and multimodal combinations thereof. The meaning of deep learning for this course is the training and application of neural networks as prediction models for various setups of input and output modalities. The course will include coding a subset of approaches for vision (so to avoid overlap with computer vision), approaches for sequential data such as 1D‐CNNs, temporal causal networks and recurrent neural networks, multimodal approaches, attention models, explainable AI and generative adversarial neural nets. The coding will cover the whole chain from data loader to training to parameter tuning to performance evaluation. The course will also focus on important practical aspects which are required to make the training part of deep learning work on smaller datasets such as transfer learning, the various forms of data augmentation, different optimizers and learning rate tuning.",,,,"Introduction, Review of ML, Syntactic Tagging, Word Senses and Embeddings, Language Modeling, Chunking (Shallow Syntactic Parsing), Information Extraction, Syntactic Parsing, Semantic Role Labeling (Shallow Semantic Parsing), Semantic Parsing, Sentiment Analysis, Text Generation, Machine Translation.",,"By the end of the course, students will be able to
+
+Explain the concept of ﴾discriminative﴿ learning from data, generalization and overfitting.
+Be able to explain how the decision boundary of a linear neuron depends on its parameters in a general vector space.
+Be able to explain what backpropagation is used for.
+List for different prediction problems. Suitable outputs of predictors and suitable loss functions.
+Explain the basic ideas behind convolutional and recurrent neural networks.
+Be able to retell methods of data augmentation.
+Be able to use deep learning toolboxes for loading data, training and performance evaluation of deep neural networks.
+Construct data loaders for custom datasets of various types with various types of ground truth annotations, such as images, sequential data e.g. text and multi‐modal data.
+Being able to set up neural networks for vision, and apply training algorithms to them and evaluate the performance of transfer learning tasks with two state of the art deep learning toolboxes.
+Being able to set up neural networks for sequence classification, and apply training algorithms to them and evaluate the performance of transfer learning tasks with one state of the art deep learning toolboxes.
+Be able to explain the functioning principle of a generative adversarial neural network.","Evaluate deep learning models and loss functions by suitability based on the intended prediction outputs for several prediction task types (ad: LO suitable loss functions).
+Compute the terms used in backpropagation for a given neural network topology (ad: LO backprop)
+Sketch the set of points for which a linear unit has constant outputs, sketch the directions for which the function values change fastest for a linear unit (ad LO decision boundary of a linear unit).
+For a given model and a layer give arguments when to use a fully connected and when to use convolutional layers.
+for a given problem give arguments when to use feedforward and when to use recurrent neural networks ad LO convolutional NNs, recurrent NNs.
+Create code for dataloaders for custom datasets with groundtruths for image and text data.
+Create code for neural networks for vision, which loads data, applies training algorithms and evaluates the prediction performance with two state of the art deep learning toolboxes.
+Create code for neural networks for sequence classification, which loads data, applies training algorithms and evaluates the prediction performance of transfer learning tasks with one state of the art deep learning toolbox.
+Compute train and test loss curves from a training process and be able to examine the amount of overfitting when comparing different pairs of train/test loss curves (ad LO generalization and overfitting).
+Employ data augmentation methods and transfer learning in code, evaluate their impact on performance (ad LO data augmentation).
+Produce example code for a generative deep neural network, be able to give possible use cases for GANs (ad LO generative adversarial neural network).",1,1
+50.04,Natural Language Processing,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.007 Machine Learning/40.319 Statistical & Machine Learning and
+A good foundation in: 1) programming, 2) design and analysis of algorithms, 3) mathematics including linear algebra, calculus, optimization, probability, and statistics.",,"Natural Language Processing (NLP) is an important area within the general field of artificial Intelligence (AI). Modern NLP models focus on using machine learning algorithms for solving various text processing problems. This course covers fundamental topics within the domain of NLP, including part-of-speech tagging, word embeddings, chunking, syntactic parsing, semantic role labeling, semantic parsing, named entity recognition, sentiment analysis, generation, summarization and machine translation. Students will get a chance to learn fundamental algorithms as well as state-of-the-art, deep-learning based techniques for NLP and will get a chance to implement and play with advanced NLP algorithms and models.",,,,"Introduction, Review of ML, Syntactic Tagging, Word Senses and Embeddings, Language Modeling, Chunking (Shallow Syntactic Parsing), Information Extraction, Syntactic Parsing, Semantic Role Labeling (Shallow Semantic Parsing), Semantic Parsing, Sentiment Analysis, Text Generation, Machine Translation.",,"By the end of the course, students will be able to
+
+Explain the fundamental tasks within NLP
+Explain possible algorithms as solutions to NLP tasks
+Implement the algorithms used for various NLP tasks
+Design novel algorithms for solving new NLP tasks, and use existing NLP technologies for solving real problems","Explain the major tasks within NLP that involve supervised structured prediction
+Explain the major tasks within NLP that involve unsupervised learning
+Apply the relevant models that need to be used for each task
+Apply the major guiding principles when choosing a model for a specific task within NLP
+Decide when to and when not to use neural network based or deep learning methods for a specific task within NLP
+Design and implement fundamental algorithms used for various NLP tasks
+Analyze the time complexity involved for a specific NLP algorithm
+Evaluate the performance of an NLP model based on certain evaluation metrics on standard datasets",1,1
+,,,,,,,,,,,,,,,,,
+50.006,User Interface Design and Implementation,,Faculty of Information Systems Technology and Design [ISTD],12,,10.009 The Digital World (For AY2019) or 10.014 Computational Thinking for Design (For AY2020 and subsequent batches),,"The course will introduce the field of Human-Computer Interaction (HCI), Interaction Design and Usability in the context of today’s diverse interactive products. The course will cover usability principles, design guidelines and heuristics, user-centred design, usability engineering, user experience and evaluation techniques, and will include a series of mini design exercises and design-implementation projects. Students who successfully complete the course will be well-equipped with the concepts and language to argue and discuss how well a system’s front-end (e.g. a website, a mobile app, a museum kiosk, etc.) is designed and be able to design usable, easy-to-use, intuitive, attractive user-interfaces informed by the concepts and knowledge learned during the course.",,,,"User classification and user centred design, Information visualisation and interactivity, Usability principles and guidelines, UI prototyping tools, Anthropomorphism and framing the interaction strategies; metaphor, Personal and social impact of technology and experience design; ethical issues of interaction design, Usability evaluation techniques.",,"Understand the concept of usability, design principles, guidelines, heuristics and other fundamentals of Human-Computer Interaction.
+Analyze a set of requirements in terms of its user-interface implications.
+Develop a usage scenario for a given set of user requirements and available technologies.
+Construct a user-interaction strategy for a given problem.
+Sketch a series of user-interfaces for a given use scenario.
+Implement a designed user-interface to demonstrate its functionality and usability.
+Employ a set of usability engineering methods to refine a designed user-interface.
+Evaluate a user-interface using suitable evaluation methodology.","Apply design principles, guidelines and heuristics to create a user-interaction strategy that solves a real-world problem.
+Design a usable and compelling user-interface given a set of requirements and available technologies.
+Communicate effectively the designed user-interface to relevant stakeholders using design rationale and a sketching/presentation tool in an informed, reasonable and persuasive way.
+Conduct an evaluation of a user-interface by employing a series of evaluation methods available in usability engineering.",1,1
+50.012,Networks,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.005 Computer System Engineering or
+A working knowledge of programming in Python and a strong foundation in computer systems",,"This course will introduce the principles and practice of computer networking, with emphasis on the Internet. Students will learn concepts, principles, protocols, and applications of computer networks, including packet switching, layered architectures, TCP/IP, physical layer, error control, window flow control, local area networks (Ethernet, Token Ring; FDDI), network layer, congestion control, quality of service, multicast, network programming interfaces, networked applications.",,,,"Computer Networks and the Internet, Application Layer, Transport Layer, The Network Layer, The Link Layer: Links, Access Networks, and LANs, Embedded networks and bus systems, Wireless Networks, Mobile Networks, Multimedia Networking and QoS, Network Management, Recent trends in networking (SDN, overlay networks).",,"Explain fundamental network protocols.
+Describe the organisation of computer networks, and classify factors influencing computer network development and the reasons for having variety of different types of networks.
+Solve standard problems in interconnections between autonomous networks.
+Model the Internet structure and derive operational parameters.
+Design optimized network topology for given problem settings.
+Analyze and evaluate a provided network setup.
+Design and implement a server-client architecture based on sockets.","Description of the essential features of different networking protocols, such as TCP, IP, DNS, and ARP.
+Conceptual design of a computer network based on a set of provided operational requirements.
+Application of routing algorithms to determine the shortest path in an network such as the internet, modeled as a weighted graph.
+Model and analysis of a network of autonomous systems.
+Analysis of a real network setup and critique of the design decisions.
+Design and implementation of a client-server application program using sockets.",1,1
+50.017,Graphics and Visualisation,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.003 Elements of Software Construction or knowledge of the following.
+
+C/C++: All assignments are in C/C++
+Calculus, Linear Algebra: Solving equations, derivatives, integral; vectors, matrices, basis, solving systems of equations.",,"Introduction to computer graphics algorithms, software and hardware. Topics include ray tracing, the graphics pipeline, transformations, texture mapping, shadows, sampling, global illumination, splines, animation, color, fundamentals of virtual and augmented reality (VR and AR).
+
+In this course, we will concentrate on 3D, not 2D illustration or image processing. You will learn:
+
+Fundamentals of computer graphics algorithms
+Basics of real-time rendering and graphics hardware
+Basic OpenGL
+C/C++ programming experience
+How to write efficient programs
+Algorithms that can help in Machine Learning (e.g. KDTree)",,,,"Bezier Curve, Curve and Surface, Coordinates & Transformations, Hierarchical Modeling, Animation Basics, Particle Systems, Cloth Simulation & Mass Spring, Ray Casting, Ray Tracing, Ray Tracing Acceleration, Shading, Texture Mapping, Antialiasing, Global Illumination, Displays and Fabrication, Rasterization, Graphics Hardware, Latest Research in Graphics.",,"Understand the fundamentals of computer graphics algorithms
+
+Implement graphics algorithms for a variety of applications: video games, movies, CAD, etc.
+Understand the different requirements of different applications.
+Understand the basics of real-time rendering and graphics hardware.
+Use C/C++ and OpenGL programming to build 3D graphics applications","Understand key topics related to computer graphics:
+
+Coordinate transformations
+Bezier curves and splines
+Representation and interpolation of rotations
+Computer animation
+Particle systems
+Collision detection
+Ray Tracing
+Rasterization and Shading
+Texture mapping
+Global illumination approaches",1,1
+50.02,Network Security,,Faculty of Information Systems Technology and Design [ISTD],12,,50.042 Foundations of Cybersecurity,,"This course covers theory and practice of network security. Starting with general introduction of network security, this course focuses on Internet security. The first part addresses common security issues and countermeasures at each of the five layers from the TCP/IP protocol stack. Subsequently, Firewall and Intrusion Detection/ Prevention System are covered as two of the most common tools/technologies to protect a network. Finally, the course ends with special topics such as wireless network security, IoT security, etc.",,,,"Network protocol and the OSI model, Packet sniffing and spoofing, TCP protocol and attacks, DNS protocol and attacks, Public key infrastructure and TLS protocol, Firewall and intrusion detection systems, VPN, Web security, Wireless security, Security economy.",,"Explain common attacks and countermeasures in a networked system, particularly on the commonly used network protocols.
+Model, analyse and apply effective countermeasures for secure networked systems.
+Apply layered defense technologies to a secure network design.
+Design and optimise network design for given problem settings.
+Evaluate the security of an existing network design.","By the end of the course, students will be able to:
+
+Description of the fundamental concepts of network security, through proper threat modeling and security goal definition in a design project.
+Application of security countermeasures to design a secure networked system.
+Applications of security countermeasures to mitigate common attacks by demonstrating security level improvement of a vulnerable networked system.
+Application of layered defense technologies/tools and practical considerations for securing a complex network in a design project.
+Security assessment and optimisation of a given networked system through an experimental project.
+Demonstration of common attacks fro common network protocols, through successful packet sniffing and editing in a laboratory environment.",1,1
+50.021,Artificial Intelligence,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.007 Machine Learning/ 40.319 Statistical & Machine Learning
+10.022 Modelling Uncertainty (For AY2020 and subsequent batches)
+10.014 Computational Thinking for Design (For AY2020 and subsequent batches)",,"Artificial intelligence (AI) is a rich field spanning formal systems for representing and processing symbolic information, computational models of human cognition, and a range of techniques for learning, planning and reasoning under uncertainty. In this course, students will gain an appreciation of what “artificial intelligence” means, and how it can be usefully applied to real-world problems. Students will learn the intricacies of state-space search and constraint programming. Through an in-depth treatment of knowledge representation via propositional and first-order logic, students will understand how expert knowledge can be fed into and be processed by modern computers. In addition, students will acquire skills in using planning algorithms to find solutions to optimization problems, and understand how to use probabilistic reasoning to draw inferences in uncertain environments.",,,,"Introduction to Artificial Intelligence, Search, Adversarial Search, Constraint Satisfaction, Logic, Planning.",,"By the end of the course, students will be able to:
+
+Define the meaning of “artificial intelligence”.
+Name examples of AI that are successful in real-world problems.
+Describe the strengths and limitations of various state-space search algorithms, and choose the appropriate algorithm for a problem.
+Formulate and solve problems in the framework of constraint satisfaction problems.
+Formulate and solve planning problems.
+Use probabilistic modelling techniques to solve problems with noise, incomplete information, and uncertainty.
+Summarize the essential components of gradient-based optimization in supervised learning problems
+Explain the impact of stepsizes in gradient-based optimization
+Recognize the difference between batch and stochastic/mini-batch gradient descent and apply improved weight update methods such as momentum term, RMSProp and Adam.
+Be able to apply the training and running of trained neural networks in Pytorch
+Be able to investigate the impact of essential parameters such as stepsize, batchsize and training iterations when training a neural network
+Discuss the usage of different neural network structures such as fully connected, convolutional and pooling layers
+Be able to recall state of the art neural network components such as batch normalization layers and residual connections
+Be able to recall the basic ideas behind neural networks used for machine translation and sequence to sequence learning.
+Be able to construct input samples that are able to fool neural networks
+Explain the difference between training from scratch and finetuning, be able to run finetuning of neural networks.","List current useful real-world applications of AI.
+Implement state-space search algorithms for a variety of problems.
+Solve constraint programming problems.
+Infer new information from provided knowledge.
+Use planning algorithms to find optimal solutions.
+Solve problems with noise and uncertainty using probabilistic techniques.",1,1
+50.033,Foundations of Game Design and Development,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.001 Information Systems & Programming
+50.004 Algorithms",,"This is an introductory course about the basic of game creation. This course provides an overview of different aspects of game development. Student will get in touch with C++ Programming (industry standard), starting with console application, then GUI games on various platform with graphics, dialog boxes, and user control. There are also basic overview of topics including game architecture, interface design, graphics for game, audio for game, prototyping and play testing. Students will be able to implement their creative gaming idea by using the latest gaming tools which are easy and readily usable.",,,,"Introduction, Game theory, challenges, and strategies, Story Telling, story elements, traditional story structure, nonlinear and collaborative storytelling, Point-of-View and archetype, Game Characters, character development elements, visual and verbal character development, Rules of Game Play, Interactivity modes, balance, and economies, Level Design, Structure, Time and Space, Structures of environmental design, Player control, Perspective, style, temporal and spatial features, Documentation, Unity and Unreal engine basic (workflow, scene basic, game object, gameplay creation), Editor and scripting, Graphics (Lighting, cameras, terrain, shaders, particles system, sprite, rendering features, mesh geometry, layers), Physics (rigidbodies, colliders, joints, controllers), User Interface objects (canvas, layout, interaction components), Navigation and path finding, Music, sound design, audio sequencing and mixing using Audacity, Exploration of player motivation, Player-Centred Design, Interface and Game Features, Interface Types, Usability, The Player Experience, Resources constrain (CPU, memory, control space), The difference between simulator and real gaming device, Memory leak and detection tools, Lazy loading vs preloading, Basic of cloud gaming, Mobility design (instant save load, localization, running time optimization), Development Phases, Management, Roles and responsibilities, Community management and customer support, Advertising, public relations, sales and promotion, Previous and current successful business model, target customer.",,"Have a board but general overview of different aspects of game development.
+Understand the complete flow of game development in a high level perspective, be prepared to master the complete skill set of game development.","Produce simple games with student’s novel idea by using existing tools.
+Ability to use code libraries to quickly create runnable games.",1,1
+50.037,Blockchain Technology,,Faculty of Information Systems Technology and Design [ISTD],12,,"The course assumes a basic familiarity with computer programming and knowledge of the Python language.
+
+50.004 Algorithms
+50.005 Computer System Engineering
+50.012 Networks, 50.020 Security, and 50.043 Database Systems are helpful but not required. Needed concepts will be introduced during the class",,"Decentralized blockchain-based systems, such as Bitcoin and Ethereum, are successful beyond all expectations. Although still in their infancy, they promise to revolutionize how we think of financial, information, and other infrastructures. This course covers the technical aspects of public distributed ledgers, blockchain systems, cryptocurrencies, and smart contracts. Students will learn how these systems are built, how to interact with them, how to design and build secure distributed applications.",,,,"Intro to Cryptographic Tools, Distributed Systems and Consensus, Bitcoin Basics, Bitcoin Mechanisms, Ethereum, Smart Contracts, Anonymity and Privacy of Blockchain, Miscellaneous topics of Blockchain.",,"By the end of the course, students will be able to
+
+Understand how blockchain systems (mainly Bitcoin and Ethereum) work,
+To securely interact with them,
+Design, build, and deploy smart contracts and distributed applications,
+Integrate ideas from blockchain technology into their own projects.","Explain design principles of Bitcoin and Ethereum.
+Explain Nakamoto consensus.
+Explain the Simplified Payment Verification protocol.
+List and describe differences between proof-of-work and proof-of-stake consensus.
+Interact with a blockchain system by sending and reading transactions.
+Design, build, and deploy a distributed application.
+Evaluate security, privacy, and efficiency of a given blockchain system.",1,1
+50.041,Distributed Systems and Computing,,Faculty of Information Systems Technology and Design [ISTD],12,,50.004 Algorithms or consultation with the instructor,,"This course introduces fundamental concepts for designing and implementing large‐scale distributed systems. The course will not only focus on the design aspects of distributed systems, but will also focus on the fundamental principles to ensure the correctness in a distributed environment. We will apply the concepts via hands on assignments using GO programming language. The course will also deep dive into specific concepts of distributed systems e.g. designing distributed file systems (such as in Google File Systems) to accommodate arbitrarily many application‐level users. Finally, we will discuss concepts on recovering from faults (both normal and byzantine) in a distributed system.",,,,"Introduction, Clocks, Election, Clocks and Election, Distributed Mutual Exclusion, Consistency Model, Distributed File Systems, Fault Tolerance 1, Fault Tolerance 2, Byzantine Faults.",,"Design and implement a distributed system from scratch.
+Apply key ideas to maintain the correctness in distributed systems.
+Learning techniques to design and develop massively parallel systems using GO programming language.
+Learning techniques to design and implement a distributed file system.
+Learning and applying techniques to recover from faults in distributed systems.","Build models of distributed systems [LO 1].
+Prototype distributed software systems [LO 1,2,3,4,5].
+Build distributed algorithms using industry-strength programming language [LO 3].
+Build algorithms to analyse the correctness of distributed systems [LO 2].
+Prototype software and systems to manage files and records in a distributed environment [LO 4].
+Build algorithms to analyse and test possible faults in distributed systems [LO 1, 5].
+Build techniques to recover from faults in distributed systems [LO 5].
+Build techniques at the level of supervisory software to support distributed applications [LO 1,4,5].",1,1
+50.042,Foundations of Cybersecurity,,Faculty of Information Systems Technology and Design [ISTD],12,,,,"This course provides students with a basic appreciation and understanding of the core concepts of information security. Topics to be covered include concepts for confidentiality, integrity and availability; introduction to cybercrimes and security issues; threats to information systems and devices; cryptographic primitives such as symmetric and asymmetric cryptography; core problems such as random number generation, entropy, and key distribution; and common topics such as security protocols and public‐key infrastructures.",,,,"Introduction, Hash Functions, Password and Rainbow Tables, Applications for Hashing, Block Ciphers, Modular Arithmetics, Key Establishment, Public Key Crypto, Digital Signatures, Security Protocols, Side Channel Attacks, Security Policy, Information Flow, Distributed Systems.",,"List basic security solutions and models; explain concepts for confidentiality, integrity and availability.
+Apply protocols used for key establishment, encryption, and authentication to secure a system.
+Apply known attacks to vulnerable cryptographic primitives.
+Model, analyse, and apply cryptographic primitives used for encryption, secure hashing, and digital signatures.
+Evaluate the security of existing system designs respect to different attacker models.","Evaluate security models like CIA model (confidentiality, integrity, availability) by defining and assessing security level for an existing system in a design project
+Perform attacks related to block ciphers in Electronic‐Codebook mode, through successful retrieval of partial or full information related to the plaintext or key used, and
+show the outcome of the attacks.
+Implement a scheme for pre‐image recovery of hashes through brute force and hybrid attacks for hash related password authentication systems.
+Apply substitution ciphers, One‐time‐pads, and AES in real‐life applications to prevent sensitive data exposure and thus preserve the confidentiality of secret data.
+Analyse network logs , based on that, implement potential attacks on schemes for encryption, authentication, key establishment and digital signatures, through a challenge design and solving project.",1,1
+50.044,System Security,,Faculty of Information Systems Technology and Design [ISTD],12,,50.042 Foundations of Cybersecurity,,"This course covers the security of users, individual computer systems, including personal computers, smart cards and embedded platforms. The course starts with considerations of common security flaws in a computer system, security of widely used computer platforms and user authentication. Then, topics such as physical‐layer attacks and tamper resistant hardware are discussed. Finally, the course ends with a set of selected security topics like biometrics, computer forensics, and Bitcoin.",,,,"Introduction, Memory safety attacks, Defenses for memory safety, Authentication, Privilege Separation, Isolation, Hardware Security, Mobile Security, Web Security, Secure Channels, Secure Messaging.",,"Define security objectives for a given computer system based on problem setting and requirements
+Explain how computer systems are compromised
+Learn how to defend against common attacks to various computer systems
+Apply basic security design principles to a secure computer system design and implementation","Identify the security objectives of a computer system by defining and assessing the security level of an existing computer system properly and comprehensively, through a design project
+Demonstrate ability to apply and analyse common attacks on various computer systems, through successfully compromising a computer system in a laboratory environment
+Analyze and apply defensive technology and software to defend various computer systems, by demonstrating security level improvement of existing vulnerable computer systems
+Demonstrate mastery of applying system security design principles and best practices by interpreting the process of securing a computer system in a design project",1,1
+50.045,Information Retrieval,,Faculty of Information Systems Technology and Design [ISTD],12,,"Prior knowledge of elementary linear algebra would be helpful but is not required for this course.
+Programming knowledge preferably in Python.
+Object-orientated programming.
+Data structure.",,"Automatic methods of Information Retrieval (IR) have gained greater significance in recent years due to the dramatic increase in the amount of data available on the Web. The data is often present in multiple forms (such as text, image, video) and hence it is necessary that the IR techniques being deployed on the web are able to perform various operations such as search and retrieval across all these different data formats. In this course, the study of IR will be focused on the methodologies of indexing, processing, and querying of primary textual data and will be extended to video and image data in the latter part of the course. The primary learning objective of the course will be – i) to gain knowledge about the basic concepts and techniques of IR.; ii) understand the basic functionality and underlying algorithm of an IR system.; iii) understand modern neural networks and deep learning-based techniques that are used in today’s’ IR systems.; and iv) to learn about several applications of e.g., question answering, image, and video retrieval; v) learn how to develop a basic IR system from scratch and evaluate the system; vi) learn classification, clustering, topic modeling which are the core modules in an IR system.",,,,"Boolean retrieval and VSM, Word Embeddings, Probabilistic IR and Relevance Feedback, BM-25, Introduction to Neural Networks, Text Processing and Classification using Neural Networks, Language Modeling — Transformers, BERT, RoBERTa, IR using Language Modeling, Question Answering, Personalization, Image Retrieval.",,"Gain knowledge about the basic concepts and techniques of IR.
+Understand the basic functionality and underlying algorithms of an IR system.
+Understand modern neural networks and deep learning-based techniques that are used in today’s IR systems.
+Learn about several applications of e.g., question answering, image, and video retrieval.
+Learn how to develop a basic IR system from scratch and evaluate the system.
+Learn clarification, clustering, topic modeling which are the core modules in an IR system.","Identifying important concepts of Information Retrieval.
+Learn vector space modeling, modern deep learning techniques for IR and evaluation methods. Finally, utilize this knowledge to complete the project.
+Evaluate the performance of different IR models using empirical benchmarks.
+Implement different IR applications such as Question Answering, Image and Video Retrieval systems.
+Able to use libraries such as Sklearn, Keras for data processing and IR model creation.
+Mathematically explain common neural network-based models, word2vec and Glove distributed word representations for IR system building.",1,1
+50.046,Cloud Computing and Internet of Things,,Faculty of Information Systems Technology and Design [ISTD],12,,"10.009 The Digital World (For Intake AY2019)
+50.005 Computer System Engineering (recommended) or a strong foundation in computer systems",,"The Internet of Things and its integration with cloud computing are transforming our world in a fundamental way. This course teaches some of the essential IoT and cloud computing technologies from the ground up. Specific topics covered include IoT devices programming (ESP32), sensing technologies, IoT protocols (Zigbee, LPWAN, MQTT), and multiple cloud-based services including storage, distributed and parallel computing, and virtualization. Students will learn how to design, develop, and deploy end-to-end cloud-based IoT applications, by formulating a real-world problem and identifying its key design objectives, challenges, and constraints.",,,,"Sensors, Embedded systems and RTOS, Wireless networking for IoT, Edge computing, Energy efficiency design, Accessing Cloud, Storage as a Service, Computing as a Service, Task parallelism, Cloud scaling and Container, Batch and streaming analytics, ML in the Cloud, tinyML, Cloud infrastructure and management mechanism, Advanced cloud infrastructure, Security in the Cloud and IoT systems.",,"To understand the related architecture designs and technologies of cloud computing
+To explain the overall architecture and key design principles of IoT systems, including both functional and non-functional aspects
+To design cloud-based IoT applications using proper cloud services
+To gain hands-on experience in key technologies for developing an IoT system, including sensor selection / interfacing, embedded system programming, use of suitable network protocols, and various cloud services (compute, storage, data analytics, management)
+To gain design experience in solving a real-world problem using IoT and cloud technologies
+To gain both the experience and confidence in learning a new IoT technology independently","List the functions of different IoT and cloud computing components
+Use various sensors, embedded device libraries, IoT protocols, and cloud services
+Develop skills in systematic testing and debugging
+Work in a team to formulate a real-world problem that can be solved using IoT and cloud technologies, including design objectives, challenges, and constraints
+Apply suitable IoT and cloud technologies to develop a proof-of-concept system, and present the solution in the class with explanation of its key design considerations
+Apply new cloud services or sensors if relevant to the project",1,1
+50.049,Parallel Computing on Multicore Architectures,,Faculty of Information Systems Technology and Design [ISTD],12,,50.004 Algorithms. Knowledge of Java/C programming is strongly encouraged.,,"This course hence aims to equip students with core knowledge of multicore processor architectures and parallel computing, they will:
+
+understand where is the parallelism come from based on the advances in superscalar hyperthreading hardware architectures (multicore CPUs and GPUs);
+learn how to architect algorithms, software and solutions that can take full advantage of the latest hardware architectures;
+understand the principles of how to design correct and efficient parallel computing software and get familiar with the tools to debug and instrument parallel computing;
+get hands-on experience from case studies of algorithms/systems and readings from the current literature provide comparisons and contrasts.",,,,"The overall module contains three parts.
+
+The first (week 1 ~ week 3) will focus on “what is parallel computing”, and “how to parallel computing”
+The second (week 4 ~ week 9) discuss “what are the potential problems in parallel computing and how to address them”, and “what are the common strategies to optimize parallel computing”
+The third (week 10 ~ week 12) will focus on advanced topics including “GPGPU programming”, “shared-nothing parallel computing”, “energy-efficient computing”.
+In the 13th week, we will have a summary and recap session to help students to fully digest the knowledges.",,"Explain the key technologies (e.g., pipeline, out-of-order execution, speculation) used in processor architecture for improving performance.
+Learning key concepts in design issues of multi-core processors, such as memory, communication, and scheduling.
+Learning how one can develop software that exploits parallelism and concurrency for efficiency, including using software libraries, tools, and formal techniques for design and benchmarking.
+Able to develop parallel computing algorithm or system component on modern multicore hardware architectures.","Able to understand the fundamental concepts of multicore architectures [Exam].
+Implement a working efficient parallel computing algorithm/system components on modern multicore architectures [Projects].
+Implement, optimize and test parallel algorithms and data structures [Projects, Exams].",1,1
+50.05,Discrete Mathematics and Algorithm Design,,Faculty of Information Systems Technology and Design [ISTD],12,,"50.004 Algorithms
+10.018 Modelling Space and Systems (for Intake Y2020 and subsequent batches)",,"An in-depth understanding of Computer Science requires strong mathematical foundations. In this course, students will learn the foundations of discrete mathematics and other mathematical areas, with an emphasis on understanding the underlying mathematics for algorithms beyond those covered in 50.004 Algorithms. Through this course, students will appreciate the wide applicability of mathematics for algorithms in artificial intelligence, communications, computer graphics, cybersecurity, data analytics, robotics, etc. Topics include: Counting methods, logic and proof methods, graph theory (incl. graph colorings, matchings, Ramsey theory), graph algorithms (e.g. Fleury’s algorithm, Kosaraju’s algorithm, Kruskal’s algorithm, Prim’s algorithm), number theory (e.g. modular arithmetic, Euclidean algorithm), coding theory (e.g. Huffman coding, Hamming codes), convex geometry (e.g. polytopes, Voronoi diagrams), computational geometry (e.g. Fortune’s algorithm, Gilbert-Johnson-Keerthi algorithm).",,,,"Sets, set relations, bijections, cardinality and (un-)countability of sets, propositional logic, predicates and quantifiers, counting methods, permutations & combinations, inclusion-exclusion principle
+Binomial coefficients and identities, proof methods, induction, well-ordering principle, invariance, extremal principle
+Graph colorings, planar graphs, Euler’s formula, four-color theorem, pigeonhole principle, Ramsey theory
+Graph representations, graph isomorphism, graph invariants, bipartite graphs, graph matchings
+Graph connectivity, Eulerian paths and cycles, Fleury’s algorithm, Kosaraju’s algorithm, Sperner’s lemma
+Trees, minimal spanning trees, Kruskal’s algorithm, Prim’s algorithm
+Modular arithmetic, divisibility and primes, Diophantine equations, Euclidean algorithm, solving congruences, Fermat’s little theorem, RSA algorithm
+Integer representations, machine representations of numbers, binary numbers, Hamming metric, introduction to coding theory, Huffman coding
+Hamming codes, perfect codes, geometry of error correction codes
+Geometry of Euclidean spaces, convex hulls, affine geometry, half-spaces, hyperplanes, simplices, polytopes, geometry of simplex algorithm
+Voronoi diagrams, Fortune’s algorithm
+Cones, conic hulls, Minkowski sums, GJK algorithm",,"At the end of the term, students will be able to:
+
+Understand basic concepts in set theory and logic.
+Apply counting methods and proof methods in solving problems.
+Demonstrate familiarity with graph-theoretic terminology and concepts.
+Analyze structural properties in graphs.
+Understand the applications of graph algorithms.
+Solve problems using Kruskal’s algorithm and Prim’s algorithm.
+Understand Sperner’s lemma and its applications.
+Understand basic concepts in elementary number theory.
+Apply Huffman coding to data compression.
+Understand the geometry of error correction codes.
+Demonstrate familiarity with data encoding/decoding using Hamming codes.
+Understand basic geometric concepts in convex geometry and computational geometry.
+Understand Voronoi diagrams and Fortune’s algorithm.
+Understand the Gilbert-Johnson-Keerthi (GJK) algorithm.","Solve counting problems via multiple counting methods.
+Write mathematical proofs that incorporate various proof methods.
+Compute matchings in graphs.
+Design simple graph algorithms.
+Design algorithms for fair resource division using Sperner’s lemma.
+Compute minimal spanning trees using Kruskal’s algorithm and Prim’s algorithm.
+Solve congruence equations.
+Apply encoding/decoding techniques to data.
+Analyze the correctness of algorithms using mathematical concepts.",1,1
+50.051,Programming Language Concepts,,Faculty of Information Systems Technology and Design [ISTD],12,,10.014 Computational Thinking for Design,,"In this module, students will learn about data representation, programming and compilation. In the first part, we will learn how binary is used to encode values (data) and instructions (code). We will then learn how to create complex data types and how object oriented programming works behind the scenes. In the second part, we will work on the different aspects of compilation, including lexical and syntaxic analysis, parsing and programming language design. Students will complete four small projects (2 individual and 2 group assignments) about memory management in C, C++, and compilation (lexical and syntaxic analysis and parsing). By gaining this knowledge, students will be able to understand how programming languages are designed.",,,,"Binary Operations, Data Representation, C programming, C++ programming, Memory management, Compilation, Pre-processing & lexical analysis, Top-down and bottom-up parsing, Semantic analysis.",,"Program in C and C++
+Design a compiler for an imperative programming language
+Understand how data/instructions are stored and represented in the computer’s memory
+Understand the link between imperative and object-oriented languages
+Understand the compilation process","Understand how memory is used to store data and instructions on a computer
+Ability to program in C and C++
+Understand the imperative programming paradigm
+Understand the compilation process
+Ability to learn any imperative programming language",1,1
+50.052,Extended Reality,,Faculty of Information Systems Technology and Design [ISTD],12,,50.001 Information Systems & Programming or demonstrable experience and knowledge in object-oriented programming.,,"Extended Reality (XR) encapsulates various immersive technologies that can merge the physical and virtual worlds, including virtual reality (VR), augmented reality (AR), and mixed reality (MR). This course is an introduction to the fundamental techniques and practical applications of Extended Reality. We will cover several topics: concepts in XR, human perception, immersion and presence, virtual world modelling, real-time simulation, input and output devices, 3D user interaction, design principles for XR, and case studies. These topics will be explored via a combination of lectures, individual assignments and a group project to develop an XR application. Students should be comfortable with programming for the front and back end. They should be familiar with Unity to complete the project and assignments.",,,,"XR concept, Relation and difference between VR, AR and MR, XR system, Human perception, Immersion in XR, Virtual worlds, 3D modeling and rendering, Input devices, Tracking, Output devices, Displaying, Latency in VR, AR, Registration, Interaction, User Interface Design.",,"Define and explain the fundamental concepts in Extended Reality (VR / AR / MR).
+Establish and analyse requirements for building an XR system to achieve the goal of immersion and enriched experiences.
+Understand the fundamental hardware and software techniques in XR.
+Understand the user interaction and interface design principles for XR.
+Create and display digital content and design interaction for XR systems.
+Develop an XR prototype that addresses an interesting and/or important real problem that involves people.
+Analyze the technical feasibility of XR projects and identify the challenges.","By the end of this course, students should be able to:
+
+Define and explain principles in design and realization of XR systems.
+Explain the advantages, disadvantages, and limitations of using VR, AR, or MR systems.
+Model and create virtual worlds for XR.
+Design user interface for interacting with the virtual worlds in XR.
+Choose suitable input and output devices for building an XR system.
+Develop an XR prototype that addresses an interesting and/or important real problem.",1,1
+50.053,Software Testing and Verification,,Faculty of Information Systems Technology and Design [ISTD],12,,50.003 Elements of Software Construction or good knowledge in JAVA programming or by consultation with the instructor.,,"The course will introduce the fundamental concepts behind various automated testing algorithms and introduce basic concepts behind verification (specifically, model checking). The focus of the
+course will be more on the design of test algorithms than the usage of testing tools. At the end of the course, students are expected to gain knowledge on how to test arbitrarily complex systems. The course will provide a brief recap on the testing introduced earlier e.g., coverage-based testing and unit testing. Subsequently, it will dive deep into the systematic test generation strategies. The concluding week of the course will involve discussion of some selected and impactful recent research on software testing and draw an unusual synergy between the model checking (verification) and testing. The course will involve the development of a medium scale software project prototype from scratch (w/o libraries, w/o plugins) and the software prototype will be tested via the systematic testing mechanisms learned in the course. The software prototypes will be exchanged among different groups to mimic the testing culture in industry.
+",,,,"Dependency analysis, Slicing and data flow analysis, Introduces specification based testing techniques, e.g., grammar-based testing, Directed testing methodologies e.g., using the dependency analysis, Basic mutation testing and higher order mutation testing, Simulated annealing, genetic algorithm, others, Change directed search, change directed symbolic execution, Rationale behind the success of fuzzing in software security: Mutational and Generational Fuzzing, Hybrid Fuzzing, Model checking algorithm (Explicit State Model checking and SAT-based Software Model Checking), Metamorphic testing, differential testing etc., Testing Machine Learning Systems, Testing stateful systems.",,"Design and implement software test generation algorithm from scratch.
+Apply key ideas to design directed testing methodologies.
+Learning and applying techniques to systematically test the software security.
+Learning techniques to apply formal verification techniques on small to medium scale software.
+Learning techniques to test software systems without oracles.
+Learning techniques to test stateful software systems and ML-based software systems.","Build test generation techniques for complex software systems
+Prototype software testing algorithms to validate medium scale software systems
+Engineer test generation algorithms to direct towards faults and certain code
+Build models and properties of software systems for verification
+Build test generation algorithms for software systems without ground truth
+Build blackbox software testing techniques for validating protocols and data-driven systems
+Engineer software testing techniques to check regression errors",1,1
