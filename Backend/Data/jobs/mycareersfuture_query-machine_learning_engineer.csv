@@ -1,0 +1,664 @@
+,Title,Company,Description,URL
+0,Senior Machine Learning Engineer,AMPLIFY HEALTH ASIA PTE. LIMITED,"Instructions for interested applicants
+https://aia.wd3.myworkdayjobs.com/amplifyhealthexternal/job/Singapore-SG-Amplify-Health/Senior-Machine-Learning-Engineer_JR-36278-1
+
+What you will do?
+The role entails building and recommending a foundational and sustainable data science system and architecture in the cloud to productionise both analytics and data science in real time and batch modes. A key focus on scalability, abstraction and frameworks are crucial to succeed in the role. The role will initially build components and systems on the ground while still envision a long-term and sustainable architectural structure. The team is expected to scale rapidly with different leadership roles available.
+
+Core responsibilities include:
+Collaboratively design, specify and implement a batch and real time execution framework for a healthcare analytics solution underpinned by a project delivery focus
+Connecting with a multitude of stakeholders to understand the data, systems, and analytical architecture in a healthcare context
+Create efficiencies and scalability within the health analytics and data science execution pipelines
+Specify software and hardware decision making framework
+Collaborate to design meta-data management systems and orchestration architecture in the designing of ML/AI and analytics pipelines
+Work with data scientist to deploy ML models and build/ architect monitoring pipelines
+Research and apply the most up to date analytics, machine learning and AI techniques in a production environment
+Work with a range of stakeholders to ensure to present and apply insights effectively in the environment
+Design and maintain system to monitoring model and analytical performance of the system
+Improve processes and databases where opportunities arise
+
+What skills do you need?
+Behavioural skills
+Exceptional technical leadership and communication skills across a wide range of stakeholders
+Ability to work cohesively in a team environment while balancing multiple priorities
+High level of attention to detail, resilience, enthusiasm, energy and drive
+Positive, can-do attitude focused on continuous improvement
+Ability to take feedback and constructive criticism to drive improved delivery solutions
+Rigorous ability to problem-solve and optimise environment
+Excellent management and co-ordination skills
+Technical understanding
+Core technologies and understanding required:
+Expert in programming languages such as Python, Scala and R
+Understanding of machine learning development lifecycle
+Technologies and frameworks relevant to a productization and monitoring of ML/AI and analytics in the cloud
+Solutions architecture frameworks geared towards data science and analytics
+Deep understanding of testing frameworks and automated pipelining with GIT integration
+Understanding and application of Big Data and distributed computing principles (Hadoop and MapReduce)
+Strong analytical and statistical knowledge with an understanding of the latest machine learning algorithms for both structured and unstructured data
+Strong ability to communicate findings and recommendations from data (visual, verbal and written)
+DevOps/ DataOps/ MLOps and CI/CD/CM/CT experience
+Proficient understanding data manipulation skills including SQL to ETL processes
+Experience in interactive data exploration and data-driven story telling
+Cloud experience preferred
+An understanding of healthcare technologies is a nice to have (but not necessary) such as patient health management, provider profiling, healthcare reporting, and other key healthcare technologies.
+
+Qualifications
+A bachelor's degree in computer science, or similar. A master's degree in a related field preferred.
+5+ years of Relevant MLE experience required
+Extensive experience in healthcare analytics.",https://www.mycareersfuture.gov.sg/job/engineering/senior-machine-learning-engineer-amplify-health-asia-80ffbdfbad602b1aac65db0dbbe63c70?source=MCF&event=Search
+1,Machine Learning Engineer,MINDEN INTERNATIONAL PTE. LTD.,"Who we are.
+Minden.ai is a technology venture on admission to redefine the engagement between brands and consumers in Southeast Asia. We create more delightful and rewarding interactions, enriching relationships between brands and consumers with the use of machine learning and artificial intelligence, leading to increased engagement, loyalty and growth.
+
+The way we work.
+We treat each other with respect. We embrace authenticity and transparency. We collaborate. We pride ourselves on agility and innovation, and believe in embracing continuous learning and self-improvement. We strive to be the preferred employer by providing comprehensive benefits, a dynamic and exciting working environment, work-life balance and effort recognition.
+We are seeking pioneers with grit and passion, an insatiable intellectual curiosity and a heart for people, to amplify our effectiveness as a team.
+
+As a Machine Learning Engineer, you will:
+Design and deliver a ML- based recommender system that delights our customers with personalised experience.
+Work closely with platform and data engineers to operationalise ML models and serve inferences efficiently, which include automating ML pipelines, performance monitoring and testing.
+Collaborate with product owners and work backwards from both our customers and partners to define AI/ML features.
+Be the evangelist for AI/ML through mentoring and technical/knowledge sharing.
+Participate actively in design and code reviews.
+
+Your experiences:
+You possess at least 2+ years of experience in software engineering or data engineering.
+You have programming experience in Python, Java, Pyspark and Scala.
+You possess knowledge of Big Data frameworks like Hadoop, Spark, Impala, Hive, etc
+You have experience in building and optimizing ML models, pipelines and architectures.
+You have experience with ML frameworks such as TensorFlow, Keras, PyTorch.
+You have experience working in an agile environment.
+You have a bachelor’s degree in Computer Science, Data Science, IT or a related discipline.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-minden-international-3effb47991d881048e4303d7de858087?source=MCF&event=Search
+2,Senior Machine Learning Engineer,AIRWALLEX (SINGAPORE) PTE. LTD.,"As an ML engineer, you will work with a team of ML engineers on interesting ML problems in the risk management domain. You will build sophisticated features and models based on real world transaction data. We expect you to experiment with different features; try out various model architectures, from random forest, xgboost to DNN, LSTM and graph model; tune model performance; and build applications on top of models to achieve business values.
+Responsibilities：
+Analyze business requirements and turn them into ML problems
+Work on feature engineering and model training
+Collaborate with different teams to apply models to business problems
+Be an expert about the cutting-edge ML technologies and be able to pick the right model architecture for our problems
+Coach junior ML engineers to grow and be more effective in their job
+Qualifications：
+At least 5 years's machine learning related working experience
+Modeling background in risk domain and fraud detection experience are a must
+Proficient in Python and/or a JVM language (Java, Scala, Kotlin)
+Experience with model training and ML libraries, such as scikit-learn, Tensorflow, PyTorch, Keras, etc.
+Experience with big data frameworks, such as Flink or Spark
+Familiar with SQL",https://www.mycareersfuture.gov.sg/job/engineering/senior-machine-learning-engineer-airwallex-fcf565a908dbe98ecc2935292cacaab6?source=MCF&event=SuggestedJob
+3,Machine Learning Ops Associate engineer,ENSIGN INFOSECURITY (CYBERSECURITY) PTE. LTD.,"Job Description – Machine Learning Ops
+
+Key Responsibilities:
+Work with existing Machine Learning Operations (MLOps) team to develop a streamlined Cyber Security Machine Learning Platform for Data Science Team and Deployment team
+Develop integrated services to automate the retraining and deployment of Machine Learning models
+Ensure that deployed machine learning models are functional in production
+Develop end to end pipelines as part of MLOps for developed models
+Ensure that machine learning applications are scalable on Kubernetes (on-premise and cloud)
+Work on optimisation so that the model can handle large amounts of data in a production environment
+Deploy and manage Kubernetes solutions
+Embody Ensign’s core values in work and interactions with colleagues, customers and vendors
+Qualifications/Requirements:
+Ability to do development using Python and C++
+Ability to design and implement on-prem and cloud solutions (AWS, Azure, or GCP)
+Ability to deploy and manage Kubernetes first open source solutions
+Ability to build MLOps pipelines using CI/CD tools such as Gitlab, AWS Code Pipeline, etc
+Good understanding of Linux and machine learning workflow
+Ability to understand tools and frameworks such as Keras, PyTorch, Tensorflow used by data scientists
+Experience in using popular MLOps frameworks like MLFlow or Kubeflow
+Experience working with streaming data
+Strong in programming languages such as C, C++ and Python
+Strong communication skills",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-ops-associate-engineer-ensign-infosecurity-bda066b2c07f79410ec8cbb70ed556b0?source=MCF&event=Search
+4,Assistant Principal Machine learning engineer,ST ENGINEERING IHQ PTE. LTD.,"The Smart Enterprise Platform Strategic Engineering Centre (SEP SEC) is one of five SECs within the Group Engineering Centre (GEC) in ST Engineering. Its mission is to deepen Data Analytics (DA) capabilities, proliferate DA usage group-wide, and to develop common/reusable DA products and tools for both internal and external use by all lines of businesses. We are looking for an experienced Principal Machine Learning (ML) Engineer to help us create artificial intelligence products and production ready machine learning models. To do this job successfully, you need exceptional skills in statistics, programming, and knowledge of data science and enterprise software engineering. Key Responsibilities: • Participate in analytics consulting, solution implementation projects, and MLOps product development • Study and transform data science POCs & prototypes • Design machine learning systems • Research and implement appropriate ML algorithms and tools • Develop machine learning applications according to requirements • Select appropriate datasets and data representation methods • Run machine learning tests & experiments and retrain systems when necessary • Extend existing ML libraries and frameworks • Mentor junior ML engineers Job Requirements: • Proven experience as a Machine Learning Engineer or similar role • A Bachelors or Masters Degree in Computer Science, Mathematics, or similar field • 5 years of working experience in analytics and machine learning is preferred • Understanding of data structures, data modelling and software architecture • Deep knowledge of math, probability, statistics and algorithms • Ability to write robust code in Python, Java, R, or Scala • Familiarity with machine learning frameworks (like Keras or PyTorch) and libraries (like scikitlearn) • Good understanding of end-to-end analytics process – ideation/value elicitation, requirements definition, data profiling, analytical modelling, testing, validation, visualization, and deployment • Strong interest in and ability to perform and publish ML research is preferred • Strong problem solving skills, curiosity, and passion for data science • Excellent coordination and time management skills to handle complex projects • Willing and enthusiastic about continuous learning of new technologies and data science techniques/breakthroughs • Effective oral and written communication with strong analytical, problem solving, multitasking and project management skills",https://www.mycareersfuture.gov.sg/job/engineering/assistant-principal-machine-learning-engineer-st-engineering-ihq-669bd47ba89b0a0026329acd123c1a7d?source=MCF&event=Search
+5,Senior Machine Learning Engineer,AIRWALLEX (SINGAPORE) PTE. LTD.,"As an ML engineer, you will work with a team of ML engineers on interesting ML problems in the risk management domain. You will build sophisticated features and models based on real world transaction data. We expect you to experiment with different features; try out various model architectures, from random forest, xgboost to DNN, LSTM and graph model; tune model performance; and build applications on top of models to achieve business values.
+Responsibilities：
+Analyze business requirements and turn them into ML problems
+Work on feature engineering and model training
+Collaborate with different teams to apply models to business problems
+Be an expert about the cutting-edge ML technologies and be able to pick the right model architecture for our problems
+Coach junior ML engineers to grow and be more effective in their job
+Qualifications：
+At least 5 years's machine learning related working experience
+Modeling background in risk domain and fraud detection experience are a must
+Proficient in Python and/or a JVM language (Java, Scala, Kotlin)
+Experience with model training and ML libraries, such as scikit-learn, Tensorflow, PyTorch, Keras, etc.
+Experience with big data frameworks, such as Flink or Spark
+Familiar with SQL",https://www.mycareersfuture.gov.sg/job/engineering/senior-machine-learning-engineer-airwallex-fcf565a908dbe98ecc2935292cacaab6?source=MCF&event=Search
+6,"Lead, Machine Learning Engineer",GRABTAXI HOLDINGS PTE. LTD.,"Life at Grab
+At Grab, every Grabber is guided by The Grab Way, which spells out our mission, how we believe we can achieve it, and our operating principles - the 4Hs: Heart, Hunger, Honour and Humility. These principles guide and help us make decisions as we work to create economic empowerment for the people of Southeast Asia.
+Get to know the Team
+GrabAds allows Advertisers, Agencies, and Merchants to engage the Grab Audience via innovative online and offline advertising experiences. Through our unique ecosystem and transacting user base, our clients are able to reach their desired audiences at scale, while driving measurable business outcomes.
+We would want to invite talented and passionate engineers to join our journey, to create value for our consumers, drivers, merchants, and advertising partners, while continuing to make everyday lives better across Southeast Asia.
+Get to know the Role
+You will develop machine learning models and strategies to predict the most relevant items in the user journey. You will drive real-world impact through innovative data-driven technology. You will drive the development and iteration of the algorithm and ensure that improvements roll out successfully.
+The Day-to-Day Activities
+Conceptualise and develop machine learning models to understand, classify and predict user behaviors in different scenarios. Deploy, test and maintain them.
+Design and conduct both offline and online experiments to validate hypotheses.
+Design and implement algorithms to derive deep insights and identify trends, patterns and relationships from high-volume high-dimensional data.
+You are required to participate in code and design reviews with peers to maintain our high-standard engineering practice.
+You will participate in on-call rotations with engineers. Troubleshoot, mitigate, and resolve issues.
+The Must-Haves
+You have Heart, Hunger, Honour and Humility, and have a small ego.
+Master's Degree or above in Computer Science, Electrical Engineering, Software Engineering, Automation, Data Science, and other Computer Science related majors
+You have a minimum of 5 years of relevant experience in developing Machine Learning models for systems including Ads/RecSys/Search.
+Be familiar with model optimization methods and tricks, and be familiar with deep learning frameworks (TensorFlow/ps-lite/PyTorch)
+Familiar with one or more of the following programming languages: Python/Golang/Java/C++
+Be familiar with the Hadoop ecosystem, and be familiar with modern data processing stacks (e.g. Hive, Presto, Spark, Kafka, HBase, Flink etc.)
+Strong understanding of statistics, data analysis, and data visualization techniques.
+Excellent communication and collaboration skills, with the ability to work effectively with cross-functional teams.
+The Nice-to-Haves
+Be proactive and always be ready to tackle challenging tasks, can work with smart people together, and grow fast.
+Be familiar with user behavior modeling and feature crossing technique, be familiar with bid optimization strategy including oCPC, be familiar with keyword recommendation.
+Proven track record/ accolades in data/ AI-related competitions (e.g. KDD Cup/Kaggle) or programming competitions (e.g. ICPC).
+Proficient in one or more of the following programming languages: Golang/Java/C++/Scala
+Experience in machine learning with cloud platforms (e.g. AWS)
+Our Commitment
+We are committed to building diverse teams and creating an inclusive workplace that enables all Grabbers to perform at their best, regardless of nationality, ethnicity, religion, age, gender identity or sexual orientation and other attributes that make each Grabber unique.",https://www.mycareersfuture.gov.sg/job/information-technology/lead-machine-learning-engineer-grabtaxi-holdings-1b856380749ceb1cbebece3bfbf709cd?source=MCF&event=Search
+7,Machine Learning Ops Senior Engineer,ENSIGN INFOSECURITY (CYBERSECURITY) PTE. LTD.,"Key Responsibilities:
+· Deploy key services such as Gitlab, Airflow, Jenkins, MLFlow etc on a Kubernetes Cluster (on premise infra and cloud)
+· Integrate and develop key services as a streamlined Cyber Security Machine Learning workflow for Data Science Team\Cyber Security Analytics solution
+· Develop integrated services to automate the operations of Machine Learning models
+· Ensure that deployed machine learning models are functional in production
+· Develop data pipelines as part of Machine Learning Operations (MLOps)
+· Ensure that machine learning applications are scalable with tools like Docker and Kubernetes
+· Work on optimisation so that the model can handle large amounts of data in a production environment
+· Embody Ensign’s core values in work and interactions with colleagues, customers and vendors
+
+Qualifications/Requirements:
+· Ability to design and implement on-prem and cloud solutions (AWS, Azure, or GCP)
+· Ability to build MLOps pipelines
+· Ability to build data pipelines using tools such as Airflow
+· Good understanding of Linux
+· Knowledge of frameworks such as Keras, PyTorch, Tensorflow
+· Ability to understand tools used by data scientists
+· Experience in using popular MLOps frameworks like MLFlow or Kubeflow
+· Experience in CI/CD tools such as Jenkins, Gitlab,
+· Proficient in programming languages such as C, C++ and Python
+· Strong communication skills",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-ops-senior-engineer-ensign-infosecurity-b7d6f585e2a4a4121efe9779c114d4e8?source=MCF&event=Search
+8,Senior Machine Learning Engineer,KAISHI PARTNERS PTE. LTD.,"A well-funded climate chang AI technology startup is seeking a Senior Machine Learning Engineer to be part of their team in Singapore. The candidate will be part of a team that strive to design and build data products and systems that are reliable, scalable, and maintainable. Some of the traits that the firm promote within the team are ownership, curiosity, transparency, and a strong writing culture. As an early team member, you will be expected to help shape the firm's product direction and to strengthen the team’s culture.
+
+You will collaborate closely with product managers, software engineers, designers, data engineers, and sustainability experts to ship products that create value and solve problems for our customers.
+
+WHAT YOU WILL WORK ON
+Continuously improve our carbon engine, which is responsible for calculating carbon emissions across all scopes for our customers, using transactional data provided by them, and our proprietary data set of carbon emission factors.
+Build end-to-end production machine learning solutions to solve business problems and improve the quality of our carbon emission estimate
+Design, develop and maintain backend and ML systems and services
+Lead our efforts to build a system that leverages our various data sets to automatically find decarbonization solutions for our customers.
+ABOUT YOU
+You have 7+ years of experience in software development and/or data science roles, with extensive experience in Python as the main programming language.
+You have driven high business impact and shipped NLP/ML solutions to production
+You are able to own the entire lifecycle of a data science project. You don’t need to be an expert on every aspect of it, but you must be a quick learner to pick things up and go deep when needed.
+You have a good understanding of backend system design
+You have a strong product mindset, and enjoy working cross-functionally.
+You use solid engineering practices, and write maintainable code.
+You thrive in a fast-paced environment.
+You enjoy mentoring others, and introduce and promote best practices across the team.",https://www.mycareersfuture.gov.sg/job/information-technology/senior-machine-learning-engineer-unravel-carbon-3f27e9e80ce09f96766d9f47adab4286?source=MCF&event=Search
+9,Senior Machine Learning Engineer,KKT TECHNOLOGY PTE. LTD.,"Who we are
+
+Holmusk is building the largest Real-World Evidence platform, starting with behavioral health. Combining a leading behavioral health database with AI-powered analytics and digital solutions, we are advancing the frontier of evidence generation and fueling innovation.
+
+At Holmusk, we have the privilege of collaborating with internationally renowned psychiatrists/ specialists in behavioral health. We collaborate with established pharmaceutical companies and clinical institutions primarily on behavioral health. We take pride in our diverse workforce and inclusive culture. We believe it takes all kinds of people to build the best products and bring real change to the healthcare space.
+
+Whom are we looking for
+
+We are looking for an Senior Machine Learning Engineer, based in APAC. You would have experience in developing data products, setting up ETL, developing and maintaining good documentation using software development practices. You would be responsible for development of data science algorithms and/or packages for Holmusk’s products. You will also mentor junior data scientists, communicate progress to the rest of the teams and interact with data, product, UX, engineering, customer success & commercial teams.
+
+If this description excites you, come join a diverse and collaborative team of engineers, designers, data scientists, health and business professionals who are passionate about improving healthcare.
+
+What is in it for you
+Opportunity to collaborate with leading SME-s from the Mental Health space globally including the US, Europe and SG.
+Opportunity to work in a collaborative environment that encourages creativity
+Publish research findings in international peer reviewed journals
+Make major impact on the behavioral health space globally
+Flexible work schedules
+Responsibilities
+Communicate effectively understand business requirements, frame challenging problems within data science frameworks and develop a roadmap to execution
+Innovate on the analysis/modelling methodology to realize the full value of the data
+Develop data applications and packages querying relational databases to provide insights.
+Communicate project updates effectively to stakeholders
+Requirements
+Degree in Computer Science, Engineering, Statistics, Applied Mathematics, Bioengineering, Bioinformatics or related fields
+At-least 3 years of experience as python developer using software development tools, version control systems (git, docker), relational databases for developing data products.
+Proficient with Python and SQL and in-depth understanding of data processing and feature engineering
+Experience in automated testing and CI/CD pipelines
+Experience with AWS, Spark technologies is a must
+Provide in-depth engineering support (debugging, performance optimizations, etc.) focussing on search and retrieval of data using SQL/NoSQL databases.
+Excellent communication, interpersonal relationship skills and maturity as an individual contributor
+Understanding of statistical modeling, machine learning, data mining concepts and optimization techniques
+Strong analytical and quantitative problem-solving ability
+Prior experience with healthcare datasets is an advantage.
+Willingness to learn is essential
+At Holmusk we take pride in our diverse workforce and inclusive culture. We believe it takes all kinds of people to build the best products and bring real change to the healthcare space.",https://www.mycareersfuture.gov.sg/job/consulting/senior-machine-learning-engineer-kkt-technology-6baf658fe7e27ef39349c85c6899a291?source=MCF&event=Search
+10,Machine Learning Engineer,KULICKE & SOFFA PTE. LTD.,"As a part of Data Management Team, this is a key role in shaping and building efficient self-learning applications in line with organization’s strategic Data Analytics, Machine Learning(ML) and Artificial Intelligence(AI) directions
+
+Key Responsibilities
+
+· Design and develop Machine Learning / Deep Learning Models
+· Research and implement appropriate ML algorithms and tools
+· Explore data, conduct analysis to extract useful insights for business
+· Select appropriate datasets, data representation methods. Run machine learning tests and experiments to test different solutions and measure model performance
+· Perform statistical analysis and fine-tuning of models using test results. Train and retrain systems when necessary
+· Study and transform data science prototypes
+· Design and implement robust data pipelines
+· Explore and propose model deployment schemes considering security and ease of consumption
+· Create/Maintain CI/CD pipelines of Machine Learning solutions in the cloud
+
+Requirements
+
+· Proven experience as a ML Engineer or similar role in building and executing end-to-end ML systems automating training, testing and deploying ML models
+· Expertise in ML frameworks and libraries not limited to Pandas, Scikit-learn, NumPy, Matplotlib, Seaborn
+· Experience with Azure or other cloud-based big data and machine learning services is a plus
+· Solid software engineering and coding skills.
+· Proficiency in SQL, Python
+· Strong analytical and problem-solving skills
+· Self-motivated, Independent, willingness to learn & keep abreast of latest developments in the field
+· A Recognized Degree in Computer Science / Information Technology or its equivalent
+· Ability to multitask in a dynamic work environment
+· Positive attitude, enthusiastic, sensitive to team dynamics & cultures
+· Strong written and verbal communication as well as interpersonal skills
+· A Good team player",https://www.mycareersfuture.gov.sg/job/engineering/machine-learning-engineer-kulicke-soffa-6e87ad176298fe1e740bb314e4128903?source=MCF&event=Search
+11,"Machine Learning Engineer, e-Commerce - Singapore",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+Our TikTok team is responsible for developing state-of-the-art machine learning models and strategies to improve user consumption experience, inspire creativity, build a fair and flourishing ecosystem.
+
+Responsibilities:
+- Design and apply machine learning algorithm and recommendation strategies to improve users' experience on e-commerce content, including videos and livestreams.
+- Understand ecosystem of e-commerce content and use algorithm and strategy to make it thrive.
+- Work with product and ops team to deliver features that drives growth of e-commerce content on TikTok.
+- Build industry leading recommendation system; develop highly scalable classifiers and tools leveraging machine learning
+
+Qualifications
+1. Bachelor's degree in computer science or a related technical discipline, with at least 2 years of related work experience;
+2. Solid experience with data structures and algorithms;
+3. Software development experience through hands on coding in a general purpose programming language;
+4. Experience in one or more of the following areas: machine learning, recommendation systems, data mining or other related areas;
+5. Strong communication and teamwork skills;
+6. Passion about technologies and solving challenging problems.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-singapore-tiktok-da52c8f6a32e8d0d5c425de15b1a0184?source=MCF&event=Search
+12,Machine Learning Engineer - e-Commerce - Singapore,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+Our TikTok team is responsible for developing state-of-the-art machine learning models and strategies to improve user consumption experience, inspire creativity, build a fair and flourishing ecosystem.
+Responsibilities:
+- Design and apply machine learning algorithm and recommendation strategies to improve users' experience on e-commerce content, including videos and livestreams.
+- Understand ecosystem of e-commerce content and use algorithm and strategy to make it thrive.
+- Work with product and ops team to deliver features that drives growth of e-commerce content on TikTok.
+- Build industry leading recommendation system; develop highly scalable classifiers and tools leveraging machine learning
+
+Qualifications
+1. Bachelor's degree in computer science or a related technical discipline, with at least 2 years of related work experience;
+2. Solid experience with data structures and algorithms;
+3. Software development experience through hands on coding in a general purpose programming language;
+4. Experience in one or more of the following areas: machine learning, recommendation systems, data mining or other related areas;
+5. Strong communication and teamwork skills;
+6. Passion about technologies and solving challenging problems.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-singapore-tiktok-0810fceaa52f2a9904ed567b0536ad51?source=MCF&event=Search
+13,AI Perception Algorithm Engineer,BLACK SESAME TECHNOLOGIES (SINGAPORE) PTE. LTD.,"RESPONSIBILITIES
+• Develop deep learning based perception algorithms, including object detection, lane detection, segmentation, depth estimation, and so on.
+• Develop state of the art network structures and training schemes, and evaluate their performance on vision problems
+• Perform deep network compression based on ASIC platforms
+• Keep up with latest technologies in deep learning and computer vision literature and propose innovative ideas
+• Publish patent and research papers
+
+QUALIFICATIONS
+• MS/PHD in computer science, electrical engineering, or equivalent.
+• Research and development experience in one or more of the following areas:
+o Deep network development, in particular with visual data
+o Object detection and tracking
+o Stereo / optical flow / depth estimation
+o Multi-view geometry, 3D computer vision
+o Structure from motion
+o Network compression and optimization
+o Network based sensor fusion
+o Matchematical optimization",https://www.mycareersfuture.gov.sg/job/engineering/ai-perception-algorithm-engineer-black-sesame-technologies-9c494fe219aeea9821aef71a452f08e6?source=MCF&event=SuggestedJob
+14,Snr Machine Learning Ops System Engineer,ST ENGINEERING IHQ PTE. LTD.,"We are seeking an experienced Snr MLOps System Engineer to join ST Engineering GEC. The ideal candidate will have 8 years of experience in designing and building end-to-end machine learning pipelines and a deep understanding of machine learning concepts. As a Senior MLOps System Engineer, you will be responsible for designing and implementing scalable and reliable machine learning systems that can deliver high-quality predictions in real-time.
+Key Responsibilities:
+-Build and manage machine learning pipelines for data ingestion, model training, and deployment to production
+-Design and implement scalable and reliable machine learning systems using modern technologies and best practices
+-Collaborate with data scientists, software engineers, and DevOps teams to ensure smooth and efficient deployment of machine learning models
+-Develop and maintain automation scripts for data processing, model training, and deployment
+-Monitor and troubleshoot machine learning systems to ensure high availability, performance, and reliability
+-Stay up-to-date with the latest machine learning and MLOps technologies and best practices
+-Provide technical guidance and mentorship to junior engineers
+
+Requirements:
+-Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field
+8 years of experience in building and managing end-to-end machine learning pipelines
+Strong programming skills in Python, Java, or other programming languages
+-Experience with machine learning frameworks such as TensorFlow, PyTorch, or Scikit-Learn
+Knowledge of DevOps tools and practices, such as Docker, Kubernetes, Git, and CI/CD pipelines
+-Excellent problem-solving and analytical skills
+-Strong communication and collaboration skills
+-Proven ability to design and implement scalable and reliable machine learning systems
+-Experience providing technical guidance and mentorship to junior engineers",https://www.mycareersfuture.gov.sg/job/engineering/snr-machine-learning-ops-system-engineer-st-engineering-ihq-8b681e36d8d064d5b75006270600d245?source=MCF&event=Search
+15,Machine Learning Ops System Engineer,ST ENGINEERING IHQ PTE. LTD.,"We are seeking an experienced MLOps System Engineer to join ST Engineering GEC. The ideal candidate will have 2-4 years of experience in designing and building end-to-end machine learning pipelines and a deep understanding of machine learning concepts. As a Senior MLOps System Engineer, you will be responsible for designing and implementing scalable and reliable machine learning systems that can deliver high-quality predictions in real-time.
+Key Responsibilities:
+-Build and manage machine learning pipelines for data ingestion, model training, and deployment to production
+-Design and implement scalable and reliable machine learning systems using modern technologies and best practices
+-Collaborate with data scientists, software engineers, and DevOps teams to ensure smooth and efficient deployment of machine learning models
+-Develop and maintain automation scripts for data processing, model training, and deployment
+-Monitor and troubleshoot machine learning systems to ensure high availability, performance, and reliability
+-Stay up-to-date with the latest machine learning and MLOps technologies and best practices
+-Provide technical guidance and mentorship to junior engineers
+
+Requirements:
+-Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field
+2-4 years of experience in building and managing end-to-end machine learning pipelines
+Strong programming skills in Python, Java, or other programming languages
+-Experience with machine learning frameworks such as TensorFlow, PyTorch, or Scikit-Learn
+Knowledge of DevOps tools and practices, such as Docker, Kubernetes, Git, and CI/CD pipelines
+-Excellent problem-solving and analytical skills
+-Strong communication and collaboration skills
+-Proven ability to design and implement scalable and reliable machine learning systems
+-Experience providing technical guidance and mentorship to junior engineers",https://www.mycareersfuture.gov.sg/job/engineering/machine-learning-ops-system-engineer-st-engineering-ihq-ce8e29b3e1404efddfd6900765f11bc9?source=MCF&event=Search
+16,"Machine Learning Engineer, Risk Data Mining, BRIC - Singapore",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+The Business Risk Integrated Control (BRIC) team is missioned to:
+- Protect ByteDance users, including and beyond content consumers, creators, advertisers;
+- Secure platform health and community experience authenticity;
+- Build infrastructures, platforms and technologies, as well as to collaborate with many cross-functional teams and stakeholders.
+
+The BRIC team works to minimize the damage of inauthentic behaviors on ByteDance platforms (e.g. TikTok, CapCut, Resso, Lark), covering multiple classical and novel community and business risk areas such as account integrity, engagement authenticity, anti spam, API abuse, growth fraud, live streaming security and financial safety (ads or e-commerce), etc.
+In this team you'll have a unique opportunity to have first-hand exposure to the strategy of the company in key security initiatives, especially in building scalable and robust, intelligent and privacy-safe, secure and product-friendly systems and solutions. Our challenges are not some regular day-to-day technical puzzles -- You'll be part of a team that's developing novel solutions to first-seen challenges of a non-stop evolvement of a phenomenal product eco-system. The work needs to be fast, transferrable, while still down to the ground to making quick and solid differences.
+
+Responsibilities
+- Build machine learning solutions to respond to and mitigate business risks in ByteDance products/platforms. Such risks include and are not limited to abusive accounts, fake engagements, spammy redirection, scraping, fraud, etc.
+- Improve modeling infrastructures, labels, features and algorithms towards robustness, automation and generalization, reduce modeling and operational load on risk adversaries and new product/risk ramping-ups.
+- Uplevel risk machine learning excellence on privacy/compliance, interpretability, risk perception and analysis.
+
+Qualifications
+- Master or above degree in computer science, statistics, or other relevant, machine-learning-heavy majors.
+- Solid engineering skills. Proficiency in at least two of: Linux, Hadoop, Hive, Spark, Storm.
+- Strong machine learning background. Proficiency or publications in modern machine learning theories and applications such as deep neural nets, transfer/multi-task learning, reinforcement learning, time series or graph unsupervised learning.
+- Ability to think critically, objectively, rationally. Reason and communicate in result-oriented, data-driven manner. High autonomy.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-risk-data-mining-bric-singapore-tiktok-807508d9fe04ad1609df578a4bebcf3c?source=MCF&event=Search
+17,Machine Learning Engineer (Recommendation) - e-Commerce Alliance,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+About the team
+The e-commerce alliance team aims to serve merchants and creators on the e-commerce platform to meet merchants' business indicators and improve creators' creative efficiency. By cooperating with merchants and creators, we aim to provide high-quality content and a personalized shopping experience for TikTok users, create efficient shopping tools at seller centers, and promote cooperation between merchants and creators.
+
+Responsibilities
+- Build and design large-scale machine learning algorithms to model the real-time interests of creators to improve conversion efficiency
+- Optimize TikTok's massive commodity relationship mining and ranking and recall of creators' product recommendations, and improve the overall GMV of the platform
+- Use the large scale of data to deeply analyze the behavior of creators and merchants and build targeted algorithm strategies to empower creators and merchants, improve merchants' monetization efficiency, and boost industrial upgrading
+- Support the rapid development of TikTok's e-commerce business, serve millions of merchants, explore more efficient business models, satisfy users with the best shopping experience, and promote healthy ecological development
+
+Qualifications
+- Experience with solid theoretical foundation of machine learning;
+- Familiar with common algorithms such as matrix factorization, GBDT, LTR, Word2vec, DIN, Deep&Wide;
+- Proficient in Python and C++ languages
+- Proficiency in using any of the following open source tools: XGboost, TensorFlow, Caffe;
+- Have excellent learning ability and good communication and cooperative spirit.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-alliance-tiktok-48d78eb44e4faeadd0f05476fbecaea0?source=MCF&event=Search
+18,"Machine Learning Engineer (Recommendation), e-Commerce Alliance",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+About the team
+The e-commerce alliance team aims to serve merchants and creators on the e-commerce platform to meet merchants' business indicators and improve creators' creative efficiency. By cooperating with merchants and creators, we aim to provide high-quality content and a personalized shopping experience for TikTok users, create efficient shopping tools at seller centers, and promote cooperation between merchants and creators.
+
+Responsibilities
+- Build and design large-scale machine learning algorithms to model the real-time interests of creators to improve conversion efficiency
+- Optimize TikTok's massive commodity relationship mining and ranking and recall of creators' product recommendations, and improve the overall GMV of the platform
+- Use the large scale of data to deeply analyze the behavior of creators and merchants and build targeted algorithm strategies to empower creators and merchants, improve merchants' monetization efficiency, and boost industrial upgrading
+- Support the rapid development of TikTok's e-commerce business, serve millions of merchants, explore more efficient business models, satisfy users with the best shopping experience, and promote healthy ecological development
+
+Qualifications
+- Experience with solid theoretical foundation of machine learning;
+- Familiar with common algorithms such as matrix factorization, GBDT, LTR, Word2vec, DIN, Deep&Wide;
+- Proficient in Python and C++ languages
+- Proficiency in using any of the following open source tools: XGboost, TensorFlow, Caffe;
+- Have excellent learning ability and good communication and cooperative spirit.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-alliance-tiktok-554e0cc21ac090b0a4e7160431a2bb2a?source=MCF&event=Search
+19,Machine Learning Ops Engineer,KRIS INFOTECH PTE. LTD.,"Job Description
+
+Microsoft Azure Machine Learning Workbench
+Manage, architect and analyze big data in order to build data driven insights and high impact data models.
+Create a value chain to help address the challenges of acquiring data, evaluating its value, distilling & analyzing.
+Examine data from multiple sources and share insights which provide competitive advantage.
+Contribute to assets/offerings and thought leadership.
+Act as Subject Matter Expert in area of expertise and enhance our marketplace reputation.
+Requirement:
+Microsoft Azure Machine Learning Workbench
+Machine Learning Model Management
+Data Analysis & Interpretation
+Statistical Analysis
+Machine Learning",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-ops-engineer-kris-infotech-9aa7bd7ec83cae3eef40cec495518219?source=MCF&event=Search
+20,"Machine Learning Engineer, E-Commerce Risk Control",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+The E-Commerce Risk Control (ECRC) team is missioned:
+- To protect Tiktok E-Commerce users, including and beyond buyer, seller, creator;
+- By securing the integrity of our ecommerce ecosystem and providing a safe shopping experience on the platform;
+- Through building infrastructures, platforms and technologies, as well as collaborating with many cross-functional teams and stakeholders.
+
+The ECRC team works to minimize the damage of inauthentic behaviors on Tiktok E-Commerce platforms (e.g. TikTok Shop, Jumanji, Fanno), covering multiple classical and novel community and business risk areas such as account integrity, incentive abuse, malicious activities, brushing, click-farm, information leakage etc.
+
+In this team you'll have a unique opportunity to have first-hand exposure to the strategy of the company in key security initiatives, especially in building scalable and robust, intelligent and privacy-safe, secure and product-friendly systems and solutions. Our challenges are not some regular day-to-day technical puzzles -- You'll be part of a team that's developing novel solutions to first-seen challenges of a non-stop evolvement of a phenomenal product eco-system. The work needs to be fast, transferrable, while still down to the ground to making quick and solid differences.
+
+Responsibilities
+- Build rules, algorithms and machine learning models, to respond to and mitigate business risks in Tiktok products/platforms. Such risks include and are not limited to account integrity, scapler, deal-hunter, malicious activities, brushing, click-farm, information leakage etc.
+- Analyze business and security data, uncover evolving attack motion, identify weaknesses and opportunities in risk defense solutions, explore new space from the discoveries.
+- Define risk control measurements. Quantify, generalize and monitor risk related business and operational metrics. Align risk teams and their stakeholders on risk control numeric goals, promote impact-oriented, data-driven data science practices for risks.
+
+Qualifications
+- Bachelor or degrees above in computer science, statistics, math, internet security or other relevant STEM majors (e.g. finance if applying for financial fraud roles).
+- Solid data science skills. Proficiency in statistical analytical tools, such as SQL, R and Python.
+- Familiarity with machine learning or social/content online platform analytics. Bonus given to proficiency in modern machine learning applications.
+- Ability to think critically, objectively, rationally. Reason and communicate in result-oriented, data-driven manner. High autonomy.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-risk-control-tiktok-b59aa6697fe9175b9cd52bd2aa875d3e?source=MCF&event=Search
+21,Machine Learning Engineer - E-Commerce Risk Control,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+The E-Commerce Risk Control (ECRC) team is missioned:
+- To protect Tiktok E-Commerce users, including and beyond buyer, seller, creator;
+- By securing the integrity of our ecommerce ecosystem and providing a safe shopping experience on the platform;
+- Through building infrastructures, platforms and technologies, as well as collaborating with many cross-functional teams and stakeholders.
+
+The ECRC team works to minimize the damage of inauthentic behaviors on Tiktok E-Commerce platforms (e.g. TikTok Shop, Jumanji, Fanno), covering multiple classical and novel community and business risk areas such as account integrity, incentive abuse, malicious activities, brushing, click-farm, information leakage etc.
+
+In this team you'll have a unique opportunity to have first-hand exposure to the strategy of the company in key security initiatives, especially in building scalable and robust, intelligent and privacy-safe, secure and product-friendly systems and solutions. Our challenges are not some regular day-to-day technical puzzles -- You'll be part of a team that's developing novel solutions to first-seen challenges of a non-stop evolvement of a phenomenal product eco-system. The work needs to be fast, transferrable, while still down to the ground to making quick and solid differences.
+
+Responsibilities
+- Build rules, algorithms and machine learning models, to respond to and mitigate business risks in Tiktok products/platforms. Such risks include and are not limited to account integrity, scapler,deal-hunter, malicious activities, brushing, click-farm, information leakage etc.
+- Analyze business and security data, uncover evolving attack motion, identify weaknesses and opportunities in risk defense solutions, explore new space from the discoveries.
+- Define risk control measurements. Quantify, generalize and monitor risk related business and operational metrics. Align risk teams and their stakeholders on risk control numeric goals, promote impact-oriented, data-driven data science practices for risks.
+
+Qualifications
+- Bachelor or degrees above in computer science, statistics, math, internet security or other relevant STEM majors (e.g. finance if applying for financial fraud roles).
+- At least 5 years with solid data science skills. Proficiency in statistical analytical tools, such as SQL, R and Python.
+- Familiarity with machine learning or social/content online platform analytics. Bonus given to proficiency in modern machine learning applications.
+- Ability to think critically, objectively, rationally. Reason and communicate in result-oriented, data-driven manner. High autonomy.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-risk-control-tiktok-b4aced053220c015249527fa50095586?source=MCF&event=Search
+22,"Machine Learning Engineer, Recommendation - Singapore",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+Our TikTok team is responsible for developing state-of-the-art machine learning models and strategies to improve user consumption experience, inspire creativity, build a fair and flourishing ecosystem.
+
+1. Build industry leading recommendation system; develop highly scalable classifiers and tools leveraging machine learning;
+2. Understand product objectives and machine learning techniques; improve model and recommendation strategy;
+3. Understand user behaviour and apply ML algorithms to optimise content consumption and production experience;
+4. Understand content security strategy and apply ML algorithms to improve content audit process;
+5. Work with cross functional teams to grow ByteDance product in important regional markets.
+
+Qualifications
+1. Bachelor's degree in computer science or a related technical discipline, with at least 2 years of related work experience;
+2. Solid experience with data structures or algorithms;
+3. Software development experience through hands on coding in a general purpose programming language;
+4. Experience in one or more of the following areas: machine learning, recommendation systems, data mining or other related areas;
+5. Strong communication and teamwork skills;
+6. Passion about technologies and solving challenging problems.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-recommendation-singapore-tiktok-b1ab5d567975c607b8c71ee6b62c638f?source=MCF&event=Search
+23,Machine Learning Engineer - Recommendation - Singapore,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+Our TikTok team is responsible for developing state-of-the-art machine learning models and strategies to improve user consumption experience, inspire creativity, build a fair and flourishing ecosystem.
+1. Build industry leading recommendation system; develop highly scalable classifiers and tools leveraging machine learning;
+2. Understand product objectives and machine learning techniques; improve model and recommendation strategy;
+3. Understand user behavior and apply ML algorithms to optimize content consumption and production experience;
+4. Understand content security strategy and apply ML algorithms to improve content audit process;
+5. Work with cross functional teams to grow ByteDance product in important regional markets.
+
+Qualifications
+1. Bachelor's degree in computer science or a related technical discipline, with at least 2 years of related work experience;
+2. Solid experience with data structures or algorithms;
+3. Software development experience through hands on coding in a general purpose programming language;
+4. Experience in one or more of the following areas: machine learning, recommendation systems, data mining or other related areas;
+5. Strong communication and teamwork skills;
+6. Passion about technologies and solving challenging problems.
+
+Preferred Qualification
+Minimum 3 years relevant work experience from a large-scale internet business
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-recommendation-singapore-tiktok-b8f734a6c2339b8686320042442d4a25?source=MCF&event=Search
+24,"Machine Learning Engineer, Risk Data Mining - Singapore",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+The Business Risk Integrated Control (BRIC) team is missioned to:
+- Protect ByteDance users, including and beyond content consumers, creators, advertisers;
+- Secure platform health and community experience authenticity;
+- Build infrastructures, platforms and technologies, as well as to collaborate with many cross-functional teams and stakeholders.
+
+The BRIC team works to minimize the damage of inauthentic behaviors on ByteDance platforms (e.g. TikTok, CapCut, Resso, Lark), covering multiple classical and novel community and business risk areas such as account integrity, engagement authenticity, anti spam, API abuse, growth fraud, live streaming security and financial safety (ads or e-commerce), etc.
+In this team you'll have a unique opportunity to have first-hand exposure to the strategy of the company in key security initiatives, especially in building scalable and robust, intelligent and privacy-safe, secure and product-friendly systems and solutions. Our challenges are not some regular day-to-day technical puzzles -- You'll be part of a team that's developing novel solutions to first-seen challenges of a non-stop evolvement of a phenomenal product eco-system. The work needs to be fast, transferrable, while still down to the ground to making quick and solid differences.
+
+Responsibilities
+- Build machine learning solutions to respond to and mitigate business risks in ByteDance products/platforms. Such risks include and are not limited to abusive accounts, fake engagements, spammy redirection, scraping, fraud, etc.
+- Improve modeling infrastructures, labels, features and algorithms towards robustness, automation and generalization, reduce modeling and operational load on risk adversaries and new product/risk ramping-ups.
+- Uplevel risk machine learning excellence on privacy/compliance, interpretability, risk perception and analysis.
+
+Qualifications
+- Master or above degree in computer science, statistics, or other relevant, machine-learning-heavy majors.
+- Solid engineering skills. Proficiency in at least two of: Linux, Hadoop, Hive, Spark, Storm.
+- Strong machine learning background. Proficiency or publications in modern machine learning theories and applications such as deep neural nets, transfer/multi-task learning, reinforcement learning, time series or graph unsupervised learning.
+- Ability to think critically, objectively, rationally. Reason and communicate in result-oriented, data-driven manner. High autonomy.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-risk-data-mining-singapore-tiktok-3b2da91ae222ed9ccdbe32bdf40dc43f?source=MCF&event=Search
+25,"Machine Learning Engineer (Recommendation), e-Commerce Data Compass",TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+About the team
+The e-commerce compass team aims to serve merchants and creators on the e-commerce platform to improve the operating efficiency of merchants and creators. The main work of this team is to improve the efficiency of merchandise strategy, user operation, marketing and other directions through algorithm strategy.
+
+Responsibilities
+- Merchandise strategy: Relying on massive merchandise information and user behavior features of TikTok , in-depth understanding of users and merchandises , to provide algorithm strategy support for the full life cycle of merchandises and consumer full-link operation.
+- Merchant's user operation: In-depth understanding of users, through crowd circle selection and strategies to improve user conversion, new and re-purchase; Improve the private domain traffic operation efficiency of merchants.
+- Marketing strategies of merchants and creators: In-depth understanding of merchandise and user marketing, and provide algorithmic strategies to improve marketing efficiency.
+
+Qualifications
+- Experience with solid theoretical foundation of machine learning;
+- Familiar with common algorithms such as matrix factorization, GBDT, LTR, Word2vec, DIN, Deep&Wide;
+- Proficient in Python and C++ languages
+- Proficiency in using any of the following open source tools: XGboost, TensorFlow, Caffe;
+- Have excellent learning ability and good communication and cooperative spirit.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-data-compass-tiktok-b45e3bf646b21ab352a3d6f54e6d57de?source=MCF&event=Search
+26,Machine Learning Engineer (Recommendation) - e-Commerce Data Compass,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+About the team
+The e-commerce compass team aims to serve merchants and creators on the e-commerce platform to improve the operating efficiency of merchants and creators. The main work of this team is to improve the efficiency of merchandise strategy, user operation, marketing and other directions through algorithm strategy.
+
+Responsibilities
+- Merchandise strategy: Relying on massive merchandise information and user behavior features of TikTok , in-depth understanding of users and merchandises , to provide algorithm strategy support for the full life cycle of merchandises and consumer full-link operation.
+- Merchant's user operation: In-depth understanding of users, through crowd circle selection and strategies to improve user conversion, new and re-purchase; Improve the private domain traffic operation efficiency of merchants.
+- Marketing strategies of merchants and creators: In-depth understanding of merchandise and user marketing, and provide algorithmic strategies to improve marketing efficiency.
+
+Qualifications
+- Experience with solid theoretical foundation of machine learning;
+- Familiar with common algorithms such as matrix factorization, GBDT, LTR, Word2vec, DIN, Deep&Wide;
+- Proficient in Python and C++ languages
+- Proficiency in using any of the following open source tools: XGboost, TensorFlow, Caffe;
+- Have excellent learning ability and good communication and cooperative spirit.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-e-commerce-data-compass-tiktok-abf1263277c23001423044e28dfce6fa?source=MCF&event=Search
+27,Machine Learning Engineer (E-commerce Risk Control) - 2023 Start,TIKTOK PTE. LTD.,"TikTok will be prioritizing applicants who have a current right to work in Singapore, and do not require TikTok's sponsorship of a visa.
+
+TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+We are looking for talented individuals to join us for this future position in 2023. As a graduate, you will get unparalleled opportunities for you to kickstart your career, pursue bold ideas and explore limitless growth opportunities. Co-create a future driven by your inspiration with TikTok.
+
+Candidates can apply to a maximum of two positions and will be considered for jobs in the order you apply. The application limit is applicable to all TikTok and its affiliates' jobs globally. Applications will be reviewed on a rolling basis - we encourage you to apply early.
+
+About the Team
+The E-Commerce Risk Control (ECRC) team's mission is :
+- To protect TikTok e-commerce users, including and beyond buyer, seller, creator;
+- To make Tiktok e-commerce the safest and most trusted place worldwide to transact online by securing the integrity of the e-commerce ecosystem and providing a safe shopping experience on the platform;
+- Through building software systems, risk models and operational processes, as well as collaborating with many cross-functional teams and stakeholders.
+
+The ECRC team works to prevent and detect any risk attempts in Tiktok e-commerce platforms (e.g. TikTok Shop, Fanno) and to mitigate the negative impact on our customers and Selling Partners (Sps), covering multiple classical and novel business risk areas such as account integrity, incentive abuse, malicious activities, brushing, click-farm, information leakage etc.
+
+We achieve our mission by a) developing state-of-art Machine Learning (ML) solutions to prevent customers, SPs, and Tiktok from being impacted by bad actors’ actions and practices to gain unfair business advantages; b) empowering Tiktok teams, both internal to GNE and external, to reduce risk attempts by utilizing our mechanisms.
+
+Responsibilities
+- Respond to and mitigate business risks in our E-Commerce including and not limited to Incentive abuse, brushing order, malicious behaviours, payment fraud, ATO etc.;
+- Establish reliable, efficient and modularized risk defence solutions, reduce the manual workload on ramping up risk controls on/against new business scenario, risk area, or abusive means;
+- Uplevel risk defence excellence on privacy/compliance, machine learning, risk perception and analysis, achieve in-depth defence portfolio.
+
+Qualifications
+- Final year or recent graduate with a background in Computer Science, Computer Engineering, Information Systems or other STEM disciplines (e.g. finance if applying for payment fraud positions);
+- Solid data mining or machine learning background;
+- Proficiency in at least two - Linux, Hadoop, Hive, Spark or Storm;
+- Ability to think critically, objectively, rationally. Reason and communicate in a result-oriented, data-driven manner, with high autonomy;
+- Deep understanding of modern machine learning theory and applications, especially around popular neural nets (e.g. natural language processing, graph embedding), and/or relevant unsupervised/semisupervised/transfer learning. Hands-on industrial model development skills and strong data science sense/habit.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.
+
+By submitting an application for this role, you accept and agree to our global applicant privacy policy, which may be accessed here: https://careers.tiktok.com/legal/privacy.
+
+If you have any questions, please reach out to us at apac-earlycareers@tiktok.com.",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-engineer-2023-start-tiktok-d9f9df1e6134f838f9dfe0760045afd0?source=MCF&event=Search
+28,Machine Learning Ops Engineer (12 months contract) - S$7.5k - Tech Giant,MORGAN MCKINLEY PTE. LTD.,"We are partnering with one of the Tech firms in Singapore and they have an immediate need to hire a Machine Learning Ops Engineer (12 months contract) to join the team.
+
+Job Description:
+· Manage, architect and analyze big data in order to build data driven insights and high impact data models.
+· Create a value chain to help address the challenges of acquiring data, evaluating its value, distilling & analyzing.
+· Examine data from multiple sources and share insights which provide competitive advantage.
+· Contribute to assets/offerings and thought leadership.
+· Act as Subject Matter Expert in area of expertise and enhance our marketplace reputation.
+
+Job Qualifications:
+· Machine Learning
+· Microsoft Azure Machine Learning Workbench
+· Machine Learning Model Management
+· Data Analysis & Interpretation
+
+Interested candidates may apply through the application system or send it to sg-techcontracting@morganmckinley.com . Shortlisted candidates will be notified.
+
+By sending us your personal data and curriculum vitae (CV), you are deemed to consent to Morgan Mckinley Pte Ltd and its affiliates to collect, use and disclose your personal data for the purposes set out in the Privacy Policy available at https://www.morganmckinley.com/sg/privacy-policy. You acknowledge that you have read, understood, and agree with the Privacy Policy.
+
+Morgan McKinley Pte Ltd
+Koh Boon Sien
+EA Licence No: 11C5502
+EA Registration No. R1110345",https://www.mycareersfuture.gov.sg/job/information-technology/machine-learning-ops-engineer-s75k-tech-giant-morgan-mckinley-ea3a8908f66b667fb53488dfcead7471?source=MCF&event=Search

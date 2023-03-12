@@ -1,0 +1,887 @@
+,Title,Company,Description,URL
+0,Data Science,AMPLIFY HEALTH ASIA PTE. LIMITED,"Instructions for interested applicants
+https://aia.wd3.myworkdayjobs.com/amplifyhealthexternal/job/Singapore-SG-Amplify-Health/Data-Science_JR-36535
+
+What you will do?
+
+We are looking for a Data Scientist as part of our Machine Learning Team. The ideal candidate will leverage strong collaboration skills and ability to extract valuable insights from highly complex medical & insurance data sets to ask the right questions and find the right answers. You will have great opportunity to work with Data Scientist to understand and learn about how we can leverage AI/ML in the health insurance & medical field to detect fraud & waste, improve automation efficiency & promote vitality.
+
+Duties and Responsibilities
+• Analyze raw data: assessing quality, cleansing, structuring for downstream processing
+• Be heavily involved to bring analytical prototypes to production with the data engineering & dev-ops teams
+• Become a subject-matter expert in the health & insurance domain
+• Generate actionable insights for business improvements
+• Help to develop customizable reports / production-ready dashboards for clients
+
+Requirements
+• Bachelor's degree or equivalent experience in quantitative field (Statistics, Mathematics, Computer Science, Engineering, etc.)
+• At least 1 - 2 years' of experience in quantitative analytics or data modeling
+• Ability to write robust code in Python
+• Good understanding of Database Systems and SQL
+• Deep understanding of predictive modeling, machine-learning, clustering and classification techniques, and algorithms
+• A strong self-starter and able to work with minimal supervision
+• Ability to work in a dynamic, fast moving and growing environment
+• Critical thinker with problem-solving skills
+
+Good to have:
+• Experience in troubleshooting, debugging, analysing logs and tracing of logs.
+• Familiarization with CI/CD systems such as GitLab
+• Experience with cloud infrastructure and services, and resources administration (i.e. AWS, Azure)
+• Experience in Plotly / Dash, Evidently or any other open-sourced dashboarding & performance monitoring tools deployable in production",https://www.mycareersfuture.gov.sg/job/healthcare/data-science-amplify-health-asia-c7fd07ec95ca669e8e652fab1422ddf5?source=MCF&event=Search
+1,Data Science Manager,JOBTECH PTE. LTD.,"Developing people for the future
+
+About JobTech
+JobTech is the world's leading artificial intelligence and big labour data analytics product company that empowers leaders to develop people for new work realities, driven by real labour market needs and individuals' personal aspirations. JobTech is growing rapidly with global big names customers from both private and public sectors.
+
+About the Team
+At JobTech, we are obsessed with improvements, inventing the future and empowering connections. Be surrounded by an enthusiastic team, excited to solve human capital business problems in talent development, using deep technology and labour market data. We embrace empowerment and love seeing what each individual member of the team brings to the table. We are hands-on dreamers, brought together with the common goal of helping people stay employable. If you've always known you were made for something greater, and would like to be a part of changing the HR tech-scape, we want you.
+
+Job Description
+JobTech is a product start-up looking to solve real world labour problems and deliver the best possible experience to our end users. We are looking for self-driven and eclectic individuals.
+Lead, manage and mentor a team of data analysts to deliver high-quality data projects and initiatives
+Collaborate with cross-functional teams to understand business objectives, identify opportunities for data-driven decision making, and communicate insights
+Develop and implement data models, algorithms, and statistical analyses to on key data science initiatives
+Develop and maintain data infrastructure, processes, and tools to ensure accurate and timely data processing and analysis
+Oversee data quality, data governance, and data security to ensure compliance with company and customers’ policies and standards
+Manage timelines and resources to ensure timely and successful project delivery
+Communicate effectively with senior management to report on progress, results, and key performance indicators
+Support sales and customer team on data consultancy requests and queries.
+Work closely with data scientists to ensure data models created achieves the company’s business outcome.
+Requirements
+A self-starter that can thrive in a fast-paced environment.
+At least 3 years of experience in data science and analytics, with a track record of successfully leading teams and delivering business outcomes and machine learning projects.
+Excellent communication skills with the ability to present complex data and insights to non-technical stakeholders.
+Strong programming skills in Python (and its data analytics libraries). Proficient in SQL and NoSQL.
+Knowledge in text mining or NLP. Hands-on experience with text mining or NLP will be a plus.
+Strong project management skills with the ability to manage multiple projects simultaneously.
+Experience with interactive visualisations or dashboard frameworks such as Plotly and Dash is an added advantage.
+Passionate about data engineering and analytic techniques, and willing to pick up new skills/tools.
+Qualification is intentionally left out as we believe in skills more than certificates ☺",https://www.mycareersfuture.gov.sg/job/information-technology/data-science-manager-jobtech-362d061dabc2c6825e681a8dbc69656b?source=MCF&event=Search
+2,Project Manager (Data Science),INTEGRATED HEALTH INFORMATION SYSTEMS PTE. LTD.,"Responsibilities:
+Define strategy and implement the plan to coordinate and aggregate demand across all Public Healthcare Institution (PHI) through internal and external forums.
+Scan industry and landscape for promising new areas in AI solutions based on MOH’s defined strategic objectives & thematic areas
+Engage users on new tech & pilot explorations, and manage the pilot lifecycle.
+Work with multiple stakeholders to identify, scope and support the implementation of POC, POV, pilot innovation projects, and manage and track life-cycle of innovation projects at each of the Explore, MVP, POC, POV and Scaling stage.
+Share knowledge and information on use cases and work with the funding agencies to identify and evaluate collaborators/providers that offer potential solutions that best suit the needs of users.
+Coordinate and communicate with the funding agencies (if applicable) whose investment and grant objectives are relevant to the potential solution at the POC or MVP stages.
+Participate as internal review and/or evaluation panelists during the screening and selection process as deemed appropriate by department/division.
+Manage AI and tech programmes, track and report to senior management / programme office and retain engagement with the stakeholders throughout the innovation life cycle.
+Requirements / Qualifications
+
+Preferably 10 years’ experience and have hands-on experience in project management, client management of medium to large-scale projects, including innovation projects.
+Strong interpersonal skills with the ability to work with different groups of stakeholders.
+Possess leadership qualities.
+Experience in the healthcare industry or experience in developing different types of incubation programs for startups would also be an added advantage.
+Degree in Computer Science, Computer Engineering, Data Science or equivalent.",https://www.mycareersfuture.gov.sg/job/information-technology/project-manager-integrated-health-information-systems-06b5aa3da96567be485f53e62699ecce?source=MCF&event=Search
+3,Senior Data Science,VGROUP HOLDINGS PTE. LTD.,"We are looking for an amazing Senior Data Engineer to support our growth!
+The Senior Data Engineer will oversee the company’s data ingestion / integration work, including developing a data model, maintaining a data warehouse and analytics environment, and writing scripts for data ingestion / integration and analysis. This role will work closely and collaboratively with members of the Data & Analytics and Development teams to define requirements, mine and analyze data, integrate data from a variety of sources, and deploy high quality data pipelines in support of the analytics needs. He will also be responsible for creating automated reporting / data visualization system based on the request of internal stakeholders.
+In short, what you will do
+Maintain and build on our data warehouse and analytics environment, the home for various source data generated in the company.
+Design, implement, test, deploy, and maintain stable, secure, and scalable data engineering solutions and pipelines in support of data and analytics projects, including integrating new sources of data into our central data warehouse, and moving data out to applications.
+Build reports and data visualizations, using data from the data warehouse and other sources.
+Produce scalable, replicable code and engineering solutions that help automate repetitive data management tasks.
+Perform one-off data manipulation and analysis on a wide variety of source data.
+Implement and monitor best in class security measures in our data warehouse and analytics environment.
+Help other data team staff troubleshoot their SQL, Python, or R code.
+Train other data team staff on these skills.
+Other duties as assigned.
+What you need to bring along
+Bachelor’s Degree with related field or equivalent work experience with strong command of relational databases and SQL. Extract, Transform, and Load (ETL) data into a relational database.
+Proficiency with Python or R, especially for data manipulation and analysis, and ability to build, maintain and deploy sequences of automated processes with these tools.
+General data manipulation skills: read in data, process and clean it, transform and recode it, merge different data sets together, reformat data between wide and long, etc.
+Demonstrated ability to learn new techniques and troubleshoot code without support and ability to write clear code that is well-documented and stored in a version control system (Gitlab).
+Experience in working with cloud infrastructure services like Amazon Web Services, Data Visualization (Power BI, Tableau) is an added advantage.
+Exercise good judgement and ability to prioritize multiple tasks in a timely manner
+Must be proficient in MS Word and MS Excel
+An ability to perform well in a fast-paced environment
+Excellent analytical and multitasking skills with the ability to solve problems creatively and effectively
+Ability to work independently while collaborating in a fast-paced agile team
+Ability to speak Mandarin and English fluently in order to communicate with global colleagues and stakeholders
+Why Join Us?
+Be at the forefront in an exciting sector. For over a decade strong year, Vantage has been an award-winning global financial services firm providing market opportunities to all clients globally. With millions of active traders ranging from retail traders to high-net-worth and institutional traders, you will have the opportunity to get your foot in the door working for a global powerhouse that has a local focus. a household name – Vantage is now looking to accelerate our growth in the Asia Headquarter that based in Singapore that known as Vgroup. We are seeking someone that is willing to learn and apply their knowledge and stretch their creative thinking to support us during this momentous journey.
+Generous Benefits and Perks. We understand benefits and perks matter to the individual. With that, we have irresistible benefits and perks that you cannot resist.
+Amazing growth and learning opportunities. We are a tight-knit team where everyone grows together. We’ll continuously work with you to refine your strengths and strengthen your weakness to further your personal and career development.
+For a confidential discussion, click here to apply. Due to the high volume of applicants, we regret that only shortlisted candidates will be notified.",https://www.mycareersfuture.gov.sg/job/banking-finance/senior-data-science-vgroup-holdings-749a296d5a1f919858d6a356b86d740b?source=MCF&event=Search
+4,"Senior Analyst, Data Science",SINGAPORE HEALTH SERVICES PTE LTD,"Job Description
+
+You will be working with adynamic team of data scientists, clinician investigators, and health servicesresearchers and research associates, biostatisticians, registry managers toharness the power of healthcare data and data science to advance diagnosis,treatment, and outcomes of patient care. Your main responsibilities includesbut not limited to the following:
+Creating and maintaining data pipelines for easy access ofcurated data for analysis
+Conducting quality checks on the data to ensure data meet thehighest quality standards
+Performing data cleaning and wrangling to prepare the data formachine learning modeling
+Performing exploratory data analysis to help see the big picturebehind the data
+Assisting data scientists to build and test machine learningmodels
+Disseminating data analysis results by presentations to relevantstakeholders or in the form of scientific manuscripts
+Job Requirement
+
+Bachelor’s or Master’s degree in Data Science, Computer Science,and Information Systems, Soft Engineering or any related computationaldisciplines or equivalent
+Advanced proficiency in Python, R, Java code writing, extensiveknowledge of ML frameworks, libraries, data structures, data modelling, andsoftware architecture, and Hands-on experience with SQL database design
+Demonstrated technical expertise with data models, data mining,and segmentation techniques
+In-depth knowledge of mathematics, statistics, and algorithms
+Familiarity with healthcare database management systems andprocesses as well as healthcare data governance policies and regulation will bean advantage",https://www.mycareersfuture.gov.sg/job/others/senior-analyst-data-science-singapore-health-services-a7fcc308735ccca9a58c514b3abff69a?source=MCF&event=Search
+5,"Senior Analyst, Data Science",SINGAPORE HEALTH SERVICES PTE LTD,"Job Description
+
+You will be working with adynamic team of data scientists, clinician investigators, and health servicesresearchers and research associates, biostatisticians, registry managers toharness the power of healthcare data and data science to advance diagnosis,treatment, and outcomes of patient care. Your main responsibilities includesbut not limited to the following:
+Creating and maintaining data pipelines for easy access ofcurated data for analysis
+Conducting quality checks on the data to ensure data meet thehighest quality standards
+Performing data cleaning and wrangling to prepare the data formachine learning modeling
+Performing exploratory data analysis to help see the big picturebehind the data
+Assisting data scientists to build and test machine learningmodels
+Disseminating data analysis results by presentations to relevantstakeholders or in the form of scientific manuscripts
+Job Requirement
+
+Bachelor’s or Master’s degree in Data Science, Computer Science,and Information Systems, Soft Engineering or any related computationaldisciplines or equivalent
+Advanced proficiency in Python, R, Java code writing, extensiveknowledge of ML frameworks, libraries, data structures, data modelling, andsoftware architecture, and Hands-on experience with SQL database design
+Demonstrated technical expertise with data models, data mining,and segmentation techniques
+In-depth knowledge of mathematics, statistics, and algorithms
+Familiarity with healthcare database management systems andprocesses as well as healthcare data governance policies and regulation will bean advantage",https://www.mycareersfuture.gov.sg/job/others/senior-analyst-data-science-singapore-health-services-0dfd7a44daa5e12dd83aafb9109e7bba?source=MCF&event=Search
+6,Data Science Engineer,HAIER SINGAPORE INVESTMENT HOLDING PTE. LTD.,"COMPANY BACKGROUND
+Haier is the number one brand of Major Appliances in the world with 9.7 percent of global market share. Headquartered in Qingdao, Haier has over 80,000 employees across 30 countries in the world.
+Haier Singapore is one of the holding companies under Haier Group. As the integrated regional centre, Haier Singapore is the main platform to provide procurement, trading, R&D and big data supports to over 80 countries in Asia, Europe, Africa and North America markets.
+As the continuous demands from global businesses, we are looking for experienced Data Science Engineer to join our global big data team.
+KEY RESPONSIBILITIES
+Based in Singapore, you will be part of the global big data team and responsible for the development, maintenance, integration, data governance and data reporting of Haier’s overseas business systems, including:
+Work closely with data scientists, analysts and internal and external users to deliver satisfying data products.
+Provide ETL solution including significant integrations with tier one bank core systems and between complex business platforms.
+Support Enterprise Data Warehouse.
+Provide internal training on various planning frameworks developed by Data Science Engineers.
+KEY REQUIREMENTS
+The ideal candidates we are looking for should be seasoned Data Science Professionals with:
+Degree in computer science or its equivalent
+With minimum 3 years of experience in Data Science Engineering and object-oriented development within a commercial environment.
+Wide experience across databases (Oracle, SQL Server, MySQL), ETL (TALEND, Kettle, Datastage, Informatica, Sqoop) and Business Intelligence tools.
+Experienced in large scale data warehouse build and support, Oracle, SQL Server, Oracle ExaData, Teradata architecture and design, logical and physical data modelling, forward engineering to XSD, XSLT for XML messaging.
+Knowledge of SAP ERP, Python, Business Object, Bex Analyzer, ABAP, BAPI, BSP, Java, analytics report.
+Team player with good people skills, able to work with people at all levels.
+Strong communication, presentation and interpersonal skills.",https://www.mycareersfuture.gov.sg/job/information-technology/data-science-engineer-haier-singapore-investment-holding-3e66882c0b5fd3eea74eb2e856611d9d?source=MCF&event=Search
+7,Manager - Data Science,AMERICAN EXPRESS INNOVATION LABORATORIES LIMITED (SINGAPORE BRANCH),"You Lead the Way. We’ve Got Your Back.
+With the right backing, people and businesses have the power to progress in incredible ways. When you join Team Amex, you become part of a global and diverse community of colleagues with an unwavering commitment to back our customers, communities, and each other. Here, you’ll learn and grow as we help you create a career journey that’s unique and meaningful to you with benefits, programs, and flexibility that support you personally and professionally.
+At American Express, you’ll be recognized for your contributions, leadership, and impact—every colleague has the opportunity to share in the company’s success. Together, we’ll win as a team, striving to uphold our company values and powerful backing promise to provide the world’s best customer experience every day. And we’ll do it with the utmost integrity, and in an environment where everyone is seen, heard and feels like they belong.
+Join Team Amex and let's lead the way together.
+Functional Description
+Decision Science colleagues will serve as a key member of the Credit and Fraud Risk organization. We seek a thought-leader and a problem-solver who can blend business, technical, and industry best practices when it comes to developing the analyses, models, and algorithms that power our customers’ digital experiences.
+This critical team is responsible for managing enterprise risks throughout the customer lifecycle, across our consumer and commercial businesses, and across all our global products. We develop industry-first data capabilities, build profitable decision-making frameworks, create machine learning-powered predictive models, and improve customer servicing strategies.
+Our Decision Science teams use industry leading modeling and AI practices to predict customer behavior. We develop, deploy and validate predictive models and support the use of models in economic logic to enable profitable decisions across credit, fraud, marketing and servicing optimization engines.
+Responsibilities:
+Work with massive amounts of digital data (Web, App, API) and sophisticated tools in an industry leading Big Data environment.
+Build everything from basic reports to advanced machine learning models and algos to drive improvements to our customer’s online and mobile app experiences.
+Work with product owners to revolutionize the product and content design with a data-driven approach
+Collaborate with tech partners to test, implement and deploy modeling solutions to production system.
+Develop insights into customer behavior and introduce new approaches to transform complex behavioral data into actionable information
+Leverage the power of closed loop through Amex network to make decisions more intelligent and relevant
+Innovate with a focus on developing newer and better approaches using big data & machine learning solutions
+Qualifications:
+PhDs in a quantitative field (Computer Science, Statistics, Mathematics, Physics, Operation Research and etc.) with hands-on experience leveraging sophisticated analytical and machine learning techniques. PhD degree with practical experiences NLP is a significant plus.
+Expertise in an analytical language (Python, R or the equivalent), and experience with databases (Hive, SQL, or the equivalent). Knowledge of SAS is a plus but not required.
+Deep understanding of machine learning/statistical algorithms such as deep learning and boosting. Experience with data visualization is a plus
+Demonstrated ability to frame business problems into mathematical programming problems, leverage external thinking and tools (from academia and/or other industries) to engineer a solution and deliver business insights.
+Ability to work effectively in a team environment
+Independent thinker who’s organized, has great attention to detail, and can multi-task
+Strong communication skills
+Ability to learn quickly and work independently with sophisticated, unstructured initiatives
+Ability to integrate with cross-functional business partners worldwide
+Proficient in presentation tools, including Excel and PowerPoint",https://www.mycareersfuture.gov.sg/job/information-technology/manager-data-science-american-express-innovation-laboratories-1b7dbb0f2ac5090a9efb1115936ef3f9?source=MCF&event=Search
+8,"Senior Manager, Data Science & Business Intelligence",STARHUB LTD.,"Job Title: Senior Manager, Data Science & Business Intelligence
+Job purpose
+You will lead the Data Science and BI function and to manage the governance, collection, measurement, and visualisation of data, build and enhance data science models to drive business objectives and identify opportunities to improve processes and strategies with technology solutions for Data Science and BI.
+Responsibilities
+Analytics:
+* Conduct monthly deep dives on consumer segment performance (Sub-base, ARPU, Revenue and margins) with a second level insights on product performance by consumer segments.
+* Define, measure, and communicate key performance indicators for consumer segment.
+* Perform complex analysis and modeling for segment by multiple products for GTM activities, with the goal of maximizing revenue, market share and minimizing risk.
+* Assist in segment GTM by identifying key drivers for business case/sponsorship and post mortem evaluation, effectiveness of campaigns
+* Provide actionable recommendations for opportunities that support business objectives identified through ongoing program and customer measurement.
+Data Science
+* Use advanced analytics techniques and models to drive business decisions and impact
+* Proactively look for new innovative ways to better understand our customers needs and behaviours to drive actionable insights
+* Regularly measure existing model performance to improve churn, upsell and cross sell KPI’s
+* Continuously look at how we can enrich our data to create new segments and potential target groups
+Data & Business Intelligence :
+* Provide data and regular reports to the business teams to enhance current strategy for churn, retention, cross and up sell to meet business objectives.
+* Manage and continuously improve the performance dashboards and look for opportunities to improve efficiency across the business through new interactive deep dive dashboards
+* Oversee the deployment of data to the data warehouse and continuously update and enhance it to keep up with changing business needs.
+* Explore and include new data sources in the data warehouse for data science, analytics, digital rewards and campaign management
+* Define, measure, and communicate key performance indicators for consumer segment.
+Team Leadership
+* Manages a small team across data science, data engineering and data visualisation
+* Coach, retain and grow the team’s capability and skillsets with an emphasis on empowering the team
+* Create an environment of continuous business improvement and a culture of innovation
+* Form part of the CLM leadership team and add value across Customer Insights, Campaign Strategy and Digital Rewards
+* Manage and continuously evaluate the existing BI and Data Science tools for optimal performance
+Requirements
+* Degree in Statistics, Mathematics, Economics Engineering or similar field with at least 10 years of data science and analytical work experience in a related role, ideally 3+ in the telco industry
+* Prior experience using Python, R, SAS, SQL, Data Robot or a similar tool
+* Experience utilising Visualisation tools – Tableau, PowerBI or similar tool
+* Quantitative and comfortable working with large amounts of data
+* A self-starter with analytical curiosity and strong business acumen
+* Strong analytical skills with an eye for an insight and the ability to make data driven recommendations
+*We regret that only shortlisted candidates will be notified.",https://www.mycareersfuture.gov.sg/job/engineering/senior-manager-data-science-business-intelligence-starhub-94cc26b6ec7610cfb9268e4b8ab09c05?source=MCF&event=Search
+9,Head of Data Science,CIALFO PTE. LTD.,"Cialfo is a leading platform connecting students, higher education institutions, and counselors through technology-driven solutions. Launched in 2017 with a mission to make education accessible to 100 million students, Cialfo provides a range of mobile and web solutions to students, K-12 institutions, and higher education institutions. We’re one of the fastest-growing tech startups in the region, consistently charting new heights!
+Job Description
+We are looking for a Head of Data Science to lead and expand the data science function in Cialfo and help us gain useful insight out of our data gold mines. Data is the way forward and this role will give you the opportunity to build/mentor an ideal team to pave the way forward! This role will require responsibilities such as hiring and managing a lean data science team, planning projects, be hands-on in building analytics models and production / deployment. You should have a strong problem-solving ability and a knack for statistical analysis. If you’re also able to align our data products with our business goals, we’d love to meet you. This position will be part of our Product team (yes, our wonderful colleagues who make our platform a reality!!) and your ultimate goal will be to help improve our products and business decisions by making the most out of our data.
+Responsibilities
+Manage a team of data scientists, machine learning engineers and big data specialists
+Lead data mining and collection procedures
+Ensure data quality and integrity
+Interpret and analyze data problems, turning business problems into data insights
+Conceive, plan and prioritize data projects
+Build analytic systems and predictive models
+Test performance of data-driven products
+Visualize data and create reports
+Experiment with new models and techniques
+Has in-depth knowledge and expertise in the process of converting an unstructured problem to useful and actionable insights using data science/analytics.
+Align data projects with organizational goals
+Planning data projects
+Building analytic systems and predictive models
+Managing a team of data scientists, machine learning engineers and big data specialists
+Collaborating with stakeholders across teams to execute projects.
+Requirements
+Proven experience as a Data Scientist or similar role, with 5 - 8 years experience.
+Demonstrate the ability to distil complex business problems, solutionize and turn them into measurable, actionable and optimizable outcomes.
+Have experience in building, maintaining and evaluating models in a production (real time and offline) environment. Design and build scalable systems (a short SLA only excites you like there's no tomorrow!)
+Experience building a team from scratch with a strategic vision on how Cialfo can be even more data driven.
+You've done production (real time and offline), hands down you've got this. A short SLA only excites you like there's no tomorrow!
+Strong in the common data science tongues (R, Python, Scala, …), with deep expertise in common data science tools/package (sklearn, mllib, tensorflow, torch, etc.)
+Experience with SQL and NoSQL databases
+Experience building a team from scratch with a strategic vision. Earn extra stripes if you can demonstrate your talent retention ability.
+Stakeholder management is your strong suit, you know how to use data for stakeholder buy-in.
+Strong organizational and leadership skills, with a bias to action
+Masters Degree or PhD in Computer Science, Data Science, Mathematics or similar field",https://www.mycareersfuture.gov.sg/job/others/head-data-science-cialfo-858cb4b197eab64b9eb0f467b4d81f9d?source=MCF&event=Search
+10,Contract Senior Research Assistant / Assistant Manager Data Science,SINGAPORE TOURISM BOARD,"What the role is:
+To implement, manage, monitor and assemble surveys through the use of a survey platform to collect data and use data analytics to generate insights that help STB to make data driven decisions, that will drive growth of Singapore tourism.
+
+Main responsibilities:
+Support the project manager in implementation and execution of data collection through surveys by managing the end-to-end survey processes, such as capturing survey requirements, development, deployment and monitoring of surveys for the purpose of data collection from our tourists. Responsible for various aspects of vendor and contract management.
+Manage survey data collection operational work (e.g., weekly status reporting, survey campaign monitoring and management).
+Lead and execute the training and upskilling of business units in using the survey platform to build and launch their own surveys.
+Support test planning and test execution of enhancements to existing surveys.
+Develop software codes / scripts to automate and build data processing pipelines for survey data integration.
+Contribute to the development of new data models that integrate survey data with STB’s internal datasets.
+Apply data mining techniques, perform statistical analysis and build prototype analysis pipelines iteratively to provide insights from data at scale.
+Distil and present coherent insights using business intelligence tools (e.g. QlikSense) and carry out data storytelling to answer business questions. This may require building new dashboards from scratch based on user input and setting up the associated ETL workstreams.
+
+Competency requirements:
+Achieving results with others
+Analytical thinking
+Change management
+Project management
+Stakeholder management & relationship building
+Data Analytics – perform analysis on data using data analysis tools (e.g. R, SQL) and statistical techniques to obtain insights, patterns or relationships
+Data Visualisation – Ability to set up new QlikSense dashboard and communicate insights through visualisation
+Job requirements:
+Working knowledge of R and SQL
+Minimum 2 years experience with developing surveys on survey platforms (e.g. Qualtrics, Forsta)
+Minimum 2 years relevant experience in data analysis, data story telling, quantitative market research projects
+Survey project management, involving survey development, data quality, data mapping & integration, user acceptance testing
+Proven track record in engaging relevant stakeholders (within and outside of the organization)
+Experience in using visualisation tools & creating new dashboards (e.g. QlikSense)
+Strong presentation and communication skills with ability to express complex ideas in an easy-to-understand manner
+Strong command of written and spoken English
+
+Application Status: Shortlisted candidates will be contacted within 2 weeks from the closing date of this job posting. We regret to inform that only shortlisted candidates will be notified.",https://www.mycareersfuture.gov.sg/job/information-technology/contract-senior-research-assistant-assistant-manager-data-science-singapore-tourism-board-23b83b8cc8171910e5d95c7a2c14c325?source=MCF&event=Search
+11,Senior Consultant - Data Science & Analytics,SIA PARTNERS SINGAPORE PTE. LTD.,"ABOUT SIA PARTNERS:
+
+Sia Partners is a next-generation consulting firm focused on delivering superior value and tangible results to its clients as they navigate the digital revolution. With over 2,400 consultants in 17 countries, we will generate an annual turnover of USD 300 million for the current fiscal year. Our global footprint and our expertise in more than 30 sectors and services allow us to enhance our clients' businesses worldwide.
+We guide their projects and initiatives in strategy, business transformation, IT & digital strategy, and Data Science. As the pioneer of Consulting 4.0, we develop consulting bots and integrate AI in our solutions.
+
+Job Description
+You will also contribute to internal data science projects hosted on Heka, our internal accelerator for data science projects: https://www.heka.ai/en
+As part of the global data science team, you will contribute to the development of various solutions designed to address our clients’ needs.
+
+Key responsibilities:
+Partner with our client’s leadership teams, engineers, program managers and data analysts to understand business needs.
+Steer a small team or work independently on client projects with support of senior leadership
+Identify, acquire, process and explore relevant data sources.
+Analyze large amounts of structured and unstructured information to discover trends and patterns.
+Use your data analytics and data science expertise to derive valuable insights from datasets, build predictive models and machine-learning algorithms.
+Communicate at scale, through multiple mediums: presentations, dashboards, datasets, bots and more.
+Propose solutions and strategies to business challenges.
+Collaborate with engineering and product development teams.
+Contribute to a broad range of projects and deliverables, including models, algorithms, datasets, measurements, services, tools and processes.
+Evangelize data science in the region by contributing to training & upskilling
+Contribute to business development activities such as building proposals, conducting research, and driving thought leadership
+Qualifications
+3+ years’ experience as a Data Scientist or Data analyst (ideally in consulting)
+At least a bachelor’s or equivalent degree in a relevant area of study (Data Science, Business Analytics, Statistics, Economics or a related field of study) from a top university
+Good skills in Python and ideally another analytical language (e.g., R, SQL)
+Problem-solving aptitude and strong business acumen
+Excellent communication and presentation skills
+English fluency. As you will be working with our regional offices in Hong Kong and Japan, additional regional languages is a plus (e.g., Cantonese, Mandarin, Japanese)
+Strong plus: Experience with data visualization tools (e.g., Tableau, PowerBI, R-shiny)
+Strong plus: Good understanding of statistical techniques and concepts
+Strong plus: Knowledge of Machine Learning techniques or optimization
+Additional information
+What do we offer?
+Competitive salary & top tier benefits
+Training resources to further develop yourself as an expert in your discipline
+Opportunity to work with top tier clients in financial services, retail, and other sectors in SG and beyond
+Dynamic environment with many opportunities to take on responsibilities usually reserved for more experienced professionals",https://www.mycareersfuture.gov.sg/job/consulting/senior-consultant-data-science-analytics-sia-partners-singapore-a1206bdd9fbdea0ecbe82309175f2bc3?source=MCF&event=Search
+12,Information Technology - Senior Data Sciences & Analytics Engineer (Data Science Track),SINGAPORE AIRLINES LIMITED,"Job Description
+
+SIA Group has multiple positions for senior data scientists to drive our AI, data science and business analytics initiatives. Responsibilities include the following:
+Member of the in-house AI and data science development team that works on challenging problems in machine learning (including NLP, computer vision and recommender system using deep learning methods), mathematical optimization, game theory, and experimental design.
+Work closely with business stakeholders to create impactful and intelligent features/services in AI, data science and data analytics. Propose and build scalable ML/DL solutions. Deploy them as API microservices for use by software applications and business users for faster and more effective decision making.
+Oversee the technical work of external technology partners and provide them datasets to deliver products/services in AI and data science. Support business users in the assessment/ validation of partner-supplied prediction models and in their deployment to production cloud.
+Help business units create Tableau dashboards with relevant datasets. Extract insights through data visualization.
+Work closely with application development teams to help them operationalize and integrate AI/ML capabilities to their software systems.
+Note: You could be posted to any subsidiary in SIA Group.
+
+Requirements
+BS in Computer Science, Mathematics, Statistics, Physics or related discipline is required. PhD and MS degrees related to machine learning and other AI disciplines are preferred.
+Advanced programming skills in Python. Conversant with algorithm design/analysis, data structure and SQL. Familiarity with functional/object-oriented software development using modern programming languages such as Scala, JavaScript, Java and C# is a plus.
+At least 2 years of relevant industry experience in two or more of the following areas:
+At least intermediate-level hands-on skills in shallow machine learning or information retrieval. Some exposure to GPU-accelerated deep learning frameworks (such as TensorFlow and PyTorch) for more advanced AI work is a plus.
+Knowledge and working experience in workflow, map-reduce or stream processing systems such as Spark and Kafka.
+Familiar with Bayesian statistics and inference. Exposure to the application of Bayesian and causal networks for probabilistic reasoning is a plus.
+Knowledge and working experience with data visualization tools like Tableau or Power BI.
+Some hands-on experience with AWS, GCP or similar public cloud environment.
+Excellent interpersonal & communication skills for working with both technical staff and non-technical business users.
+Experience with Agile/Scrum/Kanban methodologies is a plus.",https://www.mycareersfuture.gov.sg/job/information-technology/information-technology-senior-data-sciences-analytics-engineer-singapore-airlines-4a69a3fe80dec9196dd6d5e09113d8df?source=MCF&event=Search
+13,Research Associate (Digital Health and Data Science),NATIONAL UNIVERSITY OF SINGAPORE,"Job Description
+Applications are invited for the following full-time position in the Saw Swee Hock School of Public Health:
+Research Associate (Digital Health and Data Science), 1 year minimum, up to 3 years
+A Research Associate position is available in the Saw Swee Hock School of Public Health to support the Principal Investigators in research projects in the areas of digital health and behavioural science with focus on the use of intensive longitudinal data. The position will focus on data analyses of diverse digital health data derived in observational and intervention studies using different wearable sensors and smartphone technologies.
+The Research Associate will work closely with members of different research programmes:
+• The Physical Activity and Nutrition Determinants in Asia (PANDA) research programme: https://blog.nus.edu.sg/sphpanda/ PANDA is one of the major research programs of the SSHSPH including faculty members from a variety of disciplines. PANDA aims to understand determinants of nutrition and physical activity behaviors in Asian populations and develop interventions to improve these behaviours and contribute to the prevention of non-communicable diseases and mental well-being.
+• Continuous Observations of Behavioural Risk Factors in Asia (COBRA) study: https://blog.nus.edu.sg/sphpanda/research-projects/cutting-across-area-2-and-area-3/cobra/ COBRA is a sub-cohort of SG100k. It involves 1500 middle aged adults to understand the interactions between behavioural and environmental factors and how these relate to health. Specifically, using wearable sensors, mobile phone applications and spatial analysis, the cohort aims to identify behavioural and environmental determinants of lifestyle risk factors, which inform the design of personalised lifestyle interventions.
+• Future Health Technologies (FHT) – Mobile Interventions: https://fht.ethz.ch/research/mobile-health-interventions.html FHT Module 2 applies the Multiphase Optimisation Strategy to identify and overcome individual, cultural, legal and organisational barriers and identify facilitators for the successful implementation of interventions in Singapore. The program develops smartphone-based interventions for the prevention of type-2 diabetes mellites and the promotion of mental well-being.
+• In performing the data analyses, the candidate will have the opportunity to conduct methodological research in biostatistics or healthcare analytics.
+Major duties and responsibilities of the position include taking the lead in extracting, managing, and analysing data from different digital health studies. In addition, the candidate is expected to lead the publication of results and findings in peer-reviewed journals.
+The candidate is expected to be technically capable, hardworking and able to work independently and as a team.
+Requirements:
+1. Master in a quantitative discipline (e.g. data science, statistics, computer science)
+2. Relevant working experience
+3. Use of scripting languages and statistical software (e.g., R, STATA, Perl, Python) to manage, process and analyse (large) datasets.
+4. Use of multiple data analytics tools and able to learn new tools as required.
+5. Good understanding of the theory behind the data analytics tools which facilitates the conversion of raw data into useful information that addresses the research question.
+Recruitment is open immediately, and will continue until the position is filled.
+For further enquiries, please contact Dr Tan Chuen Seng at ephtcs@nus.edu.sg or Dr Falk Mueller-Riemenschneider at falk.m-r@nus.edu.sg.
+We regret that only shortlisted candidates will be notified.
+Qualifications
+Master in a quantitative discipline (e.g. data science, statistics, computer science)
+Interested applicants are invited to apply directly at our NUS Career Portal.
+We regret that only shortlisted candidates will be notified.
+Covid-19 Message
+At NUS, the health and safety of our staff and students are one of our utmost priorities, and COVID-vaccination supports our commitment to ensure the safety of our community and to make NUS as safe and welcoming as possible. Many of our roles require a significant amount of physical interactions with students/staff/public members. Even for job roles that may be performed remotely, there will be instances where on-campus presence is required.
+Taking into consideration the health and well-being of our staff and students and to better protect everyone in the campus, applicants are strongly encouraged to have themselves fully COVID-19 vaccinated to secure successful employment with NUS.",https://www.mycareersfuture.gov.sg/job/sciences/research-associate-national-university-singapore-9196b106eb52778029a6f8431e5c81f4?source=MCF&event=Search
+14,Head of Data / Data Engineering / Data Science / Data Platform / Data Analytics,RANDSTAD PTE. LIMITED,"Senior Leadership role over a sizable Data team (>50 headcounts with Directors reporting into this position)
+Autonomy to make decisions for data (Strategy roadmap)
+About the company
+Our Client is a market leader within their industry. They have a well-established presence of more than 50 years. As part of their plan to invest in the internal digital transformation, they have created this new senior headcount to led the Data team.
+
+About the job
+Your responsibility involves:
+Designing and lead the Data Engineering and Data Analytics vision and roadmap for the organization. This is with the objective of increasing revenue though driving Go-To-Market use cases and driving operational efficiency.
+Applying best practices and expertise in data engineering to bring value to the company. This includes Designing and conceptualize solution that address business challenges
+Being the main point of contact to the senior management, presenting data analytics findings to senior executives in the development and execution of data strategic initiatives.
+Coordinate with different functional teams to implement models and monitor and analyse model performance and data accuracy.
+Providing thought leadership to assemble capabilities into Data and AI platforms that can enable and scale a variety of analytical process across the company. This includes managing the internal Data team of more than 50 headcounts within the organization.
+
+Skills and experience required
+As a successful applicant, you will have at 12 years of experience in Data. Proven track record in data architecture, data engineering, data science and data analytics is required for this role .
+Candidate with proven track record in managing a sizable team of more than 40 headcounts will be highly preferred.
+
+To apply online please use the 'apply' function, alternatively you may contact Hoon Teck TAN at 6510 3633. (EA: 94C3609/ R1219669).",https://www.mycareersfuture.gov.sg/job/information-technology/head-data-data-engineering-data-science-data-platform-data-analytics-randstad-af19fc775147bfce7a01421f773300b7?source=MCF&event=Search
+15,"AI / Data Science Junior Engineer I, DxD Hub",A*STAR RESEARCH ENTITIES,"Job Description & Responsibilities
+The candidate will be attached to the Digital Health Solutions department. He/she will be Involved in development of Machine Learning (ML) AI models and software solutions through projects at DxD Hub. In this position, the candidate will gain exposure to the product development life cycle of software as medical device (SaMD), and breadth of technologies and disease states in the digital health space.
+
+The job activities include but not limited to the list below:
+• Analyze and draft software specifications and other design and develop features based on product requirements
+• Quick software prototyping for test-bedding of software for use case scenarios
+• Potentially working with various startups to develop AI/ML models for healthcare applications.
+• Support software product development activities.
+• Perform software documentation, software testing, software validation, troubleshooting and optimization to ensure requirements are met
+• Liaise and coordinate with team for deployment and testing of software applications.
+• Work with Project manager to conceptualize digital health products with inputs from researchers, clinicians and industry; to design novel and clinically relevant digital health applications.
+• Oversee product development, verification, and validation of digital health applications.
+• write design optimization and verification plans and reports for digital health applications in accordance with ISO 13485
+• Compile and communicate software development progress reports for presentations with DxD Hub management.
+
+Job Requirements (Qualification and softskills)
+• A minimum bachelor’s degree in Biomedical Engineering, Computer Science/Information Technology, Engineering or equivalent.
+
+• Technical Skills
+• Some Hands-on experience software engineering and coding
+• Knowledge in ML model development
+• Knowledge in software development and testing
+• Knowledge of cybersecurity and cloud architectures is a plus
+• Knowledge in app develop on either Android or iOS platform is a plus
+• Knowledge of biomedical field is a plus
+
+• Soft Skills
+• Able to communicate effectively, multi-task and able to work in a dynamic environment
+• Ability to work in cross functional teams
+• Well organized, with good interpersonal and written communication skills
+
+• Abilities/Aptitudes
+• Highly motivated and results driven
+• Proactive and takes ownership of the projects
+• Adaptable to work exigencies
+• Works well as part of a team, yet able to work independently
+• Prioritizes assigned tasks and manages time accordingly
+• Self-learner",https://www.mycareersfuture.gov.sg/job/sciences/ai-data-science-junior-engineer-i-dxd-hub-astar-research-entities-2ccd5167b2d5cf24d867fcfe2ac90c5b?source=MCF&event=Search
+16,Information Technology - Senior Data Sciences & Analytics Engineer (Machine Learning Track),SINGAPORE AIRLINES LIMITED,"Job Description
+
+SIA has multiple positions for machine learning/deep learning experts to drive our AI and data science initiatives.
+
+Key Responsibilities:
+Member of the in-house AI Center-of-Excellence team that works on challenging problems in machine learning (including areas on NLP, computer vision, recommender system, transfer learning and reinforcement learning), mathematical optimization, game theory, and experimental design.
+Research and develop statistical machine learning and deep learning algorithms to meet complex product requirements. The scope includes defining hypotheses, executing necessary tests and experiments; evaluating, tuning and optimizing algorithms and methods; and having an eye towards cloud implementation ease, scalability, and robustness in a live customer-facing production environment.
+Provide technical direction and guidance to a small and highly skilled team of junior and senior data scientists embedded in Kanban data squads. These squads deliver products/services in AI, data science and data analytics to stakeholders in a large number of business units. Serve as a go-to expert in your area of ML/DL expertise.
+Work closely with business stakeholders to create impactful and intelligent features/products. Collaborate with other team members including data scientists, data engineers and data strategists. Strategic ownership of all critical end-to-end AI processes.
+Administer/maintain performant cloud and on-premises GPU compute resources that train large ML models and provide inference microservices in production.
+Requirements
+PhD degree related to computer science, advanced machine learning or other AI disciplines is required. Consideration will be given to exceptional candidates without advanced degrees.
+Advanced programming skills in Python. Strong technical skills in algorithm design/analysis, data structure and SQL. Intermediate-level mastery of functional/object-oriented software development using modern programming languages such as Scala, JavaScript, Java and C#.
+At least 3 years of relevant industry experience in two or more of the following areas:
+Expert-level hands-on skills in shallow and deep machine learning. Highly conversant with GPU-accelerated deep learning frameworks (such as TensorFlow and PyTorch).
+Demonstrated ability in rapidly adapting, training and deploying state-of-the-art AI models in production based on the latest published research papers and code.
+Knowledge and working experience in workflow, map-reduce or stream processing systems such as Spark and Kafka.
+Strong skills in Bayesian statistics and inference. Comfortable with the application of Bayesian and causal networks for probabilistic reasoning.
+Significant hands-on experience with AWS, GCP or similar public cloud environment.
+Excellent mentoring, interpersonal and communication skills for working with both technical staff and non-technical business users.
+Demonstrated intellectual firepower as a rapid problem-solver and tech lead.
+Experience with Agile/Scrum/Kanban methodologies is a plus.",https://www.mycareersfuture.gov.sg/job/information-technology/information-technology-senior-data-sciences-analytics-engineer-singapore-airlines-3d7d479affce974f5ec741d819e14e6e?source=MCF&event=Search
+17,Head of Data Science (APAC),BEATHCHAPMAN (PTE. LTD.),"Our client is a leading provider of consulting, engineering, and project management services. With 50, 000 employees across 80 countries, they design, build, operate, and finance various critical infrastructure projects.
+Responsibilities:
+First and foremost, the Head of Data Science will be accountable and responsible for driving the innovation and execution of the data science practice. This includes providing hands-on leadership by prototyping data science models to validate/in-validate hypothesis and then driving execution to productize those models to ensure speed of execution along with scalability, performance, and maintainability of the models.
+The ideal candidate will demonstrate knowledge of Machine Learning and utilizing data to obtain new insights and turning those insights into revenue generating commercial offerings.
+Requirements:
+Tertiary Degree in Computer Science or Engineering
+10+ years of hands-on data science experience where you are personally creating data science models. This includes performing data preparation (using SQL or Python). Creating data pipelines, practical experience in implementing machine learning algorithms for clustering, classification, regression use cases
+Track record of building and managing data science teams
+Strong knowledge of Python to create data science models
+Familiar and comfortable performing ETL activities on data sets
+Track record working on a large-scale data platform in a data-intensive environment
+Experience collaborating with architects, engineers, development managers, and product management to assist in the implementation and productization of your data science models
+Strong focus on the customer and a clear understanding of the customer problems we're leveraging data science to solve.
+Demonstrate desire to operate with a sense of urgency and bring solutions to market as quickly as possible (while ensuring they satisfy use cases and are implemented with high quality)
+Interested parties please get in touch with Zain via zain.hussain@ethosbc.com for a confidential discussion.
+Reg No: R1981018
+BeathChapman Pte Ltd
+Licence No 16S8112",https://www.mycareersfuture.gov.sg/job/information-technology/head-data-science-beathchapman-57e3ecfe0548d89f00a60795bf886c7d?source=MCF&event=Search
+18,Research Fellow (Statistics and Data Science),NATIONAL UNIVERSITY OF SINGAPORE,"Job Description
+The successful candidate will work with Dr. Michael Choi and co-supervised by Dr. Wenqian Chen on stochastic algorithms with applications in bioinformatics and protein folding under a project on MAPLE: Mechanistic Accelerated Prediction of Protein Secondary Structure via LangEvin Monte Carlo, supported by a Ministry of Education Tier 1 grant under the Data for Science and Science for Data collaboration scheme.
+The main responsibilities of the position include:
+• Develop and analyze new stochastic algorithms with applications in bioinformatics and protein folding
+• Conduct numerical and possibly physical experiments to support the theoretical findings
+• Conduct literature review in bioinformatics and protein folding
+Qualifications
+• Qualifications / Discipline:
+Ph.D. degree in Applied Mathematics, Statistics, Computer Science, Physics or Biochemical Engineering with research interests in stochastic algorithms, bioinformatics and related fields.
+• Skills:
+Research level knowledge in understanding state-of-the-art stochastic algorithms in bioinformatics and protein folding. Ability to develop new algorithms in Python.
+• Experience:
+Prior research experience in stochastic algorithms and bioinformatics is preferred.
+Interested applicants are invited to apply directly at our NUS Career Portal.
+We regret that only shortlisted candidates will be notified.
+Covid-19 Message
+At NUS, the health and safety of our staff and students are one of our utmost priorities, and COVID-vaccination supports our commitment to ensure the safety of our community and to make NUS as safe and welcoming as possible. Many of our roles require a significant amount of physical interactions with students/staff/public members. Even for job roles that may be performed remotely, there will be instances where on-campus presence is required.
+Taking into consideration the health and well-being of our staff and students and to better protect everyone in the campus, applicants are strongly encouraged to have themselves fully COVID-19 vaccinated to secure successful employment with NUS.",https://www.mycareersfuture.gov.sg/job/sciences/research-fellow-national-university-singapore-6e9f9694b3b2f08f3c3cf30b8e417797?source=MCF&event=Search
+19,Data Science Research Fellow (Heat Resilience & Performance Centre),NATIONAL UNIVERSITY OF SINGAPORE,"Job Description
+The National University of Singapore (NUS) invites applications for the role of Research Fellow with the Heat Resilience & Performance Centre (HRPC), Yong Loo Lin School of Medicine. The HRPC is a first-of-its-kind research centre, established at the NUS, to spearhead and conduct research and development to better enable the future challenges arising from rising ambient heat. Appointments will be made on a two-year contract basis, with the possibility of extension.
+We are seeking a Research Fellow who will play a key role in driving the development, execution and analysis of research that leverage on technology and data science to address the challenges of training and operating in rising ambient temperatures. This role is part of a multi-disciplinary group comprising exercise and thermal physiologists, data scientists, biomedical engineers, and researchers that will be focused on developing heat health prediction models to be deployed with wearable systems.
+Main Duties and Responsibilities
+The main areas of responsibilities of the role will include:
+Working closely with research PIs to develop research strategies and ensure the successful and timely completion of the project(s)
+Designing research protocols and data analysis approaches based on the research agenda, drawing upon previous literature, research best practices, methods and modelling techniques (qualitative and quantitative)
+Leading and training the research team(s)
+Project management and execution of required data collection and research plans
+Establishing and the management of large databases
+Main Duties and Responsibilities
+Interpretating and analysis of data, utilising an array of methods and modelling techniques
+Generating reports and presentation of data to relevant stakeholders
+Generating conference presentations and papers for submission to peer reviewed journals
+Collaborating across teams, contributing to multiple research projects at once
+Communicating with stakeholders to understand business challenges and potential solutions
+Qualifications
+Doctorate degree in a quantitative discipline (eg. statistics, mathematics, data science, computer science, computational biology, engineering.).
+Experience and interest in prediction modelling
+Proficient in statistical software and programming languages and familiarity with relevant libraries.
+Keen interest in heat health and human performance
+Proficient in qualitative research
+Proficient in data analysis tools in quantitative research
+Strong background with extensive experience leading research projects would be an advantage
+Proven knowledge of data collection methods
+Additional Skills
+Excellent written and verbal communication skills
+Good track record of international publications in human research
+Proficient in project management
+Resourceful and self-driven
+Adaptable and able to multitask well with clear follow-through
+High levels of attention to detail and quality
+Willingness to travel off-site and work beyond routine work hours based on the requirements of the research
+Demonstrated ability to work independently and thrive in a fast-paced environment
+Commitment to the ongoing development of a positive organizational culture
+Willingness to contribute to a learning environment
+Remuneration will be commensurate with the candidate’s qualifications and experience. Informal enquiries are welcome and should be made to Ms Lydia Law, at lydialaw@nus.edu.sg.
+Interested applicants are invited to apply directly at our NUS Career Portal.
+We regret that only shortlisted candidates will be notified.
+Please submit your application, indicating current/expected salary, supported by a detailed CV (including personal particulars, academic and employment history, complete list of publications/oral presentations and full contacts of 2 referees to this job portal.
+Covid-19 Message
+At NUS, the health and safety of our staff and students are one of our utmost priorities, and COVID-vaccination supports our commitment to ensure the safety of our community and to make NUS as safe and welcoming as possible. Many of our roles require a significant amount of physical interactions with students/staff/public members. Even for job roles that may be performed remotely, there will be instances where on-campus presence is required.
+Taking into consideration the health and well-being of our staff and students and to better protect everyone in the campus, applicants are strongly encouraged to have themselves fully COVID-19 vaccinated to secure successful employment with NUS.",https://www.mycareersfuture.gov.sg/job/sciences/data-science-research-fellow-national-university-singapore-daeed98c8c44444e911aee8c73ae70c2?source=MCF&event=Search
+20,Data Science Intern to Perm,BIOQUEST ADVISORY PTE. LTD.,"This internship offers hands-on experience working on data science projects for our clients. As an intern, you'll gain valuable skills in understanding client business needs, data preparation, data analysis, and using machine learning models to derive insights. You'll work closely with our clients under the guidance of experienced professionals.
+
+Our Data Science Internship program has the potential to lead to a permanent position at our company. The minimum duration of the internship is six months.
+
+We're looking for final year students currently pursuing degrees in Computer Science/Data Science, Statistical Mathematics, Engineering, Actuarial Science, or related fields with a strong background in data science. Proficiency in SQL and Python programming is required, and familiarity with Hadoop, Sparks, and its libraries is preferred.
+
+Experience with Graph Databases like Neo4j or AWS Neptune is a plus.
+We're seeking enthusiastic learners with strong analytical and problem-solving skills, good communication skills, and a customer service attitude. You should enjoy working in a team and be able to commit to a six-month internship.
+
+At BioQuest, we value collaboration, teamwork, and knowledge sharing. Our culture is supportive and inclusive, with a strong emphasis on ethics and diversity. You'll have opportunities to learn about emerging technologies, receive mentorship from experienced consultants, and work in a supportive and collaborative environment. For high performers, there is an excellent career growth path.
+
+We are an equal opportunity employer and welcome applicants from all backgrounds.",https://www.mycareersfuture.gov.sg/job/banking-finance/data-science-intern-perm-bioquest-advisory-b18abeb61c30f5e8ac66017f8c4f93ad?source=MCF&event=Search
+21,"Biostatistician, Data Science (Population Health)",SINGAPORE EYE RESEARCH INSTITUTE,"We are inviting suitably qualified candidates for the position of Biostatistician in the PHR group under the direct supervision of Professor Ecosse Lamoureux, Head of the PHR group and Director of the Population Health Platform at SERI. This position offers an excellent opportunity for the applicant to undertake and further develop their statistical research skills at SERI under his mentorship and that of other capable senior statisticians. An interest in patient-centred, epidemiological and health services research in ocular diseases and/or the aging population will be good.
+
+Responsibilities
+He/she will be expected to:
+Advise on all statistical aspects relating to the design and analysis of research studies including hypothesis formulation, subject sampling and randomization, and sample size determination
+Provide expert input to the methodological sections of funding applications, research protocols, statistical reports, and scientific manuscripts
+Develop complex statistical analysis strategies and execute them efficiently using advanced programming techniques
+Work closely with research coordinators and data managers to align data collection procedures and protocols with analytical plans
+Regularly perform rigorous quality checks to ensure the integrity, accuracy and completeness of data within various databases
+Conduct analysis, visualisation, and modelling of longitudinal clinical and epidemiological data
+Create publication-standard tables, listings and figures for study reports
+Keep abreast of and advise on the latest statistical techniques and tools
+Work collaboratively and build relationships with team members, study investigators and collaborators
+Coach and mentor research fellows, and medical students
+Perform other related or additional duties assigned by the PI
+
+Requirements:
+At least a Bachelor degree in Biostatistics, Medical Statistics, or a relevant discipline
+Experience managing and analysing longitudinal clinical, health, or epidemiological research data
+A thorough understanding of the statistical aspects and design considerations of randomized controlled trials and observational studies
+Comprehensive knowledge of advanced statistical methods, causal inference, and predictive modelling techniques
+Proficient in the use of Stata and at least another statistical software (e.g. R, SAS)
+Good written and verbal communication skills, especially in relation to explaining complex techniques and interpreting the results of statistical analyses to study team members
+Ability to work independently with minimal supervision
+Uncompromising on the quality and timeliness of statistical deliverables
+Ability to see the big picture, whilst still maintaining rigour on detail and implementation
+An analytical mind and self-driven personality, proactive in providing statistical advice at all stages of a project’s life cycle
+
+Desirable:
+Knowledge and experience with building machine learning predictive models
+Knowledge of ophthalmology, health economics or psychometrics
+A history of first- or co-authorship in scientific journals",https://www.mycareersfuture.gov.sg/job/sciences/biostatistician-data-science-singapore-eye-research-institute-c596c9c49d00b83268da949fbdb3e14c?source=MCF&event=Search
+22,"Manager, Data Science 1",PAYPAL PTE. LTD.,"PayPal’s rapidly growing Buy Now, Pay Later (BNPL) payment suite is trusted by millions of consumers globally to flexibly purchase the products they love. As PayPal continues to bring innovative and customer-centric BNPL products to newer markets and channels, the BNPL Analytics team is looking for an experienced data scientist who will look at data, customer, and merchant feedback to analyze and evaluate trends to drive improvements in KPIs and overall CX, engagement and program profitability. This person will assist with identifying areas of opportunity to help build a best-in-class experience for our customers. This includes sizing and prioritizing opportunities and measuring impacts of changes post implementation across product and operations.
+
+• You believe in data-driven decisions and use data to answer business questions
+• You are hyper-analytical, intellectually honest, and extremely passionate about data and testing (e.g., A/B experimentation)
+• You are a highly motivated, result-oriented self-starter, enjoy working in a fast- paced environment, and can deliver successful results with minimal guidance
+• You are energized, fun-loving and an adventurous team player
+Job DescriptionJob Description
+Core Responsibilities:
+Apply your expertise in quantitative analysis, data mining, and the presentation of data to see beyond the numbers and understand how our users interact with PayPal’s Buy Now Pay Later consumer products
+Work cross-functionally with product, engineering, and user experience design teams to design hypothesis-driven experiments; make clear, coherent and holistic recommendations based on test results
+Identify trends, distill insights, and build dashboards to find opportunities to help identify product, training, and other operational opportunities
+Apply your expertise in quantitative analysis, data mining, and the presentation of data to see beyond the numbers and understand how our users interact with both our consumer and merchant products
+Work with partners across the business measure and evaluate the performance of various initiatives and product changes to KPIs
+Investigate and document current customer journeys and internal processes and flows to determine opportunities
+Requirements:
+Data-driven mindset with a degree in any quantitative discipline such as Engineering, Computer Science, Economics, Statistics or Mathematics
+5+ years of experience in analyzing large, multi-dimensional data sets and synthesizing insights into actionable solutions
+Expertise in SQL, Excel, and visualization tools such as Tableau
+Experience with a statistical programming language like R or Python preferred
+Strong written and verbal communication skills to influence stakeholders
+Prior work experience with consulting, financial or product-based companies is highly valued
+Experience in managing and mentoring junior analysts is a must",https://www.mycareersfuture.gov.sg/job/information-technology/manager-data-science-1-paypal-693f3c1489e97ea48cc55b5511df1a86?source=MCF&event=Search
+23,"Bioinformatics Specialist, Genome Research Informatics and Data Science Platform, GIS",A*STAR RESEARCH ENTITIES,"Job description:
+The Genome Institute of Singapore (GIS) has an exciting opportunity for a Research Officer (Bioinformatics Specialist) to join a population-scale genomics initiative that aims to create a comprehensive data bank with integrated genetic, clinical and lifestyle data. In its pilot phase, this effort has completed whole-genome sequencing of 10K individuals, and has delivered a catalogue of common genetic variants across Singapore’s three main ethnic populations (Wu D. et al. 2019, Wong et al. 2022 in preparation). Now, the challenge is to scale up genetic data production and develop the infrastructure needed the next phases of the National Precision Medicine Program (100K individuals by 2024, then 1 million individuals in 2025 and beyond). By joining our multi-disciplinary, team, you will be involved in efforts to set up a high-throughput data analysis workflow, devise solutions for managing and controlling access to petabytes of information, and eventually apply the developed tools to deliver one of the largest population genomics efforts in South Asia to date.
+
+Requirements
+Candidates who meet most of the requirements will be considered.
+BSc, MSc or equivalent experience in Bioinformatics, Computational Biology, or related
+Demonstrated experience in Python, preferably applied to task automation and data analysis
+Experience in analysis of high-throughput sequencing data
+Knowledge of standard bioinformatics file formats (BAM/CRAM, (g)VCF…), tools (samtools, bcftools, IGV…) and data repositories (dbSNP, ClinVar, Ensembl, gnomAD…)
+Excellent attention to detail and problem-solving skills
+Strong communication skills and ability to work as a team
+Good organisational skills
+Ability to learn quickly on the job
+Familiarity with various tools such as Docker/Singularity, Conda and/or nextflow is a plus
+Familiarity with cloud computing environments (especially AmazonWebServices) is a plus
+Experience with version control systems such as Git/GitHub is a plus
+Experience with Atlassian software (Jira, Confluence) is a plus
+Responsibilities
+Design, develop and implement workflows for analysing results from high-throughput sequencing experiments
+Design, develop and implement cloud infrastructure to support population-scale WGS pipelines
+Document analysis workflows and their associated data flow into SOPs, work instructions, protocols and other technical documentation
+Follow established protocols in order to process consortia samples at large-scale
+Contribute to collaborations with local and international industry partners in both the Biotech and Pharma sectors
+Raise, troubleshoot and document unexpected outcomes in production workflows, and collaborate with colleagues to promptly resolve them
+Implement standards and best practices (e.g. GA4GH)
+Coordinate with members of the Dev Ops team to identify improvement areas, suggest solutions and implement them following a controlled changed process
+Deliver internal training on various aspects of the production workflow",https://www.mycareersfuture.gov.sg/job/sciences/bioinformatics-specialist-genome-research-informatics-data-science-platform-gis-astar-research-entities-3f69696716cc01b2c4f8ec74898eeae5?source=MCF&event=Search
+24,"Bioinformatics Specialist, Genome Research Informatics and Data Science Platform, GIS",A*STAR RESEARCH ENTITIES,"Job description:
+The Genome Institute of Singapore (GIS) has an exciting opportunity for a Research Officer (Bioinformatics Specialist) to join a population-scale genomics initiative that aims to create a comprehensive data bank with integrated genetic, clinical and lifestyle data. In its pilot phase, this effort has completed whole-genome sequencing of 10K individuals, and has delivered a catalogue of common genetic variants across Singapore’s three main ethnic populations (Wu D. et al. 2019, Wong et al. 2022 in preparation). Now, the challenge is to scale up genetic data production and develop the infrastructure needed the next phases of the National Precision Medicine Program (100K individuals by 2024, then 1 million individuals in 2025 and beyond). By joining our multi-disciplinary, team, you will be involved in efforts to set up a high-throughput data analysis workflow, devise solutions for managing and controlling access to petabytes of information, and eventually apply the developed tools to deliver one of the largest population genomics efforts in South Asia to date.
+
+Requirements
+Candidates who meet most of the requirements will be considered.
+BSc, MSc or equivalent experience in Bioinformatics, Computational Biology, or related
+Demonstrated experience in Python, preferably applied to task automation and data analysis
+Experience in analysis of high-throughput sequencing data
+Knowledge of standard bioinformatics file formats (BAM/CRAM, (g)VCF…), tools (samtools, bcftools, IGV…) and data repositories (dbSNP, ClinVar, Ensembl, gnomAD…)
+Excellent attention to detail and problem-solving skills
+Strong communication skills and ability to work as a team
+Good organisational skills
+Ability to learn quickly on the job
+Familiarity with various tools such as Docker/Singularity, Conda and/or nextflow is a plus
+Familiarity with cloud computing environments (especially AmazonWebServices) is a plus
+Experience with version control systems such as Git/GitHub is a plus
+Experience with Atlassian software (Jira, Confluence) is a plus
+Responsibilities
+Design, develop and implement workflows for analysing results from high-throughput sequencing experiments
+Design, develop and implement cloud infrastructure to support population-scale WGS pipelines
+Document analysis workflows and their associated data flow into SOPs, work instructions, protocols and other technical documentation
+Follow established protocols in order to process consortia samples at large-scale
+Contribute to collaborations with local and international industry partners in both the Biotech and Pharma sectors
+Raise, troubleshoot and document unexpected outcomes in production workflows, and collaborate with colleagues to promptly resolve them
+Implement standards and best practices (e.g. GA4GH)
+Coordinate with members of the Dev Ops team to identify improvement areas, suggest solutions and implement them following a controlled changed process
+Deliver internal training on various aspects of the production workflow",https://www.mycareersfuture.gov.sg/job/sciences/bioinformatics-specialist-genome-research-informatics-data-science-platform-gis-astar-research-entities-0898601a79148b01585fe829d78df539?source=MCF&event=Search
+25,22577702 GFCII Data Intelligence Data Science Senior Analyst (AVP) - Hybrid,CITIBANK N.A.,"The Data Science Senior Analyst is a seasoned professional role. Applies in-depth disciplinary knowledge, contributing to the development of new techniques and the improvement of processes and work-flow for the area or function. Integrates subject matter and industry expertise within a defined area. Requires in-depth understanding of how areas collectively integrate within the sub-function as well as coordinate and contribute to the objectives of the function and overall business. Evaluates moderately complex and variable issues with substantial potential impact, where development of an approach/taking of an action involves weighing various alternatives and balancing potentially conflicting situations using multiple sources of information. Requires good analytical skills in order to filter, prioritize and validate potentially complex and dynamic material from multiple sources. Strong communication and diplomacy skills are required. Regularly assumes informal/formal leadership role within teams. Involved in coaching and training of new recruits. Significant impact in terms of project size, geography, etc. by influencing decisions through advice, counsel and/or facilitating services to others in area of specialization. Work and performance of all teams in the area are directly affected by the performance of the individual.
+Responsibilities:
+Utilize features and algorithms to drive down false positives and identify financial crime threats across the firm.
+Demonstrate an ability to apply curiosity and critical thinking in data mining, analytics, and derivative outputs.
+Conduct data mining / query functions across relational or big data databases utilizing various data science tools and methods.
+Supports global/regional interna SMEs; responsible for investigating and researching the Financial Crimes processes and tools identifying efficiency and effectiveness opportunities.
+Supports global team members during feature and algorithm research, design, and implementation as needed.
+Supports tactical and strategic initiatives and projects focused on financial crime detection.
+Understand the regional or global implications and applicability of the recommendations.
+Partner with and assist global resources ensuring the teams working cohesively and effectively to compete the research, analysis, and recommendation process.
+Effectively communicate recommendations to stakeholders.
+Conduct analysis employing available technology to identify patterns, red flags, or typologies
+of interesting behavior.
+Synthesize information into knowledge by identifying relevant trends and issues.
+Document and reference key facts uncovered during research and analysis process.
+May support global and regional projects to include development, implementation and/or supply ongoing support for the recommended solution.
+Support analytical necessary business solution documentation (BRD, TSD, etc.).
+May participate in the development, testing, and training of new or enhanced tactical solutions or strategic system applications.
+Additional Information:
+This proposed role will require the incumbent to perform the following roles and responsibilities:
+The Data Science Senior Analyst must demonstrate critical thinking, analytical and problem-solving abilities, hands-on intelligence led data analysis skills, network analysis acumen, and intellectual curiosity is essential for data science tasks. The candidate must be able to apply these abilities to detect non-obvious risks or develop, test, and champion ideas to increase detection. The candidate should understand data science methods and visualization techniques to leverage internal and external data to identify and develop ways to systemically detect financial crime risk.
+Develop and leverage innovative features and algorithms to drive down false positives and identify perceived threat across the firm.
+Demonstrate an ability to apply curiosity and critical thinking and turn data mining, analytics, and derivative outputs / presentations into coherent business driven implementation proposals.
+Utilize traditional statistical analytics, graph theory / network science, ensemble methods and the text analytics like Natural language processing, factors analysis / construct development and testing, machine learning feature development and engineering, etc.
+Conduct data mining / query functions across relational or big data databases utilizing various data science tools and methods.
+Understand the difference between information and intelligence; demonstrates previously applied research to create intelligence from big data sets and drive decision recommendations
+Supports global/regional internal SMEs; responsible for investigating and researching the Financial Crimes processes and tools identifying efficiency and effectiveness opportunities.
+The role requires the ability to develop and effectively communicate recommendations to senior leadership.
+May participate in the development, testing, and training of new or enhanced tactical solutions or strategic system applications.
+Qualifications:
+5-8 years experience in business and data analysis, process improvement and project management
+Ability to effectively use complex analytical, interpretive and problem solving techniques.
+Demonstrated interpersonal, verbal and written communication skills.
+Experience in financial crime domain knowledge is plus.
+Exceptional SQL skills using tools like Teradata, MS SQL, MySQL, Hadoop
+Exceptional skills using tools like: Python, R, SAS or similar statistical package, PowerBI or Tableau
+Experience with graph theory / network science analysis and tools is a plus.
+Hands-on on various statistical models & possess excellent experience.
+Ability to analyze large sets of complex data, draw meaningful conclusions, and make business conclusion.
+Education:
+Bachelor’s/University degree or equivalent experience
+Professional certification/Degree on Data science and Machine Learning",https://www.mycareersfuture.gov.sg/job/banking-finance/22577702-gfcii-data-intelligence-data-science-senior-analyst-hybrid-citibank-na-88fc643845ffdf986c1d9145fc8e153f?source=MCF&event=Search
+26,Data Science Lead - User Growth TikTok,TIKTOK PTE. LTD.,"TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Singapore, Jakarta, Seoul and Tokyo.
+
+Why Join Us
+
+At TikTok, our people are humble, intelligent, compassionate and creative. We create to inspire - for you, for us, and for more than 1 billion users on our platform. We lead with curiosity and aim for the highest, never shying away from taking calculated risks and embracing ambiguity as it comes. Here, the opportunities are limitless for those who dare to pursue bold ideas that exist just beyond the boundary of possibility. Join us and make impact happen with a career at TikTok.
+
+The Growth team plays a core role in acquisition, activation, and retention of billions of users, through our globally popular products such as TikTok, Resso, CapCut, Helo, etc. We are building platform foundation, leveraging data and ML models, and providing end-to-end solutions to power global growth of ByteDance products. Typical Growth projects including referral, notifications, paid ads, etc.
+
+
+You will:
+- Develop comprehensive product metrics and quantitative measurement structure based on product stages and business purposes.
+- Prototype analysis pipelines to provide insights, and provide quick responses to business inquiries and events;
+- Conduct routine and non-routine end-to-end analyses with large, complex data sets, and make recommendations on appropriate solutions;
+- Cooperate with PM / Ops team / R&D, promote the implementation of optimization scheme, and bring about the actual improvement and growth of the business.
+
+Qualifications:
+- Bachelor's degree or above in Statistics, Applied Mathematics, Computer Science or a related field
+- 5+ years of working experience in Data Science, algorithmic engineering, or machine learning - Proficient in SQL/Hive/Python or R, experienced in massive data manipulation, machine learning & modeling
+- Strong technical leadership combined with hands-on data mining and machine learning application experience
+- Solid technical & knowledge of A/B testing methodologies, can consistently explore and find the best practice
+- Insightful data sense and rigorous logical mindset, capable of providing systematic approaches to solve business problems;
+- Quickly familiar with and starting a new business; Can lead a small project team to support business
+- Demonstrated leadership and self-direction. Willingness to both teach others and learn new techniques
+- Have a strong ability to work under pressure, have the courage to overcome difficulties, and accept challenges.
+
+TikTok is committed to creating an inclusive space where employees are valued for their skills, experiences, and unique perspectives. Our platform connects people from across the globe and so does our workplace. At TikTok, our mission is to inspire creativity and bring joy. To achieve that goal, we are committed to celebrating our diverse voices and to creating an environment that reflects the many communities we reach. We are passionate about this and hope you are too.",https://www.mycareersfuture.gov.sg/job/information-technology/data-science-lead-user-growth-tiktok-tiktok-a9687e3bda80fa205266c1d3db27e2b3?source=MCF&event=Search
+27,Data Science Intern to Perm,BIOQUEST ADVISORY PTE. LTD.,"In this internship, you would work with our data science related projects for our clients. You would gain hands on experience in understanding client’s business needs, doing data preparation, working through the data points, linkages and patterns to derive data insights with the use of machine learning models. You would be interacting with our clients with the guidance of your seniors.
+
+Our Data Science Interns would have the opportunity to join us as our permanent staff after the internship.
+
+The minimum period for the internship is 6 months.
+
+Your profile
+
+· Final Year students who are currently pursuing a degree program in Computer Science/Data Science, Statistical Mathematics, Engineering, Actuarial Science or any other related discipline with good data science exposure
+· Competent in SQL and Python programming; Familiar with Hadoop, Sparks and its libraries
+· Experience on Graph Databases like Neo4j/AWS Neptune would be advantageous
+· Enthusiastic learner with good command of English (spoken and written)
+· Strong analytical and problem-solving skills
+· Good communicator, able to think-on-your-feet, have a customer service attitude
+· Enjoy working in a team and is a good team player
+· Able to commit to 6 months internship for training
+
+Join us
+
+At BioQuest, we value collaboration, teamwork and knowledge transfers. Our culture is friendly and supportive with a strong emphasis on ethics, diversity and inclusiveness.
+• Learning opportunities in emerging technologies
+• Mentorship with experienced technical consultants
+• Supportive and collaborative work environment
+• Excellent career growth path for good performers
+
+We are an equal opportunity employer.",https://www.mycareersfuture.gov.sg/job/banking-finance/data-science-intern-perm-bioquest-advisory-2febe54230d0d2f36c0cc6f214a1dd78?source=MCF&event=Search
+28,"Scientific Officer / Senior Scientific Officer (Statistics & Data Science-3 year contract, renewable)",NATIONAL UNIVERSITY OF SINGAPORE,"Job Description
+The duties and responsibilities of the incumbent, in the Data Analytics Consulting Centre (DACC), Department of Statistics and Data Science, include, but are not limited to the following -
+Secure, co-ordinate and supervise consulting projects for the DACC.
+Lead student teams and work hands-on to create practical solutions for our clients.
+Take lead in solving problems from consulting projects by using state-of-the-art methodology from statistics, data science, mathematics and computer science.
+Take lead in producing technology ('minimum viable products) for the delivery of consulting project results.
+Assist with literature reviews for consulting and advisory projects.
+Handle student walk-in consultations.
+Build and maintain relationship with companies.
+Manage consulting and research legal contracts.
+Obtain funding approval for the DACC Executive Training courses and workshops.
+Organize data science conferences and meet-ups.
+Manage executive training courses and workshops.
+Qualifications/Requirements/Other info
+PhD in Statistics, Mathematics, Computer Science or Data Science , with experience in managing research projects.
+- Remuneration is based on a 12-month salary structure, with annual variable bonus which is subject to incumbent’s performance and the University/School’s prevailing remuneration policies.
+- The incumbent will be emplaced at an appropriate appointment grade based on his/her individual merits.
+- To expedite application processing, a copy of academic certificates and transcripts from GCE O-level onwards should be uploaded via the online application portal.
+Interested applicants are invited to apply directly at our NUS Career Portal.
+We regret that only shortlisted candidates will be notified.
+Covid-19 Message
+At NUS, the health and safety of our staff and students are one of our utmost priorities, and COVID-vaccination supports our commitment to ensure the safety of our community and to make NUS as safe and welcoming as possible. Many of our roles require a significant amount of physical interactions with students/staff/public members. Even for job roles that may be performed remotely, there will be instances where on-campus presence is required.
+Taking into consideration the health and well-being of our staff and students and to better protect everyone in the campus, applicants are strongly encouraged to have themselves fully COVID-19 vaccinated to secure successful employment with NUS.",https://www.mycareersfuture.gov.sg/job/others/scientific-officer-senior-scientific-officer-national-university-singapore-eb9e1870a13e7ce0f444d4011ff4e288?source=MCF&event=Search
+29,Data Science Manager / Director,AIRWALLEX (SINGAPORE) PTE. LTD.,"What you will do:
+Lead and grow a globally distributed product analytics team to conduct analytics studies and experimentations to shape a shared, data-informed strategic vision for Airwallex product team (individuals with people management experience can be considered for Data Science Manager role)
+Perform as a strategic thought leader for Data Science and cross-functional organizations
+What you will bring:
+10+ years industry experience and an advanced degree in a quantitative field
+5+ years of management experience in data science or other relevant quantitative functions
+5+ years of experience communicating the results of analyses to leadership teams to influence the strategy
+Passion for management and creating opportunities for career growth for team members
+Demonstrated ability to create, drive and execute impactful data roadmaps for the business
+Technical mentorship experience with applied statistics or experimentation (i.e. A/B testing) in an industry setting, large data sets and distributed computing (Hive/Hadoop) and packages, such as R, Python, MATLAB, SPSS, SAS, Stata, etc
+Experience in technology, financial services and/or a high growth environment is advantageous",https://www.mycareersfuture.gov.sg/job/engineering/data-science-manager-director-airwallex-8a664d6307deaf74074ca42d01629e12?source=MCF&event=Search
+30,Executive / Senior Executive (Undergraduate Programmes - Department of Statistics and Data Science),NATIONAL UNIVERSITY OF SINGAPORE,"Job Description
+The incumbent will manage curriculum matters related to the Department of Statistics and Data Science's three undergraduate programmes in Statistics, Data Science and Analytics and Data Science and Economics. Duties and responsibilities include, but are not limited to the following -
+1) Oversee and manage curriculum matters
+Assist in overseeing curriculum planning and changes.
+Attend to all student enquiries related to their academic programme.
+Work closely with residential colleges and University departments to discuss policy matters and processes regarding curriculum.
+Be familiar with University policies, module requirements and University systems used to manage curriculum matters.
+2) Manage class timetable scheduling
+Update timetabling system on module offerings for new academic year.
+Mount modules on timetabling system.
+Update class timetable changes as and when required.
+Venue support booking for lecturers.
+Request for module quota for majors as well as collate quota requests.
+3) Manage module registration
+Manage module allocation exercise.
+Handle module related appeals from students.
+Data preparation for the module registration system which includes setting up the workload in the system, mounting the modules in the system for students to register.
+Register students into the module.
+Adjust module quota during the module registration exercises.
+Manage non-graduating student module registration and work closely with Registrar's Office.
+4) Manage undergraduate examination matters
+Manage examination matters.
+Track timely upload of marks by faculty members.
+Check the uploaded marks and ensure zero discrepancy.
+5) Provide support in any other ad-hoc duties as assigned by the Department.
+Qualifications/Requirements/Other Info
+Degree with one to two years of relevant experience. Those with no experience are also welcome to apply.
+Excellent communication and organizational skills.
+Service oriented with the ability to multi-task and undertake challenges.
+Proactive and able to work independently.
+Meticulous and has a positive work attitude.
+Proficient in Microsoft Office applications, such as Word, Excel and Powerpoint.
+Interested applicants are invited to apply directly at our NUS Career Portal.
+We regret that only shortlisted candidates will be notified.
+- Remuneration is based on a 12-month salary structure, with annual variable bonus which is subject to incumbent’s performance and the University/School’s prevailing remuneration policies.
+- The incumbent will be emplaced at an appropriate appointment grade based on his/her individual merits.
+- To expedite application processing, a copy of academic certificates and transcripts from GCE O-level onwards should be uploaded via the online application portal.
+Covid-19 Message
+At NUS, the health and safety of our staff and students are one of our utmost priorities, and COVID-vaccination supports our commitment to ensure the safety of our community and to make NUS as safe and welcoming as possible. Many of our roles require a significant amount of physical interactions with students/staff/public members. Even for job roles that may be performed remotely, there will be instances where on-campus presence is required.
+Taking into consideration the health and well-being of our staff and students and to better protect everyone in the campus, applicants are strongly encouraged to have themselves fully COVID-19 vaccinated to secure successful employment with NUS.",https://www.mycareersfuture.gov.sg/job/others/executive-senior-executive-national-university-singapore-e5919e2991fb9a161c358af1ae617b59?source=MCF&event=Search
+31,Data Science Analyst (12 months contract),HAYS SPECIALIST RECRUITMENT PTE. LTD.,"Join a multinational bank as a Data Science Analyst!
+
+Your new company
+This is a multinational bank with presence all over the globe. With operations across consumer, corporate and institutional banking, this bank prioritises collaboration and a dynamic working environment.
+
+Your new role
+You will be responsible for handling the automation and reporting while supporting US and all other markets the team covers. You will also be managing all queries arising from reports while performing analysis on excel file. This is a 1 year renewable contract.
+
+What you'll need to succeed
+2 years of working experience with min 1 year of experience in Data Analysis
+Hands-on experience in Alteryx/Dataiku
+Advanced Excel skills (Pivot Table, Vlookup etc)
+Non-banking/financial services candidates are open to apply!
+What you'll get in return
+This is an excellent opportunity to be part of a global bank. You will be part of a collaborative working environment and you will be remunerated at market competitive rates.
+
+What you need to do now
+If you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call Shabnam at Hays on +65 63030726 or email Shabnam.Bahar@hays.com.sg [mailto:Shabnam.Bahar@hays.com.sg] [ mailto:Shabnam.Bahar@hays.com.sg ] for a confidential discussion. Referrals are welcome.
+
+Registration ID No. R1873584 | EA License number: 07C3924 | Company Registration No. 200609504D",https://www.mycareersfuture.gov.sg/job/banking-finance/data-science-analyst-hays-specialist-recruitment-02193ddbfa75b4238b705999db143c99?source=MCF&event=Search
+32,"[BANK] Analyst, Data Science - 12 months contract - Changi",ALLEGIS GLOBAL SOLUTIONS (SINGAPORE) PTE. LTD.,"Allegis Global Solutions is the exclusive Contingent HR services provider for one of the world’s leading banks.
+At Allegis Global Solutions we’re proud to be the leader in global talent solutions. We draw upon decades of industry expertise to develop innovative tools, products, processes and strategies focused on outcome.
+
+Moreover, we’re incredibly proud to have built a culture that empowers our people to make their mark while making deep connections that will last a lifetime. With our passion and culture for talent, we are truly transforming the way the World acquires talent.
+
+Our Client is one of the world's most international banks with over 1,100 branches, offices and outlets in 67 countries. They operate in some of the world's most dynamic markets and have been for over 150 years. More than 90 per cent of their income and profits are derived from Asia, Africa and the Middle East. Their brand promise, Here for good, underlines their distinctive approach.
+
+Responsibilities
+· Be an internal visualization analytics consultant for CCIB Client Coverage and develop useful analytics products across use cases, segments, and product portfolios
+· Build compelling analytics products using industry leading analytics tools such as Tableau, Alteryx, driving use cases across data monetization, risk mitigation, productivity improvement, progress tracking and management reporting
+· Translate key challenges, requirements and needs from the business into impactful, actionable metric, KPIs and solutions, to solve everyday business problems
+· Act as a conduit between technical and business stakeholders by translating business/ functional requirements from Product Owners / delegates into technical requirements for processing by the technology teams
+· Assess key market trends, gaps, and opportunities to onboard new innovative technologies
+· Partner with stakeholders and senior management to build awareness and expand the analytics/automation offering of the team, aligning with business needs for today and the future
+· Build trust and strong working relationships with business and technology stakeholders
+· Extract and/or consolidate required data from core platforms e.g. Client Central and downstream systems e.g. order placement, product softwares to facilitate data analysis and reporting
+
+Requirements
+· 3+ years’ experience in Financial Services Industry, especially within CCIB
+· Relevant analytics work experience and demonstrated career progression/increase in responsibilities
+· Strong academic record: Degree in Finance, Statistics, Computer Science or related field
+· Strong Knowledge of Tableau or similar visualization tools
+· At least one year of experience with any of the data processing tools Alteryx, Dataiku, or Tableau is required.
+· Proficient in SQL
+· Proficient in Microsoft Office, particularly Microsoft Excel & PowerPoint.
+· Strong understanding of Hadoop Database
+· Understanding in emerging cloud and smart technologies such as Azure, AWS, Cognitive Automation will be an added plus
+· Experience in data commercialization – facilitating partnerships and driving buy-in/adoption from stakeholders of varying levels
+· Understanding of the ETL process
+· Good presentation, time management, negotiation and influencing skills
+· Strong analytical and problem-solving skills
+· Experience in project management from business requirement definition, solution validation, user testing, technical documentation and production roll out, especially on a global scale
+· Ability to manage multiple work streams with strong problem solving and analytical skills
+· Strong communication and presentation skills to varying levels of management
+· Highly driven and motivated with an eager-to-learn attitude and actively seek out ways to improve processes, people, and products Good presentation, time management, negotiation and influencing skills
+· Ability to influence without authority
+· Has experience with Agile / Scrum and/or Kanban certified",https://www.mycareersfuture.gov.sg/job/banking-finance/bank-analyst-data-science-12-months-contract-changi-allegis-global-solutions-59656c4edb873f04dfe62688decf79f6?source=MCF&event=Search
+33,Data Science Advisor (MBA),DELL GLOBAL B.V. (SINGAPORE BRANCH),"You will:
+• Collaborate with internal and external teams to understand customer requirements
+• Develop and apply a broad range of techniques and theories from statistics, machine learning, and business intelligence to deliver actionable business insights
+• Develop and drive testing of algorithms efficacy for differing analytical use-cases
+• Performs end-to-end steps involved in model development while establishing subject-matter expertise
+• Work with the academic and business community to develop new techniques and to contribute to research in the area of large databases
+
+Take the first step towards your dream career
+Every Dell Technologies team member brings something unique to the table. Here’s what we are looking for with this role:
+
+Essential Requirements
+• Solid statistical skills
+• Solid Advanced Excel, VBA, Python, SQL, Power BI Skills
+• Good understanding of business environment and industry trends
+• Good communication and problem-solving skills and being customer focused
+
+Desirable Requirements
+• Bachelor’s degree
+• Ability to act as a coach to the team
+• Strong product/technology/industry knowledge",https://www.mycareersfuture.gov.sg/job/information-technology/data-science-advisor-dell-global-bv-febee0d6a41f17ffdfc5f95ff36e462c?source=MCF&event=Search
