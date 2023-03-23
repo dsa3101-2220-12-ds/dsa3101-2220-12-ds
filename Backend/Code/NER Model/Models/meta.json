@@ -11,8 +11,8 @@
   "spacy_git_version":"8153bd573",
   "vectors":{
     "width":300,
-    "vectors":1386,
-    "keys":1386,
+    "vectors":2277,
+    "keys":2277,
     "name":"en_pipeline.vectors",
     "mode":"default"
   },
