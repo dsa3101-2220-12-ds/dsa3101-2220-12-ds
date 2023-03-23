@@ -2,51 +2,45 @@
   "lang":"en",
   "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=3.5.0,<3.6.0",
+  "spacy_version":">=3.5.1,<3.6.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"dec81508d",
+  "spacy_git_version":"8153bd573",
   "vectors":{
     "width":300,
-    "vectors":514157,
-    "keys":514157,
-    "name":"en_vectors",
+    "vectors":2277,
+    "keys":2277,
+    "name":"en_pipeline.vectors",
     "mode":"default"
   },
   "labels":{
-    "tok2vec":[
-
-    ],
     "ner":[
-      "TECHNICAL_SKILL"
+      "SKILL"
     ]
   },
   "pipeline":[
-    "tok2vec",
     "ner"
   ],
   "components":[
-    "tok2vec",
     "ner"
   ],
   "disabled":[
 
   ],
   "performance":{
-    "ents_f":0.8401953943,
-    "ents_p":0.8852941176,
-    "ents_r":0.7994687915,
+    "ents_f":0.5177372963,
+    "ents_p":0.623556582,
+    "ents_r":0.4426229508,
     "ents_per_type":{
-      "TECHNICAL_SKILL":{
-        "p":0.8852941176,
-        "r":0.7994687915,
-        "f":0.8401953943
+      "SKILL":{
+        "p":0.623556582,
+        "r":0.4426229508,
+        "f":0.5177372963
       }
     },
-    "tok2vec_loss":78.6122607475,
-    "ner_loss":447.2976082176
+    "ner_loss":187.9349235148
   }
 }
