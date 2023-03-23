@@ -4,77 +4,48 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
 import dash_bootstrap_components as dbc
+from dash_iconify import DashIconify
 
-
+#components
 app = dash.Dash(__name__, use_pages=True)
+arrow_right_icon = DashIconify(icon='material-symbols:play-arrow')
 
-# Define the layout of the main page
-app.layout = html.Div([
-    html.H1('Welcome to My Website!'),
-    dcc.Link('Button 1', href='/page1'),
-    html.Br(),
-    dcc.Link('Button 2', href='/page2'),
-    html.Br(),
-    dcc.Link('Button 3', href='/page3'),
-    html.Br(),
-    dcc.Link('Button 4', href='/page4'),
-    html.Div(id='page-content')
-])
+#layout
+app.layout = dbc.Container([
+	html.Br(),
+	html.Br(),
+	html.Br(),    
+    dbc.Row([ 
+        dbc.Col([
+            html.H1('Data Science Cources Among Different Universities')
+        ]),
+		dbc.Col([
+            dbc.Row([ 
+	        dbc.Button([arrow_right_icon,"All about Data Science"],
+		     size = 'lg', outline = True, color="primary", className="me-1",href="/all_about_datascience"),
+	    ]),
+            dbc.Row([ 
+                    dbc.Button([arrow_right_icon,"Industry Link"],
+                    size = 'lg', outline = True, color="primary", className="me-2",href="/industry_link"),
+                ]),
+            dbc.Row([ 
+                    dbc.Button([arrow_right_icon,"Difference between Universities"],
+                    size = 'lg', outline = True, color="primary", className="me-2",href="/difference_between_universities"),
+                ]),
+            dbc.Row([ 
+	        dbc.Button([arrow_right_icon,"Module Database"],
+		     size = 'lg', outline = True, color="primary", className="me-2",href="/module_database"),
+	    ]),
+	    ])
+    ]),
+    dash.page_container
+]) 
 
-# Define the layout of page 1
-page1_layout = html.Div([
-    html.H1('This is Page 1'),
-    dcc.Link('Go to Page 2', href='/page2'),
-    html.Br(),
-    dcc.Link('Go to Page 3', href='/page3'),
-    html.Br(),
-    dcc.Link('Go to Page 4', href='/page4')
-])
 
-# Define the layout of page 2
-page2_layout = html.Div([
-    html.H1('This is Page 2'),
-    dcc.Link('Go to Page 1', href='/page1'),
-    html.Br(),
-    dcc.Link('Go to Page 3', href='/page3'),
-    html.Br(),
-    dcc.Link('Go to Page 4', href='/page4')
-])
+#callbacks
 
-# Define the layout of page 3
-page3_layout = html.Div([
-    html.H1('This is Page 3'),
-    dcc.Link('Go to Page 1', href='/page1'),
-    html.Br(),
-    dcc.Link('Go to Page 2', href='/page2'),
-    html.Br(),
-    dcc.Link('Go to Page 4', href='/page4')
-])
 
-# Define the layout of page 4
-page4_layout = html.Div([
-    html.H1('This is Page 4'),
-    dcc.Link('Go to Page 1', href='/page1'),
-    html.Br(),
-    dcc.Link('Go to Page 2', href='/page2'),
-    html.Br(),
-    dcc.Link('Go to Page 3', href='/page3')
-])
 
-# Define the callbacks to update the layout based on the URL
-@app.callback(Output('page-content', 'children'),
-              [Input('url', 'pathname')])
-def display_page(pathname):
-    if pathname == '/page1':
-        return page1_layout
-    elif pathname == '/page2':
-        return page2_layout
-    elif pathname == '/page3':
-        return page3_layout
-    elif pathname == '/page4':
-        return page4_layout
-    else:
-        return ''
-
+#run
 if __name__ == '__main__':
-    app.run_server(debug=True)
+	app.run_server(debug=True)
