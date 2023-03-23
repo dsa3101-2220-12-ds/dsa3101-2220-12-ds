@@ -11,8 +11,8 @@
   "spacy_git_version":"8153bd573",
   "vectors":{
     "width":300,
-    "vectors":1386,
-    "keys":1386,
+    "vectors":2277,
+    "keys":2277,
     "name":"en_pipeline.vectors",
     "mode":"default"
   },
@@ -31,16 +31,16 @@
 
   ],
   "performance":{
-    "ents_f":0.5317164179,
-    "ents_p":0.6168831169,
-    "ents_r":0.4672131148,
+    "ents_f":0.5177372963,
+    "ents_p":0.623556582,
+    "ents_r":0.4426229508,
     "ents_per_type":{
       "SKILL":{
-        "p":0.6168831169,
-        "r":0.4672131148,
-        "f":0.5317164179
+        "p":0.623556582,
+        "r":0.4426229508,
+        "f":0.5177372963
       }
     },
-    "ner_loss":385.8646683756
+    "ner_loss":187.9349235148
   }
 }
