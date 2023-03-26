@@ -1,3 +1,4 @@
+word	man_label	comp_label
 I	O	O
 am	O	O
 using	O	O

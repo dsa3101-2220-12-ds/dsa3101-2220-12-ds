@@ -1,3 +1,4 @@
+word	man_label	comp_label
 If	O	O
 I	O	O
 would	O	O
