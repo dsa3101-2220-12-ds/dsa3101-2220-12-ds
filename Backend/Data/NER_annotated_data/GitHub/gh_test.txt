@@ -1,3 +1,4 @@
+word	man_label	comp_label
 @petergoldstein	O	B-User_Name
 Thanks	O	O
 for	O	O
