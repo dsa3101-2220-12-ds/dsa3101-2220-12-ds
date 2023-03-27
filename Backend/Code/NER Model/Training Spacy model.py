@@ -25,32 +25,17 @@ nlp_ner = spacy.load("model-best")
 # Example Data
 doc = nlp_ner(
     """
-Data Analyst duties and responsibilities of the job
-
-Data Analysts often make recommendations about the methods and ways in which a company obtains and analyses data to improve quality and the efficiency of data systems. A Data Analyst job description should include, but not be limited to:
-
-Collecting and interpreting data
-Analysing results
-Reporting the results back to the relevant members of the business
-Identifying patterns and trends in data sets
-Working alongside teams within the business or the management team to establish business needs
-Defining new data collection and analysis processes
-Data Analyst job qualifications and requirements
-
-A degree in the following subjects is beneficial in developing a career in data analysis:
-
-Mathematics
-Computer Science
-Statistics
-Economics
-There are also a number of qualities to expect from a candidate to flourish in a Data Analyst role:
-
-Experience in data models and reporting packages
-Ability to analyse large datasets
-Ability to write comprehensive reports
-Strong verbal and written communication skills as Data Analysts do communicate with the wider business
-An analytical mind and inclination for problem-solving
-Attention to detail as data analysis and reporting must be precise
+What a College Intern - Data Science does at HP:
+Attached to the "Smart Manufacturing Application and Research Center".
+Work with an enterprising team of data scientists and build solutions to track, analyze and visualize the manufacturing and outbound quality of our supplies.
+Generate deep insights through the analysis of data and understanding of operational processes and turn them into actionable recommendations.
+Develop methodologies for optimizing our business processes through data visualization, real-time monitoring, predictive analytics etc.
+Are you a high-performer? We are looking for an individual with:
+Studying Bachelor’s degree in Computer Science, Business Analytics, Information Systems, Industrial Engineering, Statistics with good experience in programming.
+Excellent analytical thinking, programming (using R/Python is desirable), and problem-solving skills.
+Knowledge of data analytics, data warehousing, database management (preferably using SQL) and data visualization using RShiny and Plotly.
+Fundamental knowledge of statistics and probability.
+Good visualization skills to create real-time dashboards and/or reports to inform trends and insights.
     """)
 html_output = spacy.displacy.render(doc, style='ent')
 
