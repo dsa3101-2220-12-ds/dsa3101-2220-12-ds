@@ -1,0 +1,21 @@
+Source,Target,Type,Weight
+CZ1003,CZ1007,Directed,1
+CZ1007,CZ2002,Directed,1
+CZ1007,CZ2001,Directed,1
+CZ2002,CZ2006,Directed,1
+MH1805,MH2500,Directed,1
+H2 Math,MH2802,Directed,1
+CZ1007,CZ2007,Directed,1
+CZ2001,CZ2007,Directed,1
+CZ1007,CZ3005,Directed,1
+MH2500,CZ3005,Directed,1
+MH2500,MH3500,Directed,1
+MH2500,MH3511,Directed,1
+CC0001,HW0218,Directed,1
+CZ1003,CZ4041,Directed,1
+MH2500,CZ4041,Directed,1
+CZ1007,CZ4041,Directed,1
+CZ2001,CZ4032,Directed,1
+MH1805,MH2100,Directed,1
+Completed 4 semesters of studies,SD3079,Directed,1
+A minimum CGPA of 4.50 ,SC4079,Directed,1
