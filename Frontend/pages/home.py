@@ -31,7 +31,7 @@ layout = dbc.Container([
                 ]),
             dbc.Row([ 
                     dbc.Button([arrow_right_icon,"Difference between Universities"],
-                        size = 'lg', outline = True, color="primary", className="me-2",href="/difference_between_universities"),
+                        size = 'lg', outline = True, color="primary", className="me-2",href="/com_btw_univ"),
                 ]),
             dbc.Row([ 
 	            dbc.Button([arrow_right_icon,"Module Database"],
