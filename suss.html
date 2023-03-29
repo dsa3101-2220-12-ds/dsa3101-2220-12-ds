@@ -11,7 +11,7 @@
     <h1>Universities Modules Database</h1>
     <div class="vertical-menu">
         <div class="menu-item">
-          <button class="menu-header">Data Science</button>
+          <button class="menu-header">Data Science and Analytics</button>
           <div class="menu-content">
             <a href="page1a.html">Sub-option 1A</a>
             <a href="page1b.html">Sub-option 1B</a>
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="menu-item">
-          <button class="menu-header">Computing</button>
+          <button class="menu-header">Computer Science</button>
           <div class="menu-content">
             <a href="page3a.html">Sub-option 3A</a>
             <a href="page3b.html">Sub-option 3B</a>
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>   
-    <div class="circle-btn">University Course Roadmap</div>
+    <div class="circle-btn" id = "circleBtn">University Course Roadmap</div>
     <div class="search-result">
         <!-- Content will be updated by JavaScript -->
     </div>  
@@ -56,7 +56,8 @@
             <a href="smu.html">Singapore Management University (SMU)</a>
             <a href="sutd.html">Singapore University of Technology and Design (SUTD)</a>
             <a href="sit.html">Singapore Institute of Technology (SIT)</a>
-          </div>          
+          </div>       
+          <button class="rectangular-btn" id="newButton">Modules Comparison between Universities</button>   
         </div>
       </div>
       <a class="back-btn" href="#">Back to Main Page</a>
@@ -87,7 +88,14 @@
               searchResult.style.display = 'block';
             });
           });
+          var circleBtn = document.getElementById('circleBtn');
+          circleBtn.addEventListener('click', function() {
+            window.open('ucr.html', '_blank');
+          });
         });
+        document.getElementById('newButton').addEventListener('click', function() {
+        window.location.href = 'umc.html';
+      });
       </script>    
     </body>
   </html>

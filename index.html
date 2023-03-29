@@ -43,11 +43,11 @@
           </div>
         </div>
       </div>               
-    <div class="circle-btn">University Course Roadmap</div>
+    <div class="circle-btn" id = "circleBtn">University Course Roadmap</div>
     <div class="search-result">
         <!-- Content will be updated by JavaScript -->
     </div>  
-    <div class="dropdown">
+      <div class="dropdown">
         <button class="dropbtn">Choose a University</button>
         <div class="dropdown-content">
             <a href="nus.html">National University of Singapore (NUS)</a>
@@ -56,8 +56,8 @@
             <a href="sutd.html">Singapore University of Technology and Design (SUTD)</a>
             <a href="sit.html">Singapore Institute of Technology (SIT)</a>
             <a href="suss.html">Singapore University of Social Sciences (SUSS)</a>
-          </div>          
-        </div>
+      </div>
+      <button class="rectangular-btn" id="newButton">Modules Comparison between Universities</button>      
       </div>
       <a class="back-btn" href="#">Back to Main Page</a>
       <script>
@@ -87,7 +87,15 @@
               searchResult.style.display = 'block';
             });
           });
+          var circleBtn = document.getElementById('circleBtn');
+          circleBtn.addEventListener('click', function() {
+            window.open('ucr.html', '_blank');
+          });
         });
+    
+      document.getElementById('newButton').addEventListener('click', function() {
+        window.location.href = 'umc.html';
+      });
       </script>  
     </body>
   </html>
