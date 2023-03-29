@@ -26,7 +26,8 @@ layout = dbc.Container([
                       'rule': 'display: inline; white-space: inherit; overflow: inherit; text-overflow: inherit;'}],
 		    style_data={
                     'whiteSpace': 'normal',
-                    'height': 'auto',},
+                    'height': 'auto',
+                    'font-size': 25},
 		    style_header={
                 'backgroundColor': 'silver',
                 'fontWeight': 'bold'},
