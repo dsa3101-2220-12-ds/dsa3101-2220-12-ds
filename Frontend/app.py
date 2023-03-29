@@ -11,39 +11,13 @@ app = dash.Dash(__name__, use_pages=True)
 arrow_right_icon = DashIconify(icon='material-symbols:play-arrow')
 
 #layout
-app.layout = dbc.Container([
-	html.Br(),
-	html.Br(),
-	html.Br(),    
-    dbc.Row([ 
-        dbc.Col([
-            html.H1('Data Science Cources Among Different Universities')
-        ]),
-		dbc.Col([
-            dbc.Row([ 
-	        dbc.Button([arrow_right_icon,"All about Data Science"],
-		     size = 'lg', outline = True, color="primary", className="me-1",href="/all_about_datascience"),
-	    ]),
-            dbc.Row([ 
-                    dbc.Button([arrow_right_icon,"Industry Link"],
-                    size = 'lg', outline = True, color="primary", className="me-2",href="/industry_link"),
-                ]),
-            dbc.Row([ 
-                    dbc.Button([arrow_right_icon,"Difference between Universities"],
-                    size = 'lg', outline = True, color="primary", className="me-2",href="/difference_between_universities"),
-                ]),
-            dbc.Row([ 
-	        dbc.Button([arrow_right_icon,"Module Database"],
-		     size = 'lg', outline = True, color="primary", className="me-2",href="/module_database"),
-	    ]),
-	    ])
-    ]),
+app.layout = html.Div([
+	html.Div("Learn more about Data Science and Analytics here!", style={'fontsize':50, 'textAlign':'center'}),
+	html.Hr(),
+	
     dash.page_container
-]) 
-
-
-#callbacks
-
+    ]
+)
 
 
 #run
