@@ -11,7 +11,7 @@ import pandas as pd
 #components
 dash.register_page(__name__,path='/about_dsa')
 
-df = pd.read_csv('Frontend/files/about_dsa.csv')
+df = pd.read_csv('files/about_dsa.csv')
 data=df.to_dict('records')
 columns=[{'id': c, 'name': c} for c in df.columns]
 arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')

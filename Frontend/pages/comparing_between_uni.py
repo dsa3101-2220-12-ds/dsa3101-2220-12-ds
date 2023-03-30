@@ -31,7 +31,7 @@ percentage_mods = {'NUS': {'CS':33, 'MA':33, 'ST':34},
                    'SUTD': {'CS':40, 'MA':40, 'ST':20},
                    'SIT': {'CS':45, 'MA':40, 'ST':15}}
 
-df = pd.read_excel("Frontend/files/salary_info.xlsx", sheet_name=1, skiprows=1, header=0)
+df = pd.read_excel("files/salary_info.xlsx", sheet_name=1, skiprows=1, header=0)
 df_gross = df.loc[:,['School', 'Mean', 'Median.1', '25th Percentile', '75th Percentile']]
 df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
