@@ -5,9 +5,12 @@ from dash import html
 from dash.dependencies import Output, Input
 from dash.exceptions import PreventUpdate
 import requests
+from dash import callback
+from dash_iconify import DashIconify
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
-
+# app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
+dash.register_page(__name__,path='/industry_link')
+arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
 # define popup window
 modal = html.Div(
     [
@@ -33,7 +36,7 @@ navbar = dbc.NavbarSimple(
 )
 
 # Define the layout of the website
-app.layout = html.Div([
+layout = html.Div([
    #html.H1('Industry Link',style={'font-size':'35px','margin-left':'10px','backgroundColor': 'lightblue'}),
     navbar,
     modal,
@@ -69,12 +72,13 @@ app.layout = html.Div([
     ], 
     # overall style of RHS
     style={'backgroundColor': 'lightgrey', 'width': '60%', 'display': 'inline-block', 'vertical-align': 'middle','margin-left': '60px','margin-top': '30px'}),
-    
+    dbc.Button([arrow_back_icon,"Back to Main"],
+		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
 ])
 
 
 # Define the callback for the clear button to clear the input
-@app.callback(
+@callback(
     [Output('input-box', 'value'),
     Output('output-box', 'children', allow_duplicate=True)],
     [Input('clear-button', 'n_clicks')],
@@ -88,7 +92,7 @@ def clear_input_output(n_clicks):
 
 
 # Define the callback function that will be triggered when the user clicks the "Search" button
-@app.callback(
+@callback(
     dash.dependencies.Output('output-box', 'children'),
     [dash.dependencies.Input('search-button', 'n_clicks')],
     [dash.dependencies.State('input-box', 'value')]
@@ -115,7 +119,7 @@ def update_output(n_clicks, input_value):
         return [html.P('Sorry, we cannot find any relevant information :(',style={'text-align': 'top', 'color': 'black','font-size':'20px','margin-left':'10px'})]
 
 # callback popup window
-@app.callback(
+@callback(
     Output("modal", "is_open"),
     [Input("school1-button", "n_clicks")], 
     [dash.dependencies.State("modal", "is_open")],
@@ -125,5 +129,5 @@ def toggle_modal(n_clicks,is_open):
         return not is_open
     return is_open 
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
