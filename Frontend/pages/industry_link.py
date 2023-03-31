@@ -2,7 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import dcc
 from dash import html
-from dash.dependencies import Output, Input
+from dash.dependencies import Output, Input, State, MATCH
 from dash.exceptions import PreventUpdate
 import requests
 from dash import callback
@@ -12,20 +12,19 @@ from dash_iconify import DashIconify
 dash.register_page(__name__,path='/industry_link')
 arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
 # define popup window
-modal = html.Div(
+modals = html.Div(
     [
         dbc.Modal([
-            dbc.ModalHeader("NUS-DSA"),
-            dbc.ModalBody("NUS Data science course is amazing!")
-
-        ],
-            id="modal",
+                dbc.ModalHeader(f"How does the ranking work?"),
+                dbc.ModalBody("This popup window consists of 2 sections. You can first check the skills identified in your inputs. After that, you can check the recommended module that provides you this particular skill for each school. Happy reading!")
+            ],
+            id={"type": "school-modal", "index": i},
             size="lg",
             backdrop=True,
-            is_open=False,    # True, False
-            scrollable=True,  # False or True if modal has a lot of text
-            centered=True,    # True, False
-        ),
+            is_open=False,
+            scrollable=True,
+            centered=True,
+        ) for i in range(1, 7)
     ]
 )
 navbar = dbc.NavbarSimple(
@@ -39,7 +38,7 @@ navbar = dbc.NavbarSimple(
 layout = html.Div([
    #html.H1('Industry Link',style={'font-size':'35px','margin-left':'10px','backgroundColor': 'lightblue'}),
     navbar,
-    modal,
+    modals,
     # input block: 
     html.Div([
         html.H3('Key in your job description:',style={'font-size':'20px'}),
@@ -107,7 +106,7 @@ def update_output(n_clicks, input_value):
                     html.Div(str(i),
                     style={'display': 'inline-block', 'font-size':'40px','background-color': 'yellow',
                     'border-radius': '50%', 'width':'50px','height':'50px', 'text-align': 'center', 'font-weight': 'bold', 'margin': '15px'}),
-                    dbc.Button(f'NUS - DSA ({10-i}0%)', color = 'secondary', id=f'school{i}-button',style={'font-size':'50px','margin-left':'15px','margin-top':'15px'})
+                    dbc.Button(f'NUS - DSA ({10-i}0%)', color = 'secondary', id={'type': 'school-button', 'index': i},style={'font-size':'50px','margin-left':'15px','margin-top':'15px'})
                 ])
             )
         return output_blocks
@@ -120,14 +119,14 @@ def update_output(n_clicks, input_value):
 
 # callback popup window
 @callback(
-    Output("modal", "is_open"),
-    [Input("school1-button", "n_clicks")], 
-    [dash.dependencies.State("modal", "is_open")],
+    Output({"type": "school-modal", "index": MATCH}, "is_open"),
+    [Input({"type": "school-button", "index": MATCH}, "n_clicks")],
+    [State({"type": "school-modal", "index": MATCH}, "is_open")],
 )
-def toggle_modal(n_clicks,is_open):
+def toggle_modal(n_clicks, is_open):
     if n_clicks is not None:
         return not is_open
-    return is_open 
+    return is_open
 
 # if __name__ == '__main__':
 #     app.run_server(debug=True)
