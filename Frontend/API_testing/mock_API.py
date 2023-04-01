@@ -6,8 +6,8 @@ app = Flask(__name__)
 ###################### BACKEND TEAM ######################
 
 import math
-import np
-import tqdm
+import numpy as np
+from tqdm import tqdm
 import re
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
@@ -229,8 +229,11 @@ def get_mod_recommendations(job_desc):
 
 ##########################################################
 
+CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
+
 def html_format(paragraph):
-    return f"<p>{paragraph}</p>"
+    result = spacy.displacy.render(nlp_ner(paragraph), style = 'ent', jupyter=False, options = CUSTOM_OPTIONS)
+    return result
 
 def school_score():
     schools = ['SUTD', 'NTU', 'SMU', 'SUSS', 'SIT', 'NUS']
@@ -248,8 +251,9 @@ def mod_reco():
 def process_input():
     paragraph = request.args.get('input')
     html_paragraph = html_format(paragraph)
-    scores = school_score()
-    reco = mod_reco()
+    reco, scores = get_mod_recommendations(paragraph)
+    #scores = school_score()
+    #reco = mod_reco()
 
     response = {
         'html_paragraph': html_paragraph,
@@ -257,6 +261,12 @@ def process_input():
         'mod_reco': reco
     }
     return jsonify(response)
+
+@app.route('/skills', methods=['GET'])
+def get_skills():
+    paragraph = request.args.get('input')
+    html_paragraph = html_format(paragraph)
+    return html_paragraph
 
 if __name__ == '__main__':
     app.run(debug=True)
