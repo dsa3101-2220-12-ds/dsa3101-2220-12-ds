@@ -7,26 +7,61 @@ from dash.exceptions import PreventUpdate
 import requests
 from dash import callback
 from dash_iconify import DashIconify
+import dash_dangerously_set_inner_html
 
 # app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN])
 dash.register_page(__name__,path='/industry_link')
 arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
+
+schools = ['SUTD', 'NTU', 'SMU', 'SUSS', 'SIT', 'NUS']
+default_message = "This popup window consists of 2 sections. You can first check the skills identified in your inputs. After that, you can check the recommended module that provides you this particular skill for each school. The score behind each module is to indicate how well this module can prepare you for this skill. Take note that the overall score is based on the distributed score for each skill. Happy reading!"
+
+def get_all_response(input_value):
+    response = requests.get(f"http://localhost:9001/api?input={input_value}")
+    data = response.json()
+    return data 
+
+# gain mod_reco for each school 
+def get_mod_reco(mod_reco,school):
+    output = []
+    for skill, school_info in mod_reco.items():
+        module_code, score = school_info[school]
+        output.append((skill,module_code,score))
+    return output 
+
+
+def get_modal_content(input_value,school):
+    data = get_all_response(input_value)
+    if data is None:
+        return None
+    else:
+        page = data['html_paragraph']
+        mod = get_mod_reco(data['mod_reco'],school)
+        return html.Div([
+            html.P(default_message),
+            dash_dangerously_set_inner_html.DangerouslySetInnerHTML(page),
+            html.Ul([html.Li(f"{skill}: {module_code}, {score}") for (skill, module_code, score) in mod])
+        ])
+
+
+
 # define popup window
 modals = html.Div(
     [
         dbc.Modal([
                 dbc.ModalHeader(f"How does the ranking work?"),
-                dbc.ModalBody("This popup window consists of 2 sections. You can first check the skills identified in your inputs. After that, you can check the recommended module that provides you this particular skill for each school. Happy reading!")
+                dbc.ModalBody(id={"type": "modal-body", "index": school}, children=[])
             ],
-            id={"type": "school-modal", "index": i},
+            id={"type": "school-modal", "index": school},
             size="lg",
             backdrop=True,
             is_open=False,
             scrollable=True,
             centered=True,
-        ) for i in range(1, 7)
+        ) for school in schools
     ]
 )
+
 navbar = dbc.NavbarSimple(
     brand="Industry Link",
     # brand_href="#",
@@ -45,7 +80,7 @@ layout = html.Div([
         dcc.Textarea(id='input-box',  value='',
         placeholder='Try typing SQL here',
         style={
-            'font-style': 'italic', 
+            # 'font-style': 'italic', 
             'color': 'grey',
             'width':'100%',
             'height':'150px',
@@ -65,7 +100,6 @@ layout = html.Div([
         html.Div(id='output-box', 
         children=[
             html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'}),
-            # html.Img(src='/assets/magnifying_glass.png', style={'display': 'block', 'margin': 'auto', 'width': '50px','height':'50px'}),
         ],
         style={'overflow-y': 'scroll', 'height': '500px','margin-top': '20px'})
     ], 
@@ -97,36 +131,59 @@ def clear_input_output(n_clicks):
     [dash.dependencies.State('input-box', 'value')]
 )
 def update_output(n_clicks, input_value):
-    if n_clicks is not None and input_value == "SQL":
+    if input_value == "": # back to default setting 
+        return [html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'})]
+    elif n_clicks is not None: # as long as you have sth
         # The user has clicked the "Search" button, so show the actual output
+        response = requests.get(f"http://localhost:9001/api?input={input_value}")
+        data = response.json()
+        scores = data["school_score"]
+        sorted_scores = {k: v for k, v in sorted(scores.items(), key=lambda item: item[1], reverse=True)}
         output_blocks = []
-        for i in range(1, 7):
+        i = 1 
+        for school, score in sorted_scores.items():
+            # Since backend output do not have course name, this part is manually added. rschool = renamed school
+            if school == "NUS": rschool = "NUS - Data Science and Analytics"
+            elif school == "NTU": rschool = "NTU - Data Science and Artificial Intelligence"
+            elif school == "SUTD": rschool = "SUTD - Business Analytics"
+            elif school == "SIT": rschool = "SIT - Applied Artificial Intelligence"
+            elif school == "SUSS": rschool = "SUSS - Data Analytics"
+            else: rschool = "SMU - Double Major in Econs and Data Analytics"
+
             output_blocks.append(
                 html.Div([
                     html.Div(str(i),
-                    style={'display': 'inline-block', 'font-size':'40px','background-color': 'yellow',
+                    style={'display': 'inline-block', 'font-size':'30px','background-color': 'yellow',
                     'border-radius': '50%', 'width':'50px','height':'50px', 'text-align': 'center', 'font-weight': 'bold', 'margin': '15px'}),
-                    dbc.Button(f'NUS - DSA ({10-i}0%)', color = 'secondary', id={'type': 'school-button', 'index': i},style={'font-size':'50px','margin-left':'15px','margin-top':'15px'})
-                ])
+                    dbc.Button(f'{rschool} ({score})%', color = 'secondary', id={'type': 'school-button', 'index': school},
+                    style={'text-align': 'left','width':'80%','font-size':'30px','margin-left':'15px','margin-top':'15px'})
+                ],style={'display': 'flex', 'align-items': 'center'})
             )
+            i += 1 
         return output_blocks
     elif n_clicks is None:
         raise PreventUpdate
-    elif input_value == "":
-        return [html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'})]
-    else:
-        return [html.P('Sorry, we cannot find any relevant information :(',style={'text-align': 'top', 'color': 'black','font-size':'20px','margin-left':'10px'})]
 
 # callback popup window
 @callback(
-    Output({"type": "school-modal", "index": MATCH}, "is_open"),
+    [
+        Output({"type": "school-modal", "index": MATCH}, "is_open"),
+        Output({"type": "modal-body", "index": MATCH}, "children"),
+    ],
     [Input({"type": "school-button", "index": MATCH}, "n_clicks")],
-    [State({"type": "school-modal", "index": MATCH}, "is_open")],
+    [
+        State({"type": "school-modal", "index": MATCH}, "is_open"),
+        State("input-box", "value"),
+        State({"type": "school-button", "index": MATCH}, "id")
+    ],
 )
-def toggle_modal(n_clicks, is_open):
+def toggle_modal(n_clicks, is_open, input_value,button_id):
     if n_clicks is not None:
-        return not is_open
-    return is_open
+        school = button_id["index"]
+        content = get_modal_content(input_value,school)
+        return not is_open, content
+    return is_open, []
+
 
 # if __name__ == '__main__':
 #     app.run_server(debug=True)
