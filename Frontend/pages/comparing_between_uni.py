@@ -5,12 +5,12 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 from dash.dependencies import Input, Output
 from dash import callback
 from dash_iconify import DashIconify
 import dash_bootstrap_components as dbc
-import openpyxl 
+import openpyxl
+import ast
 
 ############ styles ##############
 external_stylesheets = [
@@ -21,80 +21,110 @@ arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
 # app = Dash(__name__, external_stylesheets=external_stylesheets)
 dash.register_page(__name__,path='/com_btw_univ')
 bar_chart_color = '#fff2cc'
+chart_font_size=14
 
 ############ data ##############
-percentage_mods = {'NUS': {'CS':33, 'MA':33, 'ST':34},
-                   'NTU': {'CS':40, 'MA':30, 'ST':30},
-                   'SMU': {'CS':20, 'MA':50, 'ST':30},
-                   'SUSS': {'CS':45, 'MA':35, 'ST':20},
-                   'SUTD': {'CS':40, 'MA':40, 'ST':20},
-                   'SIT': {'CS':45, 'MA':40, 'ST':15}}
+# data for pie chart
+df = pd.read_excel("files/salary_info.xlsx", sheet_name=2, header=0)
+df_mods = df[['school.1', 'mod_cats']]
 
+def remove_others(sch):
+    """
+    remove category = 'Other'; keep the rest of the categories
+    """
+    Subject=[]
+    Number=[]
+    for i in range(len(sch)):
+        if sch.iloc[i,0] != 'Other':
+            Subject.append(sch.iloc[i,0])
+            Number.append(sch.iloc[i,1])
+    dct={'Subject':Subject, 'Number': Number}
+    df = pd.DataFrame.from_dict(dct)
+    return df
+
+# get NUS df
+sch_df=pd.DataFrame.from_dict(ast.literal_eval(df_mods.iloc[0,1]), orient="index").reset_index()
+sch_df.columns=['Subject', 'Number']
+NUS_df=pd.DataFrame(['NUS']*len(sch_df))
+sch_df['School']=NUS_df
+
+for i in range(1,len(df_mods)): # append the df of the other universitie to NUS_df
+    sch_name=df_mods.iloc[i,0]
+    x = ast.literal_eval(df_mods.iloc[i,1])
+    sch=pd.DataFrame.from_dict(x, orient="index").reset_index()
+    sch.columns=['Subject', 'Number']
+    sch=remove_others(sch)
+    name_df = pd.DataFrame([sch_name]*len(sch))
+    sch['School']=name_df
+    sch_df = pd.concat([sch_df,sch])
+
+
+# data for practical opportunities graph
+df = pd.read_excel("files/salary_info.xlsx", sheet_name=2, header=0)
+def make_data_opp(df):
+    df_mods = df.loc[:,['school.1', 'num_of_mods', 'mod_proj_finals']]
+    df_mods.loc[5,'mod_proj_finals'] = "{'finals':46.153846153846153846153846153846, 'proj':53.846153846153846153846153846154}"
+    mods_pct = df_mods['mod_proj_finals']
+
+    new_col=[]
+    for value in mods_pct:
+      dct = ast.literal_eval(value)
+      school = ''
+      for key,value in dct.items():
+        school += str(key) + ' ' + str(value) + ' '
+      new_col.append(school)
+
+    df_mods['new_col'] = new_col
+    df_mods[['Theoretical', 'val1', 'Practical', 'val2']] = df_mods['new_col'].str.split(" ", n=3, expand=True)
+    df_mods_updated = pd.melt(df_mods, id_vars = ['school.1', 'val1', 'val2', 'num_of_mods'], value_vars = ['Theoretical', 'Practical'])
+    df_mods_updated.loc[6:13,'val1'] = df_mods_updated.loc[6:,'val2']
+    df_mods_updated = df_mods_updated[['school.1', 'val1', 'variable', 'num_of_mods']]
+    df_mods_updated['val1'].astype('float')
+
+    num_mods = []
+    for i in range(len(df_mods_updated)):
+      value = int(round(float(df_mods_updated.loc[i, 'val1']) * df_mods_updated.loc[i, 'num_of_mods']/100, 0))
+      num_mods.append(value)
+      
+    df_mods_updated['num_mod_by_type'] = num_mods
+    df_mods_updated['val1'] = df_mods_updated['val1'].astype('float').round(decimals=0).astype('int64')
+    df_mods_updated.columns = ['School', 'Percentage', 'Type of Module', 'Total Number of Modules', 'Number of Modules']
+    return df_mods_updated
+data_opp = make_data_opp(df)
+
+# data for salary graph
 df = pd.read_excel("files/salary_info.xlsx", sheet_name=1, skiprows=1, header=0)
 df_gross = df.loc[:,['School', 'Mean', 'Median.1', '25th Percentile', '75th Percentile']]
 df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
-info = {'schools':['NUS', 'NTU', 'SMU', 'SUSS', 'SIT', 'SUTD'], 'values':[38, 16, 7, 27, 0, 31]}
-prac_opp_data = pd.DataFrame(data=info )
 
 ############ make graph function ##############
-def make_pie_chart(school, dct):
-    """
-    school: string
-    note: update_traces is not available for plotly version 4 and above
-    """
-    school_dict = dct[school]
-    labels = list(school_dict.keys())
-    values = list(school_dict.values())
-    fig = go.Pie(values=values, labels=labels, title=school)
-    fig.update(textposition='inside', textinfo='percent+label',
-               marker=dict(colors=['#f4cccc', '#c9daf8', '#fff2cc']))
-    return fig
-
 def make_all_pie_chart():
-    fig = make_subplots(rows=2, cols=3,
-                        specs=[[{'type':'pie'}, {'type':'pie'}, {'type':'pie'}],
-                               [{'type':'pie'}, {'type':'pie'}, {'type':'pie'}]])
-
-    fig.add_trace(make_pie_chart('NUS', percentage_mods), row=1, col=1)
-    fig.add_trace(make_pie_chart('NTU', percentage_mods), row=1, col=2)
-    fig.add_trace(make_pie_chart('SMU', percentage_mods), row=1, col=3)
-    fig.add_trace(make_pie_chart('SUSS', percentage_mods), row=2, col=1)
-    fig.add_trace(make_pie_chart('SUTD', percentage_mods), row=2, col=2)
-    fig.add_trace(make_pie_chart('SIT', percentage_mods), row=2, col=3)
-    fig.update_layout(legend=dict(
-        orientation='h', xanchor='left', yanchor='bottom', font=dict(size=14)),
-                      legend_title='Module Code',
-                      #height = 600, width = 900,
-                      font=dict(size=14))
+    fig = px.pie(sch_df, values='Number', names='Subject', color="Subject",
+                 facet_col="School", facet_col_wrap=3,
+                 color_discrete_map={'Statistics':'#f4cccc',
+                                     'Mathematics':'#c9daf8',
+                                     'Computer Science':'#fff2cc',
+                                     'Data Science':'#c7ebb7',
+                                     'Data Analytics':'#bdf8f5'})
+    fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
     return fig
 
 def make_bar_chart(df):
-    df = df.sort_values(by=['values'], ascending=False)
-    schools = df['schools']
-    values = df['values']
-    fig = px.bar(df, x=values, y=schools) #, orientation='h')
-    annotations=[] # for values beside bars
-
-    for value, school in zip(values, schools):
-        # add annotations beside bars
-            annotations.append(dict(xref='x', yref='y',
-                                y = school, x = value+1,
-                                text=str(value),
-                                showarrow=False))
+    df = df.sort_values(by=['Percentage'], ascending=False)
+    fig = px.bar(df, y="School", x="Percentage", color="Type of Module", orientation='h',
+                 color_discrete_map={'Theoretical':'#c9daf8',
+                                     'Practical':'#f4cccc'})
     # update graph axes and font size
     fig.update_layout(yaxis=dict(autorange='reversed'),
-                      annotations=annotations,
-                      xaxis_title='Number of Modules',
+                      xaxis_title='Percentage of Modules',
                       yaxis_title='School',
-                      font=dict(size=14),
+                      font=dict(size=chart_font_size),
                       plot_bgcolor='#FAFAFA')
-    fig.update_traces(marker_color=bar_chart_color)
     return fig
 
 def make_box_plot(data):
     data=data.sort_values(by=['Mean'])
-    values=list(range(3200, 7500, 100))*6
 
     quar1 = data['25th Percentile']
     quar3 = data['75th Percentile']
@@ -102,41 +132,51 @@ def make_box_plot(data):
     mean = data['Mean']
     schools = data['School']
 
-    box = go.Box(x=schools, name='Box Plot', boxmean=True,
-                 mean=mean, median=med, q1=quar1, q3=quar3,
-                 fillcolor='pink',
-                 customdata=['med', 'mean'])
+    fig = go.Figure()
+    fig.add_trace(go.Box(x=schools,
+                         boxpoints=False,
+                         median=med, mean=mean, q1=quar1, q3=quar3,
+                         fillcolor='pink'))
 
-    layout = go.Layout(
-        title='Box Plot with Mean, Median',
-        yaxis=dict(title='Schools'),
-        xaxis=dict(title='Salary'))
-
-    # Create a figure object and add the box trace to it
-    fig = go.Figure(data=[box], layout=layout)
-    fig.update_layout(font=dict(size=14))
-    return fig
-
-def make_placeholder(dct):
-    fig = px.bar(x=dct.values(), y = dct.keys(), orientation='h')
+    fig.update_layout(xaxis=go.layout.XAxis(
+        title=go.layout.xaxis.Title(text='School<br><br><sup>Source: MOE Graduate Employment Survey (2021) of Graduates in NUS, NTU, SMU, SIT, SUSS, SUTD</sup><br>')))
     return fig
 
 # all graphs
 default_pc = make_all_pie_chart()
 salary_graph = make_box_plot(df_gross)
-opp_graph = make_bar_chart(prac_opp_data)
+opp_graph = make_bar_chart(data_opp)
 
 
 ############ app layout ##############
-text_graph_mod='The series of pie charts show the differences between the number of modules offered per subject in each university.'
-text_graph_salary = 'This chart here shows the mean, the median, the 25th percentile and the 75th percentile of the salary obtained by fresh graduates.'
-text_graph_opp = 'This chart shows the number of modules that has project components. '
+# percentage of modules text
+text_graph_mod='The series of pie charts show the percentages of modules offered per subject in each university.'
+
+# salary graph text
+text_graph_salary1 = 'This chart shows the mean, the median, the 25th percentile and the 75th percentile of salary obtained by fresh graduates in 2021.'
+text_graph_salary2 = 'Do note that since the Applied Artifical Intelligence (AAI) course in SUTD was introduced recently and have no graduates yet, \
+we have substituted the course with Computer Science and Design course from the same university.'
+text_graph_salary=(html.Div(text_graph_salary1),
+                   html.Br(),
+                   html.Div(text_graph_salary2))
+
+
+# opportunities graph text
+text_graph_opp1 = 'This chart shows the percentage of theoretical and practical modules per university.'
+text_graph_opp2 = 'The theoretical modules focus more on theory which helps you understand the concept behind the implementation of machine learning algorithms. \
+The practical modules focus more on coding by having more project components and obtaining hands-on experiences through internship modules.'
+text_graph_opp3 = 'However, do  note that some practical modules may require a certain level of theoretical knowledge.'
+text_graph_opp = (html.Div(text_graph_opp1),
+                  html.Br(),
+                  html.Div(text_graph_opp2),
+                  html.Br(),
+                  html.Div(text_graph_opp3))
 
 layout = html.Div(children=[
     html.H1(children='Differences between Universities',
             style={'font-family':'Raleway'}),
     html.Div(children=[
-        dcc.Dropdown(id = 'diff_cat_dd', style={'font-family':'Raleway'},
+        dcc.Dropdown(id = 'diff_cat_dd', style={'font-family':'Raleway', 'width':280, 'font-size':18},
                      options = [{'label':'By School', 'value':'By School'},
                                {'label':'By Salary', 'value':'By Salary'}, 
                                {'label':'By Practical Opportunities', 'value':'By Practical Opportunities'}],
@@ -144,16 +184,15 @@ layout = html.Div(children=[
     ]),
     # add break
     html.Br(),
-    html.Br(),
     # add graph description
     html.Div(children=text_graph_mod, id='text_graph',
              style={'font-family':'Raleway',
-                    'height':'100px',
-                    'width':'40%'}),
+                    'width':'70%',
+                    'font-size':18}),
     html.Div(children=[
             dcc.Graph(id='diff_graph', figure=default_pc)],
-            style={'height':'300px',
-                   'width':'60%'}),
+            style={'height':'700px',
+                   'width':'65%'}),
     html.Br(),
     html.Br(),
     html.Br(),
@@ -163,7 +202,8 @@ layout = html.Div(children=[
     dbc.Button([arrow_back_icon,"Back to Main"],
 		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
 
-])
+],
+                  style = {'margin':20})
 
 
 @callback(
@@ -181,7 +221,7 @@ def update_charts(diff_cat):
     elif diff_cat == 'By Practical Opportunities':
         diff_cat_title = diff_cat
         fig = opp_graph
-        fig.update_layout(title='Number of Internship or Project-Based Modules')
+        fig.update_layout(title='Percentage of Practical and Theoretical Modules')
     else:
         fig.update_layout(title='Percentage of Core Modules by Subject')
         
