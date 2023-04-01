@@ -10,6 +10,14 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 # RUN python mock_API.py
 
+########################## Edited by Ernest ##########################
+
+
+COPY ner/ ner/
+COPY w2v/ w2v/
+
+######################################################################
+
 ## Set the environment variable for the flask application here:
 ENV FLASK_APP=mock_API
 
