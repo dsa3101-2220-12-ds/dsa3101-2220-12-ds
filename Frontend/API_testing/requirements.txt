@@ -1,1 +1,14 @@
-Flask
+Flask==2.2.3
+
+
+
+# BACKEND TEAM REQUIREMENTS
+pandas==1.5.3
+numpy==1.24.2
+regex==2023.3.23
+spacy==3.5.0
+gensim==4.3.1
+multiprocess==0.70.14
+nltk==3.8.1
+openpyxl==3.1.2
+tqdm==4.64.1
