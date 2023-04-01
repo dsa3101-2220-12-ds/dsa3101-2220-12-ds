@@ -8,17 +8,22 @@ COPY mock_API.py mock_API.py
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-# RUN python mock_API.py
 
 ########################## Edited by Ernest ##########################
 
-
+COPY modules.pkl modules.pkl
 COPY ner/ ner/
 COPY w2v/ w2v/
+
+RUN python -c "import nltk;nltk.download('stopwords')"
+RUN python -c "import nltk;nltk.download('punkt')"
+RUN python -c "import nltk;nltk.download('wordnet')"
 
 ######################################################################
 
 ## Set the environment variable for the flask application here:
 ENV FLASK_APP=mock_API
 
+
 ENTRYPOINT [ "python", "-u", "-m", "flask", "run", "--host=0.0.0.0"]
+# python -u -m flask run --host=0.0.0.0
