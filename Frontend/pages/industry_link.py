@@ -15,6 +15,7 @@ arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
 
 schools = ['SUTD', 'NTU', 'SMU', 'SUSS', 'SIT', 'NUS']
 default_message = "This popup window consists of 2 sections. You can first check the skills identified in your inputs. After that, you can check the recommended module that provides you this particular skill for each school. The score behind each module is to indicate how well this module can prepare you for this skill. Take note that the overall score is based on the distributed score for each skill. Happy reading!"
+modal_content_store = {}
 
 def get_all_response(input_value):
     response = requests.get(f"http://localhost:9001/api?input={input_value}")
@@ -26,7 +27,7 @@ def get_mod_reco(mod_reco,school):
     output = []
     for skill, school_info in mod_reco.items():
         module_code, score = school_info[school]
-        output.append((skill,module_code,score))
+        output.append((skill,module_code,round(score,1)))
     return output 
 
 
@@ -78,7 +79,7 @@ layout = html.Div([
     html.Div([
         html.H3('Key in your job description:',style={'font-size':'20px'}),
         dcc.Textarea(id='input-box',  value='',
-        placeholder='Try typing SQL here',
+        placeholder='Type your job description here',
         style={
             # 'font-style': 'italic', 
             'color': 'grey',
@@ -96,13 +97,19 @@ layout = html.Div([
     style={'width': '30%', 'margin-left': '20px', 'display': 'inline-block', 'vertical-align': 'middle'}), 
     
     # output block: 
+
     html.Div([
-        html.Div(id='output-box', 
-        children=[
-            html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'}),
-        ],
-        style={'overflow-y': 'scroll', 'height': '500px','margin-top': '20px'})
-    ], 
+        dcc.Loading(
+            id="loading",
+            children = [
+                html.Div(id='output-box', 
+                children=[
+                    html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'}),
+                ],
+                style={'overflow-y': 'scroll', 'height': '500px','margin-top': '20px'})
+            ],
+            type = "circle",
+            color="#000",)], 
     # overall style of RHS
     style={'backgroundColor': 'lightgrey', 'width': '60%', 'display': 'inline-block', 'vertical-align': 'middle','margin-left': '60px','margin-top': '30px'}),
     dbc.Button([arrow_back_icon,"Back to Main"],
@@ -141,21 +148,26 @@ def update_output(n_clicks, input_value):
         sorted_scores = {k: v for k, v in sorted(scores.items(), key=lambda item: item[1], reverse=True)}
         output_blocks = []
         i = 1 
+
+        # Precompute the modal content for each school and store it in the modal_content_store dictionary
+        for school in schools:
+            modal_content_store[school] = get_modal_content(input_value, school)
+
         for school, score in sorted_scores.items():
             # Since backend output do not have course name, this part is manually added. rschool = renamed school
             if school == "NUS": rschool = "NUS - Data Science and Analytics"
             elif school == "NTU": rschool = "NTU - Data Science and Artificial Intelligence"
-            elif school == "SUTD": rschool = "SUTD - Business Analytics"
+            elif school == "SUTD": rschool = "SUTD - Computer Science and Design"
             elif school == "SIT": rschool = "SIT - Applied Artificial Intelligence"
-            elif school == "SUSS": rschool = "SUSS - Data Analytics"
-            else: rschool = "SMU - Double Major in Econs and Data Analytics"
+            elif school == "SUSS": rschool = "SUSS - Business Analytics"
+            else: rschool = "SMU - Economics with 2nd Major in Data Analytics"
 
             output_blocks.append(
                 html.Div([
                     html.Div(str(i),
                     style={'display': 'inline-block', 'font-size':'30px','background-color': 'yellow',
                     'border-radius': '50%', 'width':'50px','height':'50px', 'text-align': 'center', 'font-weight': 'bold', 'margin': '15px'}),
-                    dbc.Button(f'{rschool} ({score})%', color = 'secondary', id={'type': 'school-button', 'index': school},
+                    dbc.Button(f'{rschool} ({round(score,1)}%)', color = 'secondary', id={'type': 'school-button', 'index': school},
                     style={'text-align': 'left','width':'80%','font-size':'30px','margin-left':'15px','margin-top':'15px'})
                 ],style={'display': 'flex', 'align-items': 'center'})
             )
@@ -177,10 +189,10 @@ def update_output(n_clicks, input_value):
         State({"type": "school-button", "index": MATCH}, "id")
     ],
 )
-def toggle_modal(n_clicks, is_open, input_value,button_id):
+def toggle_modal(n_clicks, is_open, input_value, button_id):
     if n_clicks is not None:
         school = button_id["index"]
-        content = get_modal_content(input_value,school)
+        content = modal_content_store.get(school)
         return not is_open, content
     return is_open, []
 
