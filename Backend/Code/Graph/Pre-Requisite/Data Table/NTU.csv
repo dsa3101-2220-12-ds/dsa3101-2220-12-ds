@@ -1,0 +1,19 @@
+Source,Target,Type,Id,Label,Weight
+CZ1003,CZ1007,Directed,0,,1
+CZ1007,CZ2002,Directed,1,,1
+CZ1007,CZ2001,Directed,2,,1
+CZ2002,CZ2006,Directed,3,,1
+MH1805,MH2500,Directed,4,,1
+H2 Math,MH2802,Directed,5,,1
+CZ1007,CZ2007,Directed,6,,1
+CZ2001,CZ2007,Directed,7,,1
+CZ1007,CZ3005,Directed,8,,1
+MH2500,CZ3005,Directed,9,,1
+MH2500,MH3500,Directed,10,,1
+MH2500,MH3511,Directed,11,,1
+CC0001,HW0218,Directed,12,,1
+CZ1003,CZ4041,Directed,13,,1
+MH2500,CZ4041,Directed,14,,1
+CZ1007,CZ4041,Directed,15,,1
+CZ2001,CZ4032,Directed,16,,1
+MH1805,MH2100,Directed,17,,1
