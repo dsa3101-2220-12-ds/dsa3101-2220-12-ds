@@ -22,8 +22,6 @@ nlp_ner = spacy.load(NER_MODEL_PATH)
 
 MODULES_DATASET_PATH = "/app/modules.pkl"
 modules = pd.read_pickle(MODULES_DATASET_PATH)
-skill_sch_code = modules_copy = pd.read_csv('/app/skill_sch_code.csv')
-modules_copy = pd.read_csv('/app/All_courses_info.csv')
 
 HTML_PATTERN = re.compile('<.*?>')
 STOP_WORDS = set(stopwords.words('english'))
@@ -64,11 +62,6 @@ def cleaning(chunk):
         outputs.append(target_input_tokens_wo_stopwords)
     
     return outputs
-
-def process_job_desc(job_desc):
-    job_desc = nlp_ner(job_desc)
-    result = [cleaning([job_ents.text])[0] for job_ents in job_desc.ents]
-    return result
 
 def calc_score(cos_sim):
     """
@@ -134,47 +127,32 @@ def get_doc2doc_score(job_desc, mod_desc, verbose = 1):
 
     return np.mean(np.array(scores))
 
-def get_skill2mod_score(skill):
+def get_skill2mod_score(skill, mod_desc):
     """
     Generates a score and the skill token identified in `mod_desc` with the closest match to `skill`
     """
+    mod_desc = nlp_ner(mod_desc)
     max_score = 0
     best_ent = None
     if skill not in w2v_model.wv:
         return max_score, best_ent
-    
-    unq_skill_sch_code = skill_sch_code['skill'].unique()
-    for mod_ent in unq_skill_sch_code:
-        cos_sim = w2v_model.wv.similarity(mod_ent, skill)
+    for mod_ents in mod_desc.ents:
+        mod_ents = cleaning([mod_ents.text])[0]
+        for mod_ent in mod_ents:
+            if mod_ent in w2v_model.wv:
+                cos_sim = w2v_model.wv.similarity(mod_ent, skill)
                 
-        # To handle computational rounding errors. Sometimes cos_sim is 1.00001 or -1.00001
-        if cos_sim > 1: cos_sim = 1
-        elif cos_sim < -1: cos_sim = -1
+                # To handle computational rounding errors. Sometimes cos_sim is 1.00001 or -1.00001
+                if cos_sim > 1: cos_sim = 1
+                elif cos_sim < -1: cos_sim = -1
                     
-        score = calc_score(cos_sim)
-        if max_score < score:
-            best_ent = mod_ent
-        max_score = max(max_score, score)
-    else:
-        max_score = max(max_score, 0)
-
+                score = calc_score(cos_sim)
+                if max_score < score:
+                    best_ent = mod_ent
+                max_score = max(max_score, score)
+            else:
+                max_score = max(max_score, 0)
     return max_score, best_ent
-
-def get_school_scores(all_schools):
-    """
-    Assigns a score to every school. Score ranges from 0 to 100
-    """
-    all_scores = {}
-    num_skills = len(all_schools)
-    for skill in all_schools.keys():
-        schools = all_schools[skill].keys()
-        for school in schools:
-            score = all_schools[skill][school][1]
-            if school not in all_scores: all_scores[school] = 0
-            all_scores[school] += score
-    for school, total_score in all_scores.items():
-        all_scores[school] = total_score / num_skills
-    return all_scores
 
 def get_mod_recommendations(job_desc):
     """
@@ -218,12 +196,11 @@ def get_mod_recommendations(job_desc):
     """
     
     all_schools = {}
-    job_desc = process_job_desc(job_desc)
-    global modules_copy
-    for skill_words in job_desc:
+    for ent in tqdm(nlp_ner(job_desc).ents):
+        skill_words = cleaning([ent.text])[0]
         best_mods = {}
         for skill_word in skill_words:
-            global modules_copy
+            modules_copy = modules.copy()
             modules_copy['score'] = modules_copy.description.apply(lambda x: get_skill2mod_score(skill_word, x)[0])
             modules_copy = modules_copy.sort_values('score', ascending=False).drop_duplicates('school')
             for i, row in modules_copy.iterrows():
@@ -231,6 +208,22 @@ def get_mod_recommendations(job_desc):
                 if school not in best_mods or best_mods[school][1]:
                     best_mods[school] = (code, score)
         all_schools[" ".join(skill_words)] = best_mods
+        
+    def get_school_scores(all_schools):
+        """
+        Assigns a score to every school. Score ranges from 0 to 100
+        """
+        all_scores = {}
+        num_skills = len(all_schools)
+        for skill in all_schools.keys():
+            schools = all_schools[skill].keys()
+            for school in schools:
+                score = all_schools[skill][school][1]
+                if school not in all_scores: all_scores[school] = 0
+                all_scores[school] += score
+        for school, total_score in all_scores.items():
+            all_scores[school] = total_score / num_skills
+        return all_scores
     
     return all_schools, get_school_scores(all_schools)
 

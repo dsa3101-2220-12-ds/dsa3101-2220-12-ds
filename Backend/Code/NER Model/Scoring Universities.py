@@ -24,6 +24,7 @@ from multiprocess import Process, cpu_count
 import multiprocess as mp
 import spacy
 from spacy import displacy
+import json
 import time
 
 start_time = time.time()
@@ -379,7 +380,6 @@ def get_mod_recommendations(job_desc):
     
     all_schools = {}
     job_desc = process_job_desc(job_desc)
-    global modules_copy
     # for ent in tqdm(nlp_ner(job_desc).ents):
     for skill_words in job_desc:
         # skill_words = cleaning([ent.text])[0]
