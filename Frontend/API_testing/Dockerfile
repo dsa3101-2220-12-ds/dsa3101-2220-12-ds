@@ -14,6 +14,8 @@ RUN pip3 install -r requirements.txt
 COPY modules.pkl modules.pkl
 COPY ner/ ner/
 COPY w2v/ w2v/
+COPY skill_sch_code.csv skill_sch_code.csv
+COPY All_courses_info.csv All_courses_info.csv
 
 RUN python -c "import nltk;nltk.download('stopwords')"
 RUN python -c "import nltk;nltk.download('punkt')"
