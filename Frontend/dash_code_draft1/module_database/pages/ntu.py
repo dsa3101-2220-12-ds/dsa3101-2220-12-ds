@@ -32,7 +32,7 @@ def main_option(option_id, title, sub_options):
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_option[1], id=f"ntu-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            [dbc.ListGroupItem(sub_option[0], id=f"ntu-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
             id=f"ntu-sub-options-{option_id}",
             is_open=False,
         ),
@@ -81,15 +81,19 @@ layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             main_option(option_id + 1, category, category_options[category]) for option_id, category in enumerate(categories)
-        ], width=3),
-        dbc.Col([
-            html.Div(id="ntu-content", className="content-container"),
-            dcc.Link(
-                html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
-                href="/ntucomap",
-                target="_blank",
-            ),
-        ], width=9),
+        ], width=4),
+
+            dbc.Col([
+                dcc.Link(
+                    html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
+                    href="/ntucomap",
+                    target="_blank",
+                ),
+            ], width=4),  # Add this line
+            dbc.Col([
+                html.Div(id="ntu-module-description", className="module-description"),
+            ], width=4),  # Add this line
+
     ]),
 
     dbc.Row([
@@ -109,22 +113,27 @@ layout = dbc.Container([
 
 def register_callbacks(app):
     @app.callback(
-        Output("ntu-content", "children"),
+        Output("ntu-module-description", "children"),
         [Input(f"ntu-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
     )
     def update_content(*args):
-        ctx = dash.callback_context
-        if not ctx.triggered:
-            return "Please select a module."
+            ctx = dash.callback_context
+            if not ctx.triggered:
+                return "Please select a module."
 
-        input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-        module_code = input_id.split("-")[-1]
+            input_id = ctx.triggered[0]["prop_id"].split(".")[0]
+            module_code = input_id.split("-")[-1].replace('_', '.')
 
-        if args[int(input_id.split("-")[-2])] == 0:
-            return "Please select a module."
+            if args[int(input_id.split("-")[-2])] == 0:
+                return "Please select a module."
 
-        module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
-        return module_description
+            module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
+            return dbc.Card([
+                dbc.CardHeader("Module Information"),  # Update the title here
+                dbc.CardBody([
+                    html.P(module_description)
+                ])
+            ])
 
     @app.callback(
         [Output(f"ntu-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
