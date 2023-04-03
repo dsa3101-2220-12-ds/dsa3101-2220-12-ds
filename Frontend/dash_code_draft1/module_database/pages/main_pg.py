@@ -19,11 +19,13 @@ def main_option(option_id, title, sub_options):
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_option, id=f"sub-option-{option_id}-{i}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            [dbc.ListGroupItem(sub_option[1], id=f"sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
             id=f"sub-options-{option_id}",
             is_open=False,
         ),
     ])
+
+
 
 
 
@@ -98,3 +100,29 @@ main_layout = dbc.Container([
     ]),
     html.Div(id='page-content', className='content-container'),
 ], fluid=True)
+
+def register_callbacks(app: Dash):
+    @app.callback(
+        Output("url", "pathname"),
+        Input("university-dropdown", "value"),
+    )
+    def update_url_pathname(selected_value):
+        if selected_value:
+            return selected_value
+        raise dash.exceptions.PreventUpdate
+
+    @app.callback(
+        [Output(f"sub-options-{i}", "is_open") for i in range(1, 6)],
+        [Input(f"main-option-{i}", "n_clicks") for i in range(1, 6)],
+        [dash.dependencies.State(f"sub-options-{i}", "is_open") for i in range(1, 6)],
+    )
+    def toggle_sub_options(*args):
+        ctx = dash.callback_context
+        if not ctx.triggered:
+            return [False] * 5
+        else:
+            button_id = ctx.triggered[0]["prop_id"].split(".")[0]
+            index = int(button_id.split("-")[-1]) - 1
+            state_values = args[len(args)//2:]
+            new_states = [not state_values[index] if i == index else False for i in range(len(state_values))]
+            return new_states

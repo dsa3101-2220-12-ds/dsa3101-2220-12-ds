@@ -1,7 +1,21 @@
+import dash
 import dash_html_components as html
+import base64
+import os
+
+
+image_filename = 'sussmod.png' # replace with your own image filename
+image_path = os.path.join('assets', 'img', image_filename)
+encoded_image = base64.b64encode(open(image_path, 'rb').read())
 
 layout = html.Div([
-    html.Img(src='/assets/img/sussmod.png', alt='SUSS Modules Comparison', style={'width': '50%', 'height': 'auto'})
+    html.H1('SUSS Modules Comparison', style={'text-align': 'center'}),
+    html.Div([
+        html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()), style={'display': 'block', 'margin': 'auto'})
+    ])
 ])
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
 
 
