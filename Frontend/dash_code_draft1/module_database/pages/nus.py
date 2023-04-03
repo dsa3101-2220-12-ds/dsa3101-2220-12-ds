@@ -11,7 +11,14 @@ csv_file = "assets/Data/nus_dsa_mods.csv"
 df = pd.read_csv(csv_file)
 
 categories = df["mod_category"].unique()
-category_options = {category: df[df["mod_category"] == category][["mod_code", "mod_desc"]].values for category in categories}
+category_options = {
+    category: [
+        (str(row["mod_code"]).replace('.', '_'), row["mod_desc"])
+        for _, row in df[df["mod_category"] == category][["mod_code", "mod_desc"]].iterrows()
+    ]
+    for category in categories
+}
+
 
 
 def main_option(option_id, title, sub_options):
@@ -20,17 +27,15 @@ def main_option(option_id, title, sub_options):
             html.H5(
                 dbc.Button(
                     title,
-                    id=f"main-option-{option_id}",
+                    id=f"nus-main-option-{option_id}",
                     className="w-100 text-start",
                     color="link",
                 )
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_options[i][0], 
-            id=f"sub-option-{option_id}-{i}-{sub_options[i][0]}", 
-            n_clicks=0, action=True) for i in range(len(sub_options))],
-            id=f"sub-options-{option_id}",
+            [dbc.ListGroupItem(sub_option[1], id=f"nus-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            id=f"nus-sub-options-{option_id}",
             is_open=False,
         ),
     ])
@@ -81,7 +86,7 @@ layout = dbc.Container([
             main_option(option_id + 1, category, category_options[category]) for option_id, category in enumerate(categories)
         ], width=3),
         dbc.Col([
-            html.Div(id="content", className="content-container"),
+            html.Div(id="nus-content", className="content-container"),
             dcc.Link(
                 html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
                 href="/nuscomap",
@@ -108,8 +113,8 @@ layout = dbc.Container([
 
 def register_callbacks(app):
     @app.callback(
-        Output("content", "children"),
-        [Input(f"sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
+        Output("nus-content", "children"),
+        [Input(f"nus-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
     )
     def update_content(*args):
         ctx = dash.callback_context
@@ -126,9 +131,10 @@ def register_callbacks(app):
         return module_description
 
     @app.callback(
-        [Output(f"sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
-        [Input(f"main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
-        [State(f"sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+        [Output(f"nus-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+        [Input(f"nus-main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
+        [State(f"nus-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+
     )
     def toggle_collapse(*args):
         ctx = dash.callback_context
