@@ -154,9 +154,11 @@ opp_graph = make_bar_chart(data_opp)
 text_graph_mod1='The series of pie charts show the percentages of modules offered per subject in each university.'
 text_graph_mod2= 'As a prospective data science student, there are 2 important topics that you must learn - linear \
 algebra (this is under Mathematics; think vectors and matrices) and Statistics. These topics will build the foundation \
-for Machine Learning.'
-text_graph_mod3 = '[Include a brief description of Data Analytics, Data Science and Computer Science \
-topics here]'
+for Machine Learning under the Data Science category.'
+# data analytics source: https://www.mastersindatascience.org/learning/what-is-data-analytics/
+text_graph_mod3 = ' There are other skills important to data scientists too - under Computer Science, you would learn \
+programming languages such as Python and R, as well as SQL for database management. Under Data Analytics, you will be \
+taking modules about recognising patterns in data and data visualization.'
 text_graph_mod4 = 'The number of modules per subject is calculated as such: if the module is mostly about that certain \
 subject, the score of that topic will be increased by 1. If around half of a module is about that subject, the score \
 will be increased by 0.5. For example, in NUS, the Statistics subject has a score of 12.5. Therefore, you would expect \
@@ -184,8 +186,9 @@ text_graph_salary=(html.Div(text_graph_salary1),
 
 # opportunities graph text
 text_graph_opp1 = 'This chart shows the percentage of theoretical and practical modules per university.'
-text_graph_opp2 = 'The theoretical modules focus more on theory which helps you understand the concept behind the implementation of machine learning algorithms. \
-The practical modules focus more on coding by having more project components and obtaining hands-on experiences through internship modules.'
+text_graph_opp2 = 'The theoretical modules focus more on theory which helps you understand the concept behind the \
+implementation of machine learning algorithms. The practical modules focus more on coding by having more project components \
+and obtaining hands-on experiences through internship modules.'
 text_graph_opp3 = 'However, do  note that some practical modules may require a certain level of theoretical knowledge.'
 text_graph_opp = (html.Div(text_graph_opp1),
                   html.Br(),
@@ -211,19 +214,12 @@ layout = html.Div(children=[
                     'font-size':18}),
     html.Div(children=[
             dcc.Graph(id='diff_graph', figure=default_pc)],
-            style={'height':'700px',
-                   'width':'65%'}),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
+            style={'width':'65%'}),
     dbc.Button([arrow_back_icon,"Back to Main"],
 		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
 
 ],
-                  style = {'margin':20})
+                  style = {'padding':'5px 60px'})
 
 
 @callback(
