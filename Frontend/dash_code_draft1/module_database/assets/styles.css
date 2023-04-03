@@ -255,6 +255,12 @@ body {
   background-color: #ddd;
 }
 
+/* Add this to your styles.css file */
+.cy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   
   
 
