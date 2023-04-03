@@ -27,7 +27,7 @@ def get_mod_reco(mod_reco,school):
     output = []
     for skill, school_info in mod_reco.items():
         module_code, score = school_info[school]
-        output.append((skill,module_code,round(score,1)))
+        output.append((skill,module_code,round(score,2)))
     return output 
 
 
@@ -167,7 +167,7 @@ def update_output(n_clicks, input_value):
                     html.Div(str(i),
                     style={'display': 'inline-block', 'font-size':'30px','background-color': 'yellow',
                     'border-radius': '50%', 'width':'50px','height':'50px', 'text-align': 'center', 'font-weight': 'bold', 'margin': '15px'}),
-                    dbc.Button(f'{rschool} ({round(score,1)}%)', color = 'secondary', id={'type': 'school-button', 'index': school},
+                    dbc.Button(f'{rschool} ({round(score,2)}%)', color = 'secondary', id={'type': 'school-button', 'index': school},
                     style={'text-align': 'left','width':'80%','font-size':'30px','margin-left':'15px','margin-top':'15px'})
                 ],style={'display': 'flex', 'align-items': 'center'})
             )
