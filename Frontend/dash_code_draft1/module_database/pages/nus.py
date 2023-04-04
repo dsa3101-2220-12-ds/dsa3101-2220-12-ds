@@ -10,6 +10,7 @@ import pandas as pd
 
 NER_MODEL_PATH = "assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
+CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
 csv_file = "assets/Data/nus_dsa_mods.csv"
 df = pd.read_csv(csv_file)
