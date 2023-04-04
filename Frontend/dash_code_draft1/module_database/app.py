@@ -10,26 +10,25 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
 
-from pages.main_pg import main_layout
-from pages.nus import layout as nus_layout, register_callbacks
-from pages.ntu import layout as ntu_layout, register_callbacks
-from pages.smu import layout as smu_layout, register_callbacks
-from pages.sutd import layout as sutd_layout, register_callbacks
-from pages.sit import layout as sit_layout, register_callbacks
-from pages.suss import layout as suss_layout, register_callbacks
-from pages.all_uni_comp import layout as all_uni_comp_layout
+from pages.main_pg import main_layout, register_callbacks as register_main_pg_callbacks
+from pages.nus import layout as nus_layout, register_callbacks as register_nus_callbacks
+from pages.ntu import layout as ntu_layout, register_callbacks as register_ntu_callbacks
+from pages.smu import layout as smu_layout, register_callbacks as register_smu_callbacks
+from pages.sutd import layout as sutd_layout, register_callbacks as register_sutd_callbacks
+from pages.sit import layout as sit_layout, register_callbacks as register_sit_callbacks
+from pages.suss import layout as suss_layout, register_callbacks as register_suss_callbacks
+from pages.all_uni_comp import layout as all_uni_comp_layout, generate_legend
 from pages.nusmod import layout as nusmod_layout
 from pages.nuscomap import layout as nuscomap_layout
 from pages.ntumod import layout as ntumod_layout
 from pages.ntucomap import layout as ntucomap_layout
 from pages.smumod import layout as smumod_layout
-from pages.smucomap import layout as smucomap_layout
+
 from pages.sutdmod import layout as sutdmod_layout
-from pages.sutdcomap import layout as sutdcomap_layout
+
 from pages.sitmod import layout as sitmod_layout
-from pages.sitcomap import layout as sitcomap_layout
+
 from pages.sussmod import layout as sussmod_layout
-from pages.susscomap import layout as susscomap_layout
 
 
 
@@ -39,10 +38,8 @@ app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP]
 
 
 app.layout = html.Div([
-
     dcc.Location(id='url', refresh=False),  # Add the dcc.Location component
     html.Div(id='page-content'),  # Add the html.Div component
-    html.Div(id='content'),  # Add this line
 ])
 
 @app.callback(Output('page-content', 'children'),
@@ -90,7 +87,7 @@ def display_page(pathname):
     else:
         return main_layout
 
-
+'''
 def init_callbacks(app: Dash):
     @app.callback(
         Output("url", "pathname"),
@@ -135,14 +132,23 @@ def init_callbacks(app: Dash):
             option, sub_option = button_id.split('-')[2:4]
             return html.Div(f"Option {option}, Sub-option {sub_option} clicked", className="search-result-a4")
 
+'''
 
+@app.callback(Output('legend-container', 'children'), [Input('node-colors', 'data')])
+def update_legend(color_data):
+    return generate_legend(color_data)
 
 @app.server.route('/assets/img/<path:path>')
 def serve_image(path):
     return send_from_directory(os.path.join(app.server.static_folder, 'assets/img'), path)
 
-
-register_callbacks(app)
+register_main_pg_callbacks(app)
+register_nus_callbacks(app)
+register_ntu_callbacks(app)
+register_smu_callbacks(app)
+register_sutd_callbacks(app)
+register_sit_callbacks(app)
+register_suss_callbacks(app)
 
 if __name__ == "__main__":
     app.run_server(debug=True)

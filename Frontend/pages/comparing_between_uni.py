@@ -38,13 +38,13 @@ def remove_others(sch):
         if sch.iloc[i,0] != 'Other':
             Subject.append(sch.iloc[i,0])
             Number.append(sch.iloc[i,1])
-    dct={'Subject':Subject, 'Number': Number}
+    dct={'Subject':Subject, 'Number of Modules': Number} 
     df = pd.DataFrame.from_dict(dct)
     return df
 
-# get NUS df
+# make df containing subjects taught in NUS
 sch_df=pd.DataFrame.from_dict(ast.literal_eval(df_mods.iloc[0,1]), orient="index").reset_index()
-sch_df.columns=['Subject', 'Number']
+sch_df.columns=['Subject', 'Number of Modules']
 NUS_df=pd.DataFrame(['NUS']*len(sch_df))
 sch_df['School']=NUS_df
 
@@ -52,7 +52,7 @@ for i in range(1,len(df_mods)): # append the df of the other universitie to NUS_
     sch_name=df_mods.iloc[i,0]
     x = ast.literal_eval(df_mods.iloc[i,1])
     sch=pd.DataFrame.from_dict(x, orient="index").reset_index()
-    sch.columns=['Subject', 'Number']
+    sch.columns=['Subject', 'Number of Modules']
     sch=remove_others(sch)
     name_df = pd.DataFrame([sch_name]*len(sch))
     sch['School']=name_df
@@ -100,7 +100,7 @@ df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
 ############ make graph function ##############
 def make_all_pie_chart():
-    fig = px.pie(sch_df, values='Number', names='Subject', color="Subject",
+    fig = px.pie(sch_df, values='Number of Modules', names='Subject', color="Subject",
                  facet_col="School", facet_col_wrap=3,
                  color_discrete_map={'Statistics':'#f4cccc',
                                      'Mathematics':'#c9daf8',
@@ -150,12 +150,35 @@ opp_graph = make_bar_chart(data_opp)
 
 ############ app layout ##############
 # percentage of modules text
-text_graph_mod='The series of pie charts show the percentages of modules offered per subject in each university.'
+# source: https://towardsdatascience.com/the-3-pillars-of-math-you-need-to-know-to-become-an-effective-data-analyst-9af50106ffa1
+text_graph_mod1='The series of pie charts show the percentages of modules offered per subject in each university.'
+text_graph_mod2= 'As a prospective data science student, there are 2 important topics that you must learn - linear \
+algebra (this is under Mathematics; think vectors and matrices) and Statistics. These topics will build the foundation \
+for Machine Learning under the Data Science category.'
+# data analytics source: https://www.mastersindatascience.org/learning/what-is-data-analytics/
+text_graph_mod3 = ' There are other skills important to data scientists too - under Computer Science, you would learn \
+programming languages such as Python and R, as well as SQL for database management. Under Data Analytics, you will be \
+taking modules about recognising patterns in data and data visualization.'
+text_graph_mod4 = 'The number of modules per subject is calculated as such: if the module is mostly about that certain \
+subject, the score of that topic will be increased by 1. If around half of a module is about that subject, the score \
+will be increased by 0.5. For example, in NUS, the Statistics subject has a score of 12.5. Therefore, you would expect \
+12.5 modules taken in NUS to be on the subject of Statistics.'
+text_graph_mod = (html.Div(text_graph_mod1),
+                  html.Br(),
+                  html.Div(text_graph_mod2),
+                  html.Br(),
+                  html.Div(text_graph_mod3),
+                  html.Br(),
+                  html.Div(text_graph_mod4),
+                  html.Br())
+
 
 # salary graph text
-text_graph_salary1 = 'This chart shows the mean, the median, the 25th percentile and the 75th percentile of salary obtained by fresh graduates in 2021.'
-text_graph_salary2 = 'Do note that since the Applied Artifical Intelligence (AAI) course in SUTD was introduced recently and have no graduates yet, \
-we have substituted the course with Computer Science and Design course from the same university.'
+text_graph_salary1 = 'This chart shows the mean, the median, the 25th percentile and the 75th percentile of salary \
+obtained by fresh graduates in 2021.'
+text_graph_salary2 = 'Do note that since the Applied Artifical Intelligence (AAI) course in SUTD was introduced \
+recently and have no graduates yet, we have substituted the course with the Computer Science and Design course \
+from the same university.'
 text_graph_salary=(html.Div(text_graph_salary1),
                    html.Br(),
                    html.Div(text_graph_salary2))
@@ -163,8 +186,9 @@ text_graph_salary=(html.Div(text_graph_salary1),
 
 # opportunities graph text
 text_graph_opp1 = 'This chart shows the percentage of theoretical and practical modules per university.'
-text_graph_opp2 = 'The theoretical modules focus more on theory which helps you understand the concept behind the implementation of machine learning algorithms. \
-The practical modules focus more on coding by having more project components and obtaining hands-on experiences through internship modules.'
+text_graph_opp2 = 'The theoretical modules focus more on theory which helps you understand the concept behind the \
+implementation of machine learning algorithms. The practical modules focus more on coding by having more project components \
+and obtaining hands-on experiences through internship modules.'
 text_graph_opp3 = 'However, do  note that some practical modules may require a certain level of theoretical knowledge.'
 text_graph_opp = (html.Div(text_graph_opp1),
                   html.Br(),
@@ -177,12 +201,11 @@ layout = html.Div(children=[
             style={'font-family':'Raleway'}),
     html.Div(children=[
         dcc.Dropdown(id = 'diff_cat_dd', style={'font-family':'Raleway', 'width':280, 'font-size':18},
-                     options = [{'label':'By School', 'value':'By School'},
-                               {'label':'By Salary', 'value':'By Salary'}, 
-                               {'label':'By Practical Opportunities', 'value':'By Practical Opportunities'}],
+                     options = [{'label':'By School', 'value':'By School'}, 
+                               {'label':'By Practical Opportunities', 'value':'By Practical Opportunities'},
+                                {'label':'By Salary', 'value':'By Salary'}],
                      value = 'By School')
     ]),
-    # add break
     html.Br(),
     # add graph description
     html.Div(children=text_graph_mod, id='text_graph',
@@ -191,19 +214,12 @@ layout = html.Div(children=[
                     'font-size':18}),
     html.Div(children=[
             dcc.Graph(id='diff_graph', figure=default_pc)],
-            style={'height':'700px',
-                   'width':'65%'}),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
+            style={'width':'65%'}),
     dbc.Button([arrow_back_icon,"Back to Main"],
 		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
 
 ],
-                  style = {'margin':20})
+                  style = {'padding':'5px 60px'})
 
 
 @callback(
