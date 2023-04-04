@@ -12,7 +12,7 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.CERULEAN])
 
 schools = ['SUTD', 'NTU', 'SMU', 'SUSS', 'SIT', 'NUS']
 default_message = "This popup window consists of 2 sections. You can first check the skills identified in your inputs. After that, you can check the recommended module that provides you this particular skill for each school. The score behind each module is to indicate how well this module can prepare you for this skill. Take note that the overall score is based on the distributed score for each skill. Happy reading!"
-
+modal_content_store = {}
 def get_all_response(input_value):
     response = requests.get(f"http://localhost:9001/api?input={input_value}")
     data = response.json()
@@ -138,6 +138,11 @@ def update_output(n_clicks, input_value):
         sorted_scores = {k: v for k, v in sorted(scores.items(), key=lambda item: item[1], reverse=True)}
         output_blocks = []
         i = 1 
+
+        # Precompute the modal content for each school and store it in the modal_content_store dictionary
+        for school in schools:
+            modal_content_store[school] = get_modal_content(input_value, school)
+
         for school, score in sorted_scores.items():
             # Since backend output do not have course name, this part is manually added. rschool = renamed school
             if school == "NUS": rschool = "NUS - Data Science and Analytics"
@@ -174,12 +179,13 @@ def update_output(n_clicks, input_value):
         State({"type": "school-button", "index": MATCH}, "id")
     ],
 )
-def toggle_modal(n_clicks, is_open, input_value,button_id):
+def toggle_modal(n_clicks, is_open, input_value, button_id):
     if n_clicks is not None:
         school = button_id["index"]
-        content = get_modal_content(input_value,school)
+        content = modal_content_store.get(school)
         return not is_open, content
     return is_open, []
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
