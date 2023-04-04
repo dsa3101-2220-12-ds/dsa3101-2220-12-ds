@@ -17,7 +17,7 @@ from pages.smu import layout as smu_layout, register_callbacks as register_smu_c
 from pages.sutd import layout as sutd_layout, register_callbacks as register_sutd_callbacks
 from pages.sit import layout as sit_layout, register_callbacks as register_sit_callbacks
 from pages.suss import layout as suss_layout, register_callbacks as register_suss_callbacks
-from pages.all_uni_comp import layout as all_uni_comp_layout
+from pages.all_uni_comp import layout as all_uni_comp_layout, generate_legend
 from pages.nusmod import layout as nusmod_layout
 from pages.nuscomap import layout as nuscomap_layout
 from pages.ntumod import layout as ntumod_layout
@@ -29,6 +29,8 @@ from pages.sutdmod import layout as sutdmod_layout
 from pages.sitmod import layout as sitmod_layout
 
 from pages.sussmod import layout as sussmod_layout
+
+
 
 
 
@@ -131,6 +133,10 @@ def init_callbacks(app: Dash):
             return html.Div(f"Option {option}, Sub-option {sub_option} clicked", className="search-result-a4")
 
 '''
+
+@app.callback(Output('legend-container', 'children'), [Input('node-colors', 'data')])
+def update_legend(color_data):
+    return generate_legend(color_data)
 
 @app.server.route('/assets/img/<path:path>')
 def serve_image(path):
