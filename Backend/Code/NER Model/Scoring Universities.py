@@ -686,81 +686,6 @@ nlp_ner = spacy.load("model-best")
 skill_sch_code = modules_copy = pd.read_csv('../../Data/skill_sch_code.csv')
 modules_copy = pd.read_csv('../../../Data/university_courses/All_courses_info.csv')
 
-# Gathering Module Database
-# UNI_MODDESC_MAPPING = {
-
-#     # Module desc ONLY - ernest original code
-#     "nus_dsa_mods.xlsx" : "mod_desc",
-#     "NTU_course_info.csv" : "Course Aims",
-#     "SMU_course_info.csv" : "Description",
-#     "SUSS_course_info.csv" : "module description",
-#     "SUTD_course_info.csv" : "Module description",
-#     "SIT_Module_Info.csv" : "Module Description "
-
-#     #combined all topics to increase skills identified
-#     # "nus_dsa_mods.xlsx" : "mod_desc",
-#     # "NTU_course_info.csv" : "mod_desc",
-#     # "SMU_course_info.csv" : "Description",
-#     # "SUSS_course_info.csv" : "module description",
-#     # "SUTD_course_info.csv" : "mod_desc",
-#     # "SIT_Module_Info.csv" : "mod_desc"
-# }
-
-# UNI_MODCODE_MAPPING = {
-#     "nus_dsa_mods.xlsx" : "mod_code",
-#     "NTU_course_info.csv" : "Module Code",
-#     "SMU_course_info.csv" : "Module Code",
-#     "SUSS_course_info.csv" : "module code",
-#     "SUTD_course_info.csv" : "Module code",
-#     "SIT_Module_Info.csv" : "Module Code"
-# }
-
-# UNI_MODNAME_MAPPING = {
-#     "nus_dsa_mods.xlsx" : "mod_name",
-#     "NTU_course_info.csv" : "Module Name",
-#     "SMU_course_info.csv" : "Module Name",
-#     "SUSS_course_info.csv" : "module name",
-#     "SUTD_course_info.csv" : "Module Title",
-#     "SIT_Module_Info.csv" : "Module Title"
-# }
-
-# SKIP_ROWS = {
-#     "nus_dsa_mods.xlsx" : 0,
-#     "NTU_course_info.csv" : 0,
-#     "SMU_course_info.csv" : 1,
-#     "SUSS_course_info.csv" : 0,
-#     "SUTD_course_info.csv" : 5,
-#     "SIT_Module_Info.csv" : 0
-# }
-
-# MODULE_READ = "../../../Data/university_courses/"
-    
-# modules = pd.DataFrame([], dtype='object', columns = ["school", "code", "name", "description"])
-# for uni, description_col in UNI_MODDESC_MAPPING.items():
-#     school_name = uni.split("_")[0].upper()
-#     print(f"Gathering module descriptions from {school_name}")
-#     try:
-#         table = pd.read_excel(MODULE_READ + uni, skiprows=SKIP_ROWS[uni])
-#     except:
-#         table = pd.read_csv(MODULE_READ + uni, skiprows=SKIP_ROWS[uni], encoding_errors='ignore')
-    
-#     table = table[[UNI_MODCODE_MAPPING[uni], UNI_MODNAME_MAPPING[uni], UNI_MODDESC_MAPPING[uni]]].dropna().reset_index(drop=True)
-#     table.rename(columns = {
-#         UNI_MODCODE_MAPPING[uni] : "code",
-#         UNI_MODNAME_MAPPING[uni] : "name",
-#         UNI_MODDESC_MAPPING[uni] : "description"
-#     }, inplace=True)
-#     table["school"] = school_name
-    
-#     modules = pd.concat([modules, table], axis = 0).reset_index(drop=True)
-
-# modules.to_csv('../../../Data/university_courses/All_courses_info.csv', index=False)
-# end_time = time.time()
-
-# elapsed_time = end_time - start_time
-
-# print(f"time to import libraries and files: {elapsed_time} seconds")
-
 # Function for pre-processing data
 HTML_PATTERN = re.compile('<.*?>')
 STOP_WORDS = set(stopwords.words('english'))
@@ -788,66 +713,185 @@ def cleaning(chunk):
         # remove stopwords and lemmatize
         target_input_tokens = nltk.word_tokenize(target_input)
         target_input_tokens_wo_stopwords = [lemmatizer.lemmatize(i) for i in target_input_tokens if i not in STOP_WORDS and i]
-        # print(target_input_tokens_wo_stopwords)
         outputs.append(target_input_tokens_wo_stopwords)
-    # print(outputs)
     return outputs
 
-# def cleaning(chunk): 
-#     cleaned_chunk = [re.sub(r'http\S+', ' ', x.lower()) for x in chunk]
-#     cleaned_chunk = [re.sub(HTML_PATTERN, ' ', x) for x in cleaned_chunk]
-#     cleaned_chunk = [re.sub("[^A-Za-z']+", ' ', x) for x in cleaned_chunk]
-#     cleaned_chunk = [re.sub(r'\s+',' ',x) for x in cleaned_chunk]
-#     cleaned_chunk = [nltk.word_tokenize(x) for x in cleaned_chunk]
-#     cleaned_chunk = [[lemmatizer.lemmatize(i) for i in tokens if i not in STOP_WORDS and i] for tokens in cleaned_chunk]
-#     return cleaned_chunk
+# Gathering Module Database
+UNI_MODDESC_MAPPING = {
+
+    # Module desc ONLY - ernest original code
+    "nus_dsa_mods.xlsx" : "mod_desc",
+    "NTU_course_info.csv" : "Course Aims",
+    "SMU_course_info.csv" : "Description",
+    "SUSS_course_info.csv" : "module description",
+    "SUTD_course_info.csv" : "Module description",
+    "SIT_Module_Info.csv" : "Module Description "
+
+    #combined all topics to increase skills identified
+    # "nus_dsa_mods.xlsx" : "mod_desc",
+    # "NTU_course_info.csv" : "mod_desc",
+    # "SMU_course_info.csv" : "Description",
+    # "SUSS_course_info.csv" : "module description",
+    # "SUTD_course_info.csv" : "mod_desc",
+    # "SIT_Module_Info.csv" : "mod_desc"
+}
+
+UNI_MODCODE_MAPPING = {
+    "nus_dsa_mods.xlsx" : "mod_code",
+    "NTU_course_info.csv" : "Module Code",
+    "SMU_course_info.csv" : "Module Code",
+    "SUSS_course_info.csv" : "module code",
+    "SUTD_course_info.csv" : "Module code",
+    "SIT_Module_Info.csv" : "Module Code"
+}
+
+UNI_MODNAME_MAPPING = {
+    "nus_dsa_mods.xlsx" : "mod_name",
+    "NTU_course_info.csv" : "Module Name",
+    "SMU_course_info.csv" : "Module Name",
+    "SUSS_course_info.csv" : "module name",
+    "SUTD_course_info.csv" : "Module Title",
+    "SIT_Module_Info.csv" : "Module Title"
+}
+
+SKIP_ROWS = {
+    "nus_dsa_mods.xlsx" : 0,
+    "NTU_course_info.csv" : 0,
+    "SMU_course_info.csv" : 1,
+    "SUSS_course_info.csv" : 0,
+    "SUTD_course_info.csv" : 5,
+    "SIT_Module_Info.csv" : 0
+}
+
+MODULE_READ = "../../../Data/university_courses/"
+    
+modules = pd.DataFrame([], dtype='object', columns = ["school", "code", "name", "description"])
+for uni, description_col in UNI_MODDESC_MAPPING.items():
+    school_name = uni.split("_")[0].upper()
+    print(f"Gathering module descriptions from {school_name}")
+    try:
+        table = pd.read_excel(MODULE_READ + uni, skiprows=SKIP_ROWS[uni])
+    except:
+        table = pd.read_csv(MODULE_READ + uni, skiprows=SKIP_ROWS[uni], encoding_errors='ignore')
+    
+    table = table[[UNI_MODCODE_MAPPING[uni], UNI_MODNAME_MAPPING[uni], UNI_MODDESC_MAPPING[uni]]].dropna().reset_index(drop=True)
+    table.rename(columns = {
+        UNI_MODCODE_MAPPING[uni] : "code",
+        UNI_MODNAME_MAPPING[uni] : "name",
+        UNI_MODDESC_MAPPING[uni] : "description"
+    }, inplace=True)
+    table["school"] = school_name
+    
+    modules = pd.concat([modules, table], axis = 0).reset_index(drop=True)
+
+modules.to_csv('../../../Data/university_courses/All_courses_info.csv', index=False)
+end_time = time.time()
+
+elapsed_time = end_time - start_time
+
+print(f"time to import libraries and files: {elapsed_time} seconds")
+# # OOV = []
+# # verbose = 1
+# # skill_sch_code = {} # {skill: {school : [module code 1, module code 2]}}
 
 
-# OOV = []
-# verbose = 1
-# skill_sch_code = {} # {skill: {school : [module code 1, module code 2]}}
+# # for index, row in modules.iterrows():
+# #     school = row['school']
+# #     description = row['description']
+# #     mod_code = row['code']
+# #     mod_desc = nlp_ner(description)
 
-
-# for index, row in modules.iterrows():
-#     school = row['school']
-#     description = row['description']
-#     mod_code = row['code']
-#     mod_desc = nlp_ner(description)
-
-#     for mod_ents in mod_desc.ents:
-#         mod_ents = cleaning([mod_ents.text])[0]
-#         for mod_ent in mod_ents:
-#             if mod_ent not in w2v_model.wv:
-#                 if mod_ent not in STOP_WORDS and mod_ent not in OOV:
-#                     OOV.append(mod_ent)
-#                 if verbose:
-#                     print(f"MODULE: {mod_ent} not found in vocabulary")
-#             else:
-#                 # DICTIONARY
-#                 if mod_ent in skill_sch_code:
-#                     if school in skill_sch_code[mod_ent]:
-#                         skill_sch_code[mod_ent][school].append(mod_code)
-#                     else:
-#                         skill_sch_code[mod_ent][school] = [mod_code]
-#                 else:
-#                     skill_sch_code[mod_ent] = {school: [mod_code]}
+# #     for mod_ents in mod_desc.ents:
+# #         mod_ents = cleaning([mod_ents.text])[0]
+# #         for mod_ent in mod_ents:
+# #             if mod_ent not in w2v_model.wv:
+# #                 if mod_ent not in STOP_WORDS and mod_ent not in OOV:
+# #                     OOV.append(mod_ent)
+# #                 if verbose:
+# #                     print(f"MODULE: {mod_ent} not found in vocabulary")
+# #             else:
+# #                 # DICTIONARY
+# #                 if mod_ent in skill_sch_code:
+# #                     if school in skill_sch_code[mod_ent]:
+# #                         skill_sch_code[mod_ent][school].append(mod_code)
+# #                     else:
+# #                         skill_sch_code[mod_ent][school] = [mod_code]
+# #                 else:
+# #                     skill_sch_code[mod_ent] = {school: [mod_code]}
                 
-# # CSV FILE: Convert the nested dictionary to a DataFrame
-# # convert nested dictionary to list of dictionaries
-# rows = []
-# for skill, school_codes in skill_sch_code.items():
-#     for school, module_codes in school_codes.items():
-#         rows.append({'skill': skill, 'school': school, 'modules': module_codes})
+# # # CSV FILE: Convert the nested dictionary to a DataFrame
+# # # convert nested dictionary to list of dictionaries
+# # rows = []
+# # for skill, school_codes in skill_sch_code.items():
+# #     for school, module_codes in school_codes.items():
+# #         rows.append({'skill': skill, 'school': school, 'modules': module_codes})
 
-# # create DataFrame from list of dictionaries
-# skill_sch_code_csv = pd.DataFrame(rows)
+# # # create DataFrame from list of dictionaries
+# # skill_sch_code_csv = pd.DataFrame(rows)
 
-# skill_sch_code_csv.to_csv('../../Data/skill_sch_code.csv', index=False)
-# end_time = time.time()
+# # skill_sch_code_csv.to_csv('../../Data/skill_sch_code.csv', index=False)
+# # end_time = time.time()
 
-# elapsed_time = end_time - start_time
+# # elapsed_time = end_time - start_time
 
-# print(f"time to make skill_sch_code dict: {elapsed_time} seconds")
+# # print(f"time to make skill_sch_code dict: {elapsed_time} seconds")
+
+
+def cleaning(chunk): 
+    cleaned_chunk = [re.sub(r'http\S+', ' ', x.lower()) for x in chunk]
+    cleaned_chunk = [re.sub(HTML_PATTERN, ' ', x) for x in cleaned_chunk]
+    cleaned_chunk = [re.sub("[^A-Za-z']+", ' ', x) for x in cleaned_chunk]
+    cleaned_chunk = [re.sub(r'\s+',' ',x) for x in cleaned_chunk]
+    cleaned_chunk = [nltk.word_tokenize(x) for x in cleaned_chunk]
+    cleaned_chunk = [[lemmatizer.lemmatize(i) for i in tokens if i not in STOP_WORDS and i] for tokens in cleaned_chunk]
+    return cleaned_chunk
+
+
+OOV = []
+verbose = 1
+skill_sch_code = {} # {skill: {school : [module code 1, module code 2]}}
+
+
+for index, row in modules.iterrows():
+    school = row['school']
+    description = row['description']
+    mod_code = row['code']
+    mod_desc = nlp_ner(description)
+
+    for mod_ents in mod_desc.ents:
+        mod_ents = cleaning([mod_ents.text])[0]
+        for mod_ent in mod_ents:
+            if mod_ent not in w2v_model.wv:
+                if mod_ent not in STOP_WORDS and mod_ent not in OOV:
+                    OOV.append(mod_ent)
+                if verbose:
+                    print(f"MODULE: {mod_ent} not found in vocabulary")
+            else:
+                # DICTIONARY
+                if mod_ent in skill_sch_code:
+                    if school in skill_sch_code[mod_ent]:
+                        skill_sch_code[mod_ent][school].append(mod_code)
+                    else:
+                        skill_sch_code[mod_ent][school] = [mod_code]
+                else:
+                    skill_sch_code[mod_ent] = {school: [mod_code]}
+                
+# CSV FILE: Convert the nested dictionary to a DataFrame
+# convert nested dictionary to list of dictionaries
+rows = []
+for skill, school_codes in skill_sch_code.items():
+    for school, module_codes in school_codes.items():
+        rows.append({'skill': skill, 'school': school, 'modules': module_codes})
+
+# create DataFrame from list of dictionaries
+skill_sch_code_csv = pd.DataFrame(rows)
+
+skill_sch_code_csv.to_csv('../../Data/skill_sch_code.csv', index=False)
+end_time = time.time()
+
+elapsed_time = end_time - start_time
+
+print(f"time to make skill_sch_code dict: {elapsed_time} seconds")
 
 # with open('../../Data/skill_sch_code.json', 'w') as f:
 #     # Write the dictionary to the file in JSON format
@@ -1044,7 +1088,9 @@ mod_reco, school_scores = get_mod_recommendations(job_desc)
 print(mod_reco)
 print(school_scores)
 
-end_time = time.time()
+# {'sql': {'NTU': ('CZ2007', 99.98900981053919), 'SUSS': ('ICT330', 99.98900981053919), 'SMU': ('DSA212', 99.98900981053919), 'SIT': ('CSC3005', 66.60971813284912), 'SUTD': ('50.043', 66.16281322640002), 'NUS': ('DSA4212', 64.27473608246663)}}
+# {'NTU': 99.98900981053919, 'SUSS': 99.98900981053919, 'SMU': 99.98900981053919, 'SIT': 66.60971813284912, 'SUTD': 66.16281322640002, 'NUS': 64.27473608246663}
+# end_time = time.time()
 
 elapsed_time = end_time - start_time
 
