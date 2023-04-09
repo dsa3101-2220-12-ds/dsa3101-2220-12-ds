@@ -1,208 +1,259 @@
 skill,school,modules
 computational,NUS,"['CS1010', 'CS1010', 'MA2104', 'CS3244', 'CS3244', 'DSA4212', 'MA4270']"
-computational,NTU,"['CZ1003', 'CC0002']"
+computational,NTU,"['CZ1003', 'CZ1003', 'CC0002']"
 computational,SMU,['CS421']
-computational,SUTD,"[50.035, 50.05]"
+computational,SUTD,"[10.014, 50.035, 50.05, 50.05]"
+computational,SIT,['CSC3005']
 thinking,NUS,['CS1010']
-thinking,NTU,"['CZ1003', 'CC0002', 'MH2802', 'CC0007']"
+thinking,NTU,"['CZ1003', 'CZ1003', 'CC0002', 'MH2802', 'CC0007']"
 thinking,SMU,"['CS421', 'CS421', 'IS428']"
 thinking,SUSS,['ANL321']
 problem,NUS,"['CS1010', 'CS1010', 'CS1010', 'DSA4262', 'DSA4263', 'DSA4266', 'MA3236', 'MA3252', 'MA3252', 'MA3252', 'MA4270', 'CS4234', 'CS4234', 'MA4230', 'MA4230']"
-problem,NTU,"['CZ1003', 'CZ1003', 'CC0002', 'SC1015']"
-problem,SUTD,"[50.003, 40.319, 50.021]"
+problem,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'CC0002', 'CC0002', 'CC0002', 'CZ2001', 'CZ2001']"
+problem,SUTD,"[50.003, 50.003, 50.004, 50.004, 50.005, 40.319, 50.021]"
 solving,NUS,"['CS1010', 'CS1010', 'DSA2102']"
-solving,NTU,['CC0002']
-solving,SUTD,[40.319]
+solving,NTU,"['CC0002', 'CC0002', 'CC0002']"
+solving,SUTD,"[50.005, 40.319]"
+solving,SIT,['CSC1006']
 designing,NUS,"['CS1010', 'CS3230']"
-designing,SUTD,"[50.041, 50.041]"
+designing,SUTD,"[50.001, 50.041, 50.041]"
 specifying,NUS,['CS1010']
 algorithm,NUS,"['CS1010', 'CS2040', 'CS2040', 'CS2040', 'DSA2102', 'DSA3102', 'ST4231', 'CS3210', 'CS3210', 'CS3230', 'CS3230', 'CS3243', 'CS4234', 'CS4234', 'CS4234', 'CS4234']"
-algorithm,NTU,"['CZ1007', 'CZ2001', 'CZ2001']"
+algorithm,NTU,"['CZ1003', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ3005', 'CZ3005']"
 algorithm,SMU,"['CS421', 'CS421', 'DSA201', 'IS1702']"
-algorithm,SUTD,"[50.004, 50.004, 50.04, 50.04, 50.017, 50.017, 50.045, 50.049, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05]"
-algorithm,SIT,"['CSC3009', 'ICT1008', 'CSC3004', 'CSC3004']"
+algorithm,SUTD,"[50.001, 50.004, 50.004, 50.004, 50.004, 50.004, 50.007, 50.007, 50.007, 50.007, 50.04, 50.04, 50.04, 50.04, 50.04, 50.017, 50.017, 50.017, 50.017, 50.021, 50.045, 50.045, 50.049, 50.049, 50.049, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05, 50.053]"
+algorithm,SIT,"['CSC1001', 'CSC3009', 'ICT1008', 'ICT1008', 'CSC3004', 'CSC3004']"
 basic,NUS,"['CS1010', 'CS1010', 'MA3252', 'ST3239', 'MA4230']"
+basic,NTU,"['CZ1003', 'MH2802', 'MH3511', 'MH3511']"
 basic,SUSS,['ANL303']
-basic,SUTD,"[50.017, 50.045, 50.045, 50.045]"
-basic,SIT,"['CSC1009', 'ICT2101', 'CSC2003']"
+basic,SUTD,"[50.001, 50.017, 50.044, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045]"
+basic,SIT,"['CSC1009', 'ICT2101', 'CSC2003', 'CSC2008']"
 formulation,NUS,['CS1010']
+formulation,NTU,['CZ1003']
 formulation,SUSS,"['ANL312', 'ANL321']"
 approach,NUS,"['CS1010', 'DSA4212', 'MA3252', 'CS3230']"
+approach,NTU,['CZ2001']
 approach,SMU,['DSA201']
 approach,SUTD,"[50.003, 50.039]"
 program,NUS,"['CS1010', 'DSA2102', 'CS3210']"
-program,NTU,['CZ1003']
+program,NTU,"['CZ1003', 'CZ1003', 'CZ1007', 'CZ2001', 'MH3511']"
 program,SUSS,['ICT233']
+program,SUTD,"[10.014, 50.003, 50.003]"
 development,NUS,['CS1010']
 development,SUSS,['MKT202e']
-development,SUTD,[50.033]
+development,SUTD,"[50.012, 50.033, 50.033, 50.033, 50.033]"
+development,SIT,['ICT3210/ICT3110']
 coding,NUS,"['CS1010', 'MA4270']"
-coding,SUTD,"[50.003, 50.05, 50.05]"
+coding,SUTD,"[50.003, 50.003, 50.05, 50.05]"
 testing,NUS,"['CS1010', 'ST2132', 'DSA4211', 'ST4234']"
-testing,NTU,['MH3500']
+testing,NTU,"['CZ2006', 'MH2500', 'MH3500', 'MH3500', 'MH3500', 'MH3511', 'MH3511', 'MH3511']"
 testing,SUSS,"['BUS105', 'BUS357']"
-testing,SUTD,"[50.003, 50.003, 50.003, 50.053, 50.053, 50.053]"
+testing,SUTD,"[50.001, 50.003, 50.003, 50.003, 50.003, 50.003, 50.046, 50.053, 50.053, 50.053, 50.053, 50.053]"
+testing,SIT,['ICT1002']
 debugging,NUS,['CS1010']
+debugging,SUTD,"[50.001, 50.046]"
+debugging,SIT,['ICT1002']
 fundamental,NUS,"['CS1010', 'CS1010', 'MA2002']"
-fundamental,SIT,['CSC3005']
+fundamental,NTU,"['MH1805', 'ML0004']"
+fundamental,SUTD,[50.04]
+fundamental,SIT,"['CSC1009', 'CSC3005']"
 programming,NUS,"['CS1010', 'DSA1101', 'DSA2101', 'DSA2102', 'MA3236', 'MA3252', 'MA3252', 'CS3210', 'CS3210', 'CS3230', 'CS4231', 'CS4231', 'CS4234']"
-programming,NTU,"['CZ2002', 'MH3511']"
+programming,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'MH3511', 'MH3511']"
 programming,SMU,"['CS421', 'DSA211', 'DSA211', 'DSA211', 'DSA212', 'DSA212', 'DSA306', 'IS424', 'IS460', 'MKTG228']"
 programming,SUSS,"['ANL252', 'ANL351', 'ANL355', 'ANL355', 'ANL355', 'BUS107', 'BUS107', 'ICT233']"
-programming,SUTD,"[10.014, 10.014, 10.014, 10.014, 10.014, 50.001, 50.001, 50.001, 50.003, 50.003, 50.004, 50.012, 50.017, 50.033, 50.046, 50.051, 50.051, 50.051, 50.052]"
-programming,SIT,['CSC3005']
+programming,SUTD,"[10.014, 10.014, 10.014, 10.014, 10.014, 10.014, 50.001, 50.001, 50.001, 50.001, 50.003, 50.003, 50.004, 50.004, 50.004, 50.005, 50.035, 50.012, 50.017, 50.017, 50.033, 50.041, 50.046, 50.046, 50.051, 50.051, 50.051, 50.052]"
+programming,SIT,"['ICT1002', 'ICT1002', 'ICT1002', 'ICT1008', 'CSC1009', 'CSC3005', 'CSC3005']"
 construct,NUS,['CS1010']
-construct,NTU,['CZ1003']
+construct,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'CZ1007', 'CZ2001', 'MH3500', 'MH3500', 'MH3511', 'MH3511']"
 construct,SUSS,['BUS352']
-construct,SIT,"['CSC1009', 'CSC1009']"
+construct,SIT,"['CSC1009', 'CSC1009', 'CSC1009']"
 data,NUS,"['CS1010', 'DSA1101', 'DSA1101', 'CS2040', 'CS2040', 'DSA2101', 'DSA2101', 'DSA2101', 'DSA2101', 'DSA2101', 'DSA2101', 'ST3131', 'DSA4262', 'DSA4263', 'DSA4266', 'ST3232', 'ST4253', 'ST3239', 'ST3247', 'ST4231', 'ST4234', 'CS3210', 'CS3223', 'CS4224', 'CS4224', 'CS4225', 'CS4225', 'CS4225', 'CS5340 ', 'MA4230']"
-data,NTU,"['CZ1007', 'SC1015', 'SC1015', 'SC1015', 'SC1015', 'SC1015', 'SC1015', 'CZ2007', 'CZ2007', 'CZ2007', 'MH3511', 'MH3511', 'MH3511', 'CZ4041', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
+data,NTU,"['CZ1003', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2007', 'CZ2007', 'CZ2007', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'CC0007', 'CZ4041', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
 data,SMU,"['ACCT420', 'ACCT420', 'CS421', 'DSA211', 'DSA212', 'DSA212', 'DSA212', 'DSA212', 'DSA212', 'DSA212', 'DSA212', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA306', 'DSA306', 'DSA306', 'DSA306', 'DSA306', 'DSA306', 'ECON245', 'IS105', 'IS105', 'IS105', 'IS112', 'IS112', 'IS1702', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS460', 'MKTG228', 'MKTG228']"
 data,SUSS,"['ANL201', 'ANL201', 'ANL201', 'ANL201', 'ANL201', 'ANL252', 'ANL303', 'ANL303', 'ANL303', 'ANL303', 'ANL303', 'ANL303', 'ANL305', 'ANL310', 'ANL310', 'ANL488', 'ACC353', 'ACC353', 'ACC353', 'ANL317', 'ANL351', 'ANL351', 'BME363', 'BME363', 'BUS352', 'BUS352', 'BUS352', 'ENG233', 'ICT330', 'ICT330', 'MKT365', 'MKT365', 'MKT365', 'MKT371']"
-data,SUTD,"[50.001, 50.001, 50.003, 50.004, 50.038, 50.038, 50.038, 50.038, 50.038, 50.043, 50.043, 50.043, 50.043, 50.039, 50.039, 50.045, 50.05, 50.051, 50.051]"
-data,SIT,"['CSC1006', 'ICT1008', 'DCM1112', 'DCM1112', 'CSC3004', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005']"
+data,SUTD,"[50.001, 50.001, 50.001, 50.003, 50.003, 50.004, 50.004, 50.004, 50.004, 50.004, 50.038, 50.038, 50.038, 50.038, 50.038, 50.038, 50.038, 50.038, 50.038, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.042, 50.045, 50.045, 50.046, 50.049, 50.05, 50.05, 50.051, 50.051, 50.053]"
+data,SIT,"['CSC1006', 'CSC3009', 'ICT1008', 'ICT1008', 'ICT1008', 'ICT1008', 'DCM1112', 'DCM1112', 'DCM1112', 'CSC2008', 'CSC3004', 'ICT3210/ICT3110', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005']"
 structure,NUS,"['CS1010', 'CS2040', 'CS2040', 'CS4243']"
-structure,NTU,"['MH1812', 'CZ1007']"
+structure,NTU,"['CZ1003', 'CZ1003', 'MH1812', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001']"
 structure,SMU,"['CS421', 'IS1702']"
 structure,SUSS,['FIN203']
-structure,SUTD,"[50.001, 50.002, 50.004]"
-structure,SIT,['ICT1008']
+structure,SUTD,"[50.001, 50.001, 50.002, 50.004, 50.004, 50.004, 50.004, 50.004, 50.021, 50.049]"
+structure,SIT,"['ICT1002', 'ICT1008', 'ICT1008', 'ICT1008', 'ICT1008']"
 sorting,NUS,"['CS1010', 'CS2040']"
 recursion,NUS,['CS1010']
+recursion,SIT,['ICT1008']
 probability,NUS,"['DSA1101', 'ST2131', 'ST2131', 'ST2131', 'ST2131']"
-probability,NTU,"['MH2500', 'MH2500']"
+probability,NTU,"['MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH3500', 'MH3500', 'MH3500']"
 probability,SMU,"['CS421', 'IS460', 'STAT201', 'STAT201', 'STAT201']"
 probability,SUSS,"['BUS105', 'ANL321']"
+probability,SIT,"['CSC1006', 'CSC1006', 'CSC3009']"
 statistic,NUS,"['DSA1101', 'ST2132', 'ST2132', 'ST3131', 'ST3232', 'ST4253', 'ST3239', 'ST4250', 'ST3247', 'ST4231', 'ST4234', 'CS4225']"
-statistic,NTU,"['MH2500', 'MH3500']"
+statistic,NTU,"['MH2500', 'MH2500', 'MH3500', 'MH3500']"
 statistic,SMU,"['COR1305', 'CS421', 'IS460']"
 statistic,SUSS,"['BUS105', 'ANL321', 'ANL321', 'ANL321']"
-statistic,SIT,['CSC1006']
+statistic,SIT,"['CSC1006', 'CSC1006', 'CSC1006', 'CSC3005']"
 manipulation,NUS,"['DSA1101', 'DSA2101', 'MA4230']"
 supervised,NUS,['DSA1101']
 supervised,NTU,['CZ4041']
 supervised,SMU,"['CS421', 'IS460']"
+supervised,SUTD,"[50.007, 40.319, 50.021]"
 unsupervised,NUS,['DSA1101']
 unsupervised,NTU,['CZ4041']
 unsupervised,SMU,"['CS421', 'IS460']"
 unsupervised,SUSS,['ANL305']
+unsupervised,SUTD,"[50.007, 40.319, 50.04]"
 learning,NUS,"['DSA1101', 'CS3244', 'CS3244', 'CS3244', 'CS3244', 'CS3244', 'DSA4211', 'DSA4212', 'DSA4212', 'DSA4212', 'DSA4212', 'MA4270', 'MA4270', 'ST3248', 'ST4248', 'ST4248', 'CS4248']"
-learning,NTU,"['SC1015', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041']"
+learning,NTU,"['CZ3005', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4032', 'SC4079']"
 learning,SMU,"['ACCT420', 'CS420', 'CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'DSA306', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460']"
 learning,SUSS,['ANL305']
-learning,SUTD,"[50.007, 50.007, 50.007, 50.007, 40.319, 40.319, 40.319, 50.038, 50.038, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039, 50.039, 50.04, 50.04, 50.017, 50.045]"
-learning,SIT,"['CSC1006', 'CSC3009', 'CSC3009', 'Not Stated']"
+learning,SUTD,"[50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 50.038, 50.038, 50.038, 50.038, 50.038, 50.038, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.04, 50.04, 50.04, 50.04, 50.017, 50.021, 50.021, 50.045, 50.045, 50.045, 50.046]"
+learning,SIT,"['CSC1006', 'CSC3009', 'CSC3009', 'CSC3009', 'CSC3009', 'CSC3005', 'Computer Vision and Deep Learning']"
 model,NUS,"['DSA1101', 'ST2132', 'ST3131', 'ST3131', 'ST3131', 'ST3131', 'DSA4211', 'ST4253', 'ST4253', 'ST3248', 'ST3248', 'ST4234', 'ST4234', 'ST4234', 'ST4234', 'CS3210', 'CS3210', 'CS3210', 'CS3223', 'CS4243', 'CS4248', 'CS5340 ', 'CS5340 ', 'CS5340 ']"
-model,NTU,"['ML0004', 'CZ2007', 'CZ2007']"
+model,NTU,"['ML0004', 'CZ2007', 'CZ2007', 'MH3500', 'MH3511', 'MH3511', 'MH3511', 'CZ4041']"
 model,SMU,"['COR1305', 'CS420', 'DSA211', 'DSA301', 'DSA301', 'DSA301', 'DSA303', 'DSA303', 'DSA303', 'ECON233', 'ECON233', 'ECON233', 'ECON233', 'ECON233', 'ECON233']"
 model,SUSS,"['ANL307', 'ANL310', 'ANL321', 'BUS352', 'BUS352', 'ECO202']"
-model,SUTD,"[50.007, 40.319, 50.039, 50.053]"
-model,SIT,['ICT2101']
+model,SUTD,"[50.007, 50.007, 50.007, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 50.038, 50.038, 50.038, 50.039, 50.039, 50.042, 50.042, 50.045, 50.045, 50.045, 50.053]"
+model,SIT,"['ICT2101', 'ICT2101', 'CSC2008']"
 validation,NUS,['DSA1101']
+validation,SUTD,[50.007]
 big,NUS,"['DSA1101', 'MA3252']"
-big,NTU,['SC1015']
+big,NTU,"['CZ2001', 'CZ2001']"
 big,SMU,"['DSA211', 'DSA306', 'DSA306', 'DSA306', 'DSA306']"
-big,SUTD,"[50.043, 50.043]"
+big,SUTD,"[50.038, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043]"
 big,SIT,"['CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005', 'CSC3005']"
 analysis,NUS,"['DSA1101', 'CS2040', 'DSA2101', 'DSA2101', 'ST3131', 'ST3131', 'DSA4211', 'DSA4211', 'MA3252', 'MA4270', 'MA4270', 'ST3232', 'ST4250', 'ST4250', 'ST3247', 'CS3230', 'CS3230', 'CS3230', 'CS4243']"
-analysis,NTU,"['CZ1007', 'SC1015', 'MH3511', 'MH3511', 'CZ4032']"
+analysis,NTU,"['CC0001', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'MH3511', 'MH3511', 'MH3511', 'CZ4032', 'CZ4032']"
 analysis,SMU,"['COR1305', 'CS421', 'DSA211', 'DSA211', 'DSA212', 'DSA303', 'DSA303', 'DSA306', 'IS415', 'IS415', 'IS424', 'IS460']"
 analysis,SUSS,"['ANL201', 'ANL305', 'ACC353', 'BUS107', 'MKT365', 'MKT371']"
 analysis,SUTD,"[50.002, 50.038, 50.04, 50.051]"
 analysis,SIT,['ICT1008']
 r,NUS,"['DSA1101', 'DSA2101', 'ST3248', 'ST4248']"
-r,NTU,['MH3511']
+r,NTU,"['MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511']"
 r,SMU,"['DSA211', 'DSA212', 'DSA303', 'DSA306', 'ECON245', 'ECON245', 'OPIM326', 'OPIM326', 'OPIM326']"
+r,SUTD,[50.038]
+r,SIT,['CSC3009']
 linear,NUS,"['MA2001', 'MA2001', 'MA2001', 'MA2001', 'MA2001', 'MA2001', 'MA2001', 'DSA2102', 'ST3131', 'ST3131', 'ST3131', 'MA3252', 'MA3252', 'MA3252', 'ST3248', 'ST4234', 'ST4234', 'CS4234', 'MA4230', 'MA4230']"
-linear,NTU,"['MH2802', 'MH2100']"
+linear,NTU,"['MH1812', 'MH1812', 'CZ1007', 'CZ2001', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH3511', 'MH3511', 'MH3511', 'CZ4041', 'CZ4041', 'MH2100']"
 linear,SMU,"['CS421', 'CS421', 'DSA211', 'DSA211', 'DSA303', 'IS460', 'IS460', 'OPIM326']"
 linear,SUSS,"['ANL355', 'BUS107', 'BUS107']"
-linear,SIT,['CSC1006']
+linear,SUTD,"[50.007, 40.319]"
+linear,SIT,"['CSC1006', 'CSC1006']"
 algebra,NUS,"['MA2001', 'MA2001', 'MA2311', 'MA4230', 'MA4230']"
-algebra,NTU,"['MH2802', 'CZ2007', 'MH2100']"
+algebra,NTU,"['MH2802', 'MH2802', 'MH2802', 'CZ2007', 'MH2100']"
 algebra,SMU,"['CS421', 'CS421', 'IS460']"
 algebra,SIT,['CSC1006']
 system,NUS,"['MA2001', 'DSA2101', 'DSA2102', 'CS3244', 'CS3244', 'MA3236', 'CS3223', 'CS3243', 'CS3243', 'CS4224', 'CS4224', 'CS4225', 'CS4225']"
-system,NTU,['CZ2007']
+system,NTU,"['CC0003', 'CC0006', 'CZ2007', 'CZ3005', 'CZ3005']"
 system,SMU,"['CS420', 'IS105', 'IS112', 'IS417']"
 system,SUSS,"['ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233', 'ICT233', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330']"
-system,SUTD,"[50.001, 50.001, 50.002, 50.002, 50.005, 50.005, 50.005, 40.319, 50.043, 50.043, 50.035, 50.02, 50.037, 50.037, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.045, 50.045, 50.045, 50.045, 50.045, 50.053]"
-system,SIT,"['CSC2003', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3005', 'CSC3005']"
+system,SUTD,"[50.001, 50.001, 50.001, 50.002, 50.002, 50.002, 50.002, 50.002, 50.002, 50.002, 50.002, 50.003, 50.003, 50.003, 50.003, 50.005, 50.005, 50.005, 50.005, 50.005, 50.005, 40.319, 40.319, 50.038, 50.038, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.035, 50.035, 50.035, 50.035, 50.035, 50.017, 50.02, 50.02, 50.02, 50.037, 50.037, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.044, 50.044, 50.044, 50.044, 50.044, 50.044, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.046, 50.046, 50.046, 50.046, 50.052, 50.052, 50.052, 50.052, 50.052, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053]"
+system,SIT,"['CSC1001', 'CSC1006', 'ICT1004', 'CSC2003', 'CSC2008', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3005', 'CSC3005']"
 equation,NUS,"['MA2001', 'MA2002', 'MA2002']"
+equation,NTU,"['MH1805', 'MH1805', 'MH1812', 'MH2802', 'MH2100']"
+equation,SIT,['CSC1006']
 matrix,NUS,"['MA2001', 'MA2001', 'DSA2102', 'MA2104', 'MA4230']"
+matrix,NTU,"['MH1812', 'MH1812', 'CZ1007', 'CZ2001', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH3511']"
+matrix,SUTD,[40.319]
+matrix,SIT,['CSC1006']
 determinant,NUS,['MA2001']
+determinant,NTU,['MH2802']
 euclidean,NUS,"['MA2001', 'MA2001', 'MA2104']"
 euclidean,NTU,['MH1812']
 euclidean,SUTD,[50.05]
 space,NUS,"['MA2001', 'MA2001', 'ST2131', 'CS4234', 'CS4243']"
-space,NTU,"['SC1015', 'CZ2001', 'MH2802']"
+space,NTU,"['CZ2001', 'MH2802', 'MH2802', 'MH2802', 'MH2802']"
+space,SUTD,"[50.021, 50.045]"
 combination,NUS,['MA2001']
+combination,NTU,"['CZ1003', 'MH1812']"
 combination,SUTD,[50.039]
+combination,SIT,['CSC1002']
 span,NUS,['MA2001']
 subspace,NUS,['MA2001']
 independence,NUS,"['MA2001', 'ST2131', 'ST2131', 'CS5340 ']"
-independence,NTU,['MH2500']
+independence,NTU,"['MH2500', 'MH2500', 'MH2802']"
 base,NUS,['MA2001']
 dimension,NUS,"['MA2001', 'DSA2101']"
+dimension,NTU,['CZ4041']
 rank,NUS,['MA2001']
+rank,NTU,"['MH3511', 'MH3511']"
 inner,NUS,['MA2001']
+inner,NTU,['MH2802']
+inner,SIT,['ICT1008']
 product,NUS,['MA2001']
+product,NTU,"['MH1812', 'MH2802', 'MH2802', 'MH2802']"
 product,SMU,['OPIM326']
 eigenvalue,NUS,"['MA2001', 'MA4230']"
 eigenvectors,NUS,['MA2001']
+eigenvectors,NTU,"['MH2802', 'MH2802']"
 diagonalization,NUS,['MA2001']
 transformation,NUS,['MA2001']
+transformation,NTU,"['MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH3511']"
 transformation,SUTD,[50.017]
 limit,NUS,"['MA2002', 'MA2002', 'MA2104', 'ST2131']"
-limit,NTU,['MH2100']
+limit,NTU,"['MH1805', 'CZ2001', 'MH2500', 'MH2500', 'MH3500', 'MH3500', 'MH3511', 'MH2100', 'MH2100']"
 limit,SMU,['STAT201']
 continuity,NUS,"['MA2002', 'MA2002', 'MA2104']"
-continuity,NTU,['MH2100']
+continuity,NTU,"['MH1805', 'MH2100', 'MH2100']"
 derivative,NUS,"['MA2002', 'MA2002', 'MA2002', 'MA2311', 'MA2104']"
-derivative,NTU,['MH2100']
+derivative,NTU,"['MH2100', 'MH2100', 'MH2100']"
 differentiation,NUS,"['MA2002', 'MA2002', 'MA2104']"
+differentiation,NTU,"['MH1805', 'MH1805']"
 first,NUS,"['MA2002', 'MA2002', 'DSA4212', 'CS3243']"
+first,NTU,"['CZ2001', 'CZ2001']"
 order,NUS,"['MA2002', 'MA2002', 'MA2104', 'DSA4212', 'CS3243']"
-order,NTU,['MH1812']
+order,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH2500']"
+order,SUTD,[50.049]
 differential,NUS,"['MA2002', 'MA2002', 'MA2311', 'MA2104']"
+differential,NTU,"['MH1805', 'MH1805']"
 intermediate,NUS,['MA2002']
 value,NUS,"['MA2002', 'MA2002', 'MA2311', 'MA2104', 'MA2104', 'MA4230']"
-value,NTU,['MH1812']
+value,NTU,"['CZ1003', 'MH1812', 'MH1812', 'CC0005', 'MH3500', 'MH3511', 'MH3511', 'MH3511']"
 value,SMU,['IS460']
 value,SUSS,['FIN203']
+value,SIT,['PHE2019']
 theorem,NUS,"['MA2002', 'MA2002', 'MA2002', 'MA2311', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'ST2131', 'ST4231', 'ST4234']"
+theorem,NTU,"['MH1805', 'MH1812', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH3500', 'MH3500', 'MH3511', 'MH2100', 'MH2100', 'MH2100']"
 theorem,SMU,['STAT201']
 chain,NUS,"['MA2002', 'MA2311', 'MA2104', 'ST3247', 'ST4231', 'ST4234']"
+chain,NTU,"['MH2100', 'MH2100']"
 chain,SMU,['DSA201']
 rule,NUS,"['MA2002', 'MA2311', 'MA2104', 'CS3243']"
-rule,NTU,"['MH1812', 'CZ4032']"
+rule,NTU,"['MH1812', 'MH1812', 'CZ4032', 'CZ4032', 'MH2100']"
 rule,SUSS,['ANL305']
 implicit,NUS,"['MA2002', 'MA2104']"
 mean,NUS,"['MA2002', 'MA2311', 'MA2104', 'ST4250']"
+mean,NTU,"['MH3500', 'MH3511', 'MH3511', 'MH3511']"
 riemann,NUS,['MA2002']
+riemann,NTU,['MH1805']
 integral,NUS,"['MA2002', 'MA2002', 'MA2311', 'MA2104', 'MA2104', 'MA2104', 'MA2104', 'MA2104']"
-integral,NTU,['MH2100']
+integral,NTU,"['MH1805', 'MH3500', 'MH2100', 'MH2100', 'MH2100', 'MH2100', 'MH2100']"
 calculus,NUS,"['MA2002', 'MA2311', 'MA2104', 'ST2131']"
-calculus,NTU,"['MH1805', 'MH2100', 'MH2100', 'MH2100', 'MH2100', 'MH2100']"
+calculus,NTU,"['MH1805', 'MH1805', 'MH2100', 'MH2100', 'MH2100', 'MH2100', 'MH2100', 'MH2100']"
 calculus,SMU,['IS460']
 calculus,SUSS,['ANL321']
 transcendental,NUS,['MA2002']
 function,NUS,"['MA2002', 'MA2311', 'MA2104', 'MA2104', 'ST2131', 'DSA3102']"
-function,NTU,['MH2100']
+function,NTU,"['CZ1003', 'MH1812', 'MH1812', 'CZ2002', 'CZ2001', 'CZ2001', 'CZ2001', 'MH2500', 'MH2500', 'MH3511', 'MH2100', 'MH2100', 'MH2100', 'MH2100']"
 function,SMU,['DSA301']
 function,SUSS,['ACC353']
+function,SUTD,"[50.007, 50.039]"
+function,SIT,"['CSC1002', 'ICT1002']"
 integration,NUS,"['MA2002', 'MA2104', 'ST4234', 'CS4224']"
+integration,NTU,"['MH1805', 'MH1805', 'MH1805', 'CZ2006']"
 computation,NUS,"['MA2002', 'ST4234', 'CS3210']"
+computation,SUTD,"[50.038, 50.038]"
 area,NUS,['MA2002']
 area,SUTD,[50.012]
 volume,NUS,['MA2002']
 volume,SMU,['DSA306']
 definite,NUS,['MA2002']
 stack,NUS,['CS2040']
-stack,NTU,['CZ1007']
+stack,NTU,"['CZ1007', 'CZ1007']"
 stack,SUTD,[50.02]
+stack,SIT,['ICT1008']
 searching,NUS,['CS2040']
-searching,NTU,['HW0218']
+searching,NTU,"['CZ1007', 'CZ2001', 'CZ2001', 'HW0218']"
+searching,SIT,['ICT1008']
 visualisation,NUS,"['DSA2101', 'DSA2101', 'MA2104']"
 visualisation,SMU,['ACCT420']
 visualisation,SUSS,"['ANL201', 'ANL201', 'ANL201', 'ANL201', 'ANL252']"
@@ -210,99 +261,123 @@ cleaning,NUS,['DSA2101']
 cleaning,SUSS,['ANL201']
 exploration,NUS,['DSA2101']
 exploration,SUSS,['ANL305']
+exploration,SIT,['CSC3009']
 storage,NUS,"['DSA2101', 'CS3223']"
 storage,SUSS,['ENG233']
 storage,SUTD,"[50.038, 50.046]"
 exploratory,NUS,['DSA2101']
-exploratory,NTU,['SC1015']
 exploratory,SMU,['DSA303']
 exploratory,SUSS,['ANL201']
 reduction,NUS,"['DSA2101', 'MA4270', 'ST3247']"
-reduction,SUTD,[40.319]
+reduction,NTU,"['CC0006', 'CZ4041']"
+reduction,SUTD,"[40.319, 40.319]"
+reduction,SIT,['CSC3009']
 statistical,NUS,"['DSA2101', 'ST2132', 'DSA4212', 'DSA4212', 'ST4250', 'ST3247', 'ST3248', 'ST3248', 'ST4248', 'ST4248']"
+statistical,NTU,"['MH3500', 'MH3511', 'MH3511', 'MH3511', 'MH3511']"
 statistical,SMU,"['CS421', 'DSA201', 'DSA201', 'DSA211', 'DSA211', 'ECON245']"
 statistical,SUSS,"['BUS105', 'ANL321', 'ANL321', 'ANL321', 'MKT371']"
-statistical,SUTD,[40.319]
+statistical,SUTD,"[40.319, 50.038]"
 graphic,NUS,['DSA2101']
 graphic,SMU,['DSA212']
-graphic,SUTD,"[50.017, 50.017, 50.017, 50.017, 50.033, 50.05]"
+graphic,SUTD,"[50.017, 50.017, 50.017, 50.017, 50.017, 50.017, 50.017, 50.017, 50.017, 50.033, 50.05]"
 design,NUS,"['DSA2101', 'ST3232', 'ST3232', 'ST3232', 'ST3232', 'ST3232', 'ST3239', 'CS3210', 'CS3210', 'CS4224']"
-design,NTU,"['CZ1007', 'CZ2001']"
+design,NTU,"['CZ1007', 'CZ2002', 'CZ2001', 'CZ2001', 'CZ2006', 'CZ2006']"
 design,SMU,"['CS421', 'IS105', 'IS112', 'IS1702']"
 design,SUSS,"['ANL321', 'ENG233', 'ICT233', 'MKT390']"
-design,SUTD,"[10.014, 10.014, 50.001, 50.001, 50.002, 50.003, 50.003, 50.004, 50.035, 50.035, 50.006, 50.006, 50.006, 50.033, 50.037, 50.046, 50.049, 50.051, 50.052]"
+design,SUTD,"[10.014, 10.014, 50.001, 50.001, 50.001, 50.002, 50.002, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.004, 50.005, 50.005, 50.005, 40.319, 50.043, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.04, 50.04, 50.006, 50.006, 50.006, 50.006, 50.006, 50.012, 50.02, 50.033, 50.037, 50.041, 50.041, 50.044, 50.044, 50.044, 50.046, 50.046, 50.046, 50.046, 50.049, 50.051, 50.052, 50.052, 50.053]"
 design,SIT,"['CSC2003', 'CSC2003']"
 principle,NUS,"['DSA2101', 'DSA4212', 'MA3236', 'ST4231', 'ST4234']"
-principle,SUTD,"[50.002, 40.319, 50.035, 50.006, 50.012, 50.052]"
-principle,SIT,['ICT2101']
+principle,NTU,"['MH1812', 'MH1812', 'CZ2002', 'CZ2002', 'CC0007']"
+principle,SUTD,"[50.002, 40.319, 50.035, 50.006, 50.006, 50.012, 50.044, 50.044, 50.046, 50.052]"
+principle,SIT,"['CSC1002', 'ICT2101']"
 critical,NUS,['DSA2101']
 critical,NTU,['CC0007']
 evaluation,NUS,['DSA2101']
+evaluation,NTU,['CZ4041']
 evaluation,SMU,"['DSA301', 'ECON233', 'IS424']"
 evaluation,SUSS,['ANL307']
-evaluation,SUTD,"[50.039, 50.006]"
+evaluation,SUTD,"[50.039, 50.039, 50.006, 50.006, 50.045]"
 visual,NUS,['DSA2101']
 visual,SMU,"['IS428', 'IS428', 'IS428', 'IS428', 'IS428']"
-visual,SUTD,[10.014]
+visual,SUTD,"[10.014, 10.014, 10.014]"
 display,NUS,['DSA2101']
 numerical,NUS,"['DSA2102', 'DSA2102', 'MA4270', 'MA4270', 'ST4234', 'MA4230']"
 implementation,NUS,"['DSA2102', 'DSA3102']"
 implementation,SMU,"['IS105', 'IS112']"
 implementation,SUSS,['ICT330']
-implementation,SUTD,"[50.002, 50.003]"
+implementation,SUTD,"[50.002, 50.003, 50.005]"
 implementation,SIT,['CSC2003']
 industrial,NUS,['DSA2102']
 language,NUS,"['DSA2102', 'DSA2102', 'CS3243', 'CS4248', 'CS4248', 'CS5340 ']"
-language,NTU,"['CZ2002', 'SC1015', 'CZ2007', 'MH3511']"
+language,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'CZ2002', 'CZ2007', 'MH3511', 'MH3511']"
 language,SMU,"['CS420', 'DSA306']"
 language,SUSS,"['ICT233', 'ICT233', 'ICT330', 'MKT365']"
-language,SUTD,"[50.003, 50.04, 50.051]"
-language,SIT,"['CSC1009', 'Not Stated']"
+language,SUTD,"[50.003, 50.04, 50.041, 50.051, 50.051]"
+language,SIT,"['ICT1008', 'CSC1009', 'Natural Language Processing']"
 examination,NUS,['DSA2102']
 computer,NUS,"['DSA2102', 'CS4243', 'CS4243', 'CS4248']"
-computer,NTU,"['MH1812', 'MH1812', 'CZ1007', 'CZ1007', 'SC1015', 'CZ2001', 'CZ2001', 'CZ4041']"
+computer,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'MH1812', 'MH1812', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ3005', 'CZ4041']"
 computer,SMU,"['DSA201', 'IS1702']"
 computer,SUSS,['ANL355']
-computer,SUTD,"[50.035, 50.035, 50.035, 50.006, 50.012, 50.012, 50.017, 50.017, 50.044, 50.044, 50.05, 50.05]"
-computer,SIT,['Not Stated']
+computer,SUTD,"[50.005, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.006, 50.006, 50.012, 50.012, 50.012, 50.012, 50.017, 50.017, 50.017, 50.017, 50.017, 50.044, 50.044, 50.044, 50.044, 50.044, 50.044, 50.05, 50.05, 50.051]"
+computer,SIT,['Computer Vision and Deep Learning']
 arithmetic,NUS,['DSA2102']
-arithmetic,NTU,['MH1812']
+arithmetic,NTU,"['MH1812', 'MH1812', 'CZ1007']"
 arithmetic,SUTD,[50.05]
 multiplication,NUS,['DSA2102']
+multiplication,NTU,['MH2802']
 method,NUS,"['DSA2102', 'DSA2102', 'ST2131', 'ST2132', 'ST2132', 'DSA3102', 'DSA3102', 'DSA4212', 'MA3236', 'MA3236', 'MA3236', 'MA3236', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA4270', 'MA4270', 'MA4270', 'MA4270', 'ST3239', 'ST3247', 'ST3248', 'ST3248', 'ST3248', 'ST4231', 'ST4231', 'ST4231', 'ST4248', 'ST4248', 'CS3223']"
+method,NTU,"['MH1805', 'CZ1007', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2001', 'CZ2001', 'MH3500', 'MH3500', 'MH3511']"
 method,SMU,"['DSA201', 'DSA201', 'DSA211', 'DSA211', 'DSA303', 'DSA303', 'ECON233', 'IS428']"
 method,SUSS,"['ACC353', 'ACC353', 'ANL321', 'ANL355', 'BUS107']"
-method,SUTD,"[50.045, 50.05, 50.05]"
+method,SUTD,"[40.319, 50.039, 50.045, 50.045, 50.05, 50.05, 50.05, 50.05]"
 least,NUS,"['DSA2102', 'MA4230']"
 square,NUS,"['DSA2102', 'MA4230']"
+square,NTU,['MH2802']
 interpolation,NUS,['DSA2102']
 sample,NUS,"['DSA2102', 'ST2131', 'ST2132', 'ST3239', 'ST3239']"
+sample,NTU,"['MH3500', 'MH3500', 'MH3500', 'MH3511', 'MH3511', 'MH3511', 'MH3511']"
 application,NUS,"['DSA2102', 'MA2104', 'CS3223']"
+application,NTU,"['MH1805', 'CC0007']"
 application,SMU,"['COR1305', 'CS420', 'IS417', 'IS417']"
 application,SUSS,"['ANL303', 'ANL310', 'ANL351']"
-application,SUTD,"[50.005, 50.012, 50.033, 50.037, 50.046, 50.052]"
+application,SUTD,"[50.005, 50.012, 50.017, 50.033, 50.037, 50.037, 50.037, 50.041, 50.045, 50.046, 50.052]"
 application,SIT,"['CSC3009', 'ICT1004', 'ICT1004', 'CSC1009', 'CSC2003', 'CSC2003', 'CSC3004']"
 sequence,NUS,"['MA2311', 'CS4248', 'CS4248']"
+sequence,NTU,"['CZ1003', 'CZ2002']"
+sequence,SUTD,"[50.039, 50.039, 50.021]"
+sequence,SIT,['CSC1002']
 series,NUS,"['MA2311', 'MA2311', 'ST4253', 'ST4253']"
+series,NTU,"['MH1805', 'MH1805', 'MH1805', 'MH1805', 'CZ2001', 'MH3500']"
 series,SUSS,['ANL317']
-series,SUTD,[40.319]
+series,SUTD,"[40.319, 40.319, 50.038]"
+series,SIT,"['CSC1002', 'CSC2008']"
 power,NUS,['MA2311']
+power,NTU,"['MH1805', 'MH1805', 'MH1812', 'CZ2001', 'CZ2001']"
+power,SIT,['CSC2003']
 vector,NUS,"['MA2311', 'MA2311', 'ST4248', 'MA4230']"
-vector,NTU,"['MH2802', 'MH2100']"
+vector,NTU,"['MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH2802', 'MH3511', 'CZ4041', 'MH2100', 'MH2100', 'MH2100']"
 vector,SMU,"['CS421', 'DSA301', 'DSA301', 'ECON233', 'ECON233', 'ECON233', 'IS460']"
+vector,SUTD,"[50.007, 50.045]"
 scalar,NUS,['MA2311']
 valued,NUS,['MA2311']
-valued,NTU,"['MH2100', 'MH2100']"
+valued,NTU,"['MH2100', 'MH2100', 'MH2100', 'MH2100']"
 partial,NUS,"['MA2311', 'MA2104']"
+partial,NTU,"['MH1812', 'MH2100']"
+partial,SUTD,[50.042]
 total,NUS,['MA2311']
 taylor,NUS,"['MA2311', 'MA2104']"
+taylor,NTU,['MH1805']
 's,NUS,"['MA2311', 'ST4250']"
-'s,NTU,['MH1812']
+'s,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH2100']"
 formula,NUS,"['MA2311', 'MA2104']"
 jacobian,NUS,"['MA2311', 'MA2104']"
 lagrange,NUS,"['MA2311', 'MA2104']"
+lagrange,NTU,['MH2100']
 multiplier,NUS,"['MA2311', 'MA2104', 'MA3236']"
+multiplier,NTU,['MH2100']
 multiple,NUS,"['MA2311', 'MA2104', 'MA2104', 'ST3131', 'ST3131', 'DSA4211', 'ST3232']"
+multiple,NTU,"['CZ2002', 'MH3511']"
 mathematics,NUS,['MA2104']
 mathematics,NTU,"['MH1812', 'MH1812', 'MH2100']"
 mathematics,SMU,"['COR1305', 'IS1702', 'IS1702']"
@@ -312,259 +387,343 @@ mathematics,SIT,"['CSC1002', 'CSC1002', 'CSC1006']"
 physical,NUS,['MA2104']
 physical,NTU,['CC0005']
 physical,SUTD,"[50.012, 50.044]"
+physical,SIT,['CSC2008']
 science,NUS,['MA2104']
-science,NTU,"['MH1812', 'CZ1007', 'CZ2001']"
+science,NTU,"['MH1812', 'CZ1007', 'CZ2001', 'CZ3005', 'CC0007', 'CC0007', 'CC0007', 'CC0007']"
 science,SMU,"['DSA212', 'IS1702', 'MKTG228', 'STAT201']"
 science,SUSS,['BUS107']
-science,SUTD,"[50.038, 50.038, 50.05]"
+science,SUTD,"[50.038, 50.038, 50.038, 50.05]"
 engineering,NUS,"['MA2104', 'CS4225']"
-engineering,NTU,"['MH1812', 'CZ1007', 'CZ2001', 'CZ2006', 'CZ3005', 'CZ3005']"
-engineering,SUTD,"[50.005, 50.006]"
+engineering,NTU,"['MH1812', 'CZ1007', 'CZ2001', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ3005', 'CZ3005']"
+engineering,SUTD,"[50.003, 50.003, 50.005, 50.006, 50.006, 50.006]"
 engineering,SIT,"['ICT2101', 'ICT2101', 'CSC2008', 'CSC3004']"
 skill,NUS,['MA2104']
-skill,NTU,"['MH1805', 'CC0001', 'CC0002', 'MH2802', 'MH2802', 'HW0218']"
+skill,NTU,"['MH1805', 'CC0001', 'CC0001', 'CC0002', 'MH2802', 'MH2802', 'ML0004', 'HW0218']"
 skill,SUSS,"['ANL201', 'ANL303', 'BUS105']"
+skill,SUTD,[50.033]
 green,NUS,"['MA2104', 'MA2104']"
+green,NTU,['MH2100']
 stokes,NUS,"['MA2104', 'MA2104']"
+stokes,NTU,['MH2100']
 divergence,NUS,"['MA2104', 'MA2104']"
+divergence,NTU,['MH2100']
 distance,NUS,"['MA2104', 'CS4248']"
+distance,NTU,['MH2802']
 topological,NUS,['MA2104']
 concept,NUS,['MA2104']
-concept,NTU,['CZ2002']
+concept,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'MH1805', 'CZ2002', 'MH3500']"
 concept,SMU,"['IS105', 'IS112']"
 concept,SUSS,['BUS105']
-concept,SUTD,[50.045]
+concept,SUTD,"[50.045, 50.045, 50.046, 50.05, 50.05]"
+concept,SIT,"['CSC1009', 'CSC2008']"
 differentiable,NUS,['MA2104']
 directional,NUS,['MA2104']
+directional,NTU,['MH2100']
 gradient,NUS,"['MA2104', 'DSA3102', 'DSA3102', 'DSA3102', 'DSA4212', 'MA3236']"
+gradient,NTU,['MH2100']
+gradient,SUTD,"[50.021, 50.021]"
 extreme,NUS,"['MA2104', 'MA3252', 'MA3252']"
 iterated,NUS,['MA2104']
 change,NUS,"['MA2104', 'MA2104']"
 change,SMU,['ECON233']
-change,SIT,['ICT4005']
+change,SUTD,[50.039]
+change,SIT,"['ICT4005', 'ICT4005']"
 variable,NUS,"['MA2104', 'ST2131', 'ST2131', 'DSA4211', 'MA3252', 'ST3247']"
-variable,NTU,['MH2500']
+variable,NTU,"['CZ1003', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH3511']"
 variable,SMU,"['STAT201', 'STAT201']"
 variable,SUSS,['ANL321']
+variable,SUTD,[40.319]
 line,NUS,"['MA2104', 'CS3223']"
+line,NTU,"['MH2802', 'MH2100']"
 surface,NUS,['MA2104']
+surface,NTU,"['MH2100', 'MH2100']"
 theory,NUS,"['ST2131', 'ST2131', 'DSA4211', 'MA3252', 'ST4250', 'CS3210']"
-theory,NTU,"['MH1812', 'MH1812', 'MH1812']"
+theory,NTU,"['MH1805', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'CZ2001', 'CZ4041']"
 theory,SMU,"['IS105', 'IS112', 'STAT201']"
 theory,SUSS,"['MKT202e', 'ECO202']"
-theory,SUTD,"[40.319, 40.319, 40.319, 40.319, 50.02, 50.05, 50.05, 50.05, 50.05]"
-theory,SIT,['ICT4005']
+theory,SUTD,"[50.002, 40.319, 40.319, 40.319, 40.319, 40.319, 40.319, 50.02, 50.05, 50.05, 50.05, 50.05, 50.05]"
+theory,SIT,"['CSC1006', 'ICT4005']"
 counting,NUS,['ST2131']
-counting,SUTD,[50.05]
+counting,NTU,"['MH1812', 'MH1812', 'MH2500']"
+counting,SUTD,"[50.05, 50.05]"
 event,NUS,"['ST2131', 'ST3247']"
+event,NTU,"['MH2500', 'MH2500']"
 event,SMU,"['ACCT420', 'STAT201']"
 axiom,NUS,['ST2131']
+axiom,NTU,['MH2802']
 conditional,NUS,"['ST2131', 'ST2131', 'ST2131', 'CS5340 ']"
-conditional,NTU,['MH1812']
+conditional,NTU,"['CZ1003', 'MH1812', 'MH1812', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500']"
 conditional,SMU,"['ECON233', 'ECON233']"
 random,NUS,"['ST2131', 'ST2131', 'ST2132', 'ST3239', 'ST3247']"
-random,NTU,['MH2500']
+random,NTU,"['MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH3500']"
 random,SMU,"['DSA201', 'OPIM326', 'STAT201', 'STAT201']"
 random,SUSS,['ANL321']
 random,SUTD,[50.042]
 discrete,NUS,"['ST2131', 'ST3247', 'ST3247']"
-discrete,NTU,"['MH1812', 'MH1812', 'MH1812']"
+discrete,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH2500', 'MH2500', 'MH2500', 'MH2500']"
 discrete,SMU,"['IS1702', 'STAT201']"
 discrete,SUTD,[50.05]
 discrete,SIT,['CSC1002']
 continuous,NUS,"['ST2131', 'ST3247']"
+continuous,NTU,"['MH2500', 'MH2500', 'MH2500']"
 continuous,SMU,['STAT201']
 distribution,NUS,"['ST2131', 'ST2131', 'ST2131', 'ST2132', 'ST4250', 'ST4250', 'ST4250', 'ST4231', 'ST4234', 'ST4234', 'CS4224']"
-distribution,NTU,['MH2500']
+distribution,NTU,"['MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH2500', 'MH3500', 'MH3500', 'MH3511']"
 distribution,SMU,"['DSA201', 'STAT201', 'STAT201', 'STAT201', 'STAT201']"
 distribution,SUSS,"['BUS105', 'BUS105']"
+distribution,SIT,"['CSC1006', 'CSC1006']"
 joint,NUS,['ST2131']
+joint,NTU,"['MH2500', 'MH2500', 'MH2500']"
 marginal,NUS,['ST2131']
+marginal,NTU,"['MH2500', 'MH2500', 'MH2500', 'MH2500']"
 expectation,NUS,"['ST2131', 'ST2131']"
+expectation,NTU,"['MH2500', 'MH2500', 'MH2500']"
 expectation,SMU,['STAT201']
-expectation,SUTD,[40.319]
+expectation,SUTD,"[40.319, 40.319]"
 moment,NUS,"['ST2131', 'ST2132']"
+moment,NTU,"['MH2500', 'MH3500']"
 generating,NUS,"['ST2131', 'ST3247']"
+generating,NTU,['MH2500']
 central,NUS,['ST2131']
+central,NTU,"['MH2500', 'MH2500', 'MH3500', 'MH3500', 'MH3511']"
 weak,NUS,['ST2131']
 law,NUS,['ST2131']
-law,NTU,"['MH1812', 'MH1812']"
+law,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH2500']"
 law,SUSS,"['BUS201', 'BUS201']"
 large,NUS,"['ST2131', 'MA4270']"
-large,SUTD,[50.041]
+large,NTU,['MH2500']
+large,SUTD,"[50.003, 50.003, 50.041]"
 number,NUS,"['ST2131', 'ST3247']"
-number,NTU,"['MH1812', 'MH1812']"
-number,SUTD,"[50.042, 50.05]"
+number,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH2500']"
+number,SUTD,"[50.042, 50.05, 50.05]"
+number,SIT,"['CSC1002', 'CSC1001']"
 methodology,NUS,['ST2132']
+methodology,NTU,['CZ2002']
+methodology,SUTD,"[50.001, 50.006]"
 methodology,SIT,"['CSC3004', 'CSC3005']"
 inferential,NUS,['ST2132']
+inferential,SIT,['CSC1006']
 procedure,NUS,"['ST2132', 'DSA4211', 'ST3239', 'ST3239', 'CS3243']"
 procedure,SUSS,['ICT330']
 procedure,SUTD,[50.002]
 parametric,NUS,"['ST2132', 'ST4248']"
+parametric,NTU,"['MH3511', 'MH2100']"
 maximum,NUS,['ST2132']
+maximum,NTU,"['MH3500', 'MH3500']"
 maximum,SMU,"['DSA201', 'DSA303']"
 likelihood,NUS,"['ST2132', 'ST2132', 'ST4231', 'ST4234']"
+likelihood,NTU,"['MH3500', 'MH3500']"
 likelihood,SMU,"['DSA201', 'DSA201', 'DSA303']"
 estimate,NUS,"['ST2132', 'ST4231']"
+estimate,NTU,"['MH3511', 'MH3511']"
 fisher,NUS,['ST2132']
+fisher,NTU,['MH3500']
 information,NUS,['ST2132']
 information,SMU,['DSA201']
-information,SUTD,"[50.001, 40.319, 50.045]"
+information,SUTD,"[50.001, 40.319, 40.319, 50.045]"
 sufficiency,NUS,['ST2132']
 completeness,NUS,"['ST2132', 'CS3230', 'CS3230']"
 consistency,NUS,"['ST2132', 'CS4231']"
 consistency,SMU,['DSA201']
 unbiasedness,NUS,['ST2132']
 sampling,NUS,"['ST2132', 'ST3239', 'ST3239', 'ST3239', 'ST3239']"
+sampling,NTU,"['MH2500', 'MH3511']"
 sampling,SMU,"['DSA201', 'DSA201', 'STAT201']"
 sampling,SUSS,"['BUS105', 'MKT390']"
 sampling,SUTD,[50.017]
+sampling,SIT,['CSC1006']
 x,NUS,['ST2132']
 confidence,NUS,"['ST2132', 'ST4231', 'ST4231']"
-confidence,NTU,"['CC0001', 'MH2500']"
+confidence,NTU,"['CC0001', 'MH2500', 'MH3500', 'MH3500', 'MH3511', 'MH3511']"
 confidence,SMU,['DSA201']
+confidence,SUTD,[50.046]
 interval,NUS,"['ST2132', 'ST4231', 'ST4231']"
-interval,NTU,['MH2500']
+interval,NTU,"['MH2500', 'MH3500', 'MH3500', 'MH3511', 'MH3511']"
 interval,SMU,['DSA201']
 interval,SUSS,['BUS105']
 exact,NUS,['ST2132']
 asymptotic,NUS,['ST2132']
+asymptotic,NTU,"['CZ1007', 'CZ2001']"
 pivotal,NUS,['ST2132']
 hypothesis,NUS,"['ST2132', 'ST4234']"
-hypothesis,NTU,['MH3500']
+hypothesis,NTU,"['MH2500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3511', 'MH3511']"
 hypothesis,SUSS,['BUS105']
 ratio,NUS,['ST2132']
 ratio,SMU,['DSA201']
 test,NUS,"['ST2132', 'CS3243']"
+test,NTU,"['CZ2006', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511', 'MH3511']"
 test,SMU,['DSA201']
-test,SUTD,"[50.003, 50.053, 50.053]"
+test,SUTD,"[50.001, 50.002, 50.003, 50.003, 50.049, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053]"
 neyman,NUS,['ST2132']
+neyman,NTU,"['MH3500', 'MH3500', 'MH3500']"
 neyman,SMU,['DSA201']
 pearson,NUS,['ST2132']
+pearson,NTU,"['MH3500', 'MH3500', 'MH3500']"
 pearson,SMU,['DSA201']
 lemma,NUS,['ST2132']
+lemma,NTU,"['MH1812', 'MH3500', 'MH3500']"
 lemma,SMU,['DSA201']
+lemma,SUTD,[50.05]
 machine,NUS,"['CS3244', 'DSA4212', 'DSA4212', 'MA4270', 'ST4248', 'CS3210']"
-machine,NTU,"['CZ4041', 'CZ4041']"
+machine,NTU,"['CZ1003', 'CZ3005', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041', 'CZ4041']"
 machine,SMU,"['CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'CS421', 'DSA306', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460', 'IS460']"
-machine,SUTD,"[50.007, 50.007, 50.007, 40.319, 50.038, 50.038, 50.04, 50.04, 50.017]"
-machine,SIT,"['CSC1006', 'CSC3009', 'CSC3009']"
+machine,SUTD,"[50.002, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 50.007, 40.319, 40.319, 40.319, 50.038, 50.038, 50.038, 50.038, 50.038, 50.04, 50.04, 50.017, 50.021]"
+machine,SIT,"['CSC1006', 'CSC3009', 'CSC3009', 'CSC3009', 'CSC3005']"
 neural,NUS,"['CS3244', 'DSA4211', 'ST4248', 'CS4248', 'CS4248', 'CS4248', 'CS4248', 'CS4248']"
-neural,NTU,['SC1015']
+neural,NTU,['CZ4041']
 neural,SMU,"['ACCT420', 'IS460', 'IS460', 'IS460']"
-neural,SUTD,"[50.007, 40.319, 50.035, 50.035, 50.035, 50.035, 50.035, 50.039, 50.039, 50.039, 50.045]"
+neural,SUTD,"[50.007, 50.007, 40.319, 40.319, 40.319, 40.319, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.04, 50.021, 50.021, 50.021, 50.021, 50.021, 50.021, 50.021, 50.045, 50.045, 50.045]"
 network,NUS,"['CS3244', 'DSA4211', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'ST4248', 'CS3210', 'CS4234', 'CS4248', 'CS4248', 'CS4248', 'CS4248', 'CS4248', 'CS5340 ', 'CS5340 ']"
-network,NTU,['SC1015']
+network,NTU,['CZ4041']
 network,SMU,"['ACCT420', 'DSA212', 'IS460', 'IS460', 'IS460']"
 network,SUSS,"['ANL355', 'BUS107', 'MKT365']"
-network,SUTD,"[50.007, 40.319, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.039, 50.039, 50.039, 50.012, 50.012, 50.012, 50.012, 50.02, 50.02, 50.02, 50.02, 50.045]"
+network,SUTD,"[50.007, 50.007, 50.007, 40.319, 40.319, 40.319, 40.319, 50.038, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.04, 50.012, 50.012, 50.012, 50.012, 50.012, 50.012, 50.012, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.021, 50.021, 50.021, 50.021, 50.021, 50.021, 50.021, 50.042, 50.045, 50.045, 50.045, 50.046]"
 self,NUS,"['CS3244', 'CS4231']"
+self,NTU,"['CC0005', 'CC0005', 'CC0005', 'CC0005', 'CZ4032']"
 convex,NUS,"['DSA3102', 'DSA3102', 'MA3236', 'MA4270', 'MA4270']"
-convex,SUTD,[50.05]
+convex,SUTD,"[50.05, 50.05]"
 optimisation,NUS,"['DSA3102', 'DSA4212', 'DSA4212', 'ST3247', 'CS3223', 'CS4234']"
 optimisation,SUSS,"['BUS107', 'BUS352']"
+optimisation,SUTD,[50.02]
 high,NUS,"['DSA3102', 'DSA4211', 'CS4225']"
+high,NTU,['CZ1003']
 high,SUTD,[50.043]
 dimensional,NUS,"['DSA3102', 'DSA4211']"
+dimensional,NTU,['CZ1003']
 structured,NUS,"['DSA3102', 'DSA4211']"
 structured,NTU,['CZ2007']
 sub,NUS,"['DSA3102', 'DSA3102']"
 stochastic,NUS,"['DSA3102', 'DSA4212', 'ST3247']"
 stochastic,SMU,['STAT201']
+stochastic,SUTD,[50.021]
 block,NUS,['DSA3102']
 coordinate,NUS,['DSA3102']
+coordinate,NTU,['MH2100']
 descent,NUS,['DSA3102']
+descent,SUTD,[50.021]
 lagrangian,NUS,"['DSA3102', 'MA3236', 'MA3236']"
 duals,NUS,['DSA3102']
 splitting,NUS,['DSA3102']
 regression,NUS,"['ST3131', 'ST3131', 'ST3131', 'ST3131', 'DSA4211', 'ST3248']"
+regression,NTU,"['MH3511', 'MH3511', 'MH3511', 'CZ4041']"
 regression,SMU,"['CS421', 'DSA211', 'DSA303', 'IS460', 'IS460', 'OPIM326', 'OPIM326', 'OPIM326']"
 regression,SUSS,"['BUS105', 'ANL321', 'ANL321', 'ANL321']"
-regression,SUTD,[50.007]
+regression,SUTD,"[50.007, 50.007, 50.038, 50.053]"
+regression,SIT,['CSC3009']
 simple,NUS,"['ST3131', 'ST3239']"
+simple,NTU,"['CZ1003', 'CZ1007', 'MH2802', 'MH3511']"
+simple,SUTD,"[50.002, 50.002, 50.002, 50.002, 50.038, 50.05]"
 building,NUS,"['ST3131', 'CS4225']"
-building,SUTD,[40.319]
+building,NTU,['CC0005']
+building,SUTD,"[40.319, 50.045, 50.052, 50.052]"
 diagnostics,NUS,['ST3131']
 diagnostics,SUSS,['BME363']
 variance,NUS,"['ST3131', 'ST3247']"
+variance,NTU,"['MH2500', 'MH2500', 'MH3500', 'MH3511']"
 covariance,NUS,"['ST3131', 'ST4250']"
+covariance,NTU,['MH2500']
 generalized,NUS,"['ST3131', 'ST4234']"
+generalized,SUTD,[40.319]
 communicate,NUS,['DSA4199']
+communicate,NTU,['CZ4032']
+communicate,SUTD,[50.006]
 communicate,SIT,['ICT2101']
 research,NUS,['DSA4199']
+research,NTU,"['CZ4032', 'SC4079']"
 research,SUSS,"['ANL355', 'MKT390', 'MKT390']"
 finding,NUS,"['DSA4199', 'DSA4262', 'DSA4263', 'DSA4266']"
 estimation,NUS,"['DSA4211', 'DSA4211', 'ST4253', 'ST3239', 'ST4234']"
-estimation,NTU,['MH3500']
+estimation,NTU,"['MH2500', 'MH3500', 'MH3500']"
 estimation,SMU,"['DSA201', 'DSA303']"
 estimation,SUSS,"['BUS105', 'ANL321', 'BUS353']"
+estimation,SIT,['CSC3009']
 inference,NUS,"['DSA4211', 'ST4250', 'CS5340 ']"
-inference,NTU,"['MH1812', 'SC1015', 'MH3511']"
+inference,NTU,"['MH1812', 'MH1812', 'MH3511', 'MH3511', 'MH3511']"
 inference,SMU,"['DSA201', 'DSA201', 'DSA211', 'DSA303']"
 inference,SUSS,['ANL321']
+inference,SUTD,[50.007]
 principal,NUS,"['DSA4211', 'ST4250', 'ST3248', 'CS4243']"
 principal,SMU,['IS460']
 component,NUS,"['DSA4211', 'ST4250', 'ST3248', 'CS4243']"
 component,SMU,['IS460']
+component,SUTD,"[50.043, 50.046]"
 component,SIT,"['CSC1009', 'CSC2003']"
 clustering,NUS,"['DSA4211', 'ST3248']"
+clustering,NTU,['CZ4041']
 clustering,SMU,"['CS421', 'OPIM326']"
 clustering,SUSS,"['ANL305', 'ANL305']"
-clustering,SUTD,"[50.007, 50.045]"
+clustering,SUTD,"[50.007, 50.045, 50.045]"
+clustering,SIT,['CSC3009']
 classification,NUS,"['DSA4211', 'ST4250', 'ST3248']"
+classification,NTU,['CZ4041']
 classification,SMU,"['CS421', 'OPIM326']"
-classification,SUTD,"[50.035, 50.045]"
+classification,SUTD,"[50.035, 50.039, 50.039, 50.045]"
+classification,SIT,['CSC3009']
 tree,NUS,"['DSA4211', 'MA3252', 'ST4248']"
-tree,NTU,['CZ1007']
+tree,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ4041']"
 tree,SMU,"['DSA211', 'OPIM326']"
+tree,SIT,['ICT1008']
 hidden,NUS,['DSA4211']
 hidden,SUSS,['ANL201']
+hidden,SUTD,"[50.007, 50.007, 50.038]"
 markov,NUS,"['DSA4211', 'ST3247', 'ST4231', 'ST4234', 'CS5340 ']"
+markov,NTU,['MH2802']
 markov,SMU,['DSA201']
+markov,SUTD,"[50.007, 50.007]"
 sliced,NUS,['DSA4211']
 inverse,NUS,['DSA4211']
+inverse,NTU,['MH1812']
 sure,NUS,['DSA4211']
 independent,NUS,['DSA4211']
+independent,NTU,['MH3511']
 screening,NUS,['DSA4211']
 si,NUS,['DSA4211']
 penalized,NUS,['DSA4211']
 selection,NUS,"['DSA4211', 'ST3248']"
+selection,NTU,['CZ1003']
 selection,SMU,['DSA211']
+selection,SUTD,"[40.319, 50.046]"
 second,NUS,['DSA4212']
 type,NUS,['DSA4212']
-type,NTU,['MH3511']
+type,NTU,"['CZ1003', 'CZ1003', 'MH3500', 'MH3511', 'MH3511', 'MH3511']"
 type,SMU,['DSA212']
 type,SUTD,[50.051]
 duality,NUS,"['DSA4212', 'MA3236', 'MA3252', 'MA3252']"
 python,NUS,['DSA4212']
-python,NTU,['SC1015']
+python,NTU,['CZ1003']
 python,SMU,['IS1702']
 python,SUSS,"['ANL252', 'ANL252', 'ANL252', 'ANL252', 'BME363', 'MKT365', 'MKT365']"
-python,SUTD,[10.014]
+python,SUTD,"[10.014, 10.014, 10.014, 50.038]"
+python,SIT,"['ICT1002', 'CSC3009']"
 formulating,NUS,"['DSA4262', 'DSA4263', 'DSA4266']"
+formulating,SUTD,"[50.003, 50.003]"
 analytic,NUS,"['DSA4262', 'DSA4263', 'DSA4266']"
 analytic,SMU,['IS417']
 tool,NUS,"['DSA4262', 'DSA4263', 'DSA4266']"
 tool,SMU,['COR1305']
+tool,SUTD,[50.005]
 technique,NUS,"['DSA4262', 'DSA4263', 'DSA4266', 'CS4225']"
-technique,NTU,"['CC0002', 'CZ2007', 'CZ4041']"
+technique,NTU,"['CC0002', 'CC0002', 'MH2802', 'CZ2007', 'CZ3005', 'CZ4041']"
 technique,SMU,"['IS415', 'IS424', 'OPIM326']"
 technique,SUSS,"['ANL201', 'BUS105']"
-technique,SUTD,"[50.006, 50.045]"
+technique,SUTD,"[40.319, 50.006, 50.021, 50.045, 50.045]"
 communicating,NUS,"['DSA4262', 'DSA4263', 'DSA4266']"
 insight,NUS,"['DSA4262', 'DSA4263', 'DSA4266']"
 insight,SUSS,['MKT371']
 optimization,NUS,"['MA3236', 'MA3236', 'MA3236', 'MA3236', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'CS4224', 'CS4225', 'CS4225']"
-optimization,NTU,['CZ2007']
+optimization,NTU,"['MH1805', 'CZ2007']"
 optimization,SMU,['OPIM326']
 optimization,SUSS,['ANL355']
-optimization,SUTD,[50.021]
+optimization,SUTD,"[50.021, 50.021]"
+optimization,SIT,['CSC2008']
 importance,NUS,['MA3236']
+importance,NTU,['CZ3005']
 operation,NUS,"['MA3236', 'CS3210']"
-operation,NTU,"['CZ1003', 'MH1812']"
+operation,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'MH1812', 'MH1812', 'MH2802', 'MH2802', 'MH2802']"
 operation,SMU,['ACCT420']
 operation,SUSS,"['ANL355', 'BUS352', 'BUS352']"
+operation,SUTD,"[50.004, 50.043, 50.043]"
+operation,SIT,"['CSC1006', 'CSC2008']"
 unconstrained,NUS,['MA3236']
 newton,NUS,['MA3236']
 raphson,NUS,['MA3236']
@@ -576,89 +735,110 @@ optimality,NUS,"['MA3236', 'MA3236', 'MA3252', 'CS4234']"
 condition,NUS,"['MA3236', 'MA3236', 'MA3252']"
 saddle,NUS,['MA3236']
 point,NUS,"['MA3236', 'MA3252', 'MA3252', 'CS4243']"
+point,NTU,"['MH2802', 'CC0006', 'MH3511']"
 point,SMU,['DSA303']
+point,SUTD,[50.039]
 frank,NUS,['MA3236']
 wolfe,NUS,['MA3236']
 lp,NUS,"['MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252']"
 simplex,NUS,"['MA3252', 'MA3252', 'MA3252', 'MA3252', 'MA3252']"
 simplex,SUSS,"['ANL355', 'ANL355']"
 graph,NUS,"['MA3252', 'CS3230']"
-graph,NTU,['MH1812']
-graph,SUTD,"[50.05, 50.05, 50.05]"
+graph,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2001']"
+graph,SUTD,"[50.004, 50.004, 50.05, 50.05, 50.05, 50.05, 50.05, 50.05]"
 integer,NUS,"['MA3252', 'CS4234']"
 integer,SUSS,['ANL355']
 algorithmic,NUS,"['MA3252', 'CS4225']"
+algorithmic,SIT,['CSC1009']
 via,NUS,['MA3252']
 graphical,NUS,"['MA3252', 'CS5340 ', 'CS5340 ']"
 graphical,SMU,"['CS420', 'IS428']"
-graphical,SUTD,[50.007]
+graphical,SUTD,"[50.007, 40.319]"
 geometry,NUS,"['MA3252', 'CS4243']"
-geometry,NTU,['MH2100']
-geometry,SUTD,"[50.05, 50.05]"
+geometry,NTU,"['MH2802', 'MH2802', 'MH2100']"
+geometry,SUTD,"[50.05, 50.05, 50.05, 50.05]"
 polyhedron,NUS,['MA3252']
 existence,NUS,['MA3252']
 optimal,NUS,['MA3252']
 solution,NUS,"['MA3252', 'MA3252']"
+solution,NTU,['ML0004']
 solution,SUTD,[50.049]
+solution,SIT,['ICT3210/ICT3110']
 reduced,NUS,['MA3252']
 cost,NUS,"['MA3252', 'MA3252', 'ST3239']"
 cost,SUSS,"['FIN203', 'BUS353', 'ECO202']"
 iterative,NUS,"['MA3252', 'CS3243']"
 step,NUS,['MA3252']
+step,NTU,['CZ1003']
 phase,NUS,['MA3252']
 dual,NUS,"['MA3252', 'MA3252']"
 sensitivity,NUS,['MA3252']
 minimal,NUS,['MA3252']
+minimal,SUTD,[50.05]
 spanning,NUS,['MA3252']
+spanning,NTU,['CZ2001']
+spanning,SUTD,[50.05]
 shortest,NUS,['MA3252']
+shortest,NTU,['CZ2001']
+shortest,SUTD,[50.004]
 path,NUS,['MA3252']
+path,SUTD,[50.004]
 maximal,NUS,['MA3252']
 flow,NUS,"['MA3252', 'MA3252', 'CS4234']"
+flow,NTU,['CZ2002']
 flow,SUSS,"['FIN203', 'BUS107']"
-flow,SUTD,[50.012]
+flow,SUTD,"[50.012, 50.033]"
+flow,SIT,['CSC1009']
 minimum,NUS,['MA3252']
+minimum,NTU,['CZ2001']
 salesman,NUS,['MA3252']
 postman,NUS,['MA3252']
 mathematical,NUS,['MA4270']
-mathematical,NTU,['MH2802']
+mathematical,NTU,"['MH2802', 'MH3511', 'MH3511']"
 mathematical,SMU,['STAT201']
-mathematical,SUTD,"[40.319, 50.035]"
-mathematical,SIT,['CSC3004']
+mathematical,SUTD,"[40.319, 40.319, 50.035, 50.05]"
+mathematical,SIT,"['CSC1002', 'CSC3004']"
 modelling,NUS,['MA4270']
 modelling,NTU,['MH2802']
 modelling,SMU,"['DSA211', 'DSA303', 'IS105', 'IS112', 'IS415']"
 modelling,SUSS,"['ANL307', 'ANL307', 'ANL317', 'ICT330']"
-modelling,SUTD,[50.052]
+modelling,SUTD,"[50.021, 50.052]"
 modelling,SIT,"['CSC3004', 'CSC3005']"
 scale,NUS,['MA4270']
 scale,SUSS,['MKT390']
-scale,SUTD,[50.041]
+scale,SUTD,"[50.003, 50.003, 50.003, 50.003, 50.003, 50.041]"
 dimensionality,NUS,['MA4270']
-dimensionality,SUTD,[40.319]
+dimensionality,SUTD,"[40.319, 40.319]"
+dimensionality,SIT,['CSC3009']
 kernel,NUS,['MA4270']
+kernel,SUTD,[40.319]
 pattern,NUS,"['MA4270', 'CS4243']"
-pattern,NTU,"['CZ4032', 'CZ4032']"
+pattern,NTU,"['CZ1003', 'CZ2002', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
 pattern,SMU,['DSA303']
 pattern,SUSS,['ANL317']
-pattern,SUTD,[50.001]
+pattern,SUTD,"[50.001, 50.038]"
 sparse,NUS,['MA4270']
 dictionary,NUS,['MA4270']
 experimental,NUS,['ST3232']
 one,NUS,['ST3232']
 way,NUS,"['ST3232', 'ST3232']"
+way,NTU,"['CZ2002', 'MH3511']"
 two,NUS,['ST3232']
+two,NTU,"['MH3511', 'MH3511']"
 layout,NUS,['ST3232']
 comparison,NUS,['ST3232']
 factorial,NUS,"['ST3232', 'ST3232', 'ST3232']"
 k,NUS,['ST3232']
+k,NTU,['CZ4041']
 blocking,NUS,['ST3232']
 confounding,NUS,['ST3232']
 fractional,NUS,['ST3232']
 nested,NUS,['ST3232']
 time,NUS,"['ST4253', 'ST4253', 'CS4234']"
-time,NTU,['CZ2001']
+time,NTU,"['CZ1007', 'CZ1007', 'CZ2001', 'CZ2001']"
 time,SUSS,"['FIN203', 'ANL317']"
-time,SUTD,"[40.319, 50.052]"
+time,SUTD,"[40.319, 40.319, 50.038, 50.052]"
+time,SIT,['CSC2008']
 stationary,NUS,['ST4253']
 stationary,SMU,"['DSA301', 'DSA301', 'ECON233', 'ECON233']"
 arima,NUS,"['ST4253', 'ST4253']"
@@ -674,38 +854,51 @@ planning,SIT,['ICT2101']
 questionnaire,NUS,['ST3239']
 questionnaire,SUSS,['MKT390']
 construction,NUS,['ST3239']
+construction,NTU,['CZ2006']
 construction,SUSS,['ANL307']
 collection,NUS,['ST3239']
+collection,NTU,['CZ1007']
 collection,SUSS,['MKT365']
 collection,SIT,['DCM1112']
 source,NUS,['ST3239']
-source,NTU,['HW0218']
+source,NTU,"['CC0001', 'HW0218']"
+source,SUTD,[50.005]
+source,SIT,['ICT3210/ICT3110']
 error,NUS,['ST3239']
+error,NTU,"['CZ2002', 'MH3511', 'MH3511']"
 error,SMU,"['DSA301', 'ECON233', 'ECON233']"
-error,SUTD,[50.012]
+error,SUTD,"[50.012, 50.05, 50.053]"
 idea,NUS,['ST3239']
+idea,NTU,['ML0004']
 idea,SUSS,"['BUS357', 'BUS357', 'BUS357', 'ECO202']"
+idea,SUTD,"[50.003, 50.003]"
 stratified,NUS,['ST3239']
 systematic,NUS,['ST3239']
-systematic,SUTD,"[50.053, 50.053]"
+systematic,NTU,"['CZ1007', 'CZ2001']"
+systematic,SUTD,"[50.001, 50.003, 50.003, 50.046, 50.053, 50.053]"
 replicated,NUS,['ST3239']
 cluster,NUS,['ST3239']
-cluster,NTU,['CZ4032']
+cluster,NTU,"['CZ4032', 'CZ4032']"
 cluster,SMU,['DSA211']
 quota,NUS,['ST3239']
 size,NUS,['ST3239']
+size,NTU,"['CZ2006', 'CZ2006', 'MH3500']"
 determination,NUS,['ST3239']
+determination,NTU,['CC0005']
 multivariate,NUS,"['ST4250', 'ST4250', 'ST4234']"
+multivariate,NTU,['MH2100']
 normal,NUS,['ST4250']
 hotelling,NUS,['ST4250']
 wishart,NUS,['ST4250']
 canonical,NUS,['ST4250']
 correlation,NUS,['ST4250']
+correlation,NTU,"['MH3511', 'MH3511']"
 factor,NUS,"['ST4250', 'CS3243']"
+factor,SUTD,[50.012]
 discrimination,NUS,['ST4250']
 pseudorandom,NUS,['ST3247']
 generation,NUS,['ST3247']
-generation,SUTD,"[50.003, 50.04, 50.042, 50.053]"
+generation,SUTD,"[50.003, 50.04, 50.042, 50.053, 50.053, 50.053, 50.053]"
 simulating,NUS,['ST3247']
 simulated,NUS,"['ST3247', 'ST3247']"
 monte,NUS,"['ST3247', 'ST4231']"
@@ -714,10 +907,10 @@ carlo,NUS,"['ST3247', 'ST4231']"
 carlo,SMU,['DSA201']
 annealing,NUS,['ST3247']
 software,NUS,"['ST3248', 'ST4248']"
-software,NTU,['CZ2006']
+software,NTU,"['CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006', 'CZ2006']"
 software,SUSS,"['ANL201', 'ANL355']"
-software,SUTD,"[50.001, 50.002, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.049, 50.049, 50.053]"
-software,SIT,"['CSC1009', 'CSC1009', 'ICT2101', 'ICT2101', 'ICT2101', 'ICT2101', 'ICT2101', 'CSC2008', 'CSC3004', 'CSC3004']"
+software,SUTD,"[50.001, 50.001, 50.002, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.003, 50.005, 50.041, 50.041, 50.049, 50.049, 50.049, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053, 50.053]"
+software,SIT,"['CSC1009', 'CSC1009', 'ICT2101', 'ICT2101', 'ICT2101', 'ICT2101', 'ICT2101', 'CSC2008', 'CSC3004', 'CSC3004', 'ICT3210/ICT3110']"
 package,NUS,"['ST3248', 'ST4248']"
 package,SMU,['ECON245']
 package,SUSS,['ANL201']
@@ -725,12 +918,15 @@ resampling,NUS,['ST3248']
 resampling,SMU,['DSA211']
 regularisation,NUS,['ST3248']
 empirical,NUS,"['ST4231', 'ST4231']"
+empirical,SUTD,"[50.038, 50.045]"
 plug,NUS,['ST4231']
 bootstrap,NUS,"['ST4231', 'ST4231', 'ST4231']"
 bootstrap,SMU,['DSA201']
 standard,NUS,['ST4231']
-standard,SUTD,[50.003]
+standard,NTU,['MH3511']
+standard,SUTD,"[50.003, 50.003, 40.319]"
 deviation,NUS,['ST4231']
+deviation,NTU,['MH3511']
 bias,NUS,['ST4231']
 jack,NUS,['ST4231']
 knife,NUS,['ST4231']
@@ -739,13 +935,16 @@ missing,NUS,"['ST4231', 'ST4234']"
 em,NUS,['ST4231']
 em,SMU,['DSA201']
 bayesian,NUS,"['ST4234', 'ST4234', 'CS5340 ']"
+bayesian,SUTD,[50.007]
 bayes,NUS,"['ST4234', 'CS3243']"
+bayes,NTU,"['MH2500', 'MH2500', 'CZ4041']"
 bayes,SMU,['IS460']
 bayes,SUTD,[50.007]
 ',NUS,"['ST4234', 'CS3243']"
+',NTU,"['MH2100', 'MH2100']"
 prior,NUS,['ST4234']
 predictive,NUS,['ST4234']
-predictive,NTU,['CZ4032']
+predictive,NTU,"['CZ4032', 'CZ4032']"
 predictive,SMU,['DSA301']
 predictive,SUSS,"['ANL307', 'ANL307']"
 approximation,NUS,"['ST4234', 'CS4234']"
@@ -753,190 +952,221 @@ posterior,NUS,['ST4234']
 simulation,NUS,"['ST4234', 'ST4234']"
 simulation,SMU,['COR1305']
 simulation,SUSS,"['BUS107', 'BUS107', 'BUS352']"
-simulation,SUTD,[50.052]
+simulation,SUTD,"[50.002, 50.052]"
 hierarchical,NUS,['ST4234']
+hierarchical,NTU,['CZ1007']
 mixture,NUS,['ST4234']
+mixture,SUTD,[40.319]
 non,NUS,"['ST4248', 'CS3243']"
 non,SMU,"['ACCT420', 'DSA301', 'ECON233']"
 non,SUSS,['ANL355']
+non,SUTD,"[50.007, 50.046]"
 smoothing,NUS,['ST4248']
 based,NUS,"['ST4248', 'CS3243']"
-based,NTU,['SC1015']
+based,NTU,"['CC0005', 'CZ3005', 'MH3500']"
 based,SMU,['DSA211']
-based,SUTD,"[50.04, 50.037, 50.045, 50.046, 50.053]"
+based,SUTD,"[50.002, 50.004, 50.04, 50.04, 50.021, 50.037, 50.045, 50.045, 50.045, 50.046, 50.053, 50.053]"
 based,SIT,"['ICT1004', 'CSC3005']"
 support,NUS,['ST4248']
+support,NTU,"['CC0002', 'CZ4041']"
 support,SMU,"['CS421', 'IS460']"
 support,SUSS,['BUS352']
-support,SUTD,"[50.002, 50.043]"
+support,SUTD,"[50.002, 50.007, 50.043, 50.041]"
 ensemble,NUS,['ST4248']
+ensemble,NTU,['CZ4041']
 parallel,NUS,"['CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS3210', 'CS4224', 'CS4231', 'CS4231']"
-parallel,SUTD,"[50.046, 50.049, 50.049, 50.049]"
+parallel,SUTD,"[50.041, 50.046, 50.049, 50.049, 50.049, 50.049, 50.049]"
+parallel,SIT,['CSC2003']
 computing,NUS,"['CS3210', 'CS3210', 'CS4224', 'CS4225', 'CS4231', 'CS4231']"
-computing,SUTD,"[10.014, 50.005, 50.046, 50.046, 50.049, 50.049, 50.049]"
-computing,SIT,"['CSC3004', 'CSC3004', 'Not Stated']"
+computing,SUTD,"[10.014, 50.005, 50.005, 50.046, 50.046, 50.046, 50.046, 50.049, 50.049, 50.049, 50.049]"
+computing,SIT,"['CSC3004', 'CSC3004', 'CSC3004', 'Edge Computing and Analytics']"
 parallelism,NUS,"['CS3210', 'CS3210']"
+parallelism,SUTD,[50.049]
 architecture,NUS,"['CS3210', 'CS3210', 'CS3210', 'CS3210']"
 architecture,SUSS,['ENG233']
-architecture,SUTD,"[50.002, 50.012, 50.033, 50.049, 50.049]"
-architecture,SIT,"['ICT1004', 'ICT2101', 'CSC3004']"
+architecture,SUTD,"[50.002, 50.012, 50.033, 50.046, 50.046, 50.049, 50.049, 50.049, 50.049, 50.049, 50.049]"
+architecture,SIT,"['ICT1004', 'ICT2101', 'CSC3004', 'CSC3004', 'ICT3210/ICT3110']"
 new,NUS,['CS3210']
+new,NTU,['ML0004']
 new,SUTD,[50.002]
 shared,NUS,['CS3210']
 memory,NUS,"['CS3210', 'CS3210', 'CS3223']"
-memory,SUTD,"[50.035, 50.051]"
+memory,NTU,"['CZ1003', 'CZ1007', 'CZ1007', 'CZ1007']"
+memory,SUTD,"[50.002, 50.035, 50.049, 50.051, 50.051]"
+memory,SIT,['CSC2003']
 distributed,NUS,"['CS3210', 'CS4224', 'CS4224', 'CS4224', 'CS4224', 'CS4231', 'CS4231']"
 distributed,SMU,['STAT201']
-distributed,SUTD,"[50.038, 50.037, 50.037, 50.041, 50.041, 50.041, 50.041, 50.041, 50.046]"
-distributed,SIT,"['CSC3004', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3004']"
+distributed,SUTD,"[50.038, 50.038, 50.038, 50.037, 50.037, 50.037, 50.037, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.045, 50.046]"
+distributed,SIT,"['CSC3004', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3005']"
 interconnection,NUS,['CS3210']
 topology,NUS,['CS3210']
 communication,NUS,['CS3210']
-communication,NTU,"['CC0001', 'CC0001', 'CC0002', 'SC1015', 'MH2802', 'HW0218', 'HW0218']"
+communication,NTU,"['CC0001', 'CC0001', 'CC0001', 'CC0002', 'MH2802', 'HW0218', 'HW0218']"
 communication,SMU,['IS428']
 communication,SUSS,"['ANL201', 'ENG233']"
-communication,SUTD,[50.05]
+communication,SUTD,"[50.049, 50.05]"
+communication,SIT,['CSC2003']
 performance,NUS,"['CS3210', 'CS4225']"
-performance,SUTD,"[50.002, 50.039]"
+performance,SUTD,"[50.002, 50.002, 50.002, 50.005, 50.039, 50.039, 50.039]"
 scalability,NUS,['CS3210']
 scalability,SIT,"['CSC3005', 'CSC3005']"
 grid,NUS,['CS3210']
 cloud,NUS,"['CS3210', 'CS4224']"
 cloud,SUSS,"['ANL303', 'ANL305', 'ANL307']"
-cloud,SUTD,"[50.046, 50.046]"
-cloud,SIT,"['CSC3004', 'CSC3005']"
+cloud,SUTD,"[50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046]"
+cloud,SIT,"['CSC3004', 'CSC3004', 'ICT3210/ICT3110', 'CSC3005']"
 gpgpu,NUS,['CS3210']
 database,NUS,"['CS3223', 'CS3223', 'CS4224']"
-database,NTU,"['CZ2007', 'HW0218']"
+database,NTU,"['CZ2007', 'CZ2007', 'HW0218']"
 database,SMU,"['DSA212', 'DSA212', 'IS105', 'IS105', 'IS105', 'IS105', 'IS112', 'IS112', 'IS112', 'IS112', 'IS424']"
 database,SUSS,"['ICT233', 'ICT233', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330', 'ICT330']"
-database,SUTD,"[50.043, 50.043, 50.043]"
-database,SIT,"['CSC2008', 'CSC2008']"
+database,SUTD,"[50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043, 50.043]"
+database,SIT,"['CSC1001', 'ICT1004', 'CSC2008', 'CSC2008', 'CSC2008']"
 management,NUS,"['CS3223', 'CS3223', 'CS4224', 'CS4224', 'CS4224']"
-management,NTU,"['CZ2007', 'CZ2007']"
+management,NTU,"['CZ1007', 'CZ2006', 'CZ2007', 'CZ2007']"
 management,SMU,"['COR1305', 'IS105', 'IS112', 'OPIM326']"
 management,SUSS,"['ANL201', 'FIN203', 'MKT202e', 'ACC353', 'ACC353', 'BUS102', 'BUS102', 'BUS102', 'BUS107', 'BUS353', 'BUS353', 'ICT330', 'ICT330']"
-management,SUTD,"[50.043, 50.051]"
-management,SIT,['ICT4005']
+management,SUTD,"[50.043, 50.043, 50.046, 50.051]"
+management,SIT,"['CSC2003', 'ICT4005', 'ICT4005']"
 relational,NUS,['CS3223']
-relational,NTU,"['CZ2007', 'CZ2007', 'CZ2007']"
+relational,NTU,"['CC0005', 'CZ2007', 'CZ2007', 'CZ2007']"
 relational,SMU,"['IS105', 'IS112', 'IS424']"
 relational,SUSS,"['ICT233', 'ICT330', 'ICT330']"
-relational,SIT,['CSC2008']
+relational,SUTD,[50.043]
+relational,SIT,"['CSC2008', 'CSC2008', 'CSC2008']"
 access,NUS,['CS3223']
 access,SIT,"['CSC3005', 'CSC3005']"
 query,NUS,"['CS3223', 'CS4224']"
 query,NTU,"['CZ2007', 'CZ2007']"
+query,SUTD,[50.043]
 processing,NUS,"['CS3223', 'CS3223', 'CS4224', 'CS4248', 'CS4248', 'CS5340 ']"
-processing,NTU,"['SC1015', 'CZ2007', 'CZ4032']"
+processing,NTU,"['CZ2007', 'CZ4032']"
 processing,SMU,"['CS420', 'CS420']"
 processing,SUSS,"['BME363', 'MKT365']"
-processing,SUTD,"[50.038, 50.04, 50.04, 50.045]"
-processing,SIT,"['CSC3004', 'CSC3005', 'Not Stated']"
+processing,SUTD,"[50.038, 50.04, 50.04, 50.045, 50.045]"
+processing,SIT,"['CSC3004', 'CSC3005', 'Natural Language Processing']"
 multi,NUS,['CS3223']
 multi,SMU,['CS420']
+multi,SUTD,[50.049]
 user,NUS,['CS3223']
-user,SUTD,"[50.005, 50.006, 50.006, 50.044, 50.052]"
+user,SUTD,"[50.001, 50.005, 50.006, 50.006, 50.006, 50.006, 50.006, 50.006, 50.044, 50.052]"
 environment,NUS,"['CS3223', 'CS4224']"
+environment,SUTD,[50.041]
 transaction,NUS,"['CS3223', 'CS4224', 'CS4231']"
 transaction,NTU,['CZ2007']
 concurrency,NUS,['CS3223']
 concurrency,NTU,['CZ2007']
 concurrency,SUSS,['ICT330']
-concurrency,SUTD,"[50.002, 50.003]"
+concurrency,SUTD,"[50.002, 50.003, 50.049]"
 control,NUS,['CS3223']
-control,NTU,['CZ2007']
+control,NTU,"['CZ1003', 'CZ2007']"
 control,SMU,['OPIM326']
 control,SUTD,"[40.319, 50.012, 50.012, 50.012]"
+control,SIT,"['ICT1002', 'CSC1009']"
 recovery,NUS,['CS3223']
 recovery,SUSS,['ICT330']
 analytical,NUS,['CS3223']
-analytical,NTU,['MH1805']
+analytical,NTU,"['MH1805', 'MH2802', 'MH2802']"
 analytical,SMU,['IS1702']
 analytical,SUSS,"['BUS105', 'ACC353', 'ACC353']"
 column,NUS,['CS3223']
 store,NUS,['CS3223']
-store,SIT,['CSC3005']
+store,SIT,"['CSC3005', 'CSC3005']"
 analysing,NUS,['CS3230']
-analysing,NTU,['CZ1003']
+analysing,NTU,"['CZ1003', 'MH2802']"
 analysing,SUSS,['MKT365']
 lower,NUS,"['CS3230', 'CS3230']"
 bound,NUS,"['CS3230', 'CS3230', 'CS3230', 'CS4234']"
+bound,NTU,"['CZ1007', 'CZ2001', 'MH3500']"
 argument,NUS,['CS3230']
-argument,NTU,['HW0218']
+argument,NTU,"['CZ1003', 'MH1812', 'MH1812', 'HW0218']"
 average,NUS,['CS3230']
 average,SMU,"['DSA301', 'ECON233']"
 case,NUS,['CS3230']
+case,NTU,"['CZ1007', 'CZ2001']"
 np,NUS,"['CS3230', 'CS3230', 'CS4234']"
+np,NTU,['CZ2001']
+np,SUTD,"[50.004, 50.004]"
 upper,NUS,['CS3230']
 recurrence,NUS,['CS3230']
+recurrence,NTU,"['MH1812', 'MH1812', 'CZ1007', 'CZ2001']"
 prune,NUS,['CS3230']
 search,NUS,"['CS3230', 'CS3243', 'CS3243', 'CS3243', 'CS4234']"
-search,NTU,['SC1015']
+search,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ3005']"
 search,SMU,"['CS420', 'IS105']"
-search,SUTD,[50.045]
+search,SUTD,"[50.021, 50.045]"
 dynamic,NUS,['CS3230']
+dynamic,NTU,"['CZ1007', 'CZ1007']"
 dynamic,SUSS,['ANL355']
-dynamic,SUTD,[50.004]
+dynamic,SUTD,"[50.004, 50.004, 50.004]"
 branch,NUS,['CS3230']
 traversal,NUS,['CS3230']
+traversal,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001']"
 randomised,NUS,['CS3230']
 amortized,NUS,['CS3230']
 artificial,NUS,['CS3243']
-artificial,NTU,"['SC1015', 'CZ3005']"
+artificial,NTU,"['CZ3005', 'CZ3005', 'CC0007', 'CZ4041']"
 artificial,SMU,"['CS420', 'CS420', 'CS421', 'IS460']"
 artificial,SUSS,['BME363']
-artificial,SUTD,"[50.04, 50.021, 50.021, 50.05]"
-artificial,SIT,['Not Stated']
+artificial,SUTD,"[50.04, 50.021, 50.021, 50.021, 50.05]"
+artificial,SIT,['Artificial Intelligence in Business and Society']
 intelligence,NUS,['CS3243']
-intelligence,NTU,"['SC1015', 'CZ3005']"
+intelligence,NTU,"['CZ3005', 'CZ3005', 'CC0007']"
 intelligence,SMU,"['CS420', 'CS420', 'CS421', 'IS417', 'IS417', 'IS417', 'IS417', 'IS424', 'IS424', 'IS424', 'IS460', 'MKTG228']"
 intelligence,SUSS,['BME363']
-intelligence,SUTD,"[50.04, 50.021, 50.021, 50.05]"
-intelligence,SIT,['Not Stated']
+intelligence,SUTD,"[50.04, 50.021, 50.021, 50.021, 50.05]"
+intelligence,SIT,['Artificial Intelligence in Business and Society']
 turing,NUS,['CS3243']
 blind,NUS,['CS3243']
 deepening,NUS,['CS3243']
 production,NUS,['CS3243']
+production,NTU,['CC0006']
 heuristic,NUS,"['CS3243', 'CS4234']"
-heuristic,SUTD,[50.006]
+heuristic,NTU,['CZ2001']
+heuristic,SUTD,"[50.006, 50.006, 50.006]"
 minimax,NUS,['CS3243']
 alpha,NUS,['CS3243']
 beta,NUS,['CS3243']
 predicate,NUS,['CS3243']
-predicate,NTU,['MH1812']
+predicate,NTU,"['MH1812', 'MH1812']"
 logic,NUS,['CS3243']
 logic,NTU,['MH1812']
-logic,SUTD,[50.05]
+logic,SUTD,"[50.002, 50.05]"
 resolution,NUS,['CS3243']
+resolution,NTU,"['CZ1007', 'CZ2001']"
 refutation,NUS,['CS3243']
 monotonic,NUS,['CS3243']
 reasoning,NUS,['CS3243']
-reasoning,NTU,"['MH1805', 'CC0002', 'MH2802']"
-reasoning,SUTD,"[50.003, 40.319, 50.021]"
+reasoning,NTU,"['MH1805', 'CC0002', 'CC0002', 'MH2802', 'CZ3005', 'CZ3005', 'CZ3005']"
+reasoning,SUTD,"[50.003, 50.003, 40.319, 40.319, 50.021]"
 assumption,NUS,['CS3243']
 truth,NUS,['CS3243']
-truth,NTU,"['MH1812', 'MH1812']"
+truth,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812']"
+truth,SUTD,[50.039]
 maintenance,NUS,['CS3243']
+maintenance,NTU,['CZ2006']
 maintenance,SIT,['ICT2101']
 inheritance,NUS,['CS3243']
-inheritance,NTU,['CZ2002']
+inheritance,NTU,"['CZ2002', 'CZ2002']"
+inheritance,SUTD,[50.001]
+inheritance,SIT,['CSC1009']
 hierarchy,NUS,['CS3243']
+hierarchy,NTU,['CZ2002']
+hierarchy,SUTD,[50.002]
 certainly,NUS,['CS3243']
 natural,NUS,"['CS3243', 'CS4248', 'CS5340 ']"
-natural,NTU,['SC1015']
 natural,SMU,['CS420']
 natural,SUSS,['MKT365']
 natural,SUTD,[50.04]
-natural,SIT,['Not Stated']
+natural,SIT,['Natural Language Processing']
 replication,NUS,['CS4224']
 peer,NUS,"['CS4224', 'CS4224']"
 mining,NUS,"['CS4225', 'CS5340 ']"
-mining,NTU,"['CZ4041', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
+mining,NTU,"['CZ4041', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
 mining,SMU,"['DSA306', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS424', 'IS460']"
 mining,SUSS,"['ANL303', 'ANL303', 'ANL303', 'ANL303', 'ANL305', 'ANL310', 'ANL310', 'ANL312', 'ANL312', 'ANL312', 'ANL488']"
 visualization,NUS,['CS4225']
-visualization,NTU,"['SC1015', 'CZ4032']"
+visualization,NTU,"['CZ4032', 'CZ4032']"
 visualization,SMU,"['DSA212', 'MKTG228', 'OPIM326']"
 visualization,SUSS,['MKT365']
 warehousing,NUS,['CS4225']
@@ -945,57 +1175,64 @@ apache,NUS,['CS4225']
 apache,SUTD,[50.043]
 hadoop,NUS,['CS4225']
 spark,NUS,['CS4225']
-spark,SUTD,[50.043]
+spark,SUTD,"[50.038, 50.038, 50.043, 50.043]"
+spark,SIT,['CSC3005']
 mutual,NUS,['CS4231']
 exclusion,NUS,['CS4231']
 wait,NUS,['CS4231']
 free,NUS,"['CS4231', 'CS4248']"
 synchronization,NUS,['CS4231']
+synchronization,SUTD,[50.002]
 global,NUS,['CS4231']
-global,NTU,['CC0003']
-global,SUTD,[50.017]
+global,NTU,"['CC0003', 'CC0003', 'CC0006']"
+global,SUTD,"[50.017, 50.017]"
 state,NUS,['CS4231']
-state,NTU,['SC1015']
-state,SUTD,[50.043]
+state,SUTD,"[50.002, 50.043, 50.043, 50.021]"
 snapshot,NUS,['CS4231']
 message,NUS,['CS4231']
+message,NTU,"['CZ2002', 'CZ2002']"
 ordering,NUS,['CS4231']
 consensus,NUS,['CS4231']
+consensus,SUTD,"[50.037, 50.037]"
 fault,NUS,['CS4231']
 tolerance,NUS,['CS4231']
 stabilization,NUS,['CS4231']
 hard,NUS,['CS4234']
 local,NUS,['CS4234']
-local,NTU,['CC0003']
+local,NTU,"['CC0003', 'CC0003']"
 local,SUTD,[50.012]
 randomized,NUS,['CS4234']
 candidate,NUS,['CS4234']
 complexity,NUS,['CS4234']
-complexity,NTU,['CZ2001']
-complexity,SUTD,[50.004]
+complexity,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ2001', 'CZ3005']"
+complexity,SUTD,"[50.004, 50.004, 50.005, 50.005]"
 complexity,SIT,['ICT1008']
 convergence,NUS,['CS4234']
 approximability,NUS,['CS4234']
 vision,NUS,"['CS4243', 'CS4243', 'CS4243']"
-vision,NTU,"['SC1015', 'CZ4041']"
-vision,SUTD,"[50.035, 50.035, 50.035]"
-vision,SIT,['Not Stated']
+vision,NTU,['CZ4041']
+vision,SUTD,"[50.035, 50.035, 50.035, 50.035, 50.035, 50.035]"
+vision,SIT,['Computer Vision and Deep Learning']
 handling,NUS,"['CS4243', 'CS4243']"
-handling,NTU,['SC1015']
+handling,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'ML0004']"
 handling,SIT,['CSC1009']
 image,NUS,"['CS4243', 'CS4243']"
 image,SMU,['CS420']
-image,SUTD,[50.035]
+image,SUTD,"[50.035, 50.035, 50.035, 50.035, 50.039, 50.045]"
 video,NUS,['CS4243']
-video,SUTD,[50.035]
+video,SUTD,"[50.035, 50.035, 50.017, 50.045]"
 geometrical,NUS,"['CS4243', 'CS4243']"
 recognition,NUS,['CS4243']
-recognition,SUTD,[50.04]
+recognition,NTU,['CZ1003']
+recognition,SUTD,"[50.035, 50.035, 50.035, 50.04]"
 contrast,NUS,['CS4243']
+contrast,NTU,['CZ2001']
 stretch,NUS,['CS4243']
 histogram,NUS,['CS4243']
+histogram,NTU,['MH3511']
 equalization,NUS,['CS4243']
 noise,NUS,['CS4243']
+noise,NTU,['CC0006']
 removal,NUS,['CS4243']
 removal,SUTD,[50.003]
 color,NUS,['CS4243']
@@ -1007,25 +1244,26 @@ projection,NUS,['CS4243']
 homography,NUS,['CS4243']
 calibration,NUS,['CS4243']
 rotation,NUS,['CS4243']
+rotation,NTU,['MH2802']
 representation,NUS,['CS4243']
-representation,NTU,"['CZ3005', 'CZ3005']"
-representation,SUTD,[50.051]
+representation,NTU,"['MH1812', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ3005', 'CZ3005']"
+representation,SUTD,"[50.045, 50.051]"
 quaternion,NUS,['CS4243']
 epipolar,NUS,['CS4243']
 binocular,NUS,['CS4243']
 stereo,NUS,['CS4243']
 motion,NUS,['CS4243']
 human,NUS,['CS4248']
-human,SUTD,"[50.006, 50.052]"
+human,SUTD,"[50.006, 50.006, 50.052]"
 deep,NUS,['CS4248']
-deep,NTU,['SC1015']
 deep,SMU,"['ACCT420', 'CS421', 'IS460']"
-deep,SUTD,"[40.319, 50.035, 50.035, 50.039, 50.039, 50.039, 50.04, 50.045]"
-deep,SIT,['Not Stated']
+deep,SUTD,"[40.319, 40.319, 50.038, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.039, 50.04, 50.04, 50.045, 50.045, 50.045]"
+deep,SIT,"['CSC3009', 'Computer Vision and Deep Learning']"
 regular,NUS,['CS4248']
 expression,NUS,['CS4248']
+expression,NTU,"['CZ1007', 'CZ1007', 'CZ2002', 'MH3511']"
 word,NUS,"['CS4248', 'CS4248']"
-word,SUTD,[50.04]
+word,SUTD,"[50.04, 50.045, 50.045]"
 edit,NUS,['CS4248']
 gram,NUS,['CS4248']
 part,NUS,['CS4248']
@@ -1039,10 +1277,10 @@ forward,NUS,['CS4248']
 embedding,NUS,['CS4248']
 convolutional,NUS,['CS4248']
 convolutional,SMU,['IS460']
-convolutional,SUTD,[50.035]
+convolutional,SUTD,"[40.319, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.039, 50.021]"
 recurrent,NUS,['CS4248']
 recurrent,SMU,['IS460']
-recurrent,SUTD,"[50.035, 50.039]"
+recurrent,SUTD,"[40.319, 50.035, 50.035, 50.039, 50.039, 50.039, 50.039]"
 attention,NUS,['CS4248']
 attention,SUTD,[50.039]
 transformer,NUS,['CS4248']
@@ -1053,11 +1291,15 @@ syntactic,SUTD,[50.04]
 parsing,NUS,['CS4248']
 parsing,SUTD,"[50.04, 50.04, 50.051]"
 semantics,NUS,['CS4248']
+semantics,NTU,['CZ1003']
 discourse,NUS,['CS4248']
 probabilistic,NUS,['CS5340 ']
+probabilistic,NTU,['CZ3005']
 probabilistic,SMU,['CS420']
-probabilistic,SUTD,"[50.007, 50.021]"
+probabilistic,SUTD,"[50.007, 50.021, 50.021, 50.021]"
 using,NUS,['CS5340 ']
+using,NTU,['MH2802']
+using,SUTD,"[50.035, 50.05]"
 medical,NUS,['CS5340 ']
 medical,SUSS,['BME363']
 informatics,NUS,['CS5340 ']
@@ -1065,62 +1307,156 @@ informatics,SUSS,['BME363']
 bioinformatics,NUS,['CS5340 ']
 bioinformatics,SUSS,['BME363']
 analytics,NUS,['MA4230']
-analytics,NTU,"['CZ4032', 'CZ4032', 'CZ4032']"
+analytics,NTU,"['CC0007', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032', 'CZ4032']"
 analytics,SMU,"['ACCT420', 'IS417', 'IS417', 'IS428', 'IS428', 'IS428', 'IS460', 'MKTG228', 'MKTG228']"
 analytics,SUSS,"['ANL252', 'ANL252', 'ANL303', 'ANL310', 'ANL310', 'ACC353', 'ACC353', 'BME363', 'BUS352', 'BUS352', 'MKT365', 'MKT371']"
-analytics,SUTD,"[50.001, 50.043, 50.05]"
-analytics,SIT,"['CSC1006', 'CSC3005', 'Not Stated']"
+analytics,SUTD,"[50.001, 50.038, 50.043, 50.046, 50.05]"
+analytics,SIT,"['CSC1006', 'ICT3210/ICT3110', 'CSC3005', 'Edge Computing and Analytics']"
 singular,NUS,['MA4230']
 singular,SMU,['IS460']
 decomposition,NUS,['MA4230']
+decomposition,NTU,['CZ1003']
 decomposition,SMU,['IS460']
 qr,NUS,['MA4230']
 factorization,NUS,['MA4230']
+factorization,SUTD,[40.319]
 conditioning,NUS,['MA4230']
 stability,NUS,['MA4230']
 stability,SMU,['ECON233']
-process,NTU,"['CZ1003', 'CC0001', 'CC0001', 'CC0001']"
+process,NTU,"['CZ1003', 'MH1805', 'CC0001', 'CC0001', 'CC0001', 'CZ2006']"
 process,SMU,"['IS424', 'STAT201']"
 process,SUSS,"['ANL303', 'ACC353', 'BUS357']"
-process,SUTD,"[50.002, 50.003]"
-process,SIT,"['ICT2101', 'ICT2101']"
-characteristic,NTU,['CZ1003']
+process,SUTD,"[50.002, 50.002, 50.003, 50.044]"
+process,SIT,"['PHE2019', 'ICT2101', 'ICT2101']"
+characteristic,NTU,"['CZ1003', 'MH1812']"
 characteristic,SUSS,['BUS357']
+characteristic,SUTD,"[50.002, 50.002]"
 breaking,NTU,['CZ1003']
-internal,NTU,['CZ1003']
+internal,NTU,"['CZ1003', 'CZ1003']"
+level,NTU,['CZ1003']
+c,NTU,"['CZ1003', 'CZ1003', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2001', 'CZ2001']"
+c,SUTD,"[50.038, 50.017, 50.017, 50.017, 50.017, 50.033, 50.051, 50.051, 50.051]"
+c,SIT,['CSC2003']
+java,NTU,"['CZ1003', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
+java,SIT,"['ICT1008', 'CSC1009', 'CSC1009']"
+organization,NTU,['CZ1003']
+processor,NTU,['CZ1003']
+processor,SUTD,"[50.049, 50.049, 50.049]"
+instruction,NTU,['CZ1003']
+instruction,SUTD,"[50.002, 50.002]"
+iteration,NTU,['CZ1003']
+loop,NTU,"['CZ1003', 'MH3511']"
+abstraction,NTU,['CZ1003']
+abstraction,SUTD,"[50.003, 50.003]"
+library,NTU,['CZ1003']
+library,SUSS,['ANL252']
+library,SUTD,"[50.001, 50.046, 50.049]"
+looking,NTU,['CZ1003']
+similarity,NTU,"['CZ1003', 'MH2802']"
+previous,NTU,['CZ1003']
+similar,NTU,['CZ1003']
+analyzing,NTU,['CZ1003']
+analyzing,SMU,['DSA303']
+analyzing,SUTD,[50.003]
+effective,NTU,"['CZ1003', 'CC0002', 'HW0218']"
+effective,SUSS,"['ANL201', 'ANL201', 'BUS352']"
+resource,NTU,"['CZ1003', 'CZ2001']"
+resource,SUSS,['BUS353']
+syntax,NTU,"['CZ1003', 'MH3511']"
+declaration,NTU,['CZ1003']
+operator,NTU,"['CZ1003', 'MH1812', 'MH1812', 'MH1812', 'MH1812']"
+input,NTU,['CZ1003']
+input,SUTD,[50.052]
+output,NTU,['CZ1003']
+output,SUTD,[50.052]
+return,NTU,['CZ1003']
+return,SUSS,['FIN203']
+parameter,NTU,"['CZ1003', 'MH2500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3511', 'MH3511']"
+parameter,SUTD,[50.039]
+passing,NTU,['CZ1003']
+scope,NTU,['CZ1003']
+pointer,NTU,['CZ1003']
+array,NTU,"['CZ1003', 'CZ1003', 'CZ1003', 'CZ1003', 'CZ1007', 'CZ1007']"
+array,SUTD,[50.002]
+array,SIT,"['ICT1002', 'ICT1008']"
+character,NTU,['CZ1003']
+string,NTU,"['CZ1003', 'CZ1003']"
+definition,NTU,"['CZ1003', 'CZ2002']"
+definition,SUSS,['ICT330']
 subject,NTU,['MH1805']
-knowledge,NTU,"['MH1805', 'CZ3005', 'CZ3005']"
+knowledge,NTU,"['MH1805', 'CZ3005', 'CZ3005', 'CZ3005']"
 knowledge,SUSS,"['ANL303', 'ACC353']"
-logical,NTU,"['MH1805', 'MH1812', 'MH1812']"
+logical,NTU,"['MH1805', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812']"
+independently,NTU,['MH1805']
+interpret,NTU,"['MH1805', 'MH1812']"
+ordinary,NTU,"['MH1805', 'MH1805']"
+ass,NTU,['MH1805']
+validity,NTU,['MH1805']
+elementary,NTU,"['MH1805', 'MH1812', 'MH1812']"
 combinatorics,NTU,['MH1812']
-elementary,NTU,['MH1812']
-division,NTU,['MH1812']
-modular,NTU,['MH1812']
-modular,SUTD,[50.05]
-operator,NTU,"['MH1812', 'MH1812']"
-closure,NTU,['MH1812']
-proposition,NTU,"['MH1812', 'MH1812']"
-compound,NTU,['MH1812']
-table,NTU,['MH1812']
+division,NTU,"['MH1812', 'MH2802']"
+modular,NTU,"['MH1812', 'MH1812']"
+modular,SUTD,"[50.001, 50.05]"
+closure,NTU,"['MH1812', 'MH1812']"
+proposition,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812']"
+compound,NTU,"['MH1812', 'MH1812']"
+table,NTU,"['MH1812', 'MH1812', 'MH3511']"
 table,SMU,['DSA201']
-equivalent,NTU,['MH1812']
-statement,NTU,['MH1812']
+equivalent,NTU,"['MH1812', 'MH1812']"
+statement,NTU,"['MH1812', 'MH1812', 'MH1812', 'CZ2002']"
 statement,SUSS,['FIN203']
-de,NTU,['MH1812']
-morgan,NTU,['MH1812']
-equivalence,NTU,['MH1812']
-quantification,NTU,"['MH1812', 'MH1812']"
-quantifier,NTU,['MH1812']
-determining,NTU,['MH1812']
-direct,NTU,['MH1812']
-proof,NTU,"['MH1812', 'MH1812']"
-proof,SUTD,[50.05]
-induction,NTU,['MH1812']
+de,NTU,"['MH1812', 'MH1812']"
+morgan,NTU,"['MH1812', 'MH1812']"
+equivalence,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812']"
+quantification,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812']"
+quantifier,NTU,"['MH1812', 'MH1812']"
+determining,NTU,"['MH1812', 'MH1812', 'MH2802', 'MH2802']"
+direct,NTU,"['MH1812', 'MH1812']"
+proof,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'CZ2001', 'CZ2001']"
+proof,SUTD,"[50.037, 50.037, 50.046, 50.05, 50.05]"
+induction,NTU,"['MH1812', 'MH1812']"
+induction,SIT,['CSC1002']
+identify,NTU,"['MH1812', 'MH1812', 'CC0002', 'ML0004', 'CC0007']"
+identify,SUTD,"[50.002, 50.002, 50.002]"
+valid,NTU,['MH1812']
+invalid,NTU,['MH1812']
+solve,NTU,['MH1812']
+relation,NTU,"['MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'MH1812', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001', 'CZ2007', 'CC0007']"
+contradiction,NTU,['MH1812']
+union,NTU,['MH1812']
+intersection,NTU,['MH1812']
+set,NTU,"['MH1812', 'MH1812', 'MH1812']"
+set,SUTD,"[50.002, 50.033]"
+cardinality,NTU,['MH1812']
+cartesian,NTU,['MH1812']
+double,NTU,"['MH1812', 'CZ1007', 'CZ2001', 'MH2100']"
+inclusion,NTU,['MH1812']
+reflexivity,NTU,['MH1812']
+symmetry,NTU,['MH1812']
+transitivity,NTU,['MH1812']
+composition,NTU,"['MH1812', 'MH1812', 'CC0001', 'CZ2002', 'CZ2002']"
+ternary,NTU,['MH1812']
+injectivity,NTU,['MH1812']
+surjectivity,NTU,['MH1812']
+pigeonhole,NTU,['MH1812']
+pigeonhole,SIT,['CSC1002']
+cantor,NTU,['MH1812']
+diagonal,NTU,['MH1812']
+multigraphs,NTU,['MH1812']
+directed,NTU,['MH1812']
+euler,NTU,"['MH1812', 'MH1812']"
+bipartite,NTU,['MH1812']
+adjacency,NTU,"['MH1812', 'CZ1007', 'CZ1007', 'CZ2001', 'CZ2001']"
+hamilton,NTU,['MH1812']
+cycle,NTU,['MH1812']
+cycle,SIT,['ICT2101']
+isomorphism,NTU,['MH1812']
 organising,NTU,['CC0001']
 organising,SUSS,['BUS102']
 thought,NTU,['CC0001']
-writing,NTU,"['CC0001', 'HW0218']"
+writing,NTU,"['CC0001', 'MH3511', 'HW0218']"
 writing,SUSS,['ANL312']
+writing,SUTD,[50.003]
 genre,NTU,['CC0001']
 convention,NTU,['CC0001']
 discipline,NTU,"['CC0001', 'CC0007']"
@@ -1131,142 +1467,475 @@ written,NTU,"['CC0001', 'HW0218']"
 written,SIT,['PHE2019']
 oral,NTU,"['CC0001', 'HW0218']"
 oral,SIT,['PHE2019']
-composition,NTU,['CC0001']
 clarity,NTU,['CC0001']
-audience,NTU,['CC0001']
-purpose,NTU,['CC0001']
-quantitative,NTU,['CC0002']
+audience,NTU,"['CC0001', 'CC0001']"
+purpose,NTU,"['CC0001', 'MH3500']"
+accurately,NTU,['CC0001']
+rhetorical,NTU,['CC0001']
+situation,NTU,"['CC0001', 'CC0003']"
+presentation,NTU,"['CC0001', 'CC0002', 'HW0218']"
+presentation,SIT,['PHE2019']
+quantitative,NTU,"['CC0002', 'CC0002']"
 quantitative,SUSS,"['BUS107', 'BUS352']"
-quantitative,SIT,['DCM1112']
-identify,NTU,['CC0002']
+quantitative,SIT,"['DCM1112', 'DCM1112']"
 online,NTU,['CC0002']
 threat,NTU,['CC0002']
+threat,SUTD,[50.02]
 intellectual,NTU,['CC0002']
 property,NTU,['CC0002']
-right,NTU,['CC0002']
+right,NTU,"['CC0002', 'CC0002']"
 cybersecurity,NTU,['CC0002']
 cybersecurity,SUTD,[50.05]
-effective,NTU,"['CC0002', 'HW0218']"
-effective,SUSS,"['ANL201', 'ANL201', 'BUS352']"
-presentation,NTU,"['CC0002', 'HW0218']"
-presentation,SIT,['PHE2019']
 collaborative,NTU,['CC0002']
 team,NTU,"['CC0002', 'ML0004']"
-array,NTU,['CZ1007']
-linked,NTU,"['CZ1007', 'CC0005']"
-list,NTU,['CZ1007']
-queue,NTU,['CZ1007']
-object,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
+guide,NTU,['CC0002']
+decision,NTU,"['CC0002', 'CC0003', 'CZ4041', 'CZ4041']"
+decision,SUSS,"['BUS107', 'BUS352', 'ECO202', 'MKT365']"
+decision,SUTD,"[40.319, 40.319]"
+decision,SIT,"['PHE2019', 'ICT2101', 'CSC2003']"
+making,NTU,"['CC0002', 'MH3511']"
+making,SUSS,"['ECO202', 'MKT365']"
+technology,NTU,['CC0002']
+technology,SMU,['MKTG228']
+technology,SUSS,['MKT202e']
+technology,SUTD,"[50.006, 50.02, 50.02, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046]"
+linked,NTU,"['CZ1007', 'CZ1007', 'CC0005']"
+linked,SIT,['ICT1008']
+list,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ2001']"
+list,SIT,['ICT1008']
+queue,NTU,"['CZ1007', 'CZ1007', 'CZ1007', 'CZ1007', 'CZ1007']"
+implement,NTU,"['CZ1007', 'CZ1007', 'CZ2001']"
+implement,SUTD,"[50.035, 50.04, 50.04, 50.041, 50.053]"
+implement,SIT,['CSC1009']
+select,NTU,['CZ1007']
+appropriate,NTU,['CZ1007']
+binary,NTU,['CZ1007']
+dfs,NTU,['CZ1007']
+introduction,NTU,['CZ1007']
+allocation,NTU,"['CZ1007', 'CZ1007']"
+allocation,SUSS,['BUS353']
+garbage,NTU,['CZ1007']
+run,NTU,['CZ1007']
+protection,NTU,['CZ1007']
+priority,NTU,"['CZ1007', 'CZ1007']"
+evaluate,NTU,"['CZ1007', 'CZ3005', 'MH3511', 'CC0007', 'CZ4032']"
+evaluate,SUTD,"[50.039, 50.039, 50.012, 50.037, 50.042, 50.045, 50.045]"
+avl,NTU,['CZ1007']
+worst,NTU,"['CZ1007', 'CZ2001']"
+recursive,NTU,"['CZ1007', 'CZ2001']"
+class,NTU,"['CZ1007', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2001']"
+proving,NTU,"['CZ1007', 'CZ2001']"
+closed,NTU,"['CZ1007', 'CZ2002', 'CZ2001']"
+address,NTU,"['CZ1007', 'CZ2001']"
+hashing,NTU,"['CZ1007', 'CZ1007', 'CZ2001', 'CZ2001']"
+hashing,SUTD,[50.042]
+probing,NTU,"['CZ1007', 'CZ2001']"
+collision,NTU,"['CZ1007', 'CZ2001']"
+collision,SUTD,[50.017]
+object,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
 object,SUSS,"['ICT233', 'ICT330']"
-object,SUTD,"[50.001, 50.051]"
-object,SIT,['CSC1009']
-oriented,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
-oriented,SUTD,"[50.001, 50.051]"
-oriented,SIT,['CSC1009']
+object,SUTD,"[50.001, 50.001, 50.001, 50.035, 50.051, 50.051]"
+object,SIT,"['CSC1009', 'CSC1009']"
+oriented,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
+oriented,SUTD,"[50.001, 50.001, 50.001, 50.051, 50.051]"
+oriented,SIT,"['CSC1009', 'CSC1009']"
 encapsulation,NTU,['CZ2002']
-polymorphism,NTU,['CZ2002']
-uml,NTU,['CZ2002']
-uml,SUTD,[50.003]
+encapsulation,SUTD,[50.001]
+polymorphism,NTU,"['CZ2002', 'CZ2002']"
+polymorphism,SUTD,[50.001]
+polymorphism,SIT,['CSC1009']
+uml,NTU,"['CZ2002', 'CZ2002']"
+uml,SUTD,"[50.003, 50.003]"
+uml,SIT,['ICT2101']
 diagram,NTU,['CZ2002']
-diagram,SUTD,[50.05]
-java,NTU,['CZ2002']
-java,SIT,['CSC1009']
-c,NTU,"['CZ2002', 'CZ2001', 'CZ2001']"
-c,SUTD,"[50.017, 50.017, 50.033, 50.051]"
-c,SIT,['CSC2003']
-focused,NTU,['SC1015']
-ethical,NTU,['SC1015']
-issue,NTU,['SC1015']
-issue,SUSS,['ANL310']
-issue,SUTD,"[50.002, 50.042]"
-community,NTU,['CC0003']
+diagram,SUTD,"[50.003, 50.05, 50.05]"
+orientated,NTU,['CZ2002']
+procedural,NTU,"['CZ2002', 'CZ3005']"
+procedural,SUSS,['ICT330']
+v,NTU,"['CZ2002', 'CZ2002']"
+oo,NTU,['CZ2002']
+attribute,NTU,['CZ2002']
+sending,NTU,['CZ2002']
+copying,NTU,['CZ2002']
+static,NTU,['CZ2002']
+instance,NTU,['CZ2002']
+generalisation,NTU,['CZ2002']
+specialisation,NTU,['CZ2002']
+overloading,NTU,['CZ2002']
+overriding,NTU,['CZ2002']
+substitution,NTU,['CZ2002']
+visibility,NTU,['CZ2002']
+modifier,NTU,['CZ2002']
+final,NTU,['CZ2002']
+abstract,NTU,['CZ2002']
+interface,NTU,['CZ2002']
+interface,SUSS,['ENG233']
+interface,SUTD,"[50.001, 50.006, 50.006, 50.012, 50.033]"
+exception,NTU,"['CZ2002', 'CZ2002', 'CZ2002', 'CZ2002']"
+exception,SIT,['CSC1009']
+persistent,NTU,['CZ2002']
+binding,NTU,['CZ2002']
+association,NTU,"['CZ2002', 'CZ4032', 'CZ4032']"
+association,SUSS,"['ANL305', 'ANL305']"
+collaboration,NTU,"['CZ2002', 'CC0007']"
+interaction,NTU,['CZ2002']
+interaction,SUTD,"[50.006, 50.006, 50.006, 50.006, 50.052]"
+defining,NTU,['CZ2002']
+defining,SUTD,[50.042]
+repeat,NTU,['CZ2002']
+open,NTU,['CZ2002']
+open,SIT,['ICT3210/ICT3110']
+singleton,NTU,['CZ2002']
+community,NTU,"['CC0003', 'CC0003']"
 governance,NTU,['CC0003']
 institution,NTU,['CC0003']
-develop,NTU,['CC0005']
-develop,SUTD,"[50.045, 50.046, 50.052]"
+disability,NTU,['CC0003']
+reproduction,NTU,['CC0003']
+death,NTU,['CC0003']
+assisted,NTU,['CC0003']
+equality,NTU,['CC0003']
+political,NTU,['CC0003']
+feature,NTU,['CC0003']
+moral,NTU,['CC0003']
+moral,SIT,['PHE2019']
+justification,NTU,['CC0003']
+limitation,NTU,['CC0003']
+limitation,SUTD,"[50.002, 50.002, 50.002]"
+implication,NTU,['CC0003']
+develop,NTU,"['CC0005', 'ML0004', 'SC4079']"
+develop,SUTD,"[50.005, 50.041, 50.045, 50.045, 50.046, 50.046, 50.049, 50.052, 50.052, 50.052]"
 develop,SIT,"['CSC1009', 'CSC3004']"
 physically,NTU,['CC0005']
-healthy,NTU,['CC0005']
+healthy,NTU,"['CC0005', 'CC0005', 'CC0005']"
 lifestyle,NTU,['CC0005']
-mental,NTU,['CC0005']
-health,NTU,['CC0005']
+mental,NTU,"['CC0005', 'CC0005']"
+health,NTU,"['CC0005', 'CC0005', 'CC0005']"
 health,SMU,['ECON245']
 intricately,NTU,['CC0005']
-implement,NTU,['CZ2001']
-implement,SUTD,[50.035]
-implement,SIT,['CSC1009']
-analyse,NTU,['CZ2001']
-correctness,NTU,['CZ2001']
-resource,NTU,['CZ2001']
-resource,SUSS,['BUS353']
-requirement,NTU,['CZ2001']
+living,NTU,"['CC0005', 'CC0005']"
+care,NTU,['CC0005']
+playing,NTU,"['CC0005', 'CZ3005']"
+active,NTU,['CC0005']
+role,NTU,['CC0005']
+role,SUTD,[50.04]
+resolve,NTU,['CC0005']
+conflict,NTU,['CC0005']
+action,NTU,"['CC0005', 'MH2802', 'ML0004']"
+creativity,NTU,"['CC0005', 'CC0005']"
+nutrition,NTU,['CC0005']
+fitness,NTU,['CC0005']
+resilience,NTU,['CC0005']
+awareness,NTU,['CC0005']
+social,NTU,"['CC0005', 'CC0007', 'CC0007', 'CC0007']"
+social,SUSS,"['MKT365', 'MKT365']"
+flourishing,NTU,['CC0005']
+life,NTU,['CC0005']
+life,SIT,['ICT2101']
+analyse,NTU,"['CZ2001', 'CC0007']"
+analyse,SUTD,[50.041]
+correctness,NTU,"['CZ2001', 'CZ2001']"
+correctness,SUTD,"[50.003, 50.041, 50.05]"
+requirement,NTU,"['CZ2001', 'CZ2006']"
 requirement,SUSS,['ENG233']
+requirement,SUTD,"[50.003, 50.006]"
 mainly,NTU,['CZ2001']
 ce,NTU,"['CZ2001', 'CZ2001']"
-business,NTU,['ML0004']
+divide,NTU,"['CZ2001', 'CZ2001']"
+sine,NTU,['CZ2001']
+floor,NTU,['CZ2001']
+ceiling,NTU,['CZ2001']
+logarithm,NTU,['CZ2001']
+summation,NTU,['CZ2001']
+oh,NTU,['CZ2001']
+theta,NTU,['CZ2001']
+notation,NTU,['CZ2001']
+insertion,NTU,['CZ2001']
+sort,NTU,"['CZ2001', 'CZ2001', 'CZ2001', 'CZ2001']"
+heap,NTU,['CZ2001']
+quick,NTU,['CZ2001']
+merge,NTU,['CZ2001']
+three,NTU,['CZ2001']
+conquer,NTU,['CZ2001']
+greedy,NTU,['CZ2001']
+prim,NTU,['CZ2001']
+prim,SUTD,"[50.05, 50.05, 50.05]"
+computability,NTU,['CZ2001']
+tractable,NTU,['CZ2001']
+halting,NTU,['CZ2001']
+p,NTU,"['CZ2001', 'MH3511']"
+brute,NTU,['CZ2001']
+force,NTU,['CZ2001']
+nearest,NTU,"['CZ2001', 'CZ4041']"
+link,NTU,"['CZ2001', 'CZ2001']"
+travelling,NTU,['CZ2001']
+sale,NTU,['CZ2001']
+person,NTU,['CZ2001']
+project,NTU,"['CZ2006', 'CZ2006', 'CZ2006']"
+project,SUSS,"['ANL312', 'BUS353', 'BUS353', 'BUS353']"
+project,SUTD,"[50.001, 50.001, 50.049, 50.049, 50.052, 50.053]"
+project,SIT,"['ICT2101', 'AI Cross-Domain Project']"
+b,NTU,['CZ2006']
+elicit,NTU,['CZ2006']
+specify,NTU,['CZ2006']
+carry,NTU,['CZ2006']
+activity,NTU,['CZ2006']
+activity,SUTD,[50.035]
+specification,NTU,['CZ2006']
+specification,SUTD,[50.003]
+quality,NTU,"['CZ2006', 'MH3500', 'MH3500']"
+quality,SMU,['OPIM326']
+quality,SUTD,"[50.003, 50.012]"
+dependability,NTU,['CZ2006']
+security,NTU,['CZ2006']
+security,SUSS,"['ENG233', 'ICT330']"
+security,SUTD,"[50.003, 50.003, 50.003, 50.003, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.02, 50.037, 50.042, 50.042, 50.042, 50.042, 50.042, 50.042, 50.044, 50.044, 50.044, 50.044, 50.044, 50.044, 50.044, 50.053]"
+security,SIT,"['CSC1001', 'ICT3210/ICT3110']"
+concerning,NTU,['MH2500']
+calculate,NTU,['MH2500']
+calculate,SUTD,"[50.002, 50.002]"
+cdf,NTU,"['MH2500', 'MH3500']"
+pdf,NTU,"['MH2500', 'MH3500']"
+mgf,NTU,['MH2500']
+quantiles,NTU,['MH2500']
+chebyshev,NTU,['MH2500']
+inequality,NTU,['MH2500']
+ba,NTU,['MH2802']
+addition,NTU,['MH2802']
+subtraction,NTU,['MH2802']
+triple,NTU,"['MH2802', 'MH2100']"
+plane,NTU,['MH2802']
+l,NTU,['MH2802']
+recall,NTU,['MH2802']
+use,NTU,['MH2802']
+use,SUTD,"[50.001, 50.006, 50.046, 50.046]"
+norm,NTU,['MH2802']
+technological,NTU,['MH2802']
+university,NTU,['MH2802']
+physic,NTU,"['MH2802', 'MH2802']"
+applied,NTU,"['MH2802', 'CZ3005']"
+applied,SUSS,"['ANL312', 'ANL355']"
+express,NTU,['MH2802']
+compute,NTU,"['MH2802', 'MH3511']"
+compute,SUTD,"[50.004, 50.046, 50.05, 50.05]"
+reflection,NTU,['MH2802']
+algebraic,NTU,['MH2802']
+gaussian,NTU,['MH2802']
+elimination,NTU,['MH2802']
+given,NTU,['MH2802']
+given,SUTD,[50.006]
+determine,NTU,['MH2802']
+determine,SMU,['ACCT420']
+hermitian,NTU,['MH2802']
+unitary,NTU,['MH2802']
+sustainability,NTU,['CC0006']
+food,NTU,['CC0006']
+responsible,NTU,['CC0006']
+consumption,NTU,['CC0006']
+waste,NTU,['CC0006']
+plastic,NTU,['CC0006']
+light,NTU,['CC0006']
+earth,NTU,['CC0006']
+feedback,NTU,['CC0006']
+tipping,NTU,['CC0006']
+planet,NTU,['CC0006']
+business,NTU,"['ML0004', 'CC0007']"
 business,SMU,"['ACCT420', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS417', 'IS424', 'IS424', 'IS424', 'IS460']"
 business,SUSS,"['ANL201', 'ANL252', 'ANL310', 'ANL310', 'ACC353', 'ANL317', 'BUS102', 'BUS352', 'BUS357', 'BUS357', 'ECO202']"
-business,SIT,['Not Stated']
-innovation,NTU,['ML0004']
+business,SIT,['Artificial Intelligence in Business and Society']
+innovation,NTU,"['ML0004', 'CC0007', 'CC0007', 'CC0007']"
 working,NTU,['ML0004']
+working,SIT,['ICT1008']
+st,NTU,['ML0004']
+century,NTU,['ML0004']
+personality,NTU,['ML0004']
+motivated,NTU,['ML0004']
+stage,NTU,['ML0004']
+ecosystem,NTU,['ML0004']
+startup,NTU,['ML0004']
+innovative,NTU,"['ML0004', 'ML0004']"
+plan,NTU,['ML0004']
+plan,SUSS,['MKT202e']
+plan,SIT,['CSC2003']
+school,NTU,['ML0004']
+college,NTU,['ML0004']
+developing,NTU,['ML0004']
+mindset,NTU,['ML0004']
+mindset,SUSS,['BUS357']
+charting,NTU,['ML0004']
+career,NTU,['ML0004']
+start,NTU,['ML0004']
+start,SUSS,['BUS357']
+enterprise,NTU,['ML0004']
+ethical,NTU,"['ML0004', 'CC0007']"
+ethical,SIT,"['PHE2019', 'PHE2019']"
+workplace,NTU,['ML0004']
+issue,NTU,['ML0004']
+issue,SUSS,['ANL310']
+issue,SUTD,"[50.002, 50.042]"
 dbms,NTU,['CZ2007']
 entity,NTU,['CZ2007']
 entity,SUTD,[50.04]
 relationship,NTU,['CZ2007']
+relationship,SIT,['CSC2008']
 functional,NTU,['CZ2007']
+functional,SUTD,"[50.046, 50.046]"
 dependency,NTU,['CZ2007']
 fd,NTU,['CZ2007']
 normalization,NTU,['CZ2007']
+normalization,SUTD,"[50.035, 50.021]"
 sql,NTU,['CZ2007']
 sql,SMU,['DSA212']
 sql,SUSS,"['ICT330', 'ICT330', 'ICT330']"
+sql,SUTD,[50.043]
 indexing,NTU,['CZ2007']
 indexing,SUTD,[50.045]
-intelligent,NTU,['CZ3005']
-intelligent,SUTD,[40.319]
-agent,NTU,['CZ3005']
+indexing,SIT,['CSC2008']
+nil,NTU,"['CZ2007', 'CZ3005', 'HW0218', 'SD3079', 'SC4079']"
+intelligent,NTU,"['CZ3005', 'CZ3005']"
+intelligent,SUTD,"[40.319, 40.319]"
+agent,NTU,"['CZ3005', 'CZ3005']"
 agent,SMU,['CS420']
-procedural,NTU,['CZ3005']
-procedural,SUSS,['ICT330']
 symbolic,NTU,['CZ3005']
-parameter,NTU,['MH3500']
-parameter,SUTD,[50.039]
-plotting,NTU,['MH3511']
-making,NTU,['MH3511']
-making,SUSS,"['ECO202', 'MKT365']"
-presenting,NTU,['MH3511']
-various,NTU,['MH3511']
+society,NTU,['CZ3005']
+master,NTU,['CZ3005']
+various,NTU,"['CZ3005', 'MH3511']"
 various,SMU,['DSA212']
+various,SUTD,[50.046]
+selecting,NTU,['CZ3005']
+selecting,SUSS,['ACC353']
+build,NTU,['CZ3005']
+build,SUSS,['BUS357']
+build,SUTD,"[40.319, 50.038, 50.017, 50.037, 50.037, 50.037, 50.053]"
+build,SIT,['ICT1004']
+constraint,NTU,['CZ3005']
+constraint,SUTD,"[50.002, 50.021]"
+constraint,SIT,['CSC2003']
+satisfaction,NTU,['CZ3005']
+satisfaction,SUTD,[50.021]
+game,NTU,['CZ3005']
+game,SUSS,['ECO202']
+game,SUTD,"[50.017, 50.033, 50.033, 50.033, 50.033, 50.033, 50.033, 50.033, 50.033, 50.033]"
+expert,NTU,['CZ3005']
+approximate,NTU,['CZ3005']
+pmf,NTU,['MH3500']
+expected,NTU,['MH3500']
+scenario,NTU,['MH3500']
+scenario,SUTD,[50.006]
+estimator,NTU,"['MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500', 'MH3500']"
+estimator,SUSS,['ANL321']
+derived,NTU,['MH3500']
+criterion,NTU,['MH3500']
+criterion,SMU,['DSA201']
+cramer,NTU,['MH3500']
+rao,NTU,['MH3500']
+efficient,NTU,['MH3500']
+efficient,SUTD,[50.049]
+efficient,SIT,['CSC3005']
+plotting,NTU,['MH3511']
+presenting,NTU,['MH3511']
+qq,NTU,"['MH3511', 'MH3511']"
+plot,NTU,"['MH3511', 'MH3511', 'MH3511']"
+meaning,NTU,['MH3511']
+ii,NTU,"['MH3511', 'MH2100']"
+categorical,NTU,"['MH3511', 'MH3511']"
+dataset,NTU,"['MH3511', 'MH3511', 'MH3511']"
+write,NTU,['MH3511']
+write,SUSS,['ICT233']
+write,SUTD,[50.043]
+importing,NTU,['MH3511']
+inter,NTU,['MH3511']
+range,NTU,['MH3511']
+stem,NTU,['MH3511']
+leaf,NTU,['MH3511']
+normality,NTU,['MH3511']
+check,NTU,['MH3511']
+check,SUTD,[50.053]
+outlier,NTU,['MH3511']
+proportion,NTU,"['MH3511', 'MH3511']"
+goodness,NTU,['MH3511']
+goodness,SMU,['DSA201']
+fit,NTU,['MH3511']
+fit,SMU,['DSA201']
+contingency,NTU,['MH3511']
+contingency,SMU,['DSA201']
+paired,NTU,['MH3511']
+difference,NTU,['MH3511']
+difference,SUTD,[50.037]
+anova,NTU,['MH3511']
+anova,SUSS,['BUS105']
+nonparametric,NTU,['MH3511']
+nonparametric,SMU,['DSA201']
+quantile,NTU,['MH3511']
+kruskal,NTU,['MH3511']
+kruskal,SUTD,"[50.05, 50.05, 50.05]"
+sign,NTU,['MH3511']
+wilcoxon,NTU,['MH3511']
+signed,NTU,['MH3511']
+friedman,NTU,['MH3511']
+coefficient,NTU,['MH3511']
 academic,NTU,"['HW0218', 'HW0218']"
 public,NTU,['HW0218']
 public,SUTD,"[50.037, 50.042]"
 setting,NTU,['HW0218']
-scientific,NTU,"['HW0218', 'HW0218', 'HW0218']"
+scientific,NTU,"['HW0218', 'HW0218', 'HW0218', 'CC0007', 'CC0007']"
 critically,NTU,['HW0218']
 reading,NTU,['HW0218']
 text,NTU,['HW0218']
 text,SMU,['ACCT420']
 text,SUSS,"['ANL312', 'ANL312', 'ANL312']"
-text,SUTD,[50.04]
+text,SUTD,"[50.038, 50.04]"
 citing,NTU,['HW0218']
 composing,NTU,['HW0218']
 curiosity,NTU,['CC0007']
-collaboration,NTU,['CC0007']
 across,NTU,['CC0007']
-pre,NTU,['CZ4032']
-association,NTU,['CZ4032']
-association,SUSS,"['ANL305', 'ANL305']"
-anomaly,NTU,['CZ4032']
-detection,NTU,['CZ4032']
-detection,SUTD,"[50.003, 50.035]"
-iii,NTU,['MH2100']
-ii,NTU,['MH2100']
-real,NTU,['MH2100']
-real,SUTD,[50.052]
-degree,NTU,['MH2100']
-cao,NTU,['SD3079']
+technical,NTU,"['CC0007', 'CZ4032']"
+featured,NTU,['CC0007']
+describe,NTU,['CC0007']
+describe,SUSS,['BUS352']
+describe,SUTD,[50.037]
+connection,NTU,['CC0007']
+connection,SUTD,[50.021]
+financial,NTU,['CC0007']
 financial,SMU,"['ACCT420', 'ACCT420', 'ACCT420', 'ACCT420']"
 financial,SUSS,"['ACC202', 'ACC202', 'FIN203', 'FIN203', 'FIN203', 'ACC353', 'BUS357']"
+legal,NTU,['CC0007']
+legal,SUSS,['BUS357']
+cultural,NTU,['CC0007']
+present,NTU,['CC0007']
+present,SUSS,['BUS352']
+possible,NTU,['CC0007']
+possible,SUSS,['ANL303']
+possible,SUTD,[50.04]
+tech,NTU,['CC0007']
+humanity,NTU,"['CC0007', 'CC0007', 'CC0007']"
+impact,NTU,['CC0007']
+impact,SUSS,['ACC353']
+impact,SUTD,[50.039]
+synthetic,NTU,['CC0007']
+biology,NTU,['CC0007']
+classifier,NTU,"['CZ4041', 'CZ4041']"
+classifier,SMU,['IS460']
+kernelized,NTU,['CZ4041']
+neighbour,NTU,['CZ4041']
+pre,NTU,['CZ4032']
+anomaly,NTU,"['CZ4032', 'CZ4032']"
+detection,NTU,"['CZ4032', 'CZ4032']"
+detection,SUTD,"[50.003, 50.035, 50.035, 50.017]"
+original,NTU,['CZ4032']
+complex,NTU,['CZ4032']
+complex,SUTD,"[50.038, 50.043, 50.02, 50.051, 50.053]"
+material,NTU,['CZ4032']
+module,NTU,['CZ4032']
+iii,NTU,['MH2100']
+real,NTU,['MH2100']
+real,SUTD,"[50.005, 50.052]"
+degree,NTU,['MH2100']
+recognise,NTU,['MH2100']
+polar,NTU,['MH2100']
+gauss,NTU,['MH2100']
+cao,NTU,['SD3079']
+competency,NTU,['SC4079']
+lifelong,NTU,['SC4079']
 accounting,SMU,"['ACCT420', 'ACCT420']"
 accounting,SUSS,"['ACC202', 'ACC202', 'ACC202', 'ACC353', 'ACC353', 'ACC353', 'ACC353', 'ACC353', 'ACC353', 'ACC353', 'ACC353']"
 managerial,SMU,['ACCT420']
@@ -1280,13 +1949,14 @@ predict,SMU,['ACCT420']
 corporate,SMU,['ACCT420']
 default,SMU,['ACCT420']
 optimize,SMU,['ACCT420']
-determine,SMU,['ACCT420']
+optimize,SUTD,[50.049]
 strategy,SMU,['ACCT420']
-strategy,SUTD,"[50.002, 50.053]"
+strategy,SUTD,"[50.002, 50.006, 50.053]"
 modeling,SMU,['COR1305']
-modeling,SUTD,"[50.003, 50.045]"
+modeling,SUTD,"[50.003, 50.02, 50.045, 50.045, 50.045]"
 spreadsheet,SMU,"['COR1305', 'IS1702']"
 verification,SMU,['COR1305']
+verification,SUTD,[50.003]
 reporting,SMU,['COR1305']
 ai,SMU,['CS420']
 ai,SUTD,"[50.039, 50.04, 50.021]"
@@ -1296,15 +1966,12 @@ traditional,SUSS,['ICT233']
 traditional,SUTD,"[50.043, 50.043]"
 shallow,SMU,"['CS421', 'IS460']"
 intensive,SMU,['DSA201']
-nonparametric,SMU,['DSA201']
 efficiency,SMU,['DSA201']
 efficiency,SUSS,['ECO202']
+efficiency,SUTD,[50.049]
 efficiency,SIT,"['CSC3005', 'CSC3005']"
-criterion,SMU,['DSA201']
-goodness,SMU,['DSA201']
-fit,SMU,['DSA201']
-contingency,SMU,['DSA201']
 regularization,SMU,['DSA211']
+regularization,SUTD,[50.007]
 retrieve,SMU,['DSA212']
 prepare,SMU,['DSA212']
 prepare,SUSS,"['ANL303', 'BUS357']"
@@ -1318,8 +1985,9 @@ spatial,SMU,"['DSA212', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA303', 'DSA30
 autoregressive,SMU,"['DSA301', 'ECON233', 'ECON233', 'ECON233']"
 moving,SMU,"['DSA301', 'ECON233']"
 correction,SMU,"['DSA301', 'ECON233', 'ECON233']"
+correction,SUTD,[50.05]
 loss,SMU,['DSA301']
-analyzing,SMU,['DSA303']
+loss,SUTD,[50.039]
 geostatistical,SMU,['DSA303']
 lattice,SMU,"['DSA303', 'DSA303']"
 autocorrelation,SMU,['DSA303']
@@ -1334,6 +2002,7 @@ velocity,SUTD,[50.043]
 veracity,SMU,['DSA306']
 medium,SMU,['DSA306']
 medium,SUSS,['MKT365']
+medium,SUTD,"[50.003, 50.003]"
 warehouse,SMU,"['DSA306', 'IS417', 'IS417']"
 econometric,SMU,['ECON233']
 macroeconomic,SMU,['ECON233']
@@ -1342,6 +2011,7 @@ volatility,SMU,['ECON233']
 structural,SMU,['ECON233']
 structural,SUTD,[50.002]
 kalman,SMU,['ECON233']
+kalman,SUTD,[40.319]
 filtering,SMU,['ECON233']
 unstructured,SMU,['IS105']
 gi,SMU,"['IS415', 'IS415', 'IS415']"
@@ -1349,14 +2019,14 @@ location,SMU,['IS415']
 dw,SMU,"['IS417', 'IS417', 'IS417']"
 bi,SMU,"['IS417', 'IS417', 'IS417']"
 learn,SMU,['IS417']
+learn,SUTD,[50.045]
 cube,SMU,"['IS417', 'IS417']"
 preprocessing,SMU,['IS424']
 preprocessing,SUTD,[50.038]
 na,SMU,['IS460']
 na,SUTD,[50.007]
-classifier,SMU,['IS460']
 logistic,SMU,"['IS460', 'OPIM326']"
-logistic,SUTD,[50.007]
+logistic,SUTD,"[50.007, 50.038]"
 pca,SMU,['IS460']
 svd,SMU,['IS460']
 svm,SMU,['IS460']
@@ -1367,16 +2037,12 @@ cnn,SUTD,[50.035]
 math,SMU,['IS460']
 marketing,SMU,"['MKTG228', 'MKTG228', 'MKTG228', 'MKTG228']"
 marketing,SUSS,"['MKT202e', 'MKT202e', 'MKT202e', 'MKT202e', 'MKT202e', 'MKT202e', 'MKT365', 'MKT390', 'MKT390', 'MKT390']"
-technology,SMU,['MKTG228']
-technology,SUSS,['MKT202e']
-technology,SUTD,"[50.02, 50.046, 50.046]"
-quality,SMU,['OPIM326']
-quality,SUTD,[50.012]
 revenue,SMU,['OPIM326']
 forest,SMU,['OPIM326']
 notebook,SMU,"['OPIM326', 'OPIM326']"
 quantitatively,SMU,['STAT201']
 assessing,SMU,['STAT201']
+assessing,SUTD,[50.042]
 uncertain,SMU,['STAT201']
 actuarial,SMU,['STAT201']
 finance,SMU,['STAT201']
@@ -1385,53 +2051,44 @@ jointly,SMU,['STAT201']
 measuring,SUSS,['ANL201']
 treatment,SUSS,['ANL201']
 create,SUSS,"['ANL201', 'ICT233']"
-create,SUTD,[50.051]
+create,SUTD,"[50.006, 50.051]"
 story,SUSS,['ANL201']
 code,SUSS,['ANL252']
-code,SUTD,"[50.003, 50.05]"
+code,SUTD,"[50.003, 50.039, 50.039, 50.039, 50.05, 50.05, 50.05]"
 code,SIT,"['CSC1009', 'CSC1009']"
 accessible,SUSS,['ANL252']
-library,SUSS,['ANL252']
-library,SUTD,[50.001]
-possible,SUSS,['ANL303']
 constructing,SUSS,['ANL303']
 result,SUSS,['ANL303']
 service,SUSS,"['ANL303', 'ANL305', 'ANL307']"
-service,SUTD,[50.012]
+service,SUTD,"[50.012, 50.046, 50.046]"
+service,SIT,['CSC3004']
 deployment,SUSS,"['ANL307', 'ANL310']"
 cross,SUSS,['ANL310']
-cross,SIT,['Not Stated']
+cross,SUTD,[50.007]
+cross,SIT,['AI Cross-Domain Project']
 selling,SUSS,"['ANL310', 'ANL310']"
-applied,SUSS,"['ANL312', 'ANL355']"
-project,SUSS,"['ANL312', 'BUS353', 'BUS353', 'BUS353']"
-project,SUTD,[50.053]
-project,SIT,"['ICT2101', 'Not Stated']"
 report,SUSS,"['ANL312', 'ANL351']"
 report,SIT,['PHE2019']
-anova,SUSS,['BUS105']
 essential,SUSS,['FIN203']
+essential,SIT,['CSC1009']
 cash,SUSS,['FIN203']
 valuation,SUSS,['FIN203']
 money,SUSS,['FIN203']
 risk,SUSS,"['FIN203', 'BUS353']"
-return,SUSS,['FIN203']
 capital,SUSS,"['FIN203', 'FIN203']"
 investment,SUSS,['FIN203']
 digital,SUSS,"['MKT202e', 'BUS102', 'MKT365']"
-digital,SUTD,[50.002]
+digital,SUTD,"[50.002, 50.002, 50.042, 50.042]"
 execution,SUSS,['MKT202e']
-plan,SUSS,['MKT202e']
-plan,SIT,['CSC2003']
+execution,SUTD,[50.049]
+execution,SIT,['CSC1009']
 programme,SUSS,['MKT202e']
 assist,SUSS,['ACC353']
-impact,SUSS,['ACC353']
 examining,SUSS,['ACC353']
 auditing,SUSS,['ACC353']
-selecting,SUSS,['ACC353']
 preparing,SUSS,"['ANL317', 'ANL351']"
 identifying,SUSS,['ANL317']
 specific,SUSS,['ANL317']
-estimator,SUSS,['ANL321']
 identification,SUSS,['ANL321']
 causality,SUSS,['ANL321']
 sa,SUSS,"['ANL351', 'ANL351', 'ANL351', 'ANL351', 'ANL351']"
@@ -1442,66 +2099,52 @@ medicine,SUSS,['BME363']
 age,SUSS,['BUS102']
 leading,SUSS,['BUS102']
 controlling,SUSS,['BUS102']
-decision,SUSS,"['BUS107', 'BUS352', 'ECO202', 'MKT365']"
-decision,SUTD,[40.319]
-decision,SIT,"['ICT2101', 'CSC2003']"
 contract,SUSS,"['BUS201', 'BUS201']"
-contract,SUTD,[50.037]
+contract,SUTD,"[50.037, 50.037]"
 agency,SUSS,"['BUS201', 'BUS201']"
 together,SUSS,['BUS352']
-describe,SUSS,['BUS352']
-present,SUSS,['BUS352']
 operational,SUSS,['BUS352']
 proposal,SUSS,"['BUS353', 'BUS353']"
 submission,SUSS,['BUS353']
 assessment,SUSS,['BUS353']
+assessment,SUTD,[50.02]
 scheduling,SUSS,['BUS353']
-allocation,SUSS,['BUS353']
+scheduling,SUTD,[50.049]
 budgeting,SUSS,['BUS353']
 starting,SUSS,['BUS357']
 managing,SUSS,['BUS357']
-mindset,SUSS,['BUS357']
-build,SUSS,['BUS357']
-build,SUTD,[50.037]
-build,SIT,['ICT1004']
-start,SUSS,['BUS357']
 validating,SUSS,"['BUS357', 'BUS357']"
+validating,SUTD,[50.003]
 investor,SUSS,['BUS357']
 coming,SUSS,['BUS357']
 prototype,SUSS,['BUS357']
-prototype,SUTD,[50.053]
+prototype,SUTD,"[50.003, 50.003, 50.003, 50.052, 50.052, 50.053]"
 pitch,SUSS,['BUS357']
 strategic,SUSS,['BUS357']
-legal,SUSS,['BUS357']
 economic,SUSS,['ECO202']
 consumer,SUSS,['ECO202']
 producer,SUSS,['ECO202']
 market,SUSS,['ECO202']
-game,SUSS,['ECO202']
-game,SUTD,"[50.033, 50.033, 50.033, 50.033, 50.033, 50.033]"
 inflation,SUSS,['ECO202']
 internet,SUSS,['ENG233']
-internet,SUTD,"[50.001, 50.02, 50.046]"
+internet,SUTD,"[50.001, 50.005, 50.012, 50.012, 50.02, 50.046]"
 thing,SUSS,['ENG233']
 thing,SUTD,"[50.001, 50.046]"
 iot,SUSS,"['ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233', 'ENG233']"
-iot,SUTD,"[50.02, 50.046, 50.046, 50.046, 50.046]"
-iot,SIT,"['CSC3009', 'CSC2003', 'CSC3004', 'CSC3004', 'CSC3005']"
-interface,SUSS,['ENG233']
-interface,SUTD,"[50.012, 50.033]"
+iot,SUTD,"[50.02, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046, 50.046]"
+iot,SIT,"['CSC3009', 'CSC2003', 'CSC3004', 'CSC3004', 'CSC3004', 'CSC3005']"
 protocol,SUSS,"['ENG233', 'ICT233']"
-protocol,SUTD,"[50.02, 50.042, 50.046]"
-security,SUSS,"['ENG233', 'ICT330']"
-security,SUTD,"[50.003, 50.02, 50.02, 50.02, 50.02, 50.02, 50.042, 50.042, 50.044, 50.044, 50.044]"
+protocol,SUTD,"[50.02, 50.02, 50.02, 50.042, 50.046, 50.046, 50.046]"
 pi,SUSS,['ENG233']
 hypertext,SUSS,"['ICT233', 'ICT233']"
 transport,SUSS,['ICT233']
 http,SUSS,"['ICT233', 'ICT233']"
-write,SUSS,['ICT233']
+http,SUTD,[50.005]
 markup,SUSS,['ICT233']
 html,SUSS,['ICT233']
+html,SIT,['ICT1004']
 mapping,SUSS,['ICT233']
-mapping,SUTD,[50.017]
+mapping,SUTD,"[50.017, 50.017]"
 orm,SUSS,['ICT233']
 read,SUSS,['ICT233']
 update,SUSS,['ICT233']
@@ -1509,105 +2152,176 @@ destroy,SUSS,['ICT233']
 crud,SUSS,"['ICT233', 'ICT233']"
 oracle,SUSS,['ICT330']
 oracle,SUTD,[50.043]
-definition,SUSS,['ICT330']
 ddl,SUSS,['ICT330']
 view,SUSS,['ICT330']
 trigger,SUSS,['ICT330']
 stored,SUSS,['ICT330']
 extension,SUSS,['ICT330']
 backup,SUSS,['ICT330']
-social,SUSS,"['MKT365', 'MKT365']"
 metric,SUSS,['MKT365']
 acquiring,SUSS,['MKT365']
 nlp,SUSS,['MKT365']
-nlp,SUTD,"[50.04, 50.04, 50.04, 50.04]"
+nlp,SUTD,"[50.04, 50.04, 50.04, 50.04, 50.04, 50.04, 50.04, 50.04, 50.04]"
 customer,SUSS,['MKT371']
 collect,SUSS,['MKT371']
 measurement,SUSS,['MKT390']
 architectural,SUTD,"[10.014, 50.002]"
 architectural,SIT,['CSC2003']
+textual,SUTD,"[10.014, 50.045]"
 mobile,SUTD,[50.001]
-use,SUTD,[50.001]
+mobile,SIT,['CSC3004']
 android,SUTD,[50.001]
 app,SUTD,[50.001]
+produce,SUTD,[50.001]
+exam,SUTD,"[50.001, 50.001, 50.001, 50.001, 50.049, 50.049]"
 multilevel,SUTD,[50.002]
 primitive,SUTD,"[50.002, 50.042]"
 gate,SUTD,[50.002]
-instruction,SUTD,"[50.002, 50.002]"
-potential,SUTD,[50.002]
+potential,SUTD,"[50.002, 50.003]"
 precedence,SUTD,[50.002]
-constraint,SUTD,[50.002]
-constraint,SIT,['CSC2003']
 measure,SUTD,[50.002]
 pipelined,SUTD,[50.002]
 multidimensional,SUTD,[50.002]
-set,SUTD,[50.002]
 contemporary,SUTD,[50.002]
+hardware,SUTD,"[50.002, 50.017, 50.017, 50.044, 50.049, 50.049]"
+rom,SUTD,"[50.002, 50.002, 50.002]"
+synthesize,SUTD,[50.002]
+operating,SUTD,"[50.002, 50.005]"
+flaw,SUTD,"[50.002, 50.002, 50.002, 50.044]"
+combinational,SUTD,"[50.002, 50.002]"
+device,SUTD,"[50.002, 50.046, 50.046, 50.052]"
+cmos,SUTD,"[50.002, 50.002]"
+acyclic,SUTD,[50.002]
+circuit,SUTD,"[50.002, 50.002]"
+single,SUTD,[50.002]
+clock,SUTD,[50.002]
+sequential,SUTD,[50.002]
 unified,SUTD,[50.003]
 automated,SUTD,"[50.003, 50.003]"
-blackbox,SUTD,[50.003]
-whitebox,SUTD,[50.003]
-concurrent,SUTD,[50.003]
+blackbox,SUTD,"[50.003, 50.003, 50.053]"
+whitebox,SUTD,"[50.003, 50.003]"
+concurrent,SUTD,"[50.003, 50.003]"
 thread,SUTD,[50.003]
 understanding,SUTD,[50.003]
 deadlock,SUTD,[50.003]
 race,SUTD,[50.003]
-analyze,SUTD,[50.004]
-networking,SUTD,"[50.005, 50.005, 50.012]"
-operating,SUTD,[50.005]
+scratch,SUTD,"[50.003, 50.041, 50.045, 50.045]"
+solved,SUTD,[50.003]
+formal,SUTD,[50.003]
+exploring,SUTD,"[50.003, 50.003]"
+extensive,SUTD,[50.003]
+invariant,SUTD,[50.003]
+decoupling,SUTD,[50.003]
+vulnerability,SUTD,"[50.003, 50.003]"
+lo,SUTD,"[50.003, 50.003, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.035, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041, 50.041]"
+small,SUTD,[50.003]
+automatically,SUTD,[50.003]
+discover,SUTD,[50.003]
+crash,SUTD,[50.003]
+analyze,SUTD,"[50.004, 40.319, 50.05]"
+complete,SUTD,"[50.004, 50.004]"
+apply,SUTD,"[50.004, 50.021]"
+modify,SUTD,[50.004]
+existing,SUTD,[50.004]
+provided,SUTD,"[50.004, 50.012]"
+networking,SUTD,"[50.005, 50.005, 50.005, 50.005, 50.012]"
 end,SUTD,"[50.005, 50.005, 50.046, 50.046, 50.052]"
-reinforcement,SUTD,"[50.007, 40.319, 50.039]"
-svms,SUTD,[50.007]
+modularity,SUTD,[50.005]
+world,SUTD,"[50.005, 50.052, 50.052]"
+dns,SUTD,"[50.005, 50.012]"
+o,SUTD,[50.005]
+conceptual,SUTD,"[50.005, 50.012]"
+reinforcement,SUTD,"[50.007, 50.007, 40.319, 40.319, 50.039]"
+svms,SUTD,"[50.007, 50.038]"
+generative,SUTD,"[50.007, 40.319, 40.319, 50.035, 50.039, 50.039]"
+semi,SUTD,[50.007]
+regularized,SUTD,[50.007]
+explain,SUTD,"[50.007, 50.043, 50.04]"
 foundational,SUTD,[40.319]
-generative,SUTD,"[40.319, 50.035, 50.039]"
-maximization,SUTD,[40.319]
-prediction,SUTD,[40.319]
+maximization,SUTD,"[40.319, 40.319]"
+prediction,SUTD,"[40.319, 40.319]"
+latent,SUTD,[40.319]
+filter,SUTD,[40.319]
+q,SUTD,[40.319]
+backpropagation,SUTD,[40.319]
+extend,SUTD,[40.319]
+suitable,SUTD,"[40.319, 50.006, 50.046]"
 gathering,SUTD,[50.038]
+moderately,SUTD,[50.038]
+weka,SUTD,[50.038]
+tableau,SUTD,[50.038]
+benchmark,SUTD,"[50.038, 50.045]"
+neutral,SUTD,[50.038]
 manage,SUTD,[50.043]
 great,SUTD,[50.043]
 mysql,SUTD,[50.043]
+mysql,SIT,['ICT1004']
 namely,SUTD,"[50.043, 50.043]"
-art,SUTD,[50.043]
+art,SUTD,"[50.043, 50.043]"
 platform,SUTD,"[50.043, 50.044]"
 mongodb,SUTD,[50.043]
 different,SUTD,[50.043]
-localization,SUTD,[50.035]
+major,SUTD,[50.043]
+job,SUTD,[50.043]
+differs,SUTD,[50.043]
+localization,SUTD,"[50.035, 50.035]"
 long,SUTD,[50.035]
 short,SUTD,[50.035]
-term,SUTD,[50.035]
-lstm,SUTD,[50.035]
-adversarial,SUTD,"[50.035, 50.039]"
+term,SUTD,"[50.035, 50.021]"
+lstm,SUTD,"[50.035, 50.035]"
+adversarial,SUTD,"[50.035, 50.039, 50.039]"
 gan,SUTD,[50.035]
 train,SUTD,[50.035]
 debug,SUTD,"[50.035, 50.049]"
+tensorflow,SUTD,[50.035]
+back,SUTD,"[50.035, 50.052]"
+propagation,SUTD,[50.035]
+gpu,SUTD,[50.035]
+dropout,SUTD,[50.035]
+batch,SUTD,"[50.035, 50.021, 50.021]"
+segmentation,SUTD,[50.035]
 multimodal,SUTD,"[50.039, 50.039]"
 temporal,SUTD,[50.039]
+temporal,SIT,['CSC2008']
 causal,SUTD,[50.039]
 explainable,SUTD,[50.039]
 net,SUTD,[50.039]
 tuning,SUTD,[50.039]
-transfer,SUTD,[50.039]
-augmentation,SUTD,[50.039]
+transfer,SUTD,"[50.039, 50.039, 50.039, 50.039, 50.039]"
+augmentation,SUTD,"[50.039, 50.039, 50.039, 50.039]"
+discriminative,SUTD,[50.039]
+generalization,SUTD,"[50.039, 50.039]"
+loading,SUTD,[50.039]
+ground,SUTD,[50.039]
+annotation,SUTD,[50.039]
+fastest,SUTD,[50.039]
+nns,SUTD,"[50.039, 50.039]"
+toolbox,SUTD,[50.039]
 embeddings,SUTD,[50.04]
 chunking,SUTD,[50.04]
 semantic,SUTD,"[50.04, 50.04]"
-role,SUTD,[50.04]
 labeling,SUTD,[50.04]
 named,SUTD,[50.04]
 sentiment,SUTD,[50.04]
-translation,SUTD,[50.04]
-interaction,SUTD,"[50.006, 50.006, 50.052]"
+translation,SUTD,"[50.04, 50.021]"
+task,SUTD,"[50.04, 50.04]"
+novel,SUTD,[50.04]
 hci,SUTD,[50.006]
-usability,SUTD,"[50.006, 50.006, 50.006]"
-guideline,SUTD,[50.006]
+usability,SUTD,"[50.006, 50.006, 50.006, 50.006, 50.006, 50.006]"
+guideline,SUTD,"[50.006, 50.006, 50.006]"
 centred,SUTD,[50.006]
-experience,SUTD,[50.006]
+experience,SUTD,"[50.006, 50.052]"
+available,SUTD,[50.006]
+effectively,SUTD,[50.006]
+designed,SUTD,[50.006]
+designed,SIT,['CSC3005']
+rationale,SUTD,[50.006]
 practice,SUTD,"[50.012, 50.02]"
 packet,SUTD,[50.012]
 switching,SUTD,[50.012]
-layered,SUTD,[50.012]
-tcp,SUTD,"[50.012, 50.02]"
-ip,SUTD,"[50.012, 50.02]"
+layered,SUTD,"[50.012, 50.02]"
+tcp,SUTD,"[50.012, 50.012, 50.02]"
+ip,SUTD,"[50.012, 50.012, 50.02]"
 layer,SUTD,"[50.012, 50.012, 50.044]"
 window,SUTD,[50.012]
 ethernet,SUTD,[50.012]
@@ -1615,26 +2329,41 @@ token,SUTD,[50.012]
 ring,SUTD,[50.012]
 congestion,SUTD,[50.012]
 multicast,SUTD,[50.012]
-networked,SUTD,[50.012]
-ray,SUTD,[50.017]
-tracing,SUTD,[50.017]
-pipeline,SUTD,[50.017]
-texture,SUTD,[50.017]
+networked,SUTD,"[50.012, 50.02, 50.02]"
+classify,SUTD,[50.012]
+arp,SUTD,[50.012]
+ray,SUTD,"[50.017, 50.017]"
+tracing,SUTD,"[50.017, 50.017]"
+pipeline,SUTD,"[50.017, 50.049]"
+texture,SUTD,"[50.017, 50.017]"
 shadow,SUTD,[50.017]
-illumination,SUTD,[50.017]
+illumination,SUTD,"[50.017, 50.017]"
 spline,SUTD,[50.017]
-animation,SUTD,[50.017]
-virtual,SUTD,"[50.017, 50.052, 50.052]"
+animation,SUTD,"[50.017, 50.017]"
+virtual,SUTD,"[50.017, 50.052, 50.052, 50.052]"
 augmented,SUTD,"[50.017, 50.052]"
-reality,SUTD,"[50.017, 50.052, 50.052, 50.052, 50.052, 50.052]"
-hardware,SUTD,"[50.017, 50.044, 50.049]"
-opengl,SUTD,[50.017]
+reality,SUTD,"[50.017, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052]"
+opengl,SUTD,"[50.017, 50.017]"
+movie,SUTD,[50.017]
+particle,SUTD,[50.017]
+rasterization,SUTD,[50.017]
 firewall,SUTD,[50.02]
 intrusion,SUTD,[50.02]
 prevention,SUTD,[50.02]
 protect,SUTD,[50.02]
 wireless,SUTD,[50.02]
-creation,SUTD,[50.033]
+attack,SUTD,"[50.02, 50.044]"
+countermeasure,SUTD,[50.02]
+defense,SUTD,[50.02]
+securing,SUTD,"[50.02, 50.044]"
+mini,SUTD,[50.021]
+improved,SUTD,[50.021]
+weight,SUTD,[50.021]
+momentum,SUTD,[50.021]
+stepsize,SUTD,[50.021]
+pooling,SUTD,[50.021]
+residual,SUTD,[50.021]
+creation,SUTD,"[50.033, 50.045]"
 console,SUTD,[50.033]
 gui,SUTD,[50.033]
 audio,SUTD,[50.033]
@@ -1643,119 +2372,182 @@ decentralized,SUTD,[50.037]
 blockchain,SUTD,"[50.037, 50.037]"
 ledger,SUTD,[50.037]
 cryptocurrencies,SUTD,[50.037]
-smart,SUTD,[50.037]
-secure,SUTD,[50.037]
+smart,SUTD,"[50.037, 50.037]"
+secure,SUTD,"[50.037, 50.042]"
+work,SUTD,[50.037]
+stake,SUTD,[50.037]
 implementing,SUTD,[50.041]
-go,SUTD,[50.041]
-file,SUTD,"[50.041, 50.041]"
+go,SUTD,"[50.041, 50.041]"
+file,SUTD,"[50.041, 50.041, 50.041]"
+file,SIT,['CSC2008']
 google,SUTD,[50.041]
-integrity,SUTD,[50.042]
-availability,SUTD,[50.042]
+google,SIT,['CSC3005']
+massively,SUTD,[50.041]
+supervisory,SUTD,[50.041]
+integrity,SUTD,"[50.042, 50.042, 50.042]"
+availability,SUTD,"[50.042, 50.042]"
 cryptographic,SUTD,[50.042]
 symmetric,SUTD,[50.042]
 asymmetric,SUTD,[50.042]
 cryptography,SUTD,[50.042]
-key,SUTD,[50.042]
+key,SUTD,"[50.042, 50.046]"
 infrastructure,SUTD,[50.042]
 infrastructure,SIT,['CSC3005']
-flaw,SUTD,[50.044]
+encryption,SUTD,"[50.042, 50.042]"
+signature,SUTD,"[50.042, 50.042]"
+cia,SUTD,[50.042]
+confidentiality,SUTD,"[50.042, 50.042]"
+electronic,SUTD,[50.042]
+codebook,SUTD,[50.042]
+mode,SUTD,[50.042]
+aes,SUTD,[50.042]
+secret,SUTD,[50.042]
+log,SUTD,[50.042]
+authentication,SUTD,"[50.042, 50.044]"
+establishment,SUTD,[50.042]
 widely,SUTD,[50.044]
 used,SUTD,[50.044]
-authentication,SUTD,[50.044]
-attack,SUTD,[50.044]
 tamper,SUTD,[50.044]
 resistant,SUTD,[50.044]
 biometrics,SUTD,[50.044]
 forensics,SUTD,[50.044]
 bitcoin,SUTD,[50.044]
+define,SUTD,[50.044]
+compromising,SUTD,[50.044]
+applying,SUTD,[50.044]
 automatic,SUTD,[50.045]
-retrieval,SUTD,"[50.045, 50.045]"
-ir,SUTD,"[50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045]"
+retrieval,SUTD,"[50.045, 50.045, 50.045]"
+ir,SUTD,"[50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045, 50.045]"
 primary,SUTD,[50.045]
-textual,SUTD,[50.045]
-functionality,SUTD,[50.045]
+functionality,SUTD,"[50.045, 50.045]"
 functionality,SIT,['CSC2003']
-underlying,SUTD,[50.045]
-scratch,SUTD,[50.045]
-evaluate,SUTD,[50.045]
-topic,SUTD,[50.045]
-device,SUTD,"[50.046, 50.052]"
+underlying,SUTD,"[50.045, 50.045]"
+topic,SUTD,"[50.045, 50.045]"
+understand,SUTD,"[50.045, 50.051]"
+clarification,SUTD,[50.045]
+question,SUTD,[50.045]
+answering,SUTD,[50.045]
+kera,SUTD,[50.045]
+vec,SUTD,[50.045]
+glove,SUTD,[50.045]
 esp,SUTD,[50.046]
 sensing,SUTD,[50.046]
 virtualization,SUTD,[50.046]
 deploy,SUTD,[50.046]
-multicore,SUTD,[50.049]
-processor,SUTD,[50.049]
+overall,SUTD,[50.046]
+aspect,SUTD,[50.046]
+interfacing,SUTD,[50.046]
+embedded,SUTD,"[50.046, 50.046]"
+embedded,SIT,['CSC2003']
+sensor,SUTD,[50.046]
+objective,SUTD,[50.046]
+multicore,SUTD,"[50.049, 50.049, 50.049, 50.049]"
 superscalar,SUTD,[50.049]
 architect,SUTD,[50.049]
 correct,SUTD,[50.049]
-efficient,SUTD,[50.049]
-efficient,SIT,['CSC3005']
 instrument,SUTD,[50.049]
+speculation,SUTD,[50.049]
+core,SUTD,[50.049]
+modern,SUTD,[50.049]
 robotics,SUTD,[50.05]
 coloring,SUTD,[50.05]
-matchings,SUTD,[50.05]
+matchings,SUTD,"[50.05, 50.05]"
 ramsey,SUTD,[50.05]
-kruskal,SUTD,[50.05]
-prim,SUTD,[50.05]
 huffman,SUTD,[50.05]
-hamming,SUTD,[50.05]
+hamming,SUTD,"[50.05, 50.05]"
 polytopes,SUTD,[50.05]
-voronoi,SUTD,[50.05]
-fortune,SUTD,[50.05]
+voronoi,SUTD,"[50.05, 50.05]"
+fortune,SUTD,"[50.05, 50.05]"
 gilbert,SUTD,[50.05]
 johnson,SUTD,[50.05]
-compilation,SUTD,"[50.051, 50.051]"
-complex,SUTD,"[50.051, 50.053]"
+familiarity,SUTD,"[50.05, 50.05]"
+theoretic,SUTD,[50.05]
+terminology,SUTD,[50.05]
+encoding,SUTD,"[50.05, 50.05]"
+decoding,SUTD,"[50.05, 50.05]"
+sperner,SUTD,[50.05]
+compilation,SUTD,"[50.051, 50.051, 50.051, 50.051]"
 lexical,SUTD,[50.051]
-extended,SUTD,"[50.052, 50.052]"
-xr,SUTD,"[50.052, 50.052, 50.052, 50.052]"
+extended,SUTD,"[50.052, 50.052, 50.052]"
+xr,SUTD,"[50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052, 50.052]"
 mixed,SUTD,[50.052]
 perception,SUTD,[50.052]
-immersion,SUTD,[50.052]
+immersion,SUTD,"[50.052, 50.052]"
 presence,SUTD,[50.052]
-world,SUTD,[50.052]
-input,SUTD,[50.052]
-output,SUTD,[50.052]
 front,SUTD,[50.052]
-back,SUTD,[50.052]
 unity,SUTD,[50.052]
+ar,SUTD,[50.052]
+mr,SUTD,"[50.052, 50.052]"
+achieve,SUTD,[50.052]
+achieve,SIT,['CSC3005']
+goal,SUTD,[50.052]
+enriched,SUTD,[50.052]
+vr,SUTD,[50.052]
 checking,SUTD,[50.053]
 arbitrarily,SUTD,[50.053]
 coverage,SUTD,[50.053]
 unit,SUTD,[50.053]
 mechanism,SUTD,[50.053]
 mechanism,SIT,['CSC3004']
+stateful,SUTD,[50.053]
+ml,SUTD,[50.053]
+engineer,SUTD,"[50.053, 50.053]"
+driven,SUTD,[50.053]
+prime,SIT,['CSC1002']
+divisibility,SIT,['CSC1002']
+permutation,SIT,['CSC1002']
 ict,SIT,"['ICT1002', 'ICT3210/ICT3110']"
+running,SIT,['ICT1002']
+paradigm,SIT,"['ICT1002', 'CSC3005']"
+density,SIT,['CSC3009']
+introduced,SIT,['ICT1008']
 website,SIT,['ICT1004']
 web,SIT,"['ICT1004', 'ICT1004']"
-apis,SIT,['CSC1009']
+cs,SIT,['ICT1004']
+php,SIT,['ICT1004']
+server,SIT,['ICT1004']
+side,SIT,['ICT1004']
+scripting,SIT,['ICT1004']
+apis,SIT,"['CSC1009', 'CSC1009']"
 practical,SIT,['CSC1009']
-exception,SIT,['CSC1009']
 secured,SIT,['CSC1009']
 documentation,SIT,['CSC1009']
 reusability,SIT,['CSC1009']
+arithmetical,SIT,['CSC1009']
+scalable,SIT,"['CSC1009', 'CSC3005']"
 visualising,SIT,['DCM1112']
-life,SIT,['ICT2101']
-cycle,SIT,['ICT2101']
+safety,SIT,['PHE2019']
 make,SIT,['ICT2101']
 cooperate,SIT,['ICT2101']
 others,SIT,['ICT2101']
-embedded,SIT,['CSC2003']
+spiral,SIT,['ICT2101']
 corresponding,SIT,['CSC2003']
 microcontrollers,SIT,['CSC2003']
 organize,SIT,['CSC2003']
-pervasive,SIT,['CSC3004']
+map,SIT,"['CSC2003', 'CSC3005']"
+adc,SIT,['CSC2003']
+dac,SIT,['CSC2003']
+timer,SIT,['CSC2003']
+serial,SIT,['CSC2003']
+spatio,SIT,['CSC2008']
+join,SIT,['CSC2008']
+pervasive,SIT,"['CSC3004', 'CSC3004']"
 theoretical,SIT,['CSC3004']
 defined,SIT,['CSC3004']
 container,SIT,['CSC3004']
+backend,SIT,['CSC3004']
+even,SIT,['CSC3004']
+organizational,SIT,['ICT4005']
+individual,SIT,['ICT4005']
+cyber,SIT,['ICT3210/ICT3110']
 accessing,SIT,['CSC3005']
 storing,SIT,['CSC3005']
-designed,SIT,['CSC3005']
-paradigm,SIT,['CSC3005']
-scalable,SIT,['CSC3005']
 facilitate,SIT,['CSC3005']
-nosql,SIT,['CSC3005']
-achieve,SIT,['CSC3005']
-edge,SIT,['Not Stated']
-domain,SIT,['Not Stated']
+nosql,SIT,"['CSC3005', 'CSC3005']"
+f,SIT,['CSC3005']
+hdfs,SIT,['CSC3005']
+reduce,SIT,['CSC3005']
+cassandra,SIT,['CSC3005']
+hive,SIT,['CSC3005']
+edge,SIT,['Edge Computing and Analytics']
+domain,SIT,['AI Cross-Domain Project']
