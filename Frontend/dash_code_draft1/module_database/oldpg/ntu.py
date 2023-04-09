@@ -1,4 +1,3 @@
-# In nus.py
 import dash
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
@@ -7,11 +6,12 @@ from dash.dependencies import Input, Output, State
 import spacy
 import pandas as pd
 
+dash.register_page(__name__)
 NER_MODEL_PATH = "assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
 CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
-csv_file = "assets/Data/SUTD_course_info.csv"
+csv_file = "/assets/Data/NTU_course_info.csv"
 df = pd.read_csv(csv_file)
 
 categories = df["mod_category"].unique()
@@ -24,27 +24,24 @@ category_options = {
 }
 
 
-
 def main_option(option_id, title, sub_options):
     return dbc.Card([
         dbc.CardHeader(
             html.H5(
                 dbc.Button(
                     title,
-                    id=f"sutd-main-option-{option_id}",
+                    id=f"ntu-main-option-{option_id}",
                     className="w-100 text-start",
                     color="link",
                 )
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_option[0], id=f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
-            id=f"sutd-sub-options-{option_id}",
+            [dbc.ListGroupItem(sub_option[0], id=f"ntu-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            id=f"ntu-sub-options-{option_id}",
             is_open=False,
         ),
     ])
-
-
 
 
 # Paste the copied layout code here, and make any modifications you need
@@ -62,14 +59,14 @@ layout = dbc.Container([
                         id="university-dropdown",
                         options=[
                             {"label": "National University of Singapore (NUS)", "value": "/nus"},
-                            {"label": "Nanyang Technological University (NTU)", "value": "/ntu"},
-                            {"label": "Singapore Management University (SMU)", "value": "/smu"},
                             {"label": "Choose a University", "value": "/"},
+                            {"label": "Singapore Management University (SMU)", "value": "/smu"},
+                            {"label": "Singapore University of Technology and Design (SUTD)", "value": "/sutd"},
                             {"label": "Singapore Institute of Technology (SIT)", "value": "/sit"},
                             {"label": "Singapore University of Social Sciences (SUSS)", "value": "/suss"},
                             # Add more university options here
                         ],
-                        placeholder="Singapore University of Technology and Design (SUTD)",
+                        placeholder="Nanyang Technological University (NTU)",
                         clearable=False,
                         className="select-dropdown",
                     ),
@@ -81,7 +78,7 @@ layout = dbc.Container([
             ], width=12),
 
             dbc.Col([
-                dcc.Link("University Modules Comparison", href="/sutdmod", className="rectangular-btn"),
+                dcc.Link("University Modules Comparison", href="/ntumod", className="rectangular-btn"),
             ], width=12),
         ])
     ]),
@@ -91,13 +88,17 @@ layout = dbc.Container([
             main_option(option_id + 1, category, category_options[category]) for option_id, category in enumerate(categories)
         ], width=4),
 
-        dbc.Col([
-            dcc.Link(
-                html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
-                href="/sutdcomap",
-                target="_blank",
-            ),
-        ], width=4),
+            dbc.Col([
+                dcc.Link(
+                    html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
+                    href="/ntucomap",
+                    target="_blank",
+                ),
+            ], width=4),  # Add this line
+            dbc.Col([
+                html.Div(id="ntu-module-description", className="module-description"),
+            ], width=4),  # Add this line
+
     ]),
 
     dbc.Row([
@@ -115,42 +116,40 @@ layout = dbc.Container([
     html.Div(id='page-content', className='content-container'),
 ], fluid=True)
 
-num_main_options = len(categories)
-
 def html_format(paragraph):
     result = spacy.displacy.render(nlp_ner(paragraph), style = 'ent', jupyter=False, options = CUSTOM_OPTIONS)
     return result
 
 def register_callbacks(app):
     @app.callback(
-        Output("sutd-content", "children"),
-        [Input(f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
+        Output("ntu-module-description", "children"),
+        [Input(f"ntu-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
     )
     def update_content(*args):
-        ctx = dash.callback_context
-        if not ctx.triggered:
-            return "Please select a module."
+            ctx = dash.callback_context
+            if not ctx.triggered:
+                return "Please select a module."
 
-        input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-        module_code = input_id.split("-")[-1].replace('_', '.')
+            input_id = ctx.triggered[0]["prop_id"].split(".")[0]
+            module_code = input_id.split("-")[-1].replace('_', '.')
 
-        if args[int(input_id.split("-")[-2])] == 0:
-            return "Please select a module."
+            if args[int(input_id.split("-")[-2])] == 0:
+                return "Please select a module."
 
-        module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
-        return dbc.Card([
+            module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
+            return dbc.Card([
                 dbc.CardHeader("Module Information"),  # Update the title here
                 dbc.CardBody([
                     html.Iframe(srcDoc=html_format(module_description), width = '100%', height=500)
                 ])
-        ])
-
-
+            ])
 
     @app.callback(
-        [Output(f"sutd-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
-        [Input(f"sutd-main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
-        [State(f"sutd-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+        [Output(f"ntu-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+        [Input(f"ntu-main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
+        [State(f"ntu-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+
+        
     )
     def toggle_collapse(*args):
         ctx = dash.callback_context

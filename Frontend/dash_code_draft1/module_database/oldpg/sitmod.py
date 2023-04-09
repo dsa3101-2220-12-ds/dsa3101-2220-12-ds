@@ -4,7 +4,8 @@ import base64
 import os
 import dash_core_components as dcc
 
-
+import dash
+dash.register_page(__name__)
 image_filename = 'sitmod.png' # replace with your own image filename
 image_path = os.path.join('assets', 'img', image_filename)
 encoded_image = base64.b64encode(open(image_path, 'rb').read())
@@ -29,7 +30,7 @@ layout = html.Div([
     ])
 ])
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
 
 
