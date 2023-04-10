@@ -6,12 +6,13 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import spacy
 import pandas as pd
-
-NER_MODEL_PATH = "assets/ner/"
+import dash
+dash.register_page(__name__)
+NER_MODEL_PATH = "/assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
 CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
-csv_file = "assets/Data/SUTD_course_info.csv"
+csv_file = "/assets/Data/SUTD_course_info.csv"
 df = pd.read_csv(csv_file)
 
 categories = df["mod_category"].unique()

@@ -4,7 +4,6 @@ import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-from gensim.models import Word2Vec
 import spacy
 import pandas as pd
 
