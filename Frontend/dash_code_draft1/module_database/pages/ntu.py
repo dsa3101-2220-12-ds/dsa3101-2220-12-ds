@@ -3,8 +3,12 @@ import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-
+import spacy
 import pandas as pd
+
+NER_MODEL_PATH = "assets/ner/"
+nlp_ner = spacy.load(NER_MODEL_PATH)
+CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
 csv_file = "assets/Data/NTU_course_info.csv"
 df = pd.read_csv(csv_file)
@@ -111,6 +115,10 @@ layout = dbc.Container([
     html.Div(id='page-content', className='content-container'),
 ], fluid=True)
 
+def html_format(paragraph):
+    result = spacy.displacy.render(nlp_ner(paragraph), style = 'ent', jupyter=False, options = CUSTOM_OPTIONS)
+    return result
+
 def register_callbacks(app):
     @app.callback(
         Output("ntu-module-description", "children"),
@@ -131,7 +139,7 @@ def register_callbacks(app):
             return dbc.Card([
                 dbc.CardHeader("Module Information"),  # Update the title here
                 dbc.CardBody([
-                    html.P(module_description)
+                    html.Iframe(srcDoc=html_format(module_description), width = '100%', height=500)
                 ])
             ])
 

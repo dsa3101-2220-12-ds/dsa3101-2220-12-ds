@@ -4,12 +4,12 @@ import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-from gensim.models import Word2Vec
 import spacy
 import pandas as pd
 
 NER_MODEL_PATH = "assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
+CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
 csv_file = "assets/Data/nus_dsa_mods.csv"
 df = pd.read_csv(csv_file)

@@ -1,4 +1,5 @@
 import dash
+# import flask
 from dash import dcc
 from dash import html
 from dash import Dash
@@ -8,6 +9,7 @@ import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 
 #components
+# server = flask.Flask(__name__)
 app = dash.Dash(__name__, use_pages=True)
 arrow_right_icon = DashIconify(icon='material-symbols:play-arrow')
 
@@ -22,5 +24,6 @@ app.layout = html.Div([
 
 
 #run
-if __name__ == '__main__':
-	app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(host="0.0.0.0", port=8050, debug=True)
+
