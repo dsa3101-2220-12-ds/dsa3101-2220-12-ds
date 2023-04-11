@@ -298,10 +298,12 @@ def get_mod_recommendations(job_desc):
         best_mods = {}
         for skill_word in skill_words:
             global modules_copy
+            print(modules_copy['code'])
             modules_copy['score'] = modules_copy.skills.apply(lambda x: get_skill2mod_score(skill_word, x)[0])
             modules_copy = modules_copy.sort_values('score', ascending=False).drop_duplicates('school')
             for i, row in modules_copy.iterrows():
                 school, code, name, description, skills, score = row
+                print(code)
                 if school not in best_mods or best_mods[school][1]:
                     best_mods[school] = (code, score)
         all_schools[" ".join(skill_words)] = best_mods

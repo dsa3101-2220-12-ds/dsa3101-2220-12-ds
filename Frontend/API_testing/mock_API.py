@@ -20,8 +20,8 @@ NER_MODEL_PATH = "/app/ner/"
 w2v_model = Word2Vec.load(W2V_MODEL_PATH + "w2v.model")
 nlp_ner = spacy.load(NER_MODEL_PATH)
 
-MODULES_DATASET_PATH = "/app/modules.pkl"
-modules = pd.read_pickle(MODULES_DATASET_PATH)
+
+modules_copy = pd.read_csv('/app/All_courses_info.csv')
 
 HTML_PATTERN = re.compile('<.*?>')
 STOP_WORDS = set(stopwords.words('english'))
