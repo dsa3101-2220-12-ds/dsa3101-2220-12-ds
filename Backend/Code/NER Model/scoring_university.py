@@ -9,14 +9,15 @@ from gensim.models import Word2Vec
 import pandas as pd
 import time
 
+start_time = time.time()
+
 W2V_MODEL_PATH = "../W2V Model/"
 NER_MODEL_PATH = "./model-best"
 w2v_model = Word2Vec.load(W2V_MODEL_PATH + "w2v.model")
 nlp_ner = spacy.load(NER_MODEL_PATH)
 skill_sch_code = modules_copy = pd.read_csv('../../Data/skill_sch_code.csv')
-modules_copy = pd.read_csv('../../../Data/university_courses/All_courses_info.csv')
+modules = pd.read_csv('../../../Data/university_courses/All_courses_info.csv')
 
-start_time = time.time()
 
 
 HTML_PATTERN = re.compile('<.*?>')
@@ -63,20 +64,20 @@ def cleaning(chunk):
 # UNI_MODDESC_MAPPING = {
 
 #     # Module desc ONLY - ernest original code
-#     # "nus_dsa_mods.xlsx" : "mod_desc",
-#     # "NTU_course_info.csv" : "Course Aims",
-#     # "SMU_course_info.csv" : "Description",
-#     # "SUSS_course_info.csv" : "module description",
-#     # "SUTD_course_info.csv" : "Module description",
-#     # "SIT_Module_Info.csv" : "Module Description "
-
-#     #combined all topics to increase skills identified
 #     "nus_dsa_mods.xlsx" : "mod_desc",
-#     "NTU_course_info.csv" : "mod_desc",
+#     "NTU_course_info.csv" : "Course Aims",
 #     "SMU_course_info.csv" : "Description",
 #     "SUSS_course_info.csv" : "module description",
-#     "SUTD_course_info.csv" : "mod_desc",
-#     "SIT_Module_Info.csv" : "mod_desc"
+#     "SUTD_course_info.csv" : "Module description",
+#     "SIT_Module_Info.csv" : "Module Description "
+
+#     #combined all topics to increase skills identified
+#     # "nus_dsa_mods.xlsx" : "mod_desc",
+#     # "NTU_course_info.csv" : "mod_desc",
+#     # "SMU_course_info.csv" : "Description",
+#     # "SUSS_course_info.csv" : "module description",
+#     # "SUTD_course_info.csv" : "mod_desc",
+#     # "SIT_Module_Info.csv" : "mod_desc"
 # }
 
 # UNI_MODCODE_MAPPING = {
@@ -127,7 +128,7 @@ def cleaning(chunk):
     
 #     modules = pd.concat([modules, table], axis = 0).reset_index(drop=True)
 
-# modules.to_csv('../../../Data/university_courses/All_courses_info.csv', index=False)
+# # modules.to_csv('../../../Data/university_courses/All_courses_info.csv', index=False)
 # end_time = time.time()
 
 # elapsed_time = end_time - start_time
@@ -165,7 +166,9 @@ def cleaning(chunk):
 #                 else:
 #                     skill_sch_code[mod_ent] = {school: [mod_code]}
 #     modules.at[index, 'skills'] = skills
-# print(modules['skills'])
+
+# modules = modules.drop(['description', 'name'], axis = 1)
+# print(modules.columns)
 # modules.to_csv('../../../Data/university_courses/All_courses_info.csv', index=False)
 
 # # CSV FILE: Convert the nested dictionary to a DataFrame
@@ -232,6 +235,7 @@ def get_skill2mod_score(skill, mod_skills):
             max_score = max(max_score, score)
         else:
             max_score = max(max_score, 0)
+    # print(max_score, best_ent)
     return max_score, best_ent
 
 def get_school_scores(all_schools):
@@ -292,18 +296,17 @@ def get_mod_recommendations(job_desc):
     """
     
     all_schools = {}
+    global modules
     job_ents = nlp_ner(job_desc).ents
     for ent in tqdm(job_ents):
         skill_words = cleaning([ent.text])[0]
         best_mods = {}
         for skill_word in skill_words:
-            global modules_copy
-            print(modules_copy['code'])
-            modules_copy['score'] = modules_copy.skills.apply(lambda x: get_skill2mod_score(skill_word, x)[0])
+            modules_copy = modules.copy()
+            modules_copy['score'] = modules_copy['skills'].apply(lambda x: get_skill2mod_score(skill_word, x)[0])
             modules_copy = modules_copy.sort_values('score', ascending=False).drop_duplicates('school')
             for i, row in modules_copy.iterrows():
-                school, code, name, description, skills, score = row
-                print(code)
+                school, code, skills, score = row
                 if school not in best_mods or best_mods[school][1]:
                     best_mods[school] = (code, score)
         all_schools[" ".join(skill_words)] = best_mods

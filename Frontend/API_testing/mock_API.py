@@ -21,7 +21,7 @@ w2v_model = Word2Vec.load(W2V_MODEL_PATH + "w2v.model")
 nlp_ner = spacy.load(NER_MODEL_PATH)
 
 
-modules_copy = pd.read_csv('/app/All_courses_info.csv')
+modules = pd.read_csv('/app/All_courses_info.csv')
 
 HTML_PATTERN = re.compile('<.*?>')
 STOP_WORDS = set(stopwords.words('english'))
@@ -78,54 +78,54 @@ def calc_score(cos_sim):
     
     return (math.pi - math.acos(cos_sim)) * 100 / math.pi
 
-def get_doc2doc_score(job_desc, mod_desc, verbose = 1):
-    """
-    Computes the similarity score between two documents
-    """
-    job_desc = nlp_ner(job_desc)
-    mod_desc = nlp_ner(mod_desc)
-    scores = []
-    OOV = [] # Stores out of vocabulary words
+# def get_doc2doc_score(job_desc, mod_desc, verbose = 1):
+#     """
+#     Computes the similarity score between two documents
+#     """
+#     job_desc = nlp_ner(job_desc)
+#     mod_desc = nlp_ner(mod_desc)
+#     scores = []
+#     OOV = [] # Stores out of vocabulary words
     
-    for job_ents in job_desc.ents:
-        job_ents = cleaning([job_ents.text])[0]
-        for job_ent in job_ents:
-            if job_ent not in w2v_model.wv: # If job_ent not found in vocabulary
-                if job_ent not in OOV and job_ent not in STOP_WORDS:
-                    OOV.append(job_ent)
-                    if verbose:
-                        print(f"JOB: {job_ent} not found in vocabulary")
-                scores.append(0)
-                continue
-            max_cossim = -1
-            best_mod_ent = None
-            for mod_ents in mod_desc.ents:
-                mod_ents = cleaning([mod_ents.text])[0]
-                for mod_ent in mod_ents:
-                    if mod_ent not in w2v_model.wv:
-                        if mod_ent not in STOP_WORDS and mod_ent not in OOV:
-                            OOV.append(mod_ent)
-                            if verbose:
-                                print(f"MODULE: {mod_ent} not found in vocabulary")
-                    else:
-                        cos_sim = w2v_model.wv.similarity(job_ent, mod_ent)
+#     for job_ents in job_desc.ents:
+#         job_ents = cleaning([job_ents.text])[0]
+#         for job_ent in job_ents:
+#             if job_ent not in w2v_model.wv: # If job_ent not found in vocabulary
+#                 if job_ent not in OOV and job_ent not in STOP_WORDS:
+#                     OOV.append(job_ent)
+#                     if verbose:
+#                         print(f"JOB: {job_ent} not found in vocabulary")
+#                 scores.append(0)
+#                 continue
+#             max_cossim = -1
+#             best_mod_ent = None
+#             for mod_ents in mod_desc.ents:
+#                 mod_ents = cleaning([mod_ents.text])[0]
+#                 for mod_ent in mod_ents:
+#                     if mod_ent not in w2v_model.wv:
+#                         if mod_ent not in STOP_WORDS and mod_ent not in OOV:
+#                             OOV.append(mod_ent)
+#                             if verbose:
+#                                 print(f"MODULE: {mod_ent} not found in vocabulary")
+#                     else:
+#                         cos_sim = w2v_model.wv.similarity(job_ent, mod_ent)
                         
-                        # To handle computational rounding errors. Sometimes cos_sim is 1.00001 or -1.00001
-                        if cos_sim > 1: cos_sim = 1
-                        elif cos_sim < -1: cos_sim = -1
+#                         # To handle computational rounding errors. Sometimes cos_sim is 1.00001 or -1.00001
+#                         if cos_sim > 1: cos_sim = 1
+#                         elif cos_sim < -1: cos_sim = -1
                             
-                        if cos_sim >= max_cossim:
-                            max_cossim = cos_sim
-                            best_mod_ent = mod_ent
-                if best_mod_ent == None:
-                    if verbose:
-                        print(f"No matching skills found for {job_ent} in {mod_desc}")
-                    scores.append(0)
-                else:
-                    score = calc_score(max_cossim)
-                    scores.append(score)
+#                         if cos_sim >= max_cossim:
+#                             max_cossim = cos_sim
+#                             best_mod_ent = mod_ent
+#                 if best_mod_ent == None:
+#                     if verbose:
+#                         print(f"No matching skills found for {job_ent} in {mod_desc}")
+#                     scores.append(0)
+#                 else:
+#                     score = calc_score(max_cossim)
+#                     scores.append(score)
 
-    return np.mean(np.array(scores))
+#     return np.mean(np.array(scores))
 
 def get_skill2mod_score(skill, mod_skills):
     """
@@ -211,16 +211,17 @@ def get_mod_recommendations(job_desc):
     """
     
     all_schools = {}
+    global modules
     job_ents = nlp_ner(job_desc).ents
     for ent in tqdm(job_ents):
         skill_words = cleaning([ent.text])[0]
         best_mods = {}
         for skill_word in skill_words:
-            global modules_copy
-            modules_copy['score'] = modules_copy.skills.apply(lambda x: get_skill2mod_score(skill_word, x)[0])
+            modules_copy = modules.copy()
+            modules_copy['score'] = modules_copy['skills'].apply(lambda x: get_skill2mod_score(skill_word, x)[0])
             modules_copy = modules_copy.sort_values('score', ascending=False).drop_duplicates('school')
             for i, row in modules_copy.iterrows():
-                school, code, name, description, skills, score = row
+                school, code, skills, score = row
                 if school not in best_mods or best_mods[school][1]:
                     best_mods[school] = (code, score)
         all_schools[" ".join(skill_words)] = best_mods
