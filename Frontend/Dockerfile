@@ -11,9 +11,6 @@ ADD assets assets
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
-RUN python app.py
 
-## Set the environment variable for the flask application here:
-ENV FLASK_APP=app
+ENTRYPOINT ["python", "-u", "app.py","--host=0.0.0.0"]
 
-ENTRYPOINT [ "python", "-u", "-m", "flask", "run", "--host=0.0.0.0"]

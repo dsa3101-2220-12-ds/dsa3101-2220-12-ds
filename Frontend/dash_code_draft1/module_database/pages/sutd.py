@@ -4,8 +4,12 @@ import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-
+import spacy
 import pandas as pd
+
+NER_MODEL_PATH = "assets/ner/"
+nlp_ner = spacy.load(NER_MODEL_PATH)
+CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
 csv_file = "assets/Data/SUTD_course_info.csv"
 df = pd.read_csv(csv_file)
@@ -34,11 +38,12 @@ def main_option(option_id, title, sub_options):
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_option[1], id=f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            [dbc.ListGroupItem(sub_option[0], id=f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
             id=f"sutd-sub-options-{option_id}",
             is_open=False,
         ),
     ])
+
 
 
 
@@ -84,15 +89,15 @@ layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             main_option(option_id + 1, category, category_options[category]) for option_id, category in enumerate(categories)
-        ], width=3),
+        ], width=4),
+
         dbc.Col([
-            html.Div(id="sutd-content", className="content-container"),
             dcc.Link(
                 html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
                 href="/sutdcomap",
                 target="_blank",
             ),
-        ], width=9),
+        ], width=4),
     ]),
 
     dbc.Row([
@@ -112,11 +117,14 @@ layout = dbc.Container([
 
 num_main_options = len(categories)
 
+def html_format(paragraph):
+    result = spacy.displacy.render(nlp_ner(paragraph), style = 'ent', jupyter=False, options = CUSTOM_OPTIONS)
+    return result
 
 def register_callbacks(app):
     @app.callback(
         Output("sutd-content", "children"),
-        [Input(f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, num_main_options + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
+        [Input(f"sutd-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
     )
     def update_content(*args):
         ctx = dash.callback_context
@@ -124,13 +132,20 @@ def register_callbacks(app):
             return "Please select a module."
 
         input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-        module_code = input_id.split("-")[-1]
+        module_code = input_id.split("-")[-1].replace('_', '.')
 
         if args[int(input_id.split("-")[-2])] == 0:
             return "Please select a module."
 
         module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
-        return module_description
+        return dbc.Card([
+                dbc.CardHeader("Module Information"),  # Update the title here
+                dbc.CardBody([
+                    html.Iframe(srcDoc=html_format(module_description), width = '100%', height=500)
+                ])
+        ])
+
+
 
     @app.callback(
         [Output(f"sutd-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],

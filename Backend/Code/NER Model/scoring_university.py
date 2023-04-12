@@ -327,12 +327,12 @@ Fundamental knowledge of statistics and probability.
 Good visualization skills to create real-time dashboards and/or reports to inform trends and insights.
 """
 
-mod_reco, school_scores = get_mod_recommendations(job_desc)
-print(mod_reco)
-print(school_scores)
-
-end_time = time.time()
-
-elapsed_time = end_time - start_time
-
-print(f"time to generate score: {elapsed_time} seconds")
+# mod_reco, school_scores = get_mod_recommendations(job_desc)
+# print(mod_reco)
+# print(school_scores)
+#
+# end_time = time.time()
+#
+# elapsed_time = end_time - start_time
+#
+# print(f"time to generate score: {elapsed_time} seconds")
