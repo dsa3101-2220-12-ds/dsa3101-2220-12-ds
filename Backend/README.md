@@ -1,4 +1,4 @@
-# Welcome to the backend team's folder!
+# Welcome to the BACKEND Team's Folder!
 
 ## Directory Structure
 
