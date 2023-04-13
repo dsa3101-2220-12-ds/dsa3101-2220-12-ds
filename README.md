@@ -16,8 +16,6 @@ The 3 folders contains the code, data and relevant resources for backend, raw da
 ## How to use 
 To access our final product. Do the following: 
 1. cd to Frontend folder, where the final webpage is stored and connection of backend and frontend has been built. 
-2. Run this code 
-    docker compose build
-3. Run this code 
-    docker compose up -d 
+2. Run docker compose build
+3. Run docker compose up -d 
 4. Go to http://localhost:8050 and start broswing through our website! 
