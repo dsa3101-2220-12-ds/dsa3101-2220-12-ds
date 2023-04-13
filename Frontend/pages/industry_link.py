@@ -18,7 +18,7 @@ default_message = "This popup window consists of 2 sections. You can first check
 modal_content_store = {}
 
 def get_all_response(input_value):
-    response = requests.get(f"http://localhost:9001/api?input={input_value}")
+    response = requests.get(f"http://api_service:5000/api?input={input_value}")
     data = response.json()
     return data 
 
@@ -142,7 +142,7 @@ def update_output(n_clicks, input_value):
         return [html.P('Result will be shown here...', style={'text-align': 'top','font-style': 'italic', 'color': 'grey','font-size':'15px','margin-left':'10px'})]
     elif n_clicks is not None: # as long as you have sth
         # The user has clicked the "Search" button, so show the actual output
-        response = requests.get(f"http://localhost:9001/api?input={input_value}")
+        response = requests.get(f"http://api_service:5000/api?input={input_value}")
         data = response.json()
         scores = data["school_score"]
         sorted_scores = {k: v for k, v in sorted(scores.items(), key=lambda item: item[1], reverse=True)}

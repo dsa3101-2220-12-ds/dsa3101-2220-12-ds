@@ -1,0 +1,14 @@
+version: '3.10'
+
+services:
+  dash_app:
+    build: .
+    ports:
+      - '8050:8050'
+    depends_on:
+      - api_service
+
+  api_service:
+    image: "py_mock_api:latest"
+    ports:
+      - '9001:5000'
