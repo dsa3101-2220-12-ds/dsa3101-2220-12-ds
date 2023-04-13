@@ -13,15 +13,8 @@ import openpyxl
 import ast
 
 ## styles ##
-external_stylesheets = [
-    'https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@500;700&display=swap'
-    ]
-
 arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
-
-# app = Dash(__name__, external_stylesheets=external_stylesheets)
 dash.register_page(__name__,path='/com_btw_univ')
-chart_font_size=14
 
 ### data ###
 
@@ -99,7 +92,9 @@ def make_data_opp(df):
     df_mods_updated['num_mod_by_type'] = num_mods
     df_mods_updated['val1'] = df_mods_updated['val1'].astype('float').round(decimals=0).astype('int64')
     df_mods_updated.columns = ['School', 'Percentage', 'Type of Module', 'Total Number of Modules', 'Number of Modules']
+
     return df_mods_updated
+
 data_opp = make_data_opp(df)
 
 # data for salary graph
@@ -108,10 +103,10 @@ df_gross = df.loc[:,['School', 'Mean', 'Median.1', '25th Percentile', '75th Perc
 df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
 
-############ make graph function ##############
+### make graph function ###
 def make_all_bar_chart():
     fig = px.bar(sch_df, x="Subject", y="Number of Modules", color="Subject", barmode="group",
-                 facet_col="School", facet_col_wrap=3, # orientation='h',
+                 facet_col="School", facet_col_wrap=3,
                  color_discrete_map={'Statistics':'#f4cccc',
                                      'Mathematics':'#c9daf8',
                                      'Computer Science':'#FFD4A5',
@@ -119,6 +114,7 @@ def make_all_bar_chart():
                                      'Data Analytics':'#9CE2DF'},
                  width = 1150)
     fig.update_layout(plot_bgcolor='#F8F8F8')
+    fig.update_traces(marker_line=dict(width=0.5, color='Black'))
     return fig
 
 def make_bar_chart(df):
@@ -130,7 +126,6 @@ def make_bar_chart(df):
     fig.update_layout(yaxis=dict(autorange='reversed'),
                       xaxis_title='Percentage of Modules',
                       yaxis_title='School',
-                      font=dict(size=chart_font_size),
                       plot_bgcolor='#FAFAFA')
     return fig
 
@@ -159,10 +154,10 @@ salary_graph = make_box_plot(df_gross)
 opp_graph = make_bar_chart(data_opp)
 
 
-############ app layout ##############
+### app layout ###
 # percentage of modules text
 # source: https://towardsdatascience.com/the-3-pillars-of-math-you-need-to-know-to-become-an-effective-data-analyst-9af50106ffa1
-text_graph_mod1='The series of pie charts show the percentages of modules offered per subject in each university.'
+text_graph_mod1='The series of bar charts show the number of modules offered per subject in each university.'
 text_graph_mod2= 'As a prospective data science student, there are 2 important topics that you must learn - linear \
 algebra (this is under Mathematics; think vectors and matrices) and Statistics. These topics will build the foundation \
 for Machine Learning under the Data Science category.'
@@ -170,10 +165,14 @@ for Machine Learning under the Data Science category.'
 text_graph_mod3 = ' There are other skills important to data scientists too - under Computer Science, you would learn \
 programming languages such as Python and R, as well as SQL for database management. Under Data Analytics, you will be \
 taking modules about recognising patterns in data and data visualization.'
-text_graph_mod4 = 'The number of modules per subject is calculated as such: if the module is mostly about that certain \
-subject, the score of that topic will be increased by 1. If around half of a module is about that subject, the score \
-will be increased by 0.5. For example, in NUS, the Statistics subject has a score of 12.5. Therefore, you would expect \
-12.5 modules taken in NUS to be on the subject of Statistics.'
+text_graph_mod4 = 'The number of modules per subject is calculated as such:'
+text_graph_list1 = 'If the module is mostly about that certain subject, the number of modules of that topic will be \
+increased by 1.'
+text_graph_list2 = 'If around half of a module is about that subject, the number of modules will be increased by 0.5.'
+
+text_graph_mod5 = 'For example, in NUS, the Statistics subject has a score of 12.5. Therefore, you would expect 12.5 \
+modules taken in NUS to be on the subject of Statistics.'
+
 text_graph_mod = (html.Div(text_graph_mod1),
                   html.Br(),
                   html.Div(text_graph_mod2),
@@ -181,6 +180,10 @@ text_graph_mod = (html.Div(text_graph_mod1),
                   html.Div(text_graph_mod3),
                   html.Br(),
                   html.Div(text_graph_mod4),
+                  html.Li(text_graph_list1),
+                  html.Li(text_graph_list2),
+                  html.Br(),
+                  html.Div(text_graph_mod5),
                   html.Br())
 
 
@@ -190,6 +193,7 @@ obtained by fresh graduates in 2021.'
 text_graph_salary2 = 'Do note that since the Applied Artifical Intelligence (AAI) course in SUTD was introduced \
 recently and have no graduates yet, we have substituted the course with the Computer Science and Design course \
 from the same university.'
+
 text_graph_salary=(html.Div(text_graph_salary1),
                    html.Br(),
                    html.Div(text_graph_salary2))
@@ -201,31 +205,32 @@ text_graph_opp2 = 'The theoretical modules focus more on theory which helps you 
 implementation of machine learning algorithms. The practical modules focus more on coding by having more project components \
 and obtaining hands-on experiences through internship modules.'
 text_graph_opp3 = 'However, do  note that some practical modules may require a certain level of theoretical knowledge.'
+
 text_graph_opp = (html.Div(text_graph_opp1),
                   html.Br(),
                   html.Div(text_graph_opp2),
                   html.Br(),
                   html.Div(text_graph_opp3))
 
+### webpage layout ###
 layout = html.Div(children=[
-    html.H1(children='Differences between Universities',
-            style={'font-family':'Raleway'}),
+    html.H1(children='Differences between Universities'),
     html.Div(children=[
-        dcc.Dropdown(id = 'diff_cat_dd', style={'font-family':'Raleway', 'width':280, 'font-size':18},
+        dcc.Dropdown(id = 'diff_cat_dd', style={'width':280, 'font-size':18},
                      options = [{'label':'By School', 'value':'By School'}, 
                                {'label':'By Practical Opportunities', 'value':'By Practical Opportunities'},
                                 {'label':'By Salary', 'value':'By Salary'}],
                      value = 'By School')
     ]),
     html.Br(),
-    # add graph description
-    html.Div(children=text_graph_mod, id='text_graph',
-             style={'font-family':'Raleway',
-                    'width':'70%',
-                    'font-size':18}),
+    html.Div(children=text_graph_mod, id='text_graph', # graph description
+             style={'width':'90%',
+                    'font-size':18,
+                    'text-align':'justify'}),
     html.Div(children=[
             dcc.Graph(id='diff_graph', figure=default_pc)],
-            style={'width':'65%'}),
+            #style={'width':'65%'}
+             ),
     dbc.Button([arrow_back_icon,"Back to Main"],
 		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
 
@@ -271,6 +276,3 @@ def update_text(diff_cat):
         text = text_graph_opp
         
     return text
-
-# if __name__ == '__main__':
-#     app.run_server(debug=True)
