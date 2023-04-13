@@ -12,19 +12,20 @@ import dash_bootstrap_components as dbc
 import openpyxl
 import ast
 
-############ styles ##############
+## styles ##
 external_stylesheets = [
     'https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@500;700&display=swap'
     ]
+
 arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
 
 # app = Dash(__name__, external_stylesheets=external_stylesheets)
 dash.register_page(__name__,path='/com_btw_univ')
-bar_chart_color = '#fff2cc'
 chart_font_size=14
 
-############ data ##############
-# data for pie chart
+### data ###
+
+# data for 6 bar charts for number of core modules by subject
 df = pd.read_excel("files/salary_info.xlsx", sheet_name=2, header=0)
 df_mods = df[['school.1', 'mod_cats']]
 
@@ -48,7 +49,7 @@ sch_df.columns=['Subject', 'Number of Modules']
 NUS_df=pd.DataFrame(['NUS']*len(sch_df))
 sch_df['School']=NUS_df
 
-for i in range(1,len(df_mods)): # append the df of the other universitie to NUS_df
+for i in range(1,len(df_mods)): # add the df other universities to NUS_df
     sch_name=df_mods.iloc[i,0]
     x = ast.literal_eval(df_mods.iloc[i,1])
     sch=pd.DataFrame.from_dict(x, orient="index").reset_index()
@@ -61,7 +62,16 @@ for i in range(1,len(df_mods)): # append the df of the other universitie to NUS_
 
 # data for practical opportunities graph
 df = pd.read_excel("files/salary_info.xlsx", sheet_name=2, header=0)
+
 def make_data_opp(df):
+    """
+    The returned df needs to contain 3 rows for the bar chart:
+    school name, percentage of modules and type of module.
+    
+    There should be 2 rows for each school because the type of module columns takes the value of either 'finals' or 'project'
+    """
+    # extract the relevant columns: 'school.1': school name, 'num_of_mods': total number of modules
+    # 'mod_proj_finals': percentage of finals and project modules
     df_mods = df.loc[:,['school.1', 'num_of_mods', 'mod_proj_finals']]
     df_mods.loc[5,'mod_proj_finals'] = "{'finals':46.153846153846153846153846153846, 'proj':53.846153846153846153846153846154}"
     mods_pct = df_mods['mod_proj_finals']
@@ -100,14 +110,15 @@ df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
 ############ make graph function ##############
 def make_all_bar_chart():
-    fig = px.bar(sch_df, x="Subject", y="Number", color="Subject", barmode="group",
+    fig = px.bar(sch_df, x="Subject", y="Number of Modules", color="Subject", barmode="group",
                  facet_col="School", facet_col_wrap=3, # orientation='h',
                  color_discrete_map={'Statistics':'#f4cccc',
                                      'Mathematics':'#c9daf8',
                                      'Computer Science':'#FFD4A5',
                                      'Data Science':'#c7ebb7',
-                                     'Data Analytics':'#bdf8f5'})
-    # fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
+                                     'Data Analytics':'#9CE2DF'},
+                 width = 1150)
+    fig.update_layout(plot_bgcolor='#F8F8F8')
     return fig
 
 def make_bar_chart(df):
@@ -239,7 +250,7 @@ def update_charts(diff_cat):
         fig = opp_graph
         fig.update_layout(title='Percentage of Practical and Theoretical Modules')
     else:
-        fig.update_layout(title='Percentage of Core Modules by Subject')
+        fig.update_layout(title='Number of Core Modules by Subject')
         
     return fig
 
