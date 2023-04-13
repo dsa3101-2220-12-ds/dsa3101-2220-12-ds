@@ -99,15 +99,15 @@ df_gross.loc[6,'School'] = 'SMU Cum Laude'
 
 
 ############ make graph function ##############
-def make_all_pie_chart():
-    fig = px.pie(sch_df, values='Number of Modules', names='Subject', color="Subject",
-                 facet_col="School", facet_col_wrap=3,
+def make_all_bar_chart():
+    fig = px.bar(sch_df, x="Subject", y="Number", color="Subject", barmode="group",
+                 facet_col="School", facet_col_wrap=3, # orientation='h',
                  color_discrete_map={'Statistics':'#f4cccc',
                                      'Mathematics':'#c9daf8',
-                                     'Computer Science':'#fff2cc',
+                                     'Computer Science':'#FFD4A5',
                                      'Data Science':'#c7ebb7',
                                      'Data Analytics':'#bdf8f5'})
-    fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
+    # fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
     return fig
 
 def make_bar_chart(df):
@@ -143,7 +143,7 @@ def make_box_plot(data):
     return fig
 
 # all graphs
-default_pc = make_all_pie_chart()
+default_pc = make_all_bar_chart()
 salary_graph = make_box_plot(df_gross)
 opp_graph = make_bar_chart(data_opp)
 
