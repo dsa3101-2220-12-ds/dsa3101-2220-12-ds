@@ -8,7 +8,7 @@ The goal of this project is to analyse the similarities and differences between 
 This Repo contains the following folders: 
 * Backend/
 * Data/
-    * university_courses
+    * university_courses/
     * salary_info.xlsx 
 * Frontend/
 
