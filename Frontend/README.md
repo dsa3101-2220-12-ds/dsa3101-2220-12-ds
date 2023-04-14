@@ -6,7 +6,7 @@ We have a list of folders and files:
 1. admin 
     - Includes interview documents, meeting seconds, High and Low fidelity prototypes
 2. API_testing
-    - For API testing. For detailed explanation and build of API, please refer to README.md in API_tetsing folder. 
+    - For API testing. For detailed explanation and build of API, please refer to README.md in API_testing folder. 
 3. assets
     - Includes bootstrap css file to standardise the theme of the dash website
 4. files
@@ -19,7 +19,7 @@ We have a list of folders and files:
     - world to vector files
 8. app.py
     - Runs the code that allows the dash website to run locally
-9. docker-cmpose.yml
+9. docker-compose.yml
     - To connect frontend and backend containers
 10. Dockerfile
     - To create docker image
