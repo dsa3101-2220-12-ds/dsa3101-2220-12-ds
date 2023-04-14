@@ -18,7 +18,7 @@ layout = dbc.Container([
 	html.Br(),    
     dbc.Row([ 
         dbc.Col([
-            html.H1('Data Science Cources Among Different Universities')
+            html.H1('Data Science Courses Among Different Universities')
         ]),
 		dbc.Col([
             dbc.Row([ 
