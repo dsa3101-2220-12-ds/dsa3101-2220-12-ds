@@ -34,9 +34,9 @@ In this folder, you can find all of the resources used and created by the backen
 
 Our team worked to build the logic underneath the features we provide to prospective students in their university-hunting journey. The features we built are directly influenced by the desires of prospective students, which were voiced out during the interview sessions conducted by our frontend team. In particular, prospective students have expressed their desire for more information with regards to job prospects, content taught, and curriculum structure (amongst other desires). Thus, using concepts from network analysis and Natural Language Processing (NLP), we have created three main features that compare each of the six local universities with one another in terms of those three areas:
 
-	1. Job prospects: 2-Stage NER + Word2Vec Model
-	2. Content taught: Similarity Graph
-	3. Curriculum structure: Pre-requisite Graph
+1. Job prospects: 2-Stage NER + Word2Vec Model
+2. Content taught: Similarity Graph
+3. Curriculum structure: Pre-requisite Graph
 
 Besides these three main areas, further analyses on other minor aspects (E.g. grading schemes of individual modules, salary information) have also been performed to meet the desires of prospective students.
 
