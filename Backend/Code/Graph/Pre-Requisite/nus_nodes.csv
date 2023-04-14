@@ -1,0 +1,46 @@
+Id,Label,Level
+CS1010,Programming Methodology,1
+DSA1101,Introduction to Data Science,1
+MA1101R,Linear Algebra I,2
+MA1102R,Calculus,2
+CS2040,Data Structures and Algorithms,2
+DSA2101,Essential Data Analytics Tools: Data Visualisation,2
+DSA2102,Essential Data Analytics Tools: Numerical Computation,2
+MA2311,Techniques in Advanced Calculus,2
+ST2131,Probability,2
+ST2132,Mathematical Statistics,2
+CS3244,Machine Learning,3
+DSA3101,Data Science in Practice,3
+DSA3102,Essential Data Analytics Tools: Convex Optimisation,3
+ST3131,Regression Analysis,3
+DSA4199,Honours Project in Data Science and Analytics,4
+DSA4299,Applied Project in Data Science and Analytics,4
+DSA4211,High-Dimensional Statistical Analysis,4
+DSA4212,Optimisation for Large-Scale Data-Driven Inference,4
+DSA4262,Sense-making Case Analysis: Health and Medicine,4
+DSA4263,Sense-making Case Analysis: Business and Commerce,4
+DSA4266,Sense-making Case Analysis: Science and Technology,4
+MA3236,Non-Linear Programming,3
+MA3252,Linear and Network Optimisation,3
+MA4270,Data Modelling and Computation,4
+ST3232,Design & Analysis of Experiments,3
+ST4253,Applied Time Series Analysis,4
+ST3239,Survey Methodology,3
+ST4250,Multivariate Statistical Analysis,4
+ST3247,Simulation,3
+ST3248,Statistical Learning I,3
+ST4231,Computer Intensive Statistical Methods,4
+ST4234,Bayesian Statistics,4
+ST4248,Statistical Learning II,4
+CS3210,Parallel Computing,3
+CS3223,Database Systems Implementation,3
+CS3230,Design and Analysis of Algorithms,3
+CS3243,Introduction to Artificial Intelligence,3
+CS4224,Distributed Databases,4
+CS4225,Big Data Systems for Data Science,4
+CS4231,Parallel and Distributed Algorithms,4
+CS4234,Optimisation Algorithms,4
+CS4243,Computer Vision and Pattern Recognition,4
+CS4248,Natural Language Processing,4
+CS5340 ,Uncertainty Modelling in AI,5
+MA4230,Matrix Computation,4

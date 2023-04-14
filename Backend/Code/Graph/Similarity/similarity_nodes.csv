@@ -1,0 +1,178 @@
+Id,Label,Type
+0,NTU | CZ1003: Introduction to Computational Thinking & Programming,Module
+1,NTU | MH1805: Calculus I and II,Module
+2,NTU | MH1812: Discrete Mathematics,Module
+3,NTU | CC0001: Inquiry and Communication in an Interdisciplinary World,Module
+4,NTU | CC0002: Navigating the Digital World,Module
+5,NTU | CZ1007: Data Structures& Algorithms,Module
+6,NTU | CZ2002: Object Oriented Design and Programming,Module
+7,NTU | SC1015: Introduction to Data Science & AI,Module
+8,NTU | CC0003: Ethics & Moral Reasoning in a Multi-Cultural World,Module
+9,NTU | CC0005: Healthy Living & Mental Well-being in an Aging Society,Module
+10,NTU | CZ2001: Algorithm Design and Analysis,Module
+11,NTU | CZ2006: Software Engineering,Module
+12,NTU | MH2500: Probability and Introduction to Statistics,Module
+13,NTU | MH2802: Linear Algebra for Scientists,Module
+14,"NTU | CC0006: Sustainability: Society, Economy & Environment",Module
+15,NTU | ML0004: Career and Entrepreneurial Development for the Future World,Module
+16,NTU | CZ2007: Introduction to Database Systems,Module
+17,NTU | CZ3005: Artificial Intelligence,Module
+18,NTU | MH3500: Statistics,Module
+19,NTU | MH3511: Data Analysis with Computer,Module
+20,NTU | HW0218: Communication Across the Sciences,Module
+21,NTU | CC0007: Science&Technology for Humanity,Module
+22,NTU | CZ4041: Machine Learning,Module
+23,NTU | CZ4032: Data Analytics and Mining,Module
+24,NTU | MH2100: Calculus III,Module
+25,NTU | SD3079: Professional Internship,Module
+26,NTU | SC4079: Final Year Project,Module
+27,SIT | CSC1002: Mathematics 1,Module
+28,SIT | CSC1001: Introduction to Computer Systems,Module
+29,SIT | ICT1002: Programming Fundamentals,Module
+30,SIT | CSC1006: Mathematics 2,Module
+31,SIT | CSC3009: Machine Learning,Module
+32,SIT | ICT1008: Data Structures and Algorithms,Module
+33,SIT | ICT1004: Web Systems and Technologies,Module
+34,SIT | CSC1009: Object-Oriented Programming,Module
+35,SIT | DCM1112: Data Engineering and Visualization,Module
+36,SIT | PHE2019: Ethics and Professional Conducts,Module
+37,SIT | ICT2101: Introduction to Software Engineering,Module
+38,SIT | CSC2003: Embedded Systems Programming,Module
+39,SIT | CSC2008: Database Systems,Module
+40,SIT | CSC3004: Cloud Computing and Big Data,Module
+41,SIT | ICT4005: Change Management,Module
+42,SIT | ICT3211: Integrative Team Project,Module
+43,SIT | ICT3210/ICT3110: Industry Certification Module,Module
+44,SIT | CSC3002: Integrated Work Study Programme,Module
+45,SIT | ICT4001: Capstone Project,Module
+46,SIT | CSC3005: Data Analytics ,Module
+47,NUS | CS1010: Programming Methodology,Module
+48,NUS | DSA1101: Introduction to Data Science,Module
+49,NUS | MA1101R: Linear Algebra I,Module
+50,NUS | MA11012R: Calculus,Module
+51,NUS | CS2040: Data Structures and Algorithms,Module
+52,NUS | DSA2101: Essential Data Analytics Tools: Data Visualisation,Module
+53,NUS | DSA2102: Essential Data Analytics Tools: Numerical Computation,Module
+54,NUS | MA2311: Techniques in Advanced Calculus,Module
+55,NUS | ST2131: Probability,Module
+56,NUS | ST2132: Mathematical Statistics,Module
+57,NUS | CS3244: Machine Learning,Module
+58,NUS | DSA3101: Data Science in Practice,Module
+59,NUS | DSA3102: Essential Data Analytics Tools: Convex Optimisation,Module
+60,NUS | ST3131: Regression Analysis,Module
+61,NUS | DSA4199: Honours Project in Data Science and Analytics,Module
+62,NUS | DSA4299: Applied Project in Data Science and Analytics,Module
+63,NUS | DSA4211: High-Dimensional Statistical Analysis,Module
+64,NUS | DSA4212: Optimisation for Large-Scale Data-Driven Inference,Module
+65,NUS | DSA4262: Sense-making Case Analysis: Health and Medicine,Module
+66,NUS | DSA4263: Sense-making Case Analysis: Business and Commerce,Module
+67,NUS | DSA4266: Sense-making Case Analysis: Science and Technology,Module
+68,NUS | MA3236: Non-Linear Programming,Module
+69,NUS | MA3252: Linear and Network Optimisation,Module
+70,NUS | MA4270: Data Modelling and Computation,Module
+71,NUS | ST3232: Design & Analysis of Experiments,Module
+72,NUS | ST4253: Applied Time Series Analysis,Module
+73,NUS | ST3239: Survey Methodology,Module
+74,NUS | ST4250: Multivariate Statistical Analysis,Module
+75,NUS | ST3247: Simulation,Module
+76,NUS | ST3248: Statistical Learning I,Module
+77,NUS | ST4231: Computer Intensive Statistical Methods,Module
+78,NUS | ST4234: Bayesian Statistics,Module
+79,NUS | ST4248: Statistical Learning II,Module
+80,NUS | CS3210: Parallel Computing,Module
+81,NUS | CS3223: Database Systems Implementation,Module
+82,NUS | CS3230: Design and Analysis of Algorithms,Module
+83,NUS | CS3243: Introduction to Artificial Intelligence,Module
+84,NUS | CS4224: Distributed Databases,Module
+85,NUS | CS4225: Big Data Systems for Data Science,Module
+86,NUS | CS4231: Parallel and Distributed Algorithms,Module
+87,NUS | CS4234: Optimisation Algorithms,Module
+88,NUS | CS4243: Computer Vision and Pattern Recognition,Module
+89,NUS | CS4248: Natural Language Processing,Module
+90,NUS | CS5340 : Uncertainty Modelling in AI,Module
+91,NUS | MA4230: Matrix Computation,Module
+92,SMU | ACCT420: Forecasting and Forensic Analytics,Module
+93,SMU | COR1305: Spreadsheet Modeling and Analytics,Module
+94,SMU | CS420: Introduction to Artificial Intelligence,Module
+95,SMU | CS421: Principles of Machine Learning,Module
+96,SMU | DSA201: Statistical Inference for Data Science,Module
+97,SMU | DSA211: Statistical Learning with R,Module
+98,SMU | DSA212: Data Analytics with R,Module
+99,SMU | DSA301: Time Series Data Analytics,Module
+100,SMU | DSA303: Spatial Data Analysis,Module
+101,SMU | DSA306: Big Data Analytics,Module
+102,SMU | ECON233: Economic Forecasting,Module
+103,SMU | ECON245: Applied Healthcare Analytics,Module
+104,SMU | IS105: Business Data Management,Module
+105,SMU | IS112: Data Management,Module
+106,SMU | IS1702: Computational Thinking,Module
+107,SMU | IS415: Geospatial Analytics and Applications,Module
+108,SMU | IS417: Data Warehousing and Business Analytics,Module
+109,SMU | IS424: Data Mining and Business Analytics,Module
+110,SMU | IS428: Visual Analytics for Business Intelligence,Module
+111,SMU | IS460: Machine Learning & Applications,Module
+112,SMU | MKTG228: Marketing Analytics,Module
+113,SMU | OPIM326: Service and Operations Analytics,Module
+114,SMU | STAT201: Probability Theory and Applications,Module
+115,SUSS | ACC202: Financial and Managerial Accounting,Module
+116,SUSS | ANL201: Data Visualisation for Business,Module
+117,SUSS | ANL252: Python for Data Analytics,Module
+118,SUSS | ANL303: Fundamentals of Data Mining,Module
+119,SUSS | ANL305: Association and Clustering,Module
+120,SUSS | ANL307: Predictive Modelling,Module
+121,SUSS | ANL310: Business Analytics Applications and Issues,Module
+122,SUSS | ANL312: Text Mining and Applied Project Formulation,Module
+123,SUSS | ANL488: Business Analytics Applied Project,Module
+124,SUSS | BUS105: Statistics,Module
+125,SUSS | FIN203: Essentials of Financial Management,Module
+126,SUSS | MKT202e: Marketing Management,Module
+127,SUSS | ACC353: Accounting Analytics,Module
+128,SUSS | ANL317: Business Forecasting,Module
+129,SUSS | ANL321: Statistical Methods,Module
+130,SUSS | ANL351: SAS Programming and its Application,Module
+131,SUSS | ANL355: Applied Operations Research,Module
+132,SUSS | BIS388: Independent Study,Module
+133,SUSS | BME363: Applications of Artificial Intelligence in Healthcare,Module
+134,SUSS | BUS102: Management in the Digital Age,Module
+135,SUSS | BUS107: Quantitative Methods,Module
+136,SUSS | BUS201: Contract and Agency Law,Module
+137,SUSS | BUS352: Operations Analytics,Module
+138,SUSS | BUS353: Project Management,Module
+139,SUSS | BUS357: Starting and Managing a business,Module
+140,SUSS | ECO202: Economic Ideas and Models for Business,Module
+141,SUSS | ENG233: Internet of Things (IoT),Module
+142,SUSS | ICT233: Data Programming,Module
+143,SUSS | ICT330: Database Management Systems,Module
+144,SUSS | MKT365: Social Media Metrics & Analytics,Module
+145,SUSS | MKT371: Customer Insights and Analytics,Module
+146,SUSS | MKT390: Marketing Research,Module
+147,SUTD | 10.014: Computational Thinking for Design,Module
+148,SUTD | 50.001: Information Systems & Programming,Module
+149,SUTD | 50.002: Computation Structures,Module
+150,SUTD | 50.003: Elements of Software Construction,Module
+151,SUTD | 50.004: Algorithms,Module
+152,SUTD | 50.005: Computer System Engineering,Module
+153,SUTD | 50.007: Machine Learning,Module
+154,SUTD | 40.319: Statistical and Machine Learning,Module
+155,SUTD | 50.038: Computational Data Science,Module
+156,SUTD | 50.043: Database Systems,Module
+157,SUTD | 50.035: Computer Vision,Module
+158,SUTD | 50.039: Theory and Practice of Deep Learning,Module
+159,SUTD | 50.04: Natural Language Processing,Module
+160,SUTD | 50.006: User Interface Design and Implementation,Module
+161,SUTD | 50.012: Networks,Module
+162,SUTD | 50.017: Graphics and Visualisation,Module
+163,SUTD | 50.02: Network Security,Module
+164,SUTD | 50.021: Artificial Intelligence,Module
+165,SUTD | 50.033: Foundations of Game Design and Development,Module
+166,SUTD | 50.037: Blockchain Technology,Module
+167,SUTD | 50.041: Distributed Systems and Computing,Module
+168,SUTD | 50.042: Foundations of Cybersecurity,Module
+169,SUTD | 50.044: System Security,Module
+170,SUTD | 50.045: Information Retrieval,Module
+171,SUTD | 50.046: Cloud Computing and Internet of Things,Module
+172,SUTD | 50.049: Parallel Computing on Multicore Architectures,Module
+173,SUTD | 50.05: Discrete Mathematics and Algorithm Design,Module
+174,SUTD | 50.051: Programming Language Concepts,Module
+175,SUTD | 50.052: Extended Reality,Module
+176,SUTD | 50.053: Software Testing and Verification,Module
