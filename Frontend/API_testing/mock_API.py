@@ -132,6 +132,7 @@ def get_school_scores(all_schools):
 
 def get_mod_recommendations(job_desc):
     """
+    WARNING: This function takes about 1-2 minutes to run
     Given a job description (JD), this function will identify all skills within the JD, 
     and recommend a module per school for each identified skill
     
