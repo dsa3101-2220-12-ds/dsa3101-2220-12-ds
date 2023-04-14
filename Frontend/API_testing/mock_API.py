@@ -78,65 +78,22 @@ def calc_score(cos_sim):
     
     return (math.pi - math.acos(cos_sim)) * 100 / math.pi
 
-# def get_doc2doc_score(job_desc, mod_desc, verbose = 1):
-#     """
-#     Computes the similarity score between two documents
-#     """
-#     job_desc = nlp_ner(job_desc)
-#     mod_desc = nlp_ner(mod_desc)
-#     scores = []
-#     OOV = [] # Stores out of vocabulary words
-    
-#     for job_ents in job_desc.ents:
-#         job_ents = cleaning([job_ents.text])[0]
-#         for job_ent in job_ents:
-#             if job_ent not in w2v_model.wv: # If job_ent not found in vocabulary
-#                 if job_ent not in OOV and job_ent not in STOP_WORDS:
-#                     OOV.append(job_ent)
-#                     if verbose:
-#                         print(f"JOB: {job_ent} not found in vocabulary")
-#                 scores.append(0)
-#                 continue
-#             max_cossim = -1
-#             best_mod_ent = None
-#             for mod_ents in mod_desc.ents:
-#                 mod_ents = cleaning([mod_ents.text])[0]
-#                 for mod_ent in mod_ents:
-#                     if mod_ent not in w2v_model.wv:
-#                         if mod_ent not in STOP_WORDS and mod_ent not in OOV:
-#                             OOV.append(mod_ent)
-#                             if verbose:
-#                                 print(f"MODULE: {mod_ent} not found in vocabulary")
-#                     else:
-#                         cos_sim = w2v_model.wv.similarity(job_ent, mod_ent)
-                        
-#                         # To handle computational rounding errors. Sometimes cos_sim is 1.00001 or -1.00001
-#                         if cos_sim > 1: cos_sim = 1
-#                         elif cos_sim < -1: cos_sim = -1
-                            
-#                         if cos_sim >= max_cossim:
-#                             max_cossim = cos_sim
-#                             best_mod_ent = mod_ent
-#                 if best_mod_ent == None:
-#                     if verbose:
-#                         print(f"No matching skills found for {job_ent} in {mod_desc}")
-#                     scores.append(0)
-#                 else:
-#                     score = calc_score(max_cossim)
-#                     scores.append(score)
-
-#     return np.mean(np.array(scores))
 
 def get_skill2mod_score(skill, mod_skills):
     """
     Generates a score and the skill token identified in `mod_desc` with the closest match to `skill`
     """
+    # mod_desc = nlp_ner(mod_desc)
     max_score = 0
     best_ent = None
     if skill not in w2v_model.wv:
         return max_score, best_ent
+    # for mod_ents in mod_desc.ents:
     mod_skills = mod_skills.strip("[]").replace("'", "").split(", ")
     for mod_ent in mod_skills:
+        # mod_ents = cleaning([mod_ents.text])[0]
+        # for mod_ent in mod_ents:
+        #     if mod_ent in w2v_model.wv:
         if mod_ent in w2v_model.wv:
             cos_sim = w2v_model.wv.similarity(mod_ent, skill)
                     
@@ -145,12 +102,16 @@ def get_skill2mod_score(skill, mod_skills):
             elif cos_sim < -1: cos_sim = -1
                         
             score = calc_score(cos_sim)
+            # skill_sch_code['skill_score'] = skill_sch_code.apply(lambda row: (skill, score) if row['skill'] == mod_ent else row['skill_score'], axis=1)
+    
+            # skill_sch_code['skill_score'] = np.where(skill_sch_code['skill'] == skill, [skill, score], skill_sch_code['skill_score'])
 
             if max_score < score:
                 best_ent = mod_ent
             max_score = max(max_score, score)
         else:
             max_score = max(max_score, 0)
+    # print(max_score, best_ent)
     return max_score, best_ent
 
 def get_school_scores(all_schools):
@@ -171,7 +132,6 @@ def get_school_scores(all_schools):
 
 def get_mod_recommendations(job_desc):
     """
-    WARNING: This function takes about 1-2 minutes to run
     Given a job description (JD), this function will identify all skills within the JD, 
     and recommend a module per school for each identified skill
     
