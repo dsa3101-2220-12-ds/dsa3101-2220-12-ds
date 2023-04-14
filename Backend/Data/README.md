@@ -10,5 +10,7 @@ jobs/: This folder consists of job description text data scraped from the intern
 
 NER_annotated_data/: This folder consists of labelled data for training the Named Entity Recognition (NER) model. The breakdown of the files and folders is further elaborated upon in the README.md file within the NER_annotated_data/ directory.
 
+modules/: This folder consists of a few cached resources with regards to the module information. In particular, it contains a file that acts as a cache that stores the result of running the NER model on the module descriptions.
+
 skills/: This folder consists of text data about descriptions of skills. These descriptions are provided by an open-source database about skills from a company called Lightcast. The code to collect this data using the API provided by Lightcast resides in "repo/Backend/Code/Data Collection/Requests from Lightcast API.ipynb". It requires submitting a string of text as a query (E.g. "data"). As a result, a list of skills, along with the skills' descriptions will be returned (E.g. "Data Entry", "Database Management", "Java Database Connectivity", etc). This output is nicely formatted into the CSV file in the skills/ folder. We have performed five queries on the Lightcast database - "data", "analysis", "machine learning", "ML", "statistic". 
 You can find more information about the dataset here: https://docs.lightcast.dev/apis/skills. 
