@@ -1,12 +1,12 @@
 # 01_example_basic_test.py
 import math
-
+    
 import pytest
 import sys
-import unitTrial
+import unittrial
+import sys
+sys.path.append('../3. Model Evaluation')
 import scoring_university
-
-
 
 def test_calc_score():
     # outside range
