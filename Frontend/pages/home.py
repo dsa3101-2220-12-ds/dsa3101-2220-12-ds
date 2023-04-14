@@ -18,7 +18,7 @@ layout = dbc.Container([
 	html.Br(),    
     dbc.Row([ 
         dbc.Col([
-            html.H1('Data Science Courses Among Different Universities')
+            html.H1('Data Science Cources Among Different Universities')
         ]),
 		dbc.Col([
             dbc.Row([ 
@@ -36,7 +36,7 @@ layout = dbc.Container([
                 ]),
             dbc.Row([ 
 	            dbc.Button([arrow_right_icon,"Module Database"],
-		            size = 'lg', outline = True, color="primary", className="me-2",href="/module_database"),
+		            size = 'lg', outline = True, color="primary", className="me-2",href="/main"),
 	            ]),
 	    ])
     ]),
