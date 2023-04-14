@@ -10,3 +10,5 @@ openpyxl
 numpy
 requests
 dash_dangerously_set_inner_html
+spacy
+dash_cytoscape
