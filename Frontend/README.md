@@ -6,20 +6,20 @@ We have a list of folders and files:
 1. admin 
     - Includes interview documents, meeting seconds, High and Low fidelity prototypes
 2. API_testing
-    - For testing API 
+    - For API testing. For detailed explanation and build of API, please refer to README.md in API_tetsing folder. 
 3. assets
     - Includes bootstrap css file to standardise the theme of the dash website
 4. files
     - Includes files that are necessary for dash website content such as css and xlsx files
-5. Pages
+5. pages
     - Includes every page that the dash website will need, using dash we were able to register each page in order for app.py to access them via the pages folder easily
-6. testing pages
+6. pages_dev
     - Intermediate pages while building the website
 7. w2v 
     - world to vector files
-8. App.py
+8. app.py
     - Runs the code that allows the dash website to run locally
-9. Docker-cmpose.yml
+9. docker-cmpose.yml
     - To connect frontend and backend containers
 10. Dockerfile
     - To create docker image
@@ -27,7 +27,3 @@ We have a list of folders and files:
     - Explaining each file's use case
 12. requirements.txt
     - Ensures that anyone running the code is able to download all necessary packages before app.py is run
-
-
-To run the app.py file, run: 'python app.py' in terminal
-To run Dockerized website, run: 1. 'docker compose build' 2. 'docker compose up -d'
