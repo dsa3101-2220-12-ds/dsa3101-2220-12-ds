@@ -4,7 +4,7 @@ This is the README for Frontend folder
 
 We have a list of folders and files:
 1. admin 
-    - Includes interview documents, meeting seconds, High and Low fedality prototypes
+    - Includes interview documents, meeting seconds, High and Low fidelity prototypes
 2. API_testing
     - For testing API 
 3. assets
