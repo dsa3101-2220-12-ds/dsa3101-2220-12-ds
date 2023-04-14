@@ -1,0 +1,14 @@
+Flask
+dash
+dash_core_components 
+dash_html_components 
+plotly
+dash_bootstrap_components 
+dash_iconify
+pandas
+openpyxl 
+numpy
+requests
+dash_dangerously_set_inner_html
+spacy
+dash_cytoscape
