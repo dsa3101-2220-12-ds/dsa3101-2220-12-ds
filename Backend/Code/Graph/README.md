@@ -1,0 +1,4 @@
+# File contents:
+1. <b>Pre-Requisite/</b> : Pre-Requisite Graph: These graphs provides a visual representation of how the different modules fit together in the overall curriculum. Each node on the graph represents a module, and the direction of the arrows indicates the pre-requisite relationships between them. As an incoming freshman, this graph can help you plan your course schedule by showing you which modules are required before others. 
+
+2. <b>Similarity/</b> : Cosine Similarity Graph: The main aim of the graph is to provide a visual representation of the similarities and differences between data science modules offered by various schools. It can help identify essential modules and clusters of modules, making it easier for students to plan their curriculum and choose which school is a better fit for them.
