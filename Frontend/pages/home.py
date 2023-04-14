@@ -36,7 +36,7 @@ layout = dbc.Container([
                 ]),
             dbc.Row([ 
 	            dbc.Button([arrow_right_icon,"Module Database"],
-		            size = 'lg', outline = True, color="primary", className="me-2",href="/module_database"),
+		            size = 'lg', outline = True, color="primary", className="me-2",href="/main"),
 	            ]),
 	    ])
     ]),
