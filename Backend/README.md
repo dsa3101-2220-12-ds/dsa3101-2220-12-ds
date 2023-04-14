@@ -7,6 +7,9 @@ To guide you in navigating around the repo/Backend/ directory, you can refer to 
     .
     ├───Code
     │   ├───Data Collection
+    │   ├───Graph
+    │   │   ├───Pre-Requisite
+    │   │   └───Similarity
     │   ├───NER Model
     │   │   ├───1. Data Preparation
     │   │   ├───2. Training
@@ -17,9 +20,11 @@ To guide you in navigating around the repo/Backend/ directory, you can refer to 
     │   │   ├───model-last
     │   │   └───Training Pipeline
     │   └───W2V Model
+    │
     ├───Data
     │   ├───jobs
     │   ├───modules
+    │   ├───univeristy_courses_graph
     │   ├───NER_annotated_data
     │   │   ├───ChatGPT
     │   │   ├───GitHub

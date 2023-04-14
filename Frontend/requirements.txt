@@ -6,6 +6,7 @@ plotly
 dash_bootstrap_components 
 dash_iconify
 pandas
+pytest
 openpyxl 
 numpy
 requests
