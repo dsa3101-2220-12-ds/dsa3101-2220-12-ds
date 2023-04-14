@@ -4,29 +4,29 @@
 
 To guide you in navigating around the repo/Backend/ directory, you can refer to the directory tree below:
 
-.
-├───Code
-│   ├───Data Collection
-│   ├───NER Model
-│   │   ├───1. Data Preparation
-│   │   ├───2. Training
-│   │   ├───3. Model Evaluation
-│   │   ├───4. Unit Tests
-│   │   ├───Model Resources
-│   │   ├───model-best
-│   │   ├───model-last
-│   │   └───Training Pipeline
-│   └───W2V Model
-├───Data
-│   ├───jobs
-│   ├───modules
-│   ├───NER_annotated_data
-│   │   ├───ChatGPT
-│   │   ├───GitHub
-│   │   ├───Job_Mod_Descriptions
-│   │   └───StackOverflow
-│   └───skills
-└───Papers
+    .
+    ├───Code
+    │   ├───Data Collection
+    │   ├───NER Model
+    │   │   ├───1. Data Preparation
+    │   │   ├───2. Training
+    │   │   ├───3. Model Evaluation
+    │   │   ├───4. Unit Tests
+    │   │   ├───Model Resources
+    │   │   ├───model-best
+    │   │   ├───model-last
+    │   │   └───Training Pipeline
+    │   └───W2V Model
+    ├───Data
+    │   ├───jobs
+    │   ├───modules
+    │   ├───NER_annotated_data
+    │   │   ├───ChatGPT
+    │   │   ├───GitHub
+    │   │   ├───Job_Mod_Descriptions
+    │   │   └───StackOverflow
+    │   └───skills
+    └───Papers
 
 In this folder, you can find all of the resources used and created by the backend team. In most of the subdirectories, you will find more README.md files that explain the contents of that subdirectory. If the subdirectory does not contain any README.md file, it means that its contents have been explained in a parent directory. Have fun poking around!
 
