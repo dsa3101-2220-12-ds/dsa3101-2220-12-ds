@@ -6,6 +6,8 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import spacy
 import pandas as pd
+import dash
+dash.register_page(__name__)
 
 NER_MODEL_PATH = "assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
@@ -61,12 +63,12 @@ layout = dbc.Container([
                     dcc.Dropdown(
                         id="university-dropdown",
                         options=[
-                            {"label": "National University of Singapore (NUS)", "value": "/nus"},
-                            {"label": "Nanyang Technological University (NTU)", "value": "/ntu"},
-                            {"label": "Singapore Management University (SMU)", "value": "/smu"},
-                            {"label": "Singapore University of Technology and Design (SUTD)", "value": "/sutd"},
-                            {"label": "Singapore Institute of Technology (SIT)", "value": "/sit"},
-                            {"label": "Choose a University", "value": "/"},
+                            {"label": dcc.Link(children="National University of Singapore (NUS)" ,href="/nus"), "value": "/nus"},
+                            {"label": dcc.Link(children="Nanyang Technological University (NTU)", href="/ntu"), "value": "/ntu"},
+                            {"label": dcc.Link(children="Singapore Management University (SMU)", href="/smu"),"value": "/smu"},
+                            {"label": dcc.Link(children="Singapore University of Technology and Design (SUTD)", href="/sutd"),"value": "/sutd"},
+                            {"label": dcc.Link(children="Singapore Institute of Technology (SIT)", href="/sit"),"value": "/sit"},
+                            {"label": dcc.Link(children="Choose a University", href="/main"),"value": "/main"},
                             # Add more university options here
                         ],
                         placeholder="Singapore University of Social Sciences (SUSS)",

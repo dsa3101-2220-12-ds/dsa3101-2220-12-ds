@@ -6,12 +6,14 @@ import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import spacy
 import pandas as pd
+import dash
+dash.register_page(__name__)
 
 NER_MODEL_PATH = "assets/ner/"
 nlp_ner = spacy.load(NER_MODEL_PATH)
 CUSTOM_OPTIONS = {"colors" : {"SKILL" : "#78C0E0"}}
 
-csv_file = "assets/Data/nus_dsa_mods.csv"
+csv_file = "assets/Data/SMU_course_info.csv"
 df = pd.read_csv(csv_file)
 
 categories = df["mod_category"].unique()
@@ -31,15 +33,15 @@ def main_option(option_id, title, sub_options):
             html.H5(
                 dbc.Button(
                     title,
-                    id=f"nus-main-option-{option_id}",
+                    id=f"smu-main-option-{option_id}",
                     className="w-100 text-start",
                     color="link",
                 )
             )
         ),
         dbc.Collapse(
-            [dbc.ListGroupItem(sub_option[0], id=f"nus-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
-            id=f"nus-sub-options-{option_id}",
+            [dbc.ListGroupItem(sub_option[0], id=f"smu-sub-option-{option_id}-{i}-{sub_option[0]}", n_clicks=0, action=True) for i, sub_option in enumerate(sub_options)],
+            id=f"smu-sub-options-{option_id}",
             is_open=False,
         ),
     ])
@@ -61,15 +63,15 @@ layout = dbc.Container([
                     dcc.Dropdown(
                         id="university-dropdown",
                         options=[
-                            {"label": "Choose a University", "value": "/"},
-                            {"label": "Nanyang Technological University (NTU)", "value": "/ntu"},
-                            {"label": "Singapore Management University (SMU)", "value": "/smu"},
-                            {"label": "Singapore University of Technology and Design (SUTD)", "value": "/sutd"},
-                            {"label": "Singapore Institute of Technology (SIT)", "value": "/sit"},
-                            {"label": "Singapore University of Social Sciences (SUSS)", "value": "/suss"},
+                            {"label": dcc.Link(children="National University of Singapore (NUS)" ,href="/nus"), "value": "/nus"},
+                            {"label": dcc.Link(children="Nanyang Technological University (NTU)", href="/ntu"), "value": "/ntu"},
+                            {"label": dcc.Link(children="Choose a University", href="/main"),"value": "/main"},
+                            {"label": dcc.Link(children="Singapore University of Technology and Design (SUTD)", href="/sutd"),"value": "/sutd"},
+                            {"label": dcc.Link(children="Singapore Institute of Technology (SIT)", href="/sit"),"value": "/sit"},
+                            {"label": dcc.Link(children="Singapore University of Social Sciences (SUSS)", href="/suss"),"value": "/suss"},
                             # Add more university options here
                         ],
-                        placeholder="National University of Singapore (NUS)",
+                        placeholder="Singapore Management University (SMU)",
                         clearable=False,
                         className="select-dropdown",
                     ),
@@ -81,7 +83,7 @@ layout = dbc.Container([
             ], width=12),
 
             dbc.Col([
-                dcc.Link("University Modules Comparison", href="/nusmod", className="rectangular-btn"),
+                dcc.Link("University Modules Comparison", href="/smumod", className="rectangular-btn"),
             ], width=12),
         ])
     ]),
@@ -89,21 +91,16 @@ layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             main_option(option_id + 1, category, category_options[category]) for option_id, category in enumerate(categories)
-        ], width=4),
-
-            dbc.Col([
-                dcc.Link(
-                    html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
-                    href="/nuscomap",
-                    target="_blank",
-                ),
-            ], width=4),  # Add this line
-            dbc.Col([
-                html.Div(id="nus-module-description", className="module-description"),
-            ], width=4),  # Add this line
-
+        ], width=3),
+        dbc.Col([
+            html.Div(id="smu-content", className="content-container"),
+            dcc.Link(
+                html.Div("University Course Roadmap", id="circleBtn", className="circle-btn"),
+                href="/smucomap",
+                target="_blank",
+            ),
+        ], width=9),
     ]),
-
 
     dbc.Row([
         dbc.Col([
@@ -120,41 +117,41 @@ layout = dbc.Container([
     html.Div(id='page-content', className='content-container'),
 ], fluid=True)
 
+num_main_options = len(categories)
+
 def html_format(paragraph):
     result = spacy.displacy.render(nlp_ner(paragraph), style = 'ent', jupyter=False, options = CUSTOM_OPTIONS)
     return result
 
 def register_callbacks(app):
     @app.callback(
-        Output("nus-module-description", "children"),
-        [Input(f"nus-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, len(categories) + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
+        Output("smu-content", "children"),
+        [Input(f"smu-sub-option-{option_id}-{i}-{sub_option[0]}", "n_clicks") for option_id in range(1, num_main_options + 1) for i, sub_option in enumerate(category_options[categories[option_id - 1]])],
     )
     def update_content(*args):
-            ctx = dash.callback_context
-            if not ctx.triggered:
-                return "Please select a module."
+        ctx = dash.callback_context
+        if not ctx.triggered:
+            return "Please select a module."
 
-            input_id = ctx.triggered[0]["prop_id"].split(".")[0]
-            module_code = input_id.split("-")[-1].replace('_', '.')
+        input_id = ctx.triggered[0]["prop_id"].split(".")[0]
+        module_code = input_id.split("-")[-1]
 
-            if args[int(input_id.split("-")[-2])] == 0:
-                return "Please select a module."
+        if args[int(input_id.split("-")[-2])] == 0:
+            return "Please select a module."
 
-            module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
-            return dbc.Card([
+        module_description = df[df["mod_code"] == module_code]["mod_desc"].values[0]
+        return dbc.Card([
                 dbc.CardHeader("Module Information"),  # Update the title here
                 dbc.CardBody([
                     html.Iframe(srcDoc=html_format(module_description), width = '100%', height=500)
                 ])
-            ])
-
+        ])
 
 
     @app.callback(
-        [Output(f"nus-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
-        [Input(f"nus-main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
-        [State(f"nus-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
-
+        [Output(f"smu-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
+        [Input(f"smu-main-option-{i}", "n_clicks") for i in range(1, len(categories) + 1)],
+        [State(f"smu-sub-options-{i}", "is_open") for i in range(1, len(categories) + 1)],
     )
     def toggle_collapse(*args):
         ctx = dash.callback_context
@@ -167,10 +164,4 @@ def register_callbacks(app):
         states = list(args[len(categories):])
         states[option_id - 1] = not states[option_id - 1]
         return states
-
-
-
-
-
-
 

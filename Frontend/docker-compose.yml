@@ -9,9 +9,6 @@ services:
       - api_service
 
   api_service:
-    build:
-      context: ./API_testing
-      dockerfile: Dockerfile
-    image: "py_api"
+    image: "py_mock_api:latest"
     ports:
       - '9001:5000'

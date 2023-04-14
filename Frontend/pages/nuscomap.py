@@ -3,6 +3,8 @@ import dash_html_components as html
 import base64
 import os
 import dash_core_components as dcc
+import dash
+dash.register_page(__name__)
 
 image_filename = 'nuscomap.png'  # replace with your own image filename
 image_path = os.path.join('assets', 'img', image_filename)
@@ -25,6 +27,3 @@ layout = html.Div([
         ], style={'width': '40%', 'display': 'inline-block', 'vertical-align': 'top'})
     ])
 ])
-
-if __name__ == '__main__':
-    app.run_server(debug=True)

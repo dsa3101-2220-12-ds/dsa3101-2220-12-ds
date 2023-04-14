@@ -2,7 +2,8 @@ import json
 import dash_cytoscape as cyto
 from dash import dcc, html
 from dash.dependencies import Input, Output
-
+import dash
+dash.register_page(__name__, path="/all_uni_comp")
 # Read the JSON file
 with open('assets/gephi/all_uni_comp.json', 'r') as f:
     graph_data = json.load(f)

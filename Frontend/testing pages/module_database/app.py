@@ -34,7 +34,7 @@ from pages.sussmod import layout as sussmod_layout
 
 
 
-app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
+app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.LITERA], suppress_callback_exceptions=True)
 
 
 app.layout = html.Div([
@@ -70,20 +70,20 @@ def display_page(pathname):
         return ntucomap_layout
     elif pathname == '/smumod':
         return smumod_layout
-    elif pathname == '/smucomap':
-        return smucomap_layout
+    # elif pathname == '/smucomap':
+    #     return smucomap_layout
     elif pathname == '/sutdmod':
         return sutdmod_layout
-    elif pathname == '/sutdcomap':
-        return sutdcomap_layout
+    # elif pathname == '/sutdcomap':
+    #     return sutdcomap_layout
     elif pathname == '/sitmod':
         return sitmod_layout
-    elif pathname == '/sitcomap':
-        return sitcomap_layout
+    # elif pathname == '/sitcomap':
+    #     return sitcomap_layout
     elif pathname == '/sussmod':
         return sussmod_layout
-    elif pathname == '/susscomap':
-        return susscomap_layout
+    # elif pathname == '/susscomap':
+    #     return susscomap_layout
     else:
         return main_layout
 
@@ -151,4 +151,4 @@ register_sit_callbacks(app)
 register_suss_callbacks(app)
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=8055)

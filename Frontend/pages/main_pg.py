@@ -4,8 +4,12 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 from dash import Dash
+from dash_iconify import DashIconify
+from dash import callback
 
 
+arrow_back_icon = DashIconify(icon='material-symbols:line-start-arrow-rounded')
+dash.register_page(__name__,path='/main')
 def main_option(option_id, title, sub_options):
     return dbc.Card([
         dbc.CardHeader(
@@ -30,7 +34,7 @@ def main_option(option_id, title, sub_options):
 
 
 
-main_layout = dbc.Container([
+layout = dbc.Container([
     dbc.Row([
         dbc.Col([
             html.H1("Universities Modules Database", style={"font-weight": "bold"}),
@@ -43,12 +47,12 @@ main_layout = dbc.Container([
                     dcc.Dropdown(
                         id="university-dropdown",
                         options=[
-                            {"label": "National University of Singapore (NUS)", "value": "/nus"},
-                            {"label": "Nanyang Technological University (NTU)", "value": "/ntu"},
-                            {"label": "Singapore Management University (SMU)", "value": "/smu"},
-                            {"label": "Singapore University of Technology and Design (SUTD)", "value": "/sutd"},
-                            {"label": "Singapore Institute of Technology (SIT)", "value": "/sit"},
-                            {"label": "Singapore University of Social Sciences (SUSS)", "value": "/suss"},
+                            {"label": dcc.Link(children="National University of Singapore (NUS)" ,href="/nus"), "value": "/nus"},
+                            {"label": dcc.Link(children="Nanyang Technological University (NTU)", href="/ntu"), "value": "/ntu"},
+                            {"label": dcc.Link(children="Singapore Management University (SMU)", href="/smu"),"value": "/smu"},
+                            {"label": dcc.Link(children="Singapore University of Technology and Design (SUTD)", href="/sutd"),"value": "/sutd"},
+                            {"label": dcc.Link(children="Singapore Institute of Technology (SIT)", href="/sit"),"value": "/sit"},
+                            {"label": dcc.Link(children="Singapore University of Social Sciences (SUSS)", href="/suss"),"value": "/suss"},
                             # Add more university options here
                         ],
                         placeholder="Choose a University",
@@ -88,14 +92,8 @@ main_layout = dbc.Container([
 
     dbc.Row([
         dbc.Col([
-            dcc.Link("Back to Main page", href="/main", className="back-to-main-btn", style={
-                "position": "absolute",
-                "bottom": "0",
-                "left": "0",
-                "padding": "10px",
-                "background-color": "#f0f0f0",  # Optional: set the background color
-                "border": "1px solid black",  # Optional: set the border
-            }),
+            dbc.Button([arrow_back_icon,"Back to Main"],
+		     size = 'md', outline = True, color="primary", className="me-1",href="/"),
         ]),
     ]),
     html.Div(id='page-content', className='content-container'),
@@ -126,3 +124,8 @@ def register_callbacks(app: Dash):
             state_values = args[len(args)//2:]
             new_states = [not state_values[index] if i == index else False for i in range(len(state_values))]
             return new_states
+        
+
+# @callback(Output("url", "pathname"), Input("page_dd", "value"))
+# def update_url_on_dropdown_change(dropdown_value):
+#     return dropdown_value
