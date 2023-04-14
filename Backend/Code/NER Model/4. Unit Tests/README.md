@@ -1,4 +1,4 @@
-**# Unit testing**
+**Unit testing**
 
 to run unit testing call the function `python unitTesting.py` from this directory after installing all the requirements.
 
