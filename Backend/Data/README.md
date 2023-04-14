@@ -1,4 +1,4 @@
-# File contents
+# Folder contents
 
 <b>jobs/</b> : This folder consists of job description text data scraped from the internet. The data originated from two well-known job posting sites in Singapore - MyCareersFuture and JobStreet. The code for scraping these two sites reside in "repo/Backend/Code/Data Collection/". Within this jobs/ folder, you will find two types of files:
 	1. .txt files: These files contain the URLs of specific job postings. The naming convention of these files are as follows:
