@@ -18,3 +18,16 @@ To access our final product, do the following:
 2. Run `docker compose build`
 3. Run `docker compose up -d`
 4. Go to http://localhost:8050 and start browsing through our website! 
+
+## Our Team:
+  <br>:art: Frontend Team: :paintbrush:
+  * Liu Chen (liuchennn1414)
+  * Bryan Yeo (yeoobryan)
+  * Yeo Ying Xin (yeoyingxin)
+  * Ang Bo Yuan (angby509)
+  
+  <br>:chart_with_upwards_trend: Backend Team: :bar_chart:
+  * Ernest Liu (elhy1999)
+  * Micole Chan (micolec)
+  * Melody Tan (mel0778)
+  * Poh Yu Jie (PokezardVGC)
